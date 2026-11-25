@@ -1,6 +1,8 @@
 """visualizer.py - interactive viewer for the UBT route search + Bayesian network.
 
 Tabs
+  (default map: data_ub/, 53 real Ulaanbaatar stations on the real road network,
+   built by make_ub_graph.py from OpenStreetMap; --graph city/scale/osm for the others)
   Map & route      roads coloured by expected congestion, UCS / A* route, the
                    nodes each algorithm expanded. Left click = start, right
                    click = destination.
@@ -43,7 +45,8 @@ from graph import Graph  # noqa: E402
 from search import astar, ucs  # noqa: E402
 import traffic as T  # noqa: E402
 
-GRAPHS = {"city": (".", "N01", "N15", "City (15 nodes)"),
+GRAPHS = {"ub": ("data_ub", "U01", "U33", "Ulaanbaatar stations (real map)"),
+          "city": (".", "N01", "N15", "City (15 nodes, Week XII)"),
           "scale": ("data_scale", "S01", "S64", "Synthetic (64 nodes)"),
           "osm": ("data_osm", "N0674", "N1275", "OpenStreetMap UB (1852 nodes)")}
 WEATHER_OPTS = ["(unknown)"] + T.WEATHER
@@ -88,7 +91,9 @@ class Model:
             if key == "scale" and not os.path.exists(os.path.join(folder, "edges.csv")):
                 import scale_test
                 scale_test.generate(folder)
-            self.graphs[key] = Graph().load(os.path.join(folder, "nodes.csv"), os.path.join(folder, "edges.csv"))
+            g = Graph().load(os.path.join(folder, "nodes.csv"), os.path.join(folder, "edges.csv"))
+            load_geometry(g, folder)
+            self.graphs[key] = g
         return self.graphs[key]
 
     def conditioned(self, st):
@@ -110,6 +115,33 @@ class Model:
         res["astar"] = run_search(astar, g, st["src"], st["dst"], st["cost"])
         res["p"] = T.congestion_dist(st["weather"], st["time"])
         return res
+
+
+def load_geometry(g, folder):
+    """Real street shapes (geometry.csv) and the full OSM road network as a
+    background (data_osm_wide/) for the UB station graph. Stored as numpy
+    arrays so the deep copies made by apply_conditions stay cheap."""
+    import numpy as np
+    geo_file = os.path.join(folder, "geometry.csv")
+    if not os.path.exists(geo_file):
+        return
+    import csv
+    g.geometry = {}
+    with open(os.path.join(folder, "nodes.csv"), encoding="utf-8") as f:
+        g.places = {r["id"]: (float(r["place_lon"]), float(r["place_lat"])) for r in csv.DictReader(f)
+                    if r.get("place_lat")}
+    with open(geo_file, encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            pts = [tuple(map(float, p.split())) for p in r["points"].split(";")]
+            g.geometry[(r["from"], r["to"])] = np.array([(lo, la) for la, lo in pts])
+    roads = os.path.join(HERE, "data_osm_wide")
+    if os.path.exists(os.path.join(roads, "edges.csv")):
+        rn = {}
+        with open(os.path.join(roads, "nodes.csv"), encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                rn[r["id"]] = (float(r["lon"]), float(r["lat"]))
+        with open(os.path.join(roads, "edges.csv"), encoding="utf-8") as f:
+            g.basemap = np.array([(rn[r["from"]], rn[r["to"]]) for r in csv.DictReader(f)])
 
 
 def default_state(graph="city"):
@@ -163,20 +195,21 @@ def summary_text(st, res):
 # ============================================================ drawing (Agg or Tk)
 def draw_map(fig, st, res):
     from matplotlib.collections import LineCollection
+    from viz_tabs import basemap, edge_poly, path_poly
     import matplotlib.cm as cm
     from matplotlib.colors import Normalize
     fig.clear()
     ax = fig.add_subplot(111)
     g = res["g"]
+    basemap(ax, g)
     segs, vals = [], []
     for e in g.edges:
-        (_, la, lo), (_, lb, lob) = g.nodes[e["src"]], g.nodes[e["dst"]]
-        segs.append([(lo, la), (lob, lb)])
+        segs.append(edge_poly(g, e["src"], e["dst"]))
         vals.append(e["congestion"])
     norm = Normalize(0, 0.95)
     cmap = matplotlib.colormaps["RdYlGn_r"]
     big = len(g.nodes) > 200
-    lc = LineCollection(segs, colors=cmap(norm(vals)), linewidths=0.9 if big else 3.0, zorder=1, alpha=0.85)
+    lc = LineCollection(segs, colors=cmap(norm(vals)), linewidths=0.9 if big else 2.6, zorder=1, alpha=0.85)
     ax.add_collection(lc)
     U, A = res["ucs"], res["astar"]
     xy = lambda ids: ([g.nodes[i][2] for i in ids], [g.nodes[i][1] for i in ids])
@@ -185,16 +218,18 @@ def draw_map(fig, st, res):
     ax.scatter(*xy(A["expanded_nodes"]), s=4 if big else 60, color=PURPLE, zorder=3,
                label=f"A* expanded ({A['expanded']})")
     if U["path"] and U["path"] != A["path"]:
-        ax.plot(*xy(U["path"]), color=GREY, lw=3, ls="--", zorder=4, label="UCS route")
+        ax.plot(*path_poly(g, U["path"]).T, color=GREY, lw=3, ls="--", zorder=4, label="UCS route")
     if A["path"]:
-        ax.plot(*xy(A["path"]), color=DARK, lw=3.2 if big else 4, zorder=5, label="A* route")
+        ax.plot(*path_poly(g, A["path"]).T, color=DARK, lw=3.2 if big else 4, zorder=5, label="A* route")
     s, t = g.nodes[st["src"]], g.nodes[st["dst"]]
     ax.scatter([s[2]], [s[1]], s=120, marker="o", color="#1f9d62", edgecolor="white", zorder=6, label="start")
     ax.scatter([t[2]], [t[1]], s=160, marker="*", color=RED, edgecolor="white", zorder=6, label="destination")
     if not big:
-        for i, (nm, la, lo) in g.nodes.items():
-            ax.annotate(f"{i} {nm}" if len(g.nodes) <= 20 else i, (lo, la), fontsize=7 if len(g.nodes) <= 20 else 6,
-                        xytext=(4, 4), textcoords="offset points", color=DARK, zorder=7)
+        from viz_tabs import draw_places, label_nodes
+        draw_places(ax, g)
+        small = len(g.nodes) <= 20
+        label_nodes(ax, g, 7 if small or getattr(g, "places", None) else 6, 0.0 if small else 1.2,
+                    names=small or bool(getattr(g, "places", None)), color=DARK)
     ax.autoscale()
     ax.set_aspect(1 / COS_LAT)
     ax.set_xticks([]); ax.set_yticks([])
@@ -207,7 +242,7 @@ def draw_map(fig, st, res):
         else "no conditions (edges.csv base congestion)"
     ax.set_title(f"{GRAPHS[st['graph']][3]} - {cond}"
                  + (" - road-class" if st["road_class"] and (st["weather"] or st["time"]) else ""), fontsize=11)
-    if st["graph"] == "osm":
+    if st["graph"] in ("osm", "ub"):
         ax.text(0.01, 0.01, "© OpenStreetMap contributors, ODbL", transform=ax.transAxes, ha="left",
                 va="bottom", fontsize=7, color="#5d647d")
     fig.tight_layout()
@@ -648,7 +683,7 @@ def has_tk():
 
 def main():
     ap = argparse.ArgumentParser(description="UBT route search + Bayesian network visualizer")
-    ap.add_argument("--graph", choices=list(GRAPHS), default="city")
+    ap.add_argument("--graph", choices=list(GRAPHS), default="ub")
     ap.add_argument("--weather")
     ap.add_argument("--time", nargs="+")
     ap.add_argument("--congestion", choices=T.LEVEL, help="observed congestion (Bayesian network tab)")

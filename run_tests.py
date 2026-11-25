@@ -12,7 +12,8 @@ import subprocess
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SUITES = ["search.py", "traffic.py", "test_week13.py", "test_week14.py", "test_week15.py", "test_visualizer.py"]
+SUITES = ["search.py", "traffic.py", "test_week13.py", "test_week14.py", "test_week15.py", "test_visualizer.py",
+          "test_ub_graph.py"]
 
 
 def main():

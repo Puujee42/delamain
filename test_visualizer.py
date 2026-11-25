@@ -68,7 +68,7 @@ def run_tests():
 
     # 5. all four views draw on all three graphs; Checks tab passes
     drawn, all_pass = 0, True
-    for gname in ("city", "scale", "osm"):
+    for gname in ("ub", "city", "scale", "osm"):
         st = dict(V.default_state(gname), weather="rain", time="morning_peak", road_class=True, samples=500)
         res = model.compute(st)
         for fn in (lambda f: V.draw_map(f, st, res), lambda f: V.draw_bn(f, st), lambda f: V.draw_cpd(f, st)):
@@ -77,7 +77,8 @@ def run_tests():
         ck = V.draw_checks(fig, model, st, V.checks(model, st, pairs=60))
         fig.canvas.draw(); plt.close(fig); drawn += 1
         all_pass &= ck["bad"] == 0 and ck["sums_ok"]
-    check(f"All 4 views drawn on city, 64-node and OSM graphs ({drawn} figures); UCS == A* in Checks", drawn == 12 and all_pass)
+    check(f"All 4 views drawn on UB stations, city, 64-node and OSM graphs ({drawn} figures); UCS == A* in Checks",
+          drawn == 16 and all_pass)
 
     # 6. step-by-step tracer == search.py on every pair (city graph, plain and snow+evening road-class)
     import viz_trace as VT
@@ -128,14 +129,14 @@ def run_tests():
 
     # 10. route and step views draw on all three graphs
     n = 0
-    for gname in ("city", "scale", "osm"):
+    for gname in ("ub", "city", "scale", "osm"):
         st2 = dict(V.default_state(gname), weather="rain", time="morning_peak", road_class=True)
         r2 = model.compute(st2)
         sg = VT.route_segments(r2["g"], r2["base"], r2["astar"]["path"])
         fig = plt.figure(); VB.draw_route(fig, st2, r2, sg, VB.default_selected(sg)); fig.canvas.draw(); plt.close(fig)
         fig = plt.figure(); fin = VB.draw_trace_final(fig, r2["g"], st2); fig.canvas.draw(); plt.close(fig)
         n += fin["astar"].cost == r2["astar"]["cost"] and fin["astar"].steps < fin["ucs"].steps
-    check(f"Route + step views drawn on 3 graphs; A* finishes in fewer steps than UCS on {n}/3", n == 3)
+    check(f"Route + step views drawn on 4 graphs; A* finishes in fewer steps than UCS on {n}/4", n == 4)
 
     # 11. snapshot mode writes the 6 PNGs
     with tempfile.TemporaryDirectory() as d:

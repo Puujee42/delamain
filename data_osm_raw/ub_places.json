@@ -1,0 +1,7061 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-25T09:17:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 478559821,
+  "lat": 47.9081092,
+  "lon": 106.9089275,
+  "tags": {
+    "addr:city": "Улаанбаатар хот",
+    "addr:street": "Нарны зам",
+    "name": "Монголын төмөр замын түүхийн музей",
+    "name:en": "Mongolian Railway History Museum",
+    "tourism": "museum",
+    "wikidata": "Q56302229"
+  }
+},
+{
+  "type": "node",
+  "id": 478559834,
+  "lat": 47.9215198,
+  "lon": 106.8956230,
+  "tags": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-08-06",
+    "denomination": "gelug",
+    "name": "Dedanpovran Temple",
+    "name:zh": "德丹颇章殿",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "node",
+  "id": 566997277,
+  "lat": 47.9081991,
+  "lon": 106.8838584,
+  "tags": {
+    "alt_name": "Ulaanbaatar",
+    "name": "Улаанбаатар ᠤᠯᠠᠭᠠᠨᠪᠠᠭᠠᠲᠤᠷ",
+    "name:en": "Ulan Bator",
+    "name:fr": "Oulan-Bator",
+    "name:mn": "Улаанбаатар",
+    "name:mn-Cyrl": "Улаанбаатар",
+    "name:mn-Mong": "ᠤᠯᠠᠭᠠᠨᠪᠠᠭᠠᠲᠤᠷ",
+    "name:ru": "Улан-Батор",
+    "name:zh": "乌兰巴托",
+    "public_transport": "station",
+    "railway": "station",
+    "train": "yes",
+    "uic_ref": "3100005",
+    "wikidata": "Q800161",
+    "wikimedia_commons": "Category:Ulaanbaatar Railway Station",
+    "wikipedia": "mn:Улаанбаатар өртөө"
+  }
+},
+{
+  "type": "node",
+  "id": 678764043,
+  "lat": 47.9218881,
+  "lon": 106.9004184,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Гэсэр сүм",
+    "name:en": "Gesar Temple",
+    "religion": "buddhist",
+    "wikidata": "Q11699726",
+    "wikimedia_commons": "Category:Geser Sum Monastery"
+  }
+},
+{
+  "type": "node",
+  "id": 950346793,
+  "lat": 47.9249778,
+  "lon": 106.8996460,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Тасганы овоо",
+    "religion": "shamanic"
+  }
+},
+{
+  "type": "node",
+  "id": 950347012,
+  "lat": 47.9283807,
+  "lon": 106.9052966,
+  "tags": {
+    "historic": "memorial",
+    "name": "Чингэлтэй дүүргийн хөшөө"
+  }
+},
+{
+  "type": "node",
+  "id": 950347115,
+  "lat": 47.9157221,
+  "lon": 106.9733885,
+  "tags": {
+    "historic": "memorial",
+    "material": "concrete",
+    "memorial": "war_memorial",
+    "name": "Монгол Ард эскадрилийн хөшөө"
+  }
+},
+{
+  "type": "node",
+  "id": 1204976221,
+  "lat": 47.9188454,
+  "lon": 106.9176088,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Сүхбаатарын хөшөө",
+    "name:en": "Sukhbaatar Statue",
+    "name:mn": "Сүхбаатарын хөшөө",
+    "name:ru": "Сухэбатор статуя"
+  }
+},
+{
+  "type": "node",
+  "id": 1239632938,
+  "lat": 47.8991733,
+  "lon": 106.8677587,
+  "tags": {
+    "amenity": "bus_station",
+    "name": "ТЗЦ III",
+    "shelter": "yes",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1241686959,
+  "lat": 47.9165201,
+  "lon": 106.9157956,
+  "tags": {
+    "check_date": "2025-08-22",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "С. Зоригийн хөшөө",
+    "name:en": "S.Zorig monument",
+    "name:ja": "サンジャースレンギーン・ゾリグ像",
+    "name:zh": "桑加苏伦·卓力格纪念碑",
+    "toilets:wheelchair": "no",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 1241686961,
+  "lat": 47.9043266,
+  "lon": 106.9184417,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Ардын хувьсгалын 40 жилийн ойд зориулж 1961 онд Т.Хишигтийн загвараар босгожээ.",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Соёмбот багана"
+  }
+},
+{
+  "type": "node",
+  "id": 1245746547,
+  "lat": 47.9045852,
+  "lon": 106.9265035,
+  "tags": {
+    "historic": "memorial",
+    "name": "Махатма Ганди",
+    "name:en": "Mahatma Gandhi"
+  }
+},
+{
+  "type": "node",
+  "id": 1247498109,
+  "lat": 47.9016188,
+  "lon": 106.9090108,
+  "tags": {
+    "name": "façade mural",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 1247498339,
+  "lat": 47.9032997,
+  "lon": 106.9106287,
+  "tags": {
+    "historic": "monument",
+    "name": "Хан Уул Дүүрэг"
+  }
+},
+{
+  "type": "node",
+  "id": 1250012792,
+  "lat": 47.9145942,
+  "lon": 106.8868530,
+  "tags": {
+    "historic": "monument",
+    "name": "Democrary monument",
+    "name:mn": "Ардчилалын хөшөө"
+  }
+},
+{
+  "type": "node",
+  "id": 1268520486,
+  "lat": 47.9086565,
+  "lon": 106.9473932,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Микро автобус",
+    "name:en": "Naraan tuul Market",
+    "name:ru": "Рынок Нарантуул",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 1268520487,
+  "lat": 47.9117542,
+  "lon": 106.7574332,
+  "tags": {
+    "name": "Орбит ᠣᠷᠪᠢᠲ",
+    "name:en": "Orbit",
+    "name:mn": "Орбит",
+    "name:mn-Cyrl": "Орбит",
+    "name:mn-Mong": "ᠣᠷᠪᠢᠲ",
+    "name:zh": "奥尔比特",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 1273184956,
+  "lat": 47.8978682,
+  "lon": 106.8906651,
+  "tags": {
+    "amenity": "university",
+    "name": "Хүнсний Технологийн Дээд Сургууль"
+  }
+},
+{
+  "type": "node",
+  "id": 1317293828,
+  "lat": 47.9085670,
+  "lon": 106.7785743,
+  "tags": {
+    "name": "Толгойт ᠲᠣᠯᠤᠭᠠᠢ ᠲᠠ",
+    "name:en": "Tolgoit",
+    "name:fr": "Tolgoït",
+    "name:mn": "Толгойт",
+    "name:mn-Cyrl": "Толгойт",
+    "name:mn-Mong": "ᠲᠣᠯᠤᠭᠠᠢ ᠲᠠ",
+    "public_transport": "station",
+    "railway": "station",
+    "train": "yes",
+    "wikidata": "Q20094075"
+  }
+},
+{
+  "type": "node",
+  "id": 1338433724,
+  "lat": 47.9001829,
+  "lon": 106.9153334,
+  "tags": {
+    "name": "football",
+    "name:en": "Mongolian Football Association",
+    "name:mn": "Монголын хөлбөмбөгийн холбоо",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 1367931400,
+  "lat": 47.9164518,
+  "lon": 106.9594205,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Үнэн алдартны сүм",
+    "name:en": "Holy Trinity Orthodox Church",
+    "religion": "christian",
+    "wikidata": "Q4463461",
+    "wikimedia_commons": "Category:Holy Trinity Orthodox Church, Ulaanbaatar",
+    "wikipedia": "en:Holy Trinity Church, Ulaanbaatar"
+  }
+},
+{
+  "type": "node",
+  "id": 1534906167,
+  "lat": 47.9224403,
+  "lon": 106.9186931,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Чойбалсангийн хөшөө",
+    "name:en": "Marshal Choibalsan statue",
+    "name:es": "Estatura de Marshall Choibalsan",
+    "name:ja": "チョイバルサン像",
+    "name:mn": "Маршал Чойбалсангийн хөшөө",
+    "name:ru": "Статуя Маршала Чойбалсан"
+  }
+},
+{
+  "type": "node",
+  "id": 1678281169,
+  "lat": 47.9216108,
+  "lon": 106.9171018,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Тамганы хөшөө",
+    "name:en": "Clan Statue"
+  }
+},
+{
+  "type": "node",
+  "id": 1678494931,
+  "lat": 47.9216711,
+  "lon": 106.8750625,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Баянгол Зах"
+  }
+},
+{
+  "type": "node",
+  "id": 1678494966,
+  "lat": 47.9222319,
+  "lon": 106.8759932,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Shashlik House"
+  }
+},
+{
+  "type": "node",
+  "id": 1678494970,
+  "lat": 47.9222876,
+  "lon": 106.8749874,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Баянгол Их Дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 1679376231,
+  "lat": 47.9165918,
+  "lon": 106.8995773,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Computer Land",
+    "name:en": "Computer Land",
+    "shop": "computer"
+  }
+},
+{
+  "type": "node",
+  "id": 1849495980,
+  "lat": 47.8649755,
+  "lon": 107.0531948,
+  "tags": {
+    "man_made": "observatory",
+    "name": "Ulaanbaatar Astronomical Observatory",
+    "source": "GPS",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 1882567313,
+  "lat": 47.9264130,
+  "lon": 106.9097401,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Бүсгүйчүүд эмнэлэг"
+  }
+},
+{
+  "type": "node",
+  "id": 2167625456,
+  "lat": 47.8743247,
+  "lon": 106.8103069,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Болор"
+  }
+},
+{
+  "type": "node",
+  "id": 2285497044,
+  "lat": 47.9102335,
+  "lon": 106.8135937,
+  "tags": {
+    "historic": "ruins",
+    "name": "Есүс Христийн Хожмын Үеийн Гэгээнтнүүдийн Сүм"
+  }
+},
+{
+  "type": "node",
+  "id": 2286678746,
+  "lat": 47.9098541,
+  "lon": 106.8912701,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "BSB\" Store"
+  }
+},
+{
+  "type": "node",
+  "id": 2292504367,
+  "lat": 47.9146236,
+  "lon": 106.9729271,
+  "tags": {
+    "name": "Монгол улсын Археологын музэй",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 2293321279,
+  "lat": 47.8834642,
+  "lon": 106.9430761,
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:street": "Залуучуудын өргөн чөлөө",
+    "name": "Байгалийн түүхийн музей",
+    "name:en": "Natural History Museum",
+    "name:es": "Museo Nacional de Historia de Mongolia",
+    "name:mn": "булган аймаг",
+    "tourism": "museum",
+    "wikidata": "Q2154359",
+    "wikimedia_commons": "Category:Natural History Museum (Ulaanbaatar)",
+    "wikipedia": "en:Mongolian Natural History Museum"
+  }
+},
+{
+  "type": "node",
+  "id": 2293321289,
+  "lat": 47.9204390,
+  "lon": 106.9155735,
+  "tags": {
+    "artist_name": "L.Bold",
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Хэлмэгдэгсдийн хөшөө",
+    "name:en": "Monument to victims of political repression"
+  }
+},
+{
+  "type": "node",
+  "id": 2296348482,
+  "lat": 47.9051255,
+  "lon": 106.9998041,
+  "tags": {
+    "historic": "monument",
+    "name": "Сүхбаатар жанжин гэрийн буурь",
+    "name:en": "Sukhbaatar General’s House museum"
+  }
+},
+{
+  "type": "node",
+  "id": 2304796410,
+  "lat": 47.8993387,
+  "lon": 106.9148033,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Хурд хороолол",
+    "public_transport": "station",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2306252780,
+  "lat": 47.8966686,
+  "lon": 106.8959274,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Чимэг Оюу эмнэлэг"
+  }
+},
+{
+  "type": "node",
+  "id": 2306252781,
+  "lat": 47.8967603,
+  "lon": 106.8959247,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Чимэг Оюу эмэгтэйчүүдийн эмнэлэг",
+    "name:en": "Chimeg Oyu women’s hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 2306252782,
+  "lat": 47.8982115,
+  "lon": 106.8965121,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Шүдний эмнэлэг"
+  }
+},
+{
+  "type": "node",
+  "id": 2306263971,
+  "lat": 47.8982583,
+  "lon": 106.8929903,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Хан-Уул Эрүүл Мэндийн төв"
+  }
+},
+{
+  "type": "node",
+  "id": 2306263988,
+  "lat": 47.8980374,
+  "lon": 106.8928717,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Khan uul duurgiin Emneleg",
+    "name:en": "Khan uul district hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 2317211950,
+  "lat": 47.9196107,
+  "lon": 106.9212320,
+  "tags": {
+    "name": "Уран зургийн галлерей",
+    "name:en": "Mongolian National Modern Art Gallery",
+    "name:zh": "蒙古国家现代美术馆",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 2317267389,
+  "lat": 47.9275325,
+  "lon": 106.9206023,
+  "tags": {
+    "amenity": "place_of_worship",
+    "int_name": "Dashchoilin Khiid",
+    "name": "Дашчойлин хийд",
+    "name:en": "Dashchoilin Monastery",
+    "name:fr": "Lamaserie Dashchoilin",
+    "name:ru": "Монастырь Дашчойлин",
+    "religion": "buddhist",
+    "wikidata": "Q15925047",
+    "wikimedia_commons": "Category:Dashchoilin Monastery",
+    "wikipedia": "mn:Дашчойлин хийд"
+  }
+},
+{
+  "type": "node",
+  "id": 2321489226,
+  "lat": 47.9263472,
+  "lon": 106.9151159,
+  "tags": {
+    "name": "Metro mall",
+    "name:en": "Metromall Shopping Center",
+    "shop": "mall",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2321695720,
+  "lat": 47.8992644,
+  "lon": 106.8945018,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Хүүхдийн сувилал"
+  }
+},
+{
+  "type": "node",
+  "id": 2321797519,
+  "lat": 47.9199832,
+  "lon": 106.9156269,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Ж. Самбуугийн хөшөө",
+    "name:en": "J. Gumukus Statue"
+  }
+},
+{
+  "type": "node",
+  "id": 2321950629,
+  "lat": 47.9109862,
+  "lon": 106.8961411,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Зуун Наст Эмнэлэг"
+  }
+},
+{
+  "type": "node",
+  "id": 2330581840,
+  "lat": 47.9331249,
+  "lon": 107.0099140,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Сэтгэцийн Эрүүл Мэндийн Үндэсний Төв"
+  }
+},
+{
+  "type": "node",
+  "id": 2355050259,
+  "lat": 47.8082039,
+  "lon": 107.0027466,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Tsetseegun",
+    "opening_hours": "24/7",
+    "religion": "shamanic"
+  }
+},
+{
+  "type": "node",
+  "id": 2388467548,
+  "lat": 47.9110488,
+  "lon": 106.8729799,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Хермес Төв"
+  }
+},
+{
+  "type": "node",
+  "id": 2389170353,
+  "lat": 47.9100824,
+  "lon": 106.8316379,
+  "tags": {
+    "addr:city": "Ulaanbaatar",
+    "amenity": "marketplace",
+    "name": "Барс 2 худалдааны төв"
+  }
+},
+{
+  "type": "node",
+  "id": 2442330394,
+  "lat": 47.9198448,
+  "lon": 106.8761935,
+  "tags": {
+    "historic": "memorial",
+    "name": "Chingunjav's statue"
+  }
+},
+{
+  "type": "node",
+  "id": 2472141879,
+  "lat": 47.8749389,
+  "lon": 107.0910524,
+  "tags": {
+    "name": "Туул",
+    "name:en": "Tuul",
+    "railway": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 2472141881,
+  "lat": 47.9031295,
+  "lon": 107.0143647,
+  "tags": {
+    "name": "Амгалан",
+    "name:en": "Amgalan",
+    "public_transport": "station",
+    "railway": "station",
+    "train": "yes",
+    "wikidata": "Q20072702"
+  }
+},
+{
+  "type": "node",
+  "id": 2492565629,
+  "lat": 47.9185334,
+  "lon": 106.9094573,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Б. Явуухулан"
+  }
+},
+{
+  "type": "node",
+  "id": 2511176890,
+  "lat": 47.9266971,
+  "lon": 106.9177990,
+  "tags": {
+    "leisure": "park",
+    "name": "Машины зогсоол"
+  }
+},
+{
+  "type": "node",
+  "id": 2513512817,
+  "lat": 47.9172568,
+  "lon": 106.9171100,
+  "tags": {
+    "amenity": "bell",
+    "building": "roof",
+    "name": "Хонх",
+    "name:en": "World Peace Bell",
+    "name:mn": "Хонх",
+    "name:zh": "世界和平钟",
+    "toilets:wheelchair": "no",
+    "tourism": "attraction",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2513546983,
+  "lat": 47.9242612,
+  "lon": 106.9197074,
+  "tags": {
+    "amenity": "university",
+    "name": "Монголын оюутны холбоо",
+    "office": "Administration"
+  }
+},
+{
+  "type": "node",
+  "id": 2513578143,
+  "lat": 47.9241072,
+  "lon": 106.9077042,
+  "tags": {
+    "amenity": "university",
+    "name": "Улаанбаатар эрдэм судлал дээд сургууль"
+  }
+},
+{
+  "type": "node",
+  "id": 2514660336,
+  "lat": 47.9257882,
+  "lon": 106.9143639,
+  "tags": {
+    "historic": "monument",
+    "name": "түрэгийн хөшөө"
+  }
+},
+{
+  "type": "node",
+  "id": 2522840098,
+  "lat": 47.9239193,
+  "lon": 106.9083433,
+  "tags": {
+    "amenity": "university",
+    "name": "Соёл Урлагын Их Сургууль",
+    "name:en": "Arts And Culture University"
+  }
+},
+{
+  "type": "node",
+  "id": 2522937345,
+  "lat": 47.9208190,
+  "lon": 106.9267601,
+  "tags": {
+    "amenity": "university",
+    "name": "Хүмүүнлэгийн их сургуулийн харьяа Билиг дээд сургууль"
+  }
+},
+{
+  "type": "node",
+  "id": 2523956367,
+  "lat": 47.9187401,
+  "lon": 106.9245672,
+  "tags": {
+    "amenity": "university",
+    "name": "дүрслэх урлаг, технологийн сургууль"
+  }
+},
+{
+  "type": "node",
+  "id": 2523956369,
+  "lat": 47.9186774,
+  "lon": 106.9251265,
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:street": "Энх тайваны өргөн чөлөө",
+    "amenity": "university",
+    "name": "Түүх нийгмийн ухааны сургууль",
+    "name:en": "Tuuh Niigmiin Uhaanii Surguuli"
+  }
+},
+{
+  "type": "node",
+  "id": 2527571262,
+  "lat": 47.9281118,
+  "lon": 106.9247343,
+  "tags": {
+    "amenity": "university",
+    "name": "The Choi, Lubsangjab University Of Language Civilization"
+  }
+},
+{
+  "type": "node",
+  "id": 2530252504,
+  "lat": 47.9284197,
+  "lon": 106.9262508,
+  "tags": {
+    "name": "Эвт худалдааны төв",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 2531717704,
+  "lat": 47.9198403,
+  "lon": 106.9200500,
+  "tags": {
+    "name": "монголын театрын музей",
+    "name:en": "Mongolian Theater Museum",
+    "name:zh": "蒙古中央文化宫",
+    "tourism": "museum",
+    "wikidata": "Q6899660"
+  }
+},
+{
+  "type": "node",
+  "id": 2639497234,
+  "lat": 47.8714455,
+  "lon": 106.8100161,
+  "tags": {
+    "name": "Яармаг ᠶᠠᠭᠠᠷᠮᠠᠭ",
+    "name:en": "Yaarmag",
+    "name:mn": "Яармаг",
+    "name:mn-Mong": "ᠶᠠᠭᠠᠷᠮᠠᠭ",
+    "name:ru": "Яармаг",
+    "name:zh": "亚尔马格",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2639499830,
+  "lat": 47.8608097,
+  "lon": 106.7640085,
+  "tags": {
+    "name": "Нисэх ᠨᠢᠰᠬᠦ",
+    "name:mn": "Нисэх",
+    "name:mn-Mong": "ᠨᠢᠰᠬᠦ",
+    "name:zh": "尼塞赫",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2639505539,
+  "lat": 47.9561825,
+  "lon": 106.8265621,
+  "tags": {
+    "name": "Баянхошуу ᠪᠠᠶᠠᠨᠬᠣᠰᠢᠭᠤ",
+    "name:en": "Bayankhoshuu",
+    "name:mn": "Баянхошуу",
+    "name:mn-Mong": "ᠪᠠᠶᠠᠨᠬᠣᠰᠢᠭᠤ",
+    "name:zh": "巴彦胡舒",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2639520470,
+  "lat": 47.9841815,
+  "lon": 106.8858785,
+  "tags": {
+    "name": "Чингэлтэй ᠴᠢᠩᠭᠢᠯᠲᠡᠢ",
+    "name:de": "Tschingeltei",
+    "name:en": "Chingeltei",
+    "name:fa": "منطقه چینگِلتِی",
+    "name:he": "צ'ינגלנטיי",
+    "name:ko": "칭겔테구",
+    "name:mn": "Чингэлтэй дүүрэг",
+    "name:mn-Cyrl": "Чингэлтэй дүүрэг",
+    "name:mn-Mong": "ᠴᠢᠩᠭᠢᠯᠲᠡᠢ ᠳᠡᠭᠦᠷᠭᠡ",
+    "place": "suburb",
+    "short_name:fa": "چینگِلتِی",
+    "short_name:mn": "Чингэлтэй",
+    "short_name:mn-Cyrl": "Чингэлтэй",
+    "short_name:mn-Mong": "ᠴᠢᠩᠭᠢᠯᠲᠡᠢ"
+  }
+},
+{
+  "type": "node",
+  "id": 2639523049,
+  "lat": 47.8830206,
+  "lon": 106.9126231,
+  "tags": {
+    "name": "Зайсан ᠵᠠᠶᠢᠰᠠᠩ",
+    "name:en": "Zaisan",
+    "name:mn": "Зайсан",
+    "name:mn-Mong": "ᠵᠠᠶᠢᠰᠠᠩ",
+    "name:ru": "Зайсан",
+    "name:zh": "宰桑",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2688179219,
+  "lat": 47.9290996,
+  "lon": 106.8883952,
+  "tags": {
+    "amenity": "university",
+    "name": "Radio and Television"
+  }
+},
+{
+  "type": "node",
+  "id": 2865738312,
+  "lat": 47.9939019,
+  "lon": 106.9674235,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Belkh zakh"
+  }
+},
+{
+  "type": "node",
+  "id": 2948788118,
+  "lat": 47.8978662,
+  "lon": 106.9423092,
+  "tags": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "name": "Хүн чоно",
+    "name:en": "Wolfman Statue",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 2993777372,
+  "lat": 47.9229710,
+  "lon": 106.9296709,
+  "tags": {
+    "amenity": "theatre",
+    "name": "Улаанбаатар Чуулга"
+  }
+},
+{
+  "type": "node",
+  "id": 3083922911,
+  "lat": 47.8938615,
+  "lon": 106.9139983,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Сэргээн засах клиник эмнэлэг",
+    "name:en": "Rehabilitation Hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 3083953775,
+  "lat": 47.9098290,
+  "lon": 106.8096432,
+  "tags": {
+    "amenity": "university",
+    "name": "Ач анагаах ухааны дээд сургууль",
+    "name:en": "Ach Medical University",
+    "name:mn": "Ач анагаах ухааны их сургууль",
+    "opening_hours": "Mo-Sa 08:00-20:00",
+    "wikidata": "Q135467264"
+  }
+},
+{
+  "type": "node",
+  "id": 3083964187,
+  "lat": 47.9300267,
+  "lon": 106.9407702,
+  "tags": {
+    "amenity": "university",
+    "name": "Дорнод Сибирийн Технологийн их сургууль"
+  }
+},
+{
+  "type": "node",
+  "id": 3083968385,
+  "lat": 47.9303892,
+  "lon": 106.9201400,
+  "tags": {
+    "amenity": "university",
+    "name": "Евро-Ази дээд сургууль"
+  }
+},
+{
+  "type": "node",
+  "id": 3083988985,
+  "lat": 47.8980658,
+  "lon": 106.7964091,
+  "tags": {
+    "amenity": "university",
+    "name": "Интернэйшнэл техникал коллеж"
+  }
+},
+{
+  "type": "node",
+  "id": 3083995587,
+  "lat": 47.9122165,
+  "lon": 106.8195545,
+  "tags": {
+    "amenity": "university",
+    "name": "Мандах бүртгэл дээд сургууль"
+  }
+},
+{
+  "type": "node",
+  "id": 3084001869,
+  "lat": 47.9160329,
+  "lon": 106.8875402,
+  "tags": {
+    "amenity": "university",
+    "name": "Их засаг олон улсын сургуулийн Монгол бизнес дээд сургууль",
+    "name:en": "Mongolian Business Institute of Ikh Zasag University"
+  }
+},
+{
+  "type": "node",
+  "id": 3084004213,
+  "lat": 47.9167365,
+  "lon": 106.9508482,
+  "tags": {
+    "amenity": "university",
+    "name": "ОХУ-ын Плехановын нэрэмжит ЭЗА"
+  }
+},
+{
+  "type": "node",
+  "id": 3084010335,
+  "lat": 47.9326034,
+  "lon": 106.9185418,
+  "tags": {
+    "amenity": "university",
+    "name": "Глобал удирдагч дээд сургууль",
+    "name:en": "Global udirdagch deed surguuli"
+  }
+},
+{
+  "type": "node",
+  "id": 3084021624,
+  "lat": 47.9248870,
+  "lon": 106.8908369,
+  "tags": {
+    "amenity": "university",
+    "name": "Сэрүүлэг дээд сургууль"
+  }
+},
+{
+  "type": "node",
+  "id": 3084021843,
+  "lat": 47.9255865,
+  "lon": 106.9171536,
+  "tags": {
+    "amenity": "university",
+    "name": "Түшээ дээд сургууль"
+  }
+},
+{
+  "type": "node",
+  "id": 3090708953,
+  "lat": 47.9086184,
+  "lon": 106.9214939,
+  "tags": {
+    "attraction": "slide",
+    "name": "Мангасын ам",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 3090790503,
+  "lat": 47.9100960,
+  "lon": 106.9224089,
+  "tags": {
+    "attraction": "big_wheel",
+    "name": "Ferris wheel",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 3090805820,
+  "lat": 47.9096934,
+  "lon": 106.9218631,
+  "tags": {
+    "name": "Air Cycle",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 3159292405,
+  "lat": 47.9272835,
+  "lon": 106.9850709,
+  "tags": {
+    "addr:housenumber": "50",
+    "amenity": "place_of_worship",
+    "name": "Улаанбаатар ирээдүй сүм",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 3259526214,
+  "lat": 47.9791670,
+  "lon": 106.9344844,
+  "tags": {
+    "name": "Дамбадаржаа ᠳᠠᠮᠪᠠᠳᠠᠷᠵᠢᠶ᠎ᠠ",
+    "name:en": "Dambadarjaa",
+    "name:ja": "ダンバダルジャー",
+    "name:mn": "Дамбадаржаа",
+    "name:mn-Mong": "ᠳᠠᠮᠪᠠᠳᠠᠷᠵᠢᠶ᠎ᠠ",
+    "name:zh": "丹巴达尔扎",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 3673742010,
+  "lat": 47.9173675,
+  "lon": 106.9201079,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Марко Пологийн хөшөө",
+    "name:en": "Marco Polo statue",
+    "name:ja": "マルコポーロ像",
+    "toilets:wheelchair": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3809499618,
+  "lat": 47.9224058,
+  "lon": 106.8128130,
+  "tags": {
+    "amenity": "university",
+    "name": "Чингис хаан- Их засаг сургууль"
+  }
+},
+{
+  "type": "node",
+  "id": 3833013412,
+  "lat": 47.8588192,
+  "lon": 106.7549758,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Temple"
+  }
+},
+{
+  "type": "node",
+  "id": 3846205058,
+  "lat": 47.9183194,
+  "lon": 106.9244613,
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:street": "Энх тайваны өргөн чөлөө",
+    "amenity": "university",
+    "check_date": "2024-06-23",
+    "name": "МУБИС А байр",
+    "name:en": "Mongolian State University of Education. Building A",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3846209757,
+  "lat": 47.9184255,
+  "lon": 106.9258748,
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:street": "Энх тайваны өргөн чөлөө",
+    "name": "Төгөлдөр төв",
+    "shop": "mall",
+    "toilets:wheelchair": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3846212557,
+  "lat": 47.9184758,
+  "lon": 106.9274707,
+  "tags": {
+    "name": "Sonor Plaza",
+    "name:mn": "Сонор плаза",
+    "shop": "mall",
+    "toilets:wheelchair": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3886158513,
+  "lat": 47.9170329,
+  "lon": 106.9203264,
+  "tags": {
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Халуун элгэн нутаг",
+    "toilets:wheelchair": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3886158514,
+  "lat": 47.9180969,
+  "lon": 106.9228913,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Д.Нацагдоржийн хөшөө",
+    "name:en": "D.Natsagdorj statue"
+  }
+},
+{
+  "type": "node",
+  "id": 3887084830,
+  "lat": 47.9136116,
+  "lon": 106.9474210,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "ХӨСҮТ",
+    "opening_hours": "24/7",
+    "phone": "11453994",
+    "website": "https://www.nccd.gov.mn/"
+  }
+},
+{
+  "type": "node",
+  "id": 3887647856,
+  "lat": 47.9183508,
+  "lon": 106.8555304,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Манал-Оточ Компьютер томографи"
+  }
+},
+{
+  "type": "node",
+  "id": 3887654359,
+  "lat": 47.9243792,
+  "lon": 106.8753504,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Хөх Хулганы Орон"
+  }
+},
+{
+  "type": "node",
+  "id": 3887660066,
+  "lat": 47.9221576,
+  "lon": 106.8667298,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Хавай Фитнесс"
+  }
+},
+{
+  "type": "node",
+  "id": 3887672225,
+  "lat": 47.9262229,
+  "lon": 106.8836291,
+  "tags": {
+    "amenity": "university",
+    "name": "Хүрээ дунд сургууль"
+  }
+},
+{
+  "type": "node",
+  "id": 3887675594,
+  "lat": 47.9224398,
+  "lon": 106.8767398,
+  "tags": {
+    "name": "PC Mall",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 3888647001,
+  "lat": 47.9096552,
+  "lon": 106.9131469,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Наран плаза"
+  }
+},
+{
+  "type": "node",
+  "id": 3891838594,
+  "lat": 47.9068019,
+  "lon": 107.0159839,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Амгалан зах"
+  }
+},
+{
+  "type": "node",
+  "id": 3891929435,
+  "lat": 47.9427339,
+  "lon": 106.9027400,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Хүчит шонхор зах"
+  }
+},
+{
+  "type": "node",
+  "id": 3893455080,
+  "lat": 47.8474001,
+  "lon": 106.7266664,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "\"Энхжин\" хүнсний дэлгүүр",
+    "opening_hours": "08:00-23:00"
+  }
+},
+{
+  "type": "node",
+  "id": 3893460702,
+  "lat": 47.8456553,
+  "lon": 106.7268933,
+  "tags": {
+    "amenity": "hospital",
+    "name": "\"Амин тус\" өрхийн эмнэлэг"
+  }
+},
+{
+  "type": "node",
+  "id": 3893487187,
+  "lat": 47.8479668,
+  "lon": 106.7217769,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Хүнсний дэлгүүр",
+    "opening_hours": "08:30-22:30"
+  }
+},
+{
+  "type": "node",
+  "id": 3893539464,
+  "lat": 47.8457417,
+  "lon": 106.7241422,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Хүнсний дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3893539465,
+  "lat": 47.8453270,
+  "lon": 106.7249748,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Хүнсний дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3893539466,
+  "lat": 47.8507228,
+  "lon": 106.7225095,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Хүнсний дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3894566063,
+  "lat": 47.9050242,
+  "lon": 106.9464579,
+  "tags": {
+    "amenity": "bus_station",
+    "name": "Дүнжингарав зогсоол"
+  }
+},
+{
+  "type": "node",
+  "id": 3894589438,
+  "lat": 47.9208584,
+  "lon": 106.9541262,
+  "tags": {
+    "name": "Одон орон судлалын музей",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 3894694257,
+  "lat": 47.9135119,
+  "lon": 106.9443254,
+  "tags": {
+    "name": "Баянзүрх худалдааны төв",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 3895123980,
+  "lat": 47.9231936,
+  "lon": 106.9302410,
+  "tags": {
+    "historic": "memorial",
+    "name": "Лхагвасүрэнгийн хөшөө"
+  }
+},
+{
+  "type": "node",
+  "id": 3895134910,
+  "lat": 47.9221342,
+  "lon": 106.9225247,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Ширэндэвийн хөшөө",
+    "name:en": "Shirendendev statue"
+  }
+},
+{
+  "type": "node",
+  "id": 3896026889,
+  "lat": 47.9327909,
+  "lon": 106.9248463,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Сүм 1"
+  }
+},
+{
+  "type": "node",
+  "id": 3896026914,
+  "lat": 47.9323530,
+  "lon": 106.9247971,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Манаачийн пост"
+  }
+},
+{
+  "type": "node",
+  "id": 3896064826,
+  "lat": 47.9163605,
+  "lon": 106.8905077,
+  "tags": {
+    "amenity": "university",
+    "name": "Сан монгол лахь",
+    "name:en": "San University",
+    "name:mn": "Сан монгол лахь",
+    "website": "https://www.san.edu.mn/"
+  }
+},
+{
+  "type": "node",
+  "id": 3896065964,
+  "lat": 47.9168196,
+  "lon": 106.8905840,
+  "tags": {
+    "addr:city": "Ulaanbaatar",
+    "addr:street": "Амарсанаагийн гудамж",
+    "amenity": "university",
+    "name": "Ирээдүй дээд сургууль",
+    "toilets:wheelchair": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3896076228,
+  "lat": 47.9129828,
+  "lon": 106.8912061,
+  "tags": {
+    "leisure": "park",
+    "name": "Удирдахын саад"
+  }
+},
+{
+  "type": "node",
+  "id": 3896080156,
+  "lat": 47.9141381,
+  "lon": 106.8595446,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Авралын 3ар Христийн Сүм",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 3896369566,
+  "lat": 47.9166942,
+  "lon": 106.9680899,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "монголросцветмет эмнэлэг",
+    "name:en": "mongolrostsvetmet hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 3897537224,
+  "lat": 47.9200192,
+  "lon": 106.9001898,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Бөмбөгөр худалдааны төв"
+  }
+},
+{
+  "type": "node",
+  "id": 3898586944,
+  "lat": 47.9143171,
+  "lon": 106.8409479,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Ээждээ Хүнсний Дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3900077883,
+  "lat": 47.9227352,
+  "lon": 106.8860579,
+  "tags": {
+    "addr:city": "БГД, УБ",
+    "addr:housenumber": "17-р хороо",
+    "addr:street": "Ард Аюушийн өргөн чөлөө",
+    "name": "Элбэг Их Дэлгүүр",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 3900123333,
+  "lat": 47.9122032,
+  "lon": 106.9086893,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Цэ-Пү эрэгтэйчүүдийн эмнэлэг",
+    "wheelchair:description": "барилгын гол орцын хаалганы өргөн 85см (1 хавтастай), гадна шатны өндөр 1ш 13см жорлонгийн гадна хаалганы өргөн 70 см дотор тал нь 70 см"
+  }
+},
+{
+  "type": "node",
+  "id": 3900154724,
+  "lat": 47.9233593,
+  "lon": 106.8827152,
+  "tags": {
+    "addr:city": "БГД, УБ",
+    "addr:housenumber": "14-р хороо",
+    "addr:street": "Ард аюушийн өргөн чөлөө",
+    "name": "Ачлал Их Дэлгүүр",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 3900197609,
+  "lat": 47.9226126,
+  "lon": 106.8809381,
+  "tags": {
+    "addr:city": "БГД, УБ",
+    "addr:housenumber": "19-р хороо",
+    "addr:street": "Ард Аюушийн өргөн чөлөө",
+    "name": "Нар",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 3900872797,
+  "lat": 47.9157205,
+  "lon": 106.8750446,
+  "tags": {
+    "amenity": "theatre",
+    "name": "Sun Dance Company-3"
+  }
+},
+{
+  "type": "node",
+  "id": 3900899623,
+  "lat": 47.9122186,
+  "lon": 106.9868099,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "зах"
+  }
+},
+{
+  "type": "node",
+  "id": 3900947919,
+  "lat": 47.9839281,
+  "lon": 106.8275555,
+  "tags": {
+    "amenity": "hospital",
+    "name": "эмийн сан"
+  }
+},
+{
+  "type": "node",
+  "id": 3901269959,
+  "lat": 47.9902657,
+  "lon": 106.8262488,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "3 н сайхан"
+  }
+},
+{
+  "type": "node",
+  "id": 3901494379,
+  "lat": 47.9124257,
+  "lon": 106.9441032,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Эмэгтэйчүүдийн эмнэлэг"
+  }
+},
+{
+  "type": "node",
+  "id": 3901498601,
+  "lat": 47.9213963,
+  "lon": 106.8591389,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Гэмтэлийн эмнэлэг",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 3901552153,
+  "lat": 47.9486734,
+  "lon": 106.9136997,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "17-р сургуулийн буудал",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 3902464003,
+  "lat": 47.9118376,
+  "lon": 106.9053110,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Egg mart"
+  }
+},
+{
+  "type": "node",
+  "id": 3902468381,
+  "lat": 47.9231367,
+  "lon": 106.8771872,
+  "tags": {
+    "addr:city": "Улаанбаатар (Ulaanbaatar)",
+    "addr:street": "Л.Энэбишийн өргөн чөлөө",
+    "name": "CAN DO",
+    "name:mn": "Can do",
+    "operator": "Японы нэг үнийн анхны сүлжээ дэлгүүр",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 3902498073,
+  "lat": 47.8706802,
+  "lon": 106.8191485,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "\"Түмэн хөрш\" дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3902498675,
+  "lat": 47.8704516,
+  "lon": 106.8154415,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Хүсний дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3902499502,
+  "lat": 47.8746505,
+  "lon": 106.8188064,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Хүнсний дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3902501188,
+  "lat": 47.8737672,
+  "lon": 106.8189399,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Мөнхийн рашаан хүнсний дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3902502462,
+  "lat": 47.8707791,
+  "lon": 106.8146100,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Хүсний дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3902503234,
+  "lat": 47.8711992,
+  "lon": 106.8145228,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Ариун хутаг"
+  }
+},
+{
+  "type": "node",
+  "id": 3902503521,
+  "lat": 47.8708115,
+  "lon": 106.8063448,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Хүнсний дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3902503522,
+  "lat": 47.8707773,
+  "lon": 106.8063555,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Барааны дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3902503667,
+  "lat": 47.8710175,
+  "lon": 106.8108509,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Хүсний дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3902503759,
+  "lat": 47.8705965,
+  "lon": 106.8104995,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Хүсний дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3902504351,
+  "lat": 47.8715028,
+  "lon": 106.8064111,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Мах, ногооны дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3902505605,
+  "lat": 47.8737019,
+  "lon": 106.8068356,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Ундрам"
+  }
+},
+{
+  "type": "node",
+  "id": 3902509224,
+  "lat": 47.8707836,
+  "lon": 106.8068088,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Ногооны дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3902513344,
+  "lat": 47.8436610,
+  "lon": 106.7264249,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "\"Морингийн даваа\" хүнсний дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3902513346,
+  "lat": 47.8436538,
+  "lon": 106.7263551,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "\"Морингийн даваа\" барааны дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3902514289,
+  "lat": 47.8443577,
+  "lon": 106.7256470,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "\"Family\" хүнсний дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3902603666,
+  "lat": 47.9261282,
+  "lon": 106.9190542,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Нефертити лазер эмчилгээ"
+  }
+},
+{
+  "type": "node",
+  "id": 3902611293,
+  "lat": 47.9109081,
+  "lon": 106.9030579,
+  "tags": {
+    "leisure": "park",
+    "name": "Сагсан бөмбөгийн талбай"
+  }
+},
+{
+  "type": "node",
+  "id": 3902611298,
+  "lat": 47.9082985,
+  "lon": 106.8919130,
+  "tags": {
+    "leisure": "park",
+    "name": "Ногооны тасаг"
+  }
+},
+{
+  "type": "node",
+  "id": 3902611300,
+  "lat": 47.9091133,
+  "lon": 106.9081708,
+  "tags": {
+    "leisure": "park",
+    "name": "Сагсан бөмбөгийн талбай"
+  }
+},
+{
+  "type": "node",
+  "id": 3902611309,
+  "lat": 47.9157725,
+  "lon": 106.9336514,
+  "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "jehovahs_witness",
+    "name": "Еховагийн гэрчүүдийн цуглааны танхим",
+    "name:en": "Kingdom Hall of Jehovah’s Witnesses",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 3904788798,
+  "lat": 47.9141078,
+  "lon": 106.8602998,
+  "tags": {
+    "addr:city": "Улаанбаатар (Ulaanbaatar)",
+    "amenity": "hospital",
+    "name": "Сориг Интеграц Эмнэлэг"
+  }
+},
+{
+  "type": "node",
+  "id": 3906219396,
+  "lat": 47.9186798,
+  "lon": 106.8897330,
+  "tags": {
+    "addr:street": "Dilav' Khutagt Jamsranjav's street",
+    "amenity": "hospital",
+    "name": "Сэтгэшгүй эмнэлэг",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3907822080,
+  "lat": 47.9199335,
+  "lon": 106.9174174,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Их эзэн Чингис Хааны Хөшөө",
+    "name:en": "Chinggis Khaan statue",
+    "name:fr": "Statue Chingis",
+    "name:zh": "成吉思汗雕像"
+  }
+},
+{
+  "type": "node",
+  "id": 3908052847,
+  "lat": 47.9181439,
+  "lon": 106.8913053,
+  "tags": {
+    "addr:street": "Амарсанаагийн гудамж",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Мөнх Тэнгэр Эмнэлэг"
+  }
+},
+{
+  "type": "node",
+  "id": 3908456303,
+  "lat": 47.9229787,
+  "lon": 106.8691833,
+  "tags": {
+    "addr:city": "Улаанбаатар (Ulaanbaatar)",
+    "addr:street": "Ард аюушийн өргөн чөлөө",
+    "name": "PC mall",
+    "name:mn": "PС МАЛЛ",
+    "note": "Баянгол дүүрэг, 3;4-р хороололын эцэст Oргил худалдааны төвийн зүүн талд",
+    "operator": "PC Mall Оргил салбар",
+    "phone": "75753535, 99099493",
+    "shop": "mall",
+    "website": "https://pc-mall.mn/"
+  }
+},
+{
+  "type": "node",
+  "id": 3908459757,
+  "lat": 47.9228116,
+  "lon": 106.8682110,
+  "tags": {
+    "name": "Happy mall",
+    "operator": "солонгос гэр ахуйн барааны дэлгүүр",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 3910347034,
+  "lat": 47.9182062,
+  "lon": 106.9524692,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Г.К.Жуковын хөшөө",
+    "name:en": "Georgy Zhukov’s statue"
+  }
+},
+{
+  "type": "node",
+  "id": 3910396205,
+  "lat": 47.9174174,
+  "lon": 106.8889389,
+  "tags": {
+    "addr:street": "ЭБО зам",
+    "amenity": "hospital",
+    "name": "тод дэлгэц эмнэлэг"
+  }
+},
+{
+  "type": "node",
+  "id": 3912169700,
+  "lat": 47.9292765,
+  "lon": 106.9238373,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Хаяг реклам"
+  }
+},
+{
+  "type": "node",
+  "id": 3912506549,
+  "lat": 47.9230358,
+  "lon": 106.8733937,
+  "tags": {
+    "addr:city": "Улаанбаатар (Ulaanbaatar)",
+    "addr:housenumber": "2 давхарт",
+    "addr:street": "Ард аюушийн өргөн чөлөө",
+    "amenity": "hospital",
+    "name": "Шүдний Эмнэлэг"
+  }
+},
+{
+  "type": "node",
+  "id": 3913092476,
+  "lat": 47.9245407,
+  "lon": 106.9195415,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Хүнсний дэлгүүр"
+  }
+},
+{
+  "type": "node",
+  "id": 3913358065,
+  "lat": 47.9237358,
+  "lon": 106.8875251,
+  "tags": {
+    "name": "Гурван Билэг Их Дэлгүүр",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 3913856147,
+  "lat": 47.9107625,
+  "lon": 106.8372202,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Хархорин 3ах",
+    "name:en": "Kharkhorin zakh"
+  }
+},
+{
+  "type": "node",
+  "id": 3913991165,
+  "lat": 47.9197559,
+  "lon": 106.9172576,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Хүлэг Боорчийн хөшөө",
+    "name:en": "Equestrian statue of Boorchi",
+    "name:zh": "博尔术骑马像"
+  }
+},
+{
+  "type": "node",
+  "id": 3913993549,
+  "lat": 47.9197855,
+  "lon": 106.9176237,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Го ван Мухулайн хөшөө",
+    "name:en": "Equestrian statue of Mukhulai",
+    "name:zh": "木华黎骑马像"
+  }
+},
+{
+  "type": "node",
+  "id": 3914863430,
+  "lat": 47.9194227,
+  "lon": 106.9413553,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Нийгмийн эрүүл мэндийн хүрээлэн"
+  }
+},
+{
+  "type": "node",
+  "id": 3914874483,
+  "lat": 47.9197319,
+  "lon": 106.9416771,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "kingdom of Jesus",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 3931555658,
+  "lat": 47.9240606,
+  "lon": 106.9164938,
+  "tags": {
+    "amenity": "university",
+    "name": "Шинэ иргэншил дээд сургууль",
+    "toilets:wheelchair": "no",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3931602558,
+  "lat": 47.9149311,
+  "lon": 106.9208870,
+  "tags": {
+    "name": "Noritake",
+    "shop": "mall",
+    "toilets:wheelchair": "no",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3931703457,
+  "lat": 47.9169790,
+  "lon": 106.9051437,
+  "tags": {
+    "name": "Алтай төв",
+    "shop": "mall",
+    "toilets:wheelchair": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3931746983,
+  "lat": 47.9184958,
+  "lon": 106.9069772,
+  "tags": {
+    "name": "Silver pen бичиг хэрэг",
+    "shop": "mall",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3931778557,
+  "lat": 47.9180319,
+  "lon": 106.9052840,
+  "tags": {
+    "name": "Таж энэтхэг барааны дэлгүүр",
+    "shop": "mall",
+    "toilets:wheelchair": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3931861858,
+  "lat": 47.9166111,
+  "lon": 106.9446725,
+  "tags": {
+    "name": "Баясах тред",
+    "shop": "mall",
+    "toilets:wheelchair": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3931977057,
+  "lat": 47.9162381,
+  "lon": 106.9357229,
+  "tags": {
+    "name": "Шинэ сонголт тавилгын дэлгүүр",
+    "shop": "mall",
+    "toilets:wheelchair": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4029438993,
+  "lat": 47.9150441,
+  "lon": 106.8957496,
+  "tags": {
+    "addr:street": "Сөүлийн гудамж",
+    "amenity": "hospital",
+    "name": "Урангоо эмнэлэг",
+    "toilets:wheelchair": "no",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4029457339,
+  "lat": 47.9190349,
+  "lon": 106.8916231,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Эндо уламжлалт эмнэлэг",
+    "toilets:wheelchair": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4029460315,
+  "lat": 47.9207731,
+  "lon": 106.8901787,
+  "tags": {
+    "name": "JSP center",
+    "shop": "mall",
+    "toilets:wheelchair": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4029461896,
+  "lat": 47.9196856,
+  "lon": 106.8897361,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Аминаа",
+    "toilets:wheelchair": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4029463789,
+  "lat": 47.9150909,
+  "lon": 106.8989977,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Гарьд магнай эмнэлэг",
+    "name:en": "Garid magnai hospital",
+    "toilets:wheelchair": "no",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4029486666,
+  "lat": 47.9096546,
+  "lon": 106.9129886,
+  "tags": {
+    "addr:street": "Энхтайваны гүүр",
+    "email": "marketing@narangroup.mn",
+    "internet_access": "wlan",
+    "name": "Наран Плаза",
+    "name:en": "Naran Plaza",
+    "opening_hours": "Mo-Su 10:00-21:00",
+    "operator": "Naran Trade LLC",
+    "shop": "mall",
+    "website": "https://www.facebook.com/NaranPlaza/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4058469609,
+  "lat": 47.9048799,
+  "lon": 106.9129282,
+  "tags": {
+    "addr:city": "Ulaanbaatar",
+    "addr:housenumber": "GH",
+    "addr:street": "Чингисийн өргөн чөлөө",
+    "amenity": "hospital",
+    "emergency": "no",
+    "name": "Naradent Family Dental Clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 4111120990,
+  "lat": 47.9215786,
+  "lon": 106.9286532,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Bethany Village Church"
+  }
+},
+{
+  "type": "node",
+  "id": 4119705443,
+  "lat": 47.8922387,
+  "lon": 106.8852805,
+  "tags": {
+    "name": "Big Bowling",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4218403997,
+  "lat": 47.8807285,
+  "lon": 106.9413002,
+  "tags": {
+    "name": "Их тэнгэрийн ам",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4270754545,
+  "lat": 47.9116668,
+  "lon": 106.9448633,
+  "tags": {
+    "addr:street": "Нам Ян Жү-гийн гудамж",
+    "amenity": "place_of_worship",
+    "name": "Christ First Church",
+    "opening_hours": "Su 11:00-12:30",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 4290728384,
+  "lat": 47.9203974,
+  "lon": 106.8949130,
+  "tags": {
+    "name": "Гандан ᠭᠠᠩᠳᠠᠨ",
+    "name:en": "Gandan",
+    "name:mn": "Гандан",
+    "name:mn-Mong": "ᠭᠠᠩᠳᠠᠨ",
+    "name:ru": "Гандан",
+    "name:zh": "甘丹",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4293551589,
+  "lat": 47.9216884,
+  "lon": 106.9246840,
+  "tags": {
+    "name": "Museum of geology and mineral resources",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4338384897,
+  "lat": 47.9315470,
+  "lon": 106.6829823,
+  "tags": {
+    "name": "한몽시범마을",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4455051598,
+  "lat": 47.8945957,
+  "lon": 106.8811382,
+  "tags": {
+    "name": "89-р байр",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4484720691,
+  "lat": 47.9208223,
+  "lon": 106.9743638,
+  "tags": {
+    "amenity": "hospital",
+    "name": "төгсун эмнэлэг"
+  }
+},
+{
+  "type": "node",
+  "id": 4486155791,
+  "lat": 47.9119648,
+  "lon": 106.8289587,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Улаанбаатар төв баптист сүм",
+    "name:en": "Ulaanbaatar center baptist church",
+    "name:ko": "울란바타르중앙교회",
+    "name:mn": "Улаанбаатар төв баптист сүм",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 4486184989,
+  "lat": 47.9207659,
+  "lon": 106.9700560,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Улаанбаатар зүүн баптист сүм",
+    "name:en": "Ulaanbaatar east baptist church",
+    "name:ko": "mongolia",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 4504627269,
+  "lat": 47.8544065,
+  "lon": 106.7656119,
+  "tags": {
+    "name": "Chinggis Khan Portrait",
+    "name:ja": "チンギスハーンの肖像画",
+    "source": "bing",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4504809297,
+  "lat": 47.9966921,
+  "lon": 106.9436899,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "stele",
+    "name": "Mongolian Map",
+    "name:ja": "モンゴル国地図",
+    "source": "GPS;photograph"
+  }
+},
+{
+  "type": "node",
+  "id": 4504809298,
+  "lat": 47.9964633,
+  "lon": 106.9431561,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "stele",
+    "name": "世界人類が平和でありますように",
+    "source": "GPS;photograph"
+  }
+},
+{
+  "type": "node",
+  "id": 4504809299,
+  "lat": 47.9966885,
+  "lon": 106.9424319,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "stele",
+    "name": "受難の御霊安らかに",
+    "source": "GPS;photograph"
+  }
+},
+{
+  "type": "node",
+  "id": 4514852189,
+  "lat": 47.9277816,
+  "lon": 106.9061961,
+  "tags": {
+    "amenity": "place_of_worship",
+    "email": "baysacfm@mail.ru",
+    "name": "\"Ваарчны гэр\" Христийн цуглаан",
+    "name:en": "\"The Potter's House\" Christian church",
+    "name:ru": "\"Дом Горшечника\" Христианские церковь",
+    "opening_hours": "We 19:00-21:00; Su 11:00-13:00",
+    "phone": "99928862"
+  }
+},
+{
+  "type": "node",
+  "id": 4533102076,
+  "lat": 47.9193953,
+  "lon": 106.9014413,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Тавин ус ЭХНБ",
+    "name:en": "fifty water physical"
+  }
+},
+{
+  "type": "node",
+  "id": 4565165789,
+  "lat": 47.9026857,
+  "lon": 106.9440878,
+  "tags": {
+    "amenity": "theatre",
+    "email": "khadgaa@circusmongolia.mn",
+    "name": "Хадгаа цирк",
+    "name:en": "Circus Mongolia Khadgaa",
+    "website": "http://www.circusmongolia.mn"
+  }
+},
+{
+  "type": "node",
+  "id": 4572221190,
+  "lat": 47.9185955,
+  "lon": 107.1078148,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Улаанбаатар Буян",
+    "name:en": "Ulaanbaatar Buyan",
+    "name:mn": "Улаанбаатар Буян"
+  }
+},
+{
+  "type": "node",
+  "id": 4656568289,
+  "lat": 47.8972666,
+  "lon": 106.9203187,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Хүннү хороолол",
+    "name:mn": "Хүннү хороолол",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 4693474093,
+  "lat": 47.9129453,
+  "lon": 106.9153323,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "\"Маамуу нааш ир\" хүүхдийн дууны хөшөө",
+    "name:en": "\"Maamuu naash ir\" song's memorial",
+    "name:es": "\"Maamuu naash ir\" Canción para bebes",
+    "name:mn": "\"Маамуу нааш ир\" хүүхдийн дууны хөшөө",
+    "name:ru": "Детская песня \"Маамуу нааш ир\""
+  }
+},
+{
+  "type": "node",
+  "id": 4739995825,
+  "lat": 47.9124362,
+  "lon": 106.8816423,
+  "tags": {
+    "addr:housenumber": "12",
+    "addr:street": "Энх тайваны өргөн чөлөө",
+    "name": "Hoome",
+    "name:mn": "Hoome",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4759218752,
+  "lat": 47.9198049,
+  "lon": 106.9390761,
+  "tags": {
+    "name": "Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4784031421,
+  "lat": 47.9178261,
+  "lon": 106.8715179,
+  "tags": {
+    "name": "Кибер арена",
+    "name:en": "Cyber arena",
+    "opening_hours": "24/7",
+    "phone": "91911272",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5030790921,
+  "lat": 47.9197068,
+  "lon": 106.8957372,
+  "tags": {
+    "addr:street": "Өндөр гэгээн Занабазарын гудамж",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Гарьдманлай",
+    "name:en": "Gardmanlai"
+  }
+},
+{
+  "type": "node",
+  "id": 5040881721,
+  "lat": 47.9660840,
+  "lon": 106.8347630,
+  "tags": {
+    "addr:street": "Уул 5",
+    "email": "lantuundohio@gmail.com",
+    "historic": "castle",
+    "name": "Ид шидийн орон",
+    "name:en": "Id shidiin oron",
+    "name:mn": "Ид шидийн орон",
+    "opening_hours": "24/7",
+    "website": "https://molantuundohio.wpengine.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5043212620,
+  "lat": 47.9185372,
+  "lon": 106.9176869,
+  "tags": {
+    "name": "Улаанбаатар хотын төв тэг цэг",
+    "name:en": "The Zero point of the Ulaanbaatar city",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5093488523,
+  "lat": 47.8770658,
+  "lon": 106.9116485,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Зайсангийн автобусны эцсийн зогсоол",
+    "name:en": "Zaisan the last stop",
+    "name:mn": "Зайсангийн автобусны эцсийн зогсоол",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 5132423622,
+  "lat": 47.9129510,
+  "lon": 106.9000136,
+  "tags": {
+    "addr:city": "Ulaanbaatar",
+    "addr:street": "Сөүлийн гудамж",
+    "email": "info@narangroup.mn",
+    "internet_access": "wlan",
+    "name": "Naran mall",
+    "opening_hours": "Mo-Su 10:00-21:00",
+    "operator": "Naran Trade LLC",
+    "phone": "70136918",
+    "shop": "mall",
+    "toilets:wheelchair": "no",
+    "website": "https://www.facebook.com/NaranMallOfficial/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5206639524,
+  "lat": 47.9128662,
+  "lon": 106.9783386,
+  "tags": {
+    "amenity": "bus_station",
+    "name": "Зүүн аймгуудын авто вокзал"
+  }
+},
+{
+  "type": "node",
+  "id": 5287432825,
+  "lat": 47.8371707,
+  "lon": 106.8831592,
+  "tags": {
+    "name": "Баруун ширээт",
+    "name:en": "hadnii ehlel",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5289269880,
+  "lat": 47.9885297,
+  "lon": 106.8276930,
+  "tags": {
+    "name": "Зүүн салаа ᠵᠡᠭᠦᠨ ᠰᠠᠯᠠᠭ᠎ᠠ",
+    "name:en": "Zuun salaa",
+    "name:mn": "Зүүн салаа",
+    "name:mn-Mong": "ᠵᠡᠭᠦᠨ ᠰᠠᠯᠠᠭ᠎ᠠ",
+    "name:zh": "左区",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 5336242722,
+  "lat": 47.9130328,
+  "lon": 106.8780433,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Астма",
+    "name:en": "Astma"
+  }
+},
+{
+  "type": "node",
+  "id": 5363865815,
+  "lat": 47.9124859,
+  "lon": 106.8988045,
+  "tags": {
+    "addr:city": "Ulan Bator",
+    "addr:country": "MN",
+    "amenity": "hospital",
+    "facebook": "https://www.facebook.com/Nogoolinofficial/",
+    "name": "Ногоолин эмнэлэг"
+  }
+},
+{
+  "type": "node",
+  "id": 5389517628,
+  "lat": 47.9281019,
+  "lon": 106.9787726,
+  "tags": {
+    "name": "Цайз ᠴᠠᠶᠢᠵᠠ",
+    "name:en": "Tsayz",
+    "name:mn": "Цайз",
+    "name:mn-Mong": "ᠴᠠᠶᠢᠵᠠ",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 5389517629,
+  "lat": 47.9359150,
+  "lon": 106.9718840,
+  "tags": {
+    "name": "Алтан өлгий ᠠᠯᠲᠠᠨ ᠥᠯᠥᠭᠡᠢ",
+    "name:en": "Altan Ölgiy",
+    "name:mn": "Алтан өлгий",
+    "name:mn-Mong": "ᠠᠯᠲᠠᠨ ᠥᠯᠥᠭᠡᠢ",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 5498820223,
+  "lat": 47.9076058,
+  "lon": 106.7950060,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Наркологийн Эмнэлэг",
+    "name:en": "Narcologiin emneleg"
+  }
+},
+{
+  "type": "node",
+  "id": 5578052566,
+  "lat": 47.9184382,
+  "lon": 106.9869693,
+  "tags": {
+    "name": "Улаанхуаран ᠤᠯᠠᠭᠠᠨ ᠬᠤᠸᠠᠷᠠᠨ",
+    "name:en": "Ulaankhuaran",
+    "name:mn": "Улаанхуаран",
+    "name:mn-Mong": "ᠤᠯᠠᠭᠠᠨ ᠬᠤᠸᠠᠷᠠᠨ",
+    "name:ru": "Уланхуаран",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 5666678721,
+  "lat": 47.8314875,
+  "lon": 106.8450438,
+  "tags": {
+    "addr:housenumber": "003",
+    "addr:postcode": "50503",
+    "addr:street": "Нүхтийн зам",
+    "historic": "castle",
+    "name": "nukht",
+    "name:mn": "нүхт"
+  }
+},
+{
+  "type": "node",
+  "id": 5677299521,
+  "lat": 47.9004302,
+  "lon": 107.0853324,
+  "tags": {
+    "name": "tuul",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5730346522,
+  "lat": 47.9275398,
+  "lon": 106.9219477,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Шагшаа чих хамар хоолой эмнэлэг"
+  }
+},
+{
+  "type": "node",
+  "id": 5793785353,
+  "lat": 47.9168636,
+  "lon": 106.8565486,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Амин заяа",
+    "name:en": "aminzaya"
+  }
+},
+{
+  "type": "node",
+  "id": 5821815055,
+  "lat": 47.9545467,
+  "lon": 106.9146493,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "16-р хороо ӨЭМТ"
+  }
+},
+{
+  "type": "node",
+  "id": 5821833553,
+  "lat": 47.9526539,
+  "lon": 106.8886001,
+  "tags": {
+    "amenity": "hospital",
+    "name": "ЧД 12-р хороо ӨЭМТ"
+  }
+},
+{
+  "type": "node",
+  "id": 5881518694,
+  "lat": 47.9146266,
+  "lon": 106.9146671,
+  "tags": {
+    "addr:city": "улаанбаатар",
+    "addr:housenumber": "56",
+    "addr:street": "Сөүлийн гудамж",
+    "amenity": "theatre",
+    "name": "Улсын Хүүхэлдэйн театр",
+    "name:en": "State Puppet Theater",
+    "operator": "Puppet theatre Mongolia"
+  }
+},
+{
+  "type": "node",
+  "id": 6022754585,
+  "lat": 47.9251275,
+  "lon": 106.9047661,
+  "tags": {
+    "addr:street": "Их тойрог",
+    "amenity": "place_of_worship",
+    "name": "Долоо Дахь Өдрийн Адвентист Сүм",
+    "name:en": "Seventh Day Adventist Church",
+    "opening_hours": "Sa 10:00-14:00",
+    "phone": "99790898"
+  }
+},
+{
+  "type": "node",
+  "id": 6022754885,
+  "lat": 47.9128321,
+  "lon": 106.8600888,
+  "tags": {
+    "addr:housenumber": "72",
+    "amenity": "place_of_worship",
+    "name": "Монголын Адвентист Чуулган",
+    "name:en": "Mongolia Mission",
+    "phone": "70182490"
+  }
+},
+{
+  "type": "node",
+  "id": 6054062910,
+  "lat": 47.9187192,
+  "lon": 106.8182336,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Натул Эмнэлэг",
+    "name:en": "Natul Hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 6309657185,
+  "lat": 47.9152634,
+  "lon": 106.8625961,
+  "tags": {
+    "addr:postcode": "16081",
+    "addr:street": "Энх тайваны өргөн чөлөө",
+    "amenity": "hospital",
+    "internet_access": "wlan",
+    "name": "ЭМ БИ ЖИ гэмтэл согогийн эмнэлэг",
+    "name:en": "MBG traumatological hospital",
+    "opening_hours": "24/7",
+    "phone": "75772828"
+  }
+},
+{
+  "type": "node",
+  "id": 6348081788,
+  "lat": 47.9160571,
+  "lon": 106.9274247,
+  "tags": {
+    "addr:street": "Г.Чагдаржавын гудамж",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "ICU Ulaanbator Hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 6362947689,
+  "lat": 47.9562742,
+  "lon": 106.8268722,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Cym"
+  }
+},
+{
+  "type": "node",
+  "id": 6469155585,
+  "lat": 47.8938433,
+  "lon": 106.8798655,
+  "tags": {
+    "addr:street": "Чингисийн өргөн чөлөө",
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Лавай авто буудал",
+    "name:en": "Lavai bus terminal",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 6544044085,
+  "lat": 47.8936535,
+  "lon": 106.8807646,
+  "tags": {
+    "amenity": "bus_station",
+    "name": "Лавай автобуудал",
+    "name:en": "Lavai autobús station",
+    "name:ru": "Лавай автовокзал",
+    "opening_hours": "Mo-Su 07:00-21:00"
+  }
+},
+{
+  "type": "node",
+  "id": 6584382786,
+  "lat": 47.9206190,
+  "lon": 106.9458635,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Бум энэрэл",
+    "name:en": "Bum enerel"
+  }
+},
+{
+  "type": "node",
+  "id": 6584382789,
+  "lat": 47.9093783,
+  "lon": 106.9423672,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Цэнд манал",
+    "name:en": "Tsend manal"
+  }
+},
+{
+  "type": "node",
+  "id": 6586136785,
+  "lat": 47.9134490,
+  "lon": 106.9779678,
+  "tags": {
+    "amenity": "bus_station",
+    "name": "Баянзүрх авто вокзал",
+    "name:en": "Bayanzurkh Bus Terminal"
+  }
+},
+{
+  "type": "node",
+  "id": 6615261886,
+  "lat": 47.9156144,
+  "lon": 106.9156051,
+  "tags": {
+    "name": "Ulaanbaatar sign",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 6666601186,
+  "lat": 47.9253850,
+  "lon": 106.9239089,
+  "tags": {
+    "name": "HYPE",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 6897791817,
+  "lat": 47.9214031,
+  "lon": 106.8574916,
+  "tags": {
+    "addr:street": "ард Аюуш",
+    "amenity": "bus_station",
+    "bus": "yes",
+    "description": "автобусны буудал",
+    "name": "Гэмтэл засал",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 6897814333,
+  "lat": 47.9198138,
+  "lon": 106.8546564,
+  "tags": {
+    "addr:street": "ард Аюуш",
+    "amenity": "bus_station",
+    "description": "автобусны буудал",
+    "name": "Дэнж"
+  }
+},
+{
+  "type": "node",
+  "id": 6908006775,
+  "lat": 47.9220925,
+  "lon": 106.9187546,
+  "tags": {
+    "amenity": "university",
+    "check_date": "2024-08-14",
+    "description": "Erdem Tower",
+    "name": "Graduate University of Mongolia",
+    "website": "www.gradedu.mn"
+  }
+},
+{
+  "type": "node",
+  "id": 7272382085,
+  "lat": 47.9020653,
+  "lon": 106.9014188,
+  "tags": {
+    "addr:street": "То вангийн Гудамж",
+    "historic": "castle",
+    "name": "ТЭХИЙН ЗОГСООЛ",
+    "name:en": "Tehiin zogsool",
+    "phone": "201820192020"
+  }
+},
+{
+  "type": "node",
+  "id": 7294925328,
+  "lat": 47.9146497,
+  "lon": 106.8939749,
+  "tags": {
+    "addr:city": "Улаанбаатар (Ulaanbaatar)",
+    "addr:floor": "14",
+    "addr:postcode": "16050",
+    "addr:street": "Энх тайваны өргөн чөлөө",
+    "addr:unit": "1401",
+    "amenity": "hospital",
+    "contact:facebook": "https://www.facebook.com/VeneraVIPClinic",
+    "description": "Beauty service, Beauty Treatment, Plastic Surgery, Clinic\nat 14th floor",
+    "email": "veneravipclinic@gmail.com",
+    "healthcare": "hospital",
+    "healthcare:speciality": "surgery;dermatology;neurology;clinic;plastic_surgery",
+    "internet_access": "wlan",
+    "internet_access:ssid": "Venera V.I.P Clinic",
+    "level": "13",
+    "name": "Venera V.I.P Clinic",
+    "opening_hours": "24/7",
+    "operator": "Neon Gyalbaa Co., LTD",
+    "operator:type": "private",
+    "phone": "+976 7011 5090",
+    "start_date": "2020-02-02",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7294925329,
+  "lat": 47.9141625,
+  "lon": 106.8782132,
+  "tags": {
+    "addr:city": "Улаанбаатар (Ulaanbaatar)",
+    "addr:postcode": "16052",
+    "addr:street": "Энх тайваны өргөн чөлөө",
+    "amenity": "hospital",
+    "description": "Aesthetic, medical beauty, professional beauty, medical, laser therapy, daycare service, filler, botox, immune infusion, PDO, tattoo, Ulthera, Ozone, Plastic surgery",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "dermatology;plastic_surgery;clinic",
+    "internet_access": "yes",
+    "name": "Гоо Хатан Медикал",
+    "operator": "Neon Gyalbaa Co., LTD",
+    "operator:type": "private",
+    "phone": "+976 70117150",
+    "start_date": "2009-2-10"
+  }
+},
+{
+  "type": "node",
+  "id": 7296843888,
+  "lat": 47.9319426,
+  "lon": 106.8873251,
+  "tags": {
+    "historic": "castle",
+    "name": "gandan",
+    "name:en": "temple",
+    "name:mn": "хийд"
+  }
+},
+{
+  "type": "node",
+  "id": 7477670485,
+  "lat": 47.8873996,
+  "lon": 106.9132699,
+  "tags": {
+    "name": "И Тэ Жүн эмчийн дурсгалд зориулсан цэцэрлэгт хүрээлэн",
+    "name:en": "Dr. Lee Tae-joon Memorial Park",
+    "name:ko": "이태준기념관",
+    "name:mn": "И Тэ Жүн эмчийн дурсгалд зориулсан цэцэрлэгт хүрээлэн",
+    "name:ru": "Мемориальный зал Ли Тэ Чжуна",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 7939368570,
+  "lat": 47.8840873,
+  "lon": 106.9116296,
+  "tags": {
+    "addr:city": "Ulaanbaatar",
+    "addr:postcode": "17020",
+    "addr:street": "Zaisan toiruu",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "facebook": "https://www.facebook.com/goldenLUXORclinic/",
+    "healthcare": "hospital",
+    "healthcare:speciality": "dermatology;neurology;general;clinic;dermatology;plastic_surgery;traditional_chinese_medicine;surgery;acupuncture;orthopedic",
+    "name": "Golden LUXOR Beauty Clinic",
+    "operator": "Plastic surgeon",
+    "operator:type": "public"
+  }
+},
+{
+  "type": "node",
+  "id": 8060715578,
+  "lat": 47.9049678,
+  "lon": 106.9488418,
+  "tags": {
+    "amenity": "bus_station",
+    "name": "Дүнжингарав"
+  }
+},
+{
+  "type": "node",
+  "id": 8129232789,
+  "lat": 47.9292434,
+  "lon": 106.9719872,
+  "tags": {
+    "historic": "memorial",
+    "name": "cemetery"
+  }
+},
+{
+  "type": "node",
+  "id": 8129232790,
+  "lat": 47.9303920,
+  "lon": 106.9716925,
+  "tags": {
+    "historic": "memorial",
+    "name": "cemetery"
+  }
+},
+{
+  "type": "node",
+  "id": 8411124317,
+  "lat": 47.8564502,
+  "lon": 107.0450961,
+  "tags": {
+    "name": "Хад",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 8553668569,
+  "lat": 47.9143585,
+  "lon": 106.8920603,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Тэнгэрлэг гоо",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "node",
+  "id": 8568506017,
+  "lat": 47.9979649,
+  "lon": 106.8960531,
+  "tags": {
+    "amenity": "theatre",
+    "name": "Эрдмийн задгай театр",
+    "name:en": "Erdmiin zadgai theatre"
+  }
+},
+{
+  "type": "node",
+  "id": 8568548531,
+  "lat": 47.9977538,
+  "lon": 106.8991779,
+  "tags": {
+    "name": "Хайрхан хөгжлийн төв",
+    "name:en": "Khairkhan cultural center",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 8662472576,
+  "lat": 47.9431646,
+  "lon": 106.9036877,
+  "tags": {
+    "amenity": "bus_station",
+    "name": "Хүчит шонхор автобусны буудал"
+  }
+},
+{
+  "type": "node",
+  "id": 8727846980,
+  "lat": 47.9251344,
+  "lon": 106.9382190,
+  "tags": {
+    "amenity": "university",
+    "name": "Утга зохиолын нийгмийн ажилтаны дээд сургууль"
+  }
+},
+{
+  "type": "node",
+  "id": 8947848865,
+  "lat": 47.9257592,
+  "lon": 106.9225263,
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:housenumber": "GB center 403 toot",
+    "addr:street": "Бага Тойруу",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "dentist;general",
+    "name": "GB dent шүдний эмнэлэг"
+  }
+},
+{
+  "type": "node",
+  "id": 9097540518,
+  "lat": 47.8822780,
+  "lon": 106.9114494,
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:housenumber": "206",
+    "addr:street": "Zaisan toiruu",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "gynaecology",
+    "name": "\"WHC\" Women's health center",
+    "operator": "Ариун",
+    "operator:type": "business"
+  }
+},
+{
+  "type": "node",
+  "id": 9157189883,
+  "lat": 47.9144353,
+  "lon": 106.8424803,
+  "tags": {
+    "name": "1-р хороолол ᠑ ᠳᠦᠭᠡᠷ ᠬᠣᠷᠢᠶᠠᠯᠠᠯ",
+    "name:mn": "1-р хороолол",
+    "name:mn-Cyrl": "1-р хороолол",
+    "name:mn-Mong": "᠑ ᠳᠦᠭᠡᠷ ᠬᠣᠷᠢᠶᠠᠯᠠᠯ",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9214491017,
+  "lat": 47.9198366,
+  "lon": 106.9166916,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Өгөдэй Хааны Хөшөө",
+    "name:en": "Ögedei Khan statue",
+    "name:zh": "窝阔台雕像"
+  }
+},
+{
+  "type": "node",
+  "id": 9214491018,
+  "lat": 47.9199427,
+  "lon": 106.9181687,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Хубилай Хааны Хөшөө",
+    "name:en": "Kublai Khan statue",
+    "name:zh": "忽必烈雕像"
+  }
+},
+{
+  "type": "node",
+  "id": 9299775488,
+  "lat": 47.9330311,
+  "lon": 107.0080523,
+  "tags": {
+    "name": "Шархад ᠰᠢᠷ᠎ᠠ ᠬᠠᠳᠠ",
+    "name:en": "Sharkhad",
+    "name:mn": "Шархад",
+    "name:mn-Mong": "ᠰᠢᠷ᠎ᠠ ᠬᠠᠳᠠ",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9299775489,
+  "lat": 47.9201577,
+  "lon": 106.6961932,
+  "tags": {
+    "name": "Тахилт ᠲᠠᠬᠢᠯᠲᠤ",
+    "name:mn": "Тахилт",
+    "name:mn-Mong": "ᠲᠠᠬᠢᠯᠲᠤ",
+    "name:zh": "塔希尔图",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9299775491,
+  "lat": 47.9876229,
+  "lon": 106.8019237,
+  "tags": {
+    "name": "Баруун салаа ᠪᠠᠷᠠᠭᠤᠨ ᠰᠠᠯᠠᠭ᠎ᠠ",
+    "name:en": "Baruun salaa",
+    "name:mn": "Баруун салаа",
+    "name:mn-Mong": "ᠪᠠᠷᠠᠭᠤᠨ ᠰᠠᠯᠠᠭ᠎ᠠ",
+    "name:zh": "右区",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9299775492,
+  "lat": 47.8430601,
+  "lon": 106.6779163,
+  "tags": {
+    "name": "Биокомбинат ᠪᠢᠣᠺᠣᠮᠪᠢᠨᠠᠲ",
+    "name:en": "Biokombinat",
+    "name:mn": "Биокомбинат",
+    "name:mn-Mong": "ᠪᠢᠣᠺᠣᠮᠪᠢᠨᠠᠲ",
+    "name:zh": "比奥康比纳特",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9314838230,
+  "lat": 47.9407791,
+  "lon": 106.9376541,
+  "tags": {
+    "name": "Дарь-Эх ᠳᠠᠷᠢ ᠡᠬᠡ",
+    "name:en": "Dari-Ekh",
+    "name:mn": "Дарь-Эх",
+    "name:mn-Mong": "ᠳᠠᠷᠢ ᠡᠬᠡ",
+    "name:ru": "Дарь-Эх",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9724413680,
+  "lat": 47.9289380,
+  "lon": 106.7952099,
+  "tags": {
+    "addr:district": "Сонгинохайрхан",
+    "addr:province": "Улаанбаатар",
+    "addr:subdistrict": "Хороо 36",
+    "amenity": "hospital",
+    "contact:facebook": "N/A",
+    "healthcare": "medical",
+    "insurance": "no",
+    "name": "Эхэн босго-2 өрхийн эрүүл мэндийн төв",
+    "name:en": "Ekhen Bosgo-2 Family health center",
+    "operator": "N/A",
+    "phone:mobile": "N/A",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 9832292417,
+  "lat": 47.9291326,
+  "lon": 106.9679007,
+  "tags": {
+    "amenity": "hospital",
+    "name": "22 дугаар хороо",
+    "name:en": "22 khoroo BZD",
+    "name:mn": "22 дугаар хороо БЗД"
+  }
+},
+{
+  "type": "node",
+  "id": 10245904310,
+  "lat": 47.9340250,
+  "lon": 106.9229809,
+  "tags": {
+    "addr:street": "Хангай хотхон",
+    "amenity": "hospital",
+    "name": "100 нас",
+    "name:en": "100 years old",
+    "opening_hours": "Mo-Su 09:00-08:00"
+  }
+},
+{
+  "type": "node",
+  "id": 10301901439,
+  "lat": 47.9076603,
+  "lon": 106.7919489,
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Нууц увидас рашаан эмнэлэг"
+  }
+},
+{
+  "type": "node",
+  "id": 10588508755,
+  "lat": 47.9226701,
+  "lon": 106.9167975,
+  "tags": {
+    "name": "Бага Тойрог ᠪᠠᠭ᠎ᠠ ᠲᠣᠭᠣᠷᠢᠭ",
+    "name:en": "Baga Toirog",
+    "name:mn": "Бага Тойрог",
+    "name:mn-Cyrl": "Бага Тойрог",
+    "name:mn-Mong": "ᠪᠠᠭ᠎ᠠ ᠲᠣᠭᠣᠷᠢᠭ",
+    "name:ru": "Нижний район",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 10760126695,
+  "lat": 47.9143509,
+  "lon": 106.9067829,
+  "tags": {
+    "check_date": "2025-08-22",
+    "historic": "memorial",
+    "material": "granite",
+    "memorial": "statue",
+    "name": "Цэрэндоржийн хөшөө"
+  }
+},
+{
+  "type": "node",
+  "id": 11016639699,
+  "lat": 47.9147840,
+  "lon": 107.0377778,
+  "tags": {
+    "name": "Улиастай ᠤᠯᠢᠶᠠᠰᠤᠲᠠᠢ",
+    "name:en": "Uliastai",
+    "name:mn": "Улиастай",
+    "name:mn-Mong": "ᠤᠯᠢᠶᠠᠰᠤᠲᠠᠢ",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 11158556612,
+  "lat": 47.8865047,
+  "lon": 106.9157305,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "Памяти о Советских воинах"
+  }
+},
+{
+  "type": "node",
+  "id": 11158556613,
+  "lat": 47.8868411,
+  "lon": 106.9153928,
+  "tags": {
+    "historic": "monument",
+    "name": "Серп и Молот"
+  }
+},
+{
+  "type": "node",
+  "id": 11251277309,
+  "lat": 47.9105945,
+  "lon": 106.7980957,
+  "tags": {
+    "amenity": "bus_station",
+    "name": "Зорчигч Тээврийн Төв Bus Terminal"
+  }
+},
+{
+  "type": "node",
+  "id": 11253083130,
+  "lat": 47.9151814,
+  "lon": 106.8850903,
+  "tags": {
+    "amenity": "theatre",
+    "name": "Ган Зам Палас",
+    "name:en": "Ganzam Palace"
+  }
+},
+{
+  "type": "node",
+  "id": 11253107200,
+  "lat": 47.9152768,
+  "lon": 106.8850710,
+  "tags": {
+    "name": "Song and Dance Ensemble of the Ulaanbaatar Railway",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 11581108064,
+  "lat": 47.8758411,
+  "lon": 106.9107295,
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:street": "Тэнгэр рашааны гудамж",
+    "amenity": "hospital",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "name": "Grandmed hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 11581108066,
+  "lat": 47.8763329,
+  "lon": 106.9122080,
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:street": "Тэнгэр рашааны гудамж",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 11634160786,
+  "lat": 47.9140802,
+  "lon": 106.9157010,
+  "tags": {
+    "addr:city": "улаанбаатар",
+    "addr:street": "Чингисийн өргөн чөлөө",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "эрчид сур"
+  }
+},
+{
+  "type": "node",
+  "id": 11659328480,
+  "lat": 47.9202231,
+  "lon": 106.9027586,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Жаст маркет",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11659376881,
+  "lat": 47.9046279,
+  "lon": 106.8816490,
+  "tags": {
+    "name": "Гүрү төв",
+    "shop": "mall",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11681080757,
+  "lat": 47.9197055,
+  "lon": 106.9284374,
+  "tags": {
+    "amenity": "university",
+    "name": "МУИС хичээлийн 8-р байр Бизнесийн сургууль",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11681082078,
+  "lat": 47.9153332,
+  "lon": 106.8589686,
+  "tags": {
+    "amenity": "hospital",
+    "deaf:description": "yes",
+    "deaf:description:mn": "Тод чанга ярьдаг, бас цаастай",
+    "elevator": "yes",
+    "healthcare": "hospital",
+    "name": "Эндомед эмнэлэг",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11683085677,
+  "lat": 47.9248281,
+  "lon": 106.9213855,
+  "tags": {
+    "amenity": "hospital",
+    "deaf:description": "friendly",
+    "healthcare": "hospital",
+    "name": "ADA шүдний эмнэлэг",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 11683098422,
+  "lat": 47.9150110,
+  "lon": 106.8898613,
+  "tags": {
+    "name": "TV mall ger ahui",
+    "shop": "mall",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11683392817,
+  "lat": 47.9179503,
+  "lon": 106.9154557,
+  "tags": {
+    "name": "Гүрэн гэр ахуйн бараа",
+    "shop": "mall",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11683452228,
+  "lat": 47.9246858,
+  "lon": 106.9503115,
+  "tags": {
+    "elevator": "yes",
+    "name": "Millennium mall",
+    "shop": "mall",
+    "wall:handle": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 11683479582,
+  "lat": 47.9201261,
+  "lon": 106.9274548,
+  "tags": {
+    "amenity": "university",
+    "name": "МУИС хичээлийн 7-о байр",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 11683484805,
+  "lat": 47.9177734,
+  "lon": 106.8167783,
+  "tags": {
+    "name": "Эрдэнэст өв",
+    "shop": "mall",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 11868528346,
+  "lat": 47.9245244,
+  "lon": 106.9032839,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "11-р хороо",
+    "toilets:wheelchair": "limited",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11908774440,
+  "lat": 47.9246482,
+  "lon": 106.8900138,
+  "tags": {
+    "amenity": "hospital",
+    "deaf:description": "no",
+    "deaf:description:mn": "Байгууллагын мэдээлэл тодорхой ойлгомжтой байсан",
+    "deaf:favourable": "yes",
+    "healthcare": "hospital",
+    "name": "Gurvan Gal Hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 11924438569,
+  "lat": 47.9107146,
+  "lon": 106.8203815,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Автовокзал \"Драгон\"",
+    "name:ru": "Автовокзал \"Драгон\"",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 12695634204,
+  "lat": 47.9007854,
+  "lon": 106.6882217,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Buddhist Temple"
+  }
+},
+{
+  "type": "node",
+  "id": 12987284893,
+  "lat": 47.8662775,
+  "lon": 106.8390170,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Bumjurmed Уламжлалт Эмнэлэг"
+  }
+},
+{
+  "type": "node",
+  "id": 13183728760,
+  "lat": 47.8559708,
+  "lon": 106.7723540,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "ПИРАМИД АПАРТМЕНТ"
+  }
+},
+{
+  "type": "node",
+  "id": 13703220988,
+  "lat": 47.8558221,
+  "lon": 106.7720376,
+  "tags": {
+    "historic": "wayside_shrine",
+    "name": "Залбирлын хүрд"
+  }
+},
+{
+  "type": "node",
+  "id": 13704705867,
+  "lat": 47.8841573,
+  "lon": 106.9497783,
+  "tags": {
+    "archaeological_site": "petroglyph",
+    "historic": "archaeological_site",
+    "name": "Их тэнгэрийн амны хадны зураг"
+  }
+},
+{
+  "type": "node",
+  "id": 13914282979,
+  "lat": 47.8932848,
+  "lon": 106.9091030,
+  "tags": {
+    "name": "ASTRA Place",
+    "phone": "+976 9402 3000",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 14006157854,
+  "lat": 47.9188900,
+  "lon": 106.8876131,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Есүс хрисийн хожмын үеийн гэгээнтнүүдийн сүм",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 14311949487,
+  "lat": 47.9217597,
+  "lon": 106.9606766,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Egnin hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 28902695,
+  "center": {
+    "lat": 47.8429127,
+    "lon": 106.7652680
+  },
+  "tags": {
+    "aeroway": "aerodrome",
+    "ele": "1331",
+    "iata": "ULN",
+    "icao": "ZMUB",
+    "int_name": "Buyant-Ukhaa International Airport",
+    "name": "Буянт-Ухаа олон улсын нисэх онгоцны буудал ᠪᠤᠶᠠᠨᠲᠤ ᠬᠤᠸᠠ ᠣᠯᠠᠨ ᠤᠯᠤᠰ ᠦᠨ ᠨᠢᠰᠬᠦ ᠪᠠᠭᠤᠳᠠᠯ",
+    "name:cs": "Čingischánovo mezinárodní letiště",
+    "name:de": "Buyant-Ukhaa International Airport",
+    "name:en": "Buyant-Ukhaa International Airport",
+    "name:es": "Aeropuerto Internacional Gengis Kan",
+    "name:fa": "فرودگاه بین‌المللی بویانت-اوخا",
+    "name:fi": "Chinggis Khaanin kansainvälinen lentoasema",
+    "name:fr": "Aéroport international Gengis Khan",
+    "name:hu": "Dzsingisz Kán nemzetközi repülőtér",
+    "name:id": "Bandar Udara Internasional Chinggis Khaan",
+    "name:it": "Aeroporto Internazionale Gengis Khan",
+    "name:ja": "チンギスハーン国際空港",
+    "name:ko": "칭기즈 칸 국제공항",
+    "name:mn": "Буянт-Ухаа олон улсын нисэх буудал",
+    "name:mn-Cyrl": "Буянт-Ухаа олон улсын нисэх онгоцны буудал",
+    "name:mn-Mong": "ᠪᠤᠶᠠᠨᠲᠤ ᠬᠤᠸᠠ ᠣᠯᠠᠨ ᠤᠯᠤᠰ ᠦᠨ ᠨᠢᠰᠬᠦ ᠪᠠᠭᠤᠳᠠᠯ",
+    "name:nl": "Luchthaven Dzjengis Khan",
+    "name:no": "Djengis Khan internasjonale lufthavn",
+    "name:pl": "Port lotniczy Ułan Bator",
+    "name:pt": "Aeroporto Internacional Buyant-Ukhaa",
+    "name:ru": "Международный аэропорт Буянт-Уха",
+    "name:tg": "Фурудгоҳи бин‌алмилалӣ чнгизхон",
+    "name:vi": "Sân bay quốc tế Thành Cát Tư Hãn",
+    "name:zh": "成吉思汗国际机场",
+    "old_name:en": "Chinggis Khaan International Airport",
+    "website": "https://directorsdirectory.com/buyant-ukhaa-international-airport/",
+    "wikidata": "Q837745",
+    "wikipedia": "en:Buyant-Ukhaa International Airport"
+  }
+},
+{
+  "type": "way",
+  "id": 104431539,
+  "center": {
+    "lat": 47.9226922,
+    "lon": 106.9059338
+  },
+  "tags": {
+    "alt_name:en": "Liberty Square",
+    "name": "Тусгаар тогтнолын талбай",
+    "name:en": "Tusgaar togtnolyn Square",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 108195287,
+  "center": {
+    "lat": 47.9079291,
+    "lon": 106.9291587
+  },
+  "tags": {
+    "addr:street": "Нарны зам",
+    "building": "yes",
+    "name": "Соёолж малл",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 108195289,
+  "center": {
+    "lat": 47.9021660,
+    "lon": 106.9162960
+  },
+  "tags": {
+    "leisure": "stadium",
+    "name": "Төв цэнгэлдэх хүрээлэн",
+    "name:en": "Central Stadium",
+    "name:mn": "Төв цэнгэлдэх хүрээлэн",
+    "sport": "all_sport",
+    "wikidata": "Q1451543",
+    "wikimedia_commons": "Category:National Sports Stadium (Mongolia)",
+    "wikipedia": "en:National Sports Stadium (Mongolia)"
+  }
+},
+{
+  "type": "way",
+  "id": 108195348,
+  "center": {
+    "lat": 47.9153225,
+    "lon": 106.9066057
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Усан оргилуурт талбай",
+    "name:en": "Fountain Square",
+    "name:mn": "Усан оргилуурт талбай",
+    "wikidata": "Q121754284"
+  }
+},
+{
+  "type": "way",
+  "id": 111314444,
+  "center": {
+    "lat": 47.9216809,
+    "lon": 106.9170951
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Төрийн ордны хойд талын цэцэрлэгт хүрээлэн",
+    "name:en": "Government Palace Outdoor Park"
+  }
+},
+{
+  "type": "way",
+  "id": 111314450,
+  "center": {
+    "lat": 47.9096157,
+    "lon": 106.9498948
+  },
+  "tags": {
+    "alt_name": "Олон Улсын Худалдааний төв",
+    "amenity": "marketplace",
+    "name": "Нарантуул зах"
+  }
+},
+{
+  "type": "way",
+  "id": 116949388,
+  "center": {
+    "lat": 47.9138270,
+    "lon": 106.9171505
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Выставка худалдааны төв",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 129013313,
+  "center": {
+    "lat": 47.8946972,
+    "lon": 106.9016945
+  },
+  "tags": {
+    "amenity": "university",
+    "building": "yes",
+    "name": "Orkhon Ikh Surguuli",
+    "source:outline": "Bing Aerial Imagery"
+  }
+},
+{
+  "type": "way",
+  "id": 129230039,
+  "center": {
+    "lat": 47.9234350,
+    "lon": 106.9058266
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:housenumber": "1",
+    "addr:postcode": "15141",
+    "addr:street": "Л. Лааганы гудамж",
+    "building": "museum",
+    "building:levels": "3",
+    "check_date": "2026-07-21",
+    "check_date:opening_hours": "2026-07-21",
+    "contact:facebook": "https://www.facebook.com/naturalmuseum",
+    "fee": "yes",
+    "museum": "natural",
+    "name": "The Natural History Museum of Mongolia",
+    "name:mn": "Байгалийн Түүхийн Музей",
+    "opening_hours": "Tu-Su 09:00-18:00",
+    "operator": "Ministry of Culture",
+    "operator:type": "government",
+    "phone": "+976 70000171",
+    "tourism": "museum",
+    "website": "https://nhm.gov.mn/",
+    "wikidata": "Q2154359",
+    "wikimedia_commons": "Category:Natural History Museum (Ulaanbaatar)",
+    "wikipedia": "en:Mongolian Natural History Museum"
+  }
+},
+{
+  "type": "way",
+  "id": 152651191,
+  "center": {
+    "lat": 47.8543387,
+    "lon": 106.7841061
+  },
+  "tags": {
+    "building": "public",
+    "leisure": "stadium",
+    "name": "Буянт-Ухаа Спорт Цогцолбор"
+  }
+},
+{
+  "type": "way",
+  "id": 155433850,
+  "center": {
+    "lat": 47.9208381,
+    "lon": 106.9153548
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:housenumber": "1",
+    "addr:postcode": "14201",
+    "addr:street": "Жуулчны гудамж",
+    "building": "yes",
+    "building:levels": "4",
+    "email": "nmm@nationalmuseum.mn",
+    "fee": "yes",
+    "name": "Монголын үндэсний түүхийн музей",
+    "name:en": "National Museum of Mongolia",
+    "name:es": "Museo Nacional de Mongolia",
+    "name:zh": "蒙古国家博物馆",
+    "opening_hours": "Tu-Su 09:00-18:00; May 15-Sep 16 Mo-Su 09:00-20:00",
+    "phone": "+976-70110911",
+    "roof:shape": "flat",
+    "toilets:wheelchair": "no",
+    "tourism": "museum",
+    "website": "http://nationalmuseum.mn/",
+    "wheelchair": "limited",
+    "wheelchair:description": "Налуу шат 4:1, Цахилгаан шат байхгүй, Хаалга 90см, Жорлон шаардлага хангахгүй, Босго 4см",
+    "wikidata": "Q2154176",
+    "wikimedia_commons": "Category:National Museum of Mongolia",
+    "wikipedia": "mn:Монголын үндэсний түүхийн музей"
+  }
+},
+{
+  "type": "way",
+  "id": 155443031,
+  "center": {
+    "lat": 47.9232042,
+    "lon": 106.8949379
+  },
+  "tags": {
+    "addr:city": "ulaanbaatar",
+    "amenity": "place_of_worship",
+    "building": "temple",
+    "check_date": "2024-08-06",
+    "name": "Мэгжид Жанрайсиг сүм",
+    "name:en": "Megjid Janraisig temple",
+    "name:zh": "观音殿",
+    "religion": "buddhist",
+    "wikidata": "Q4309776",
+    "wikipedia:pl": "Megdżiddżanrajseg süm"
+  }
+},
+{
+  "type": "way",
+  "id": 155445033,
+  "center": {
+    "lat": 47.9232760,
+    "lon": 106.8763338
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар (Ulaanbaatar)",
+    "addr:street": "Л.Энэбишийн өргөн чөлөө",
+    "building": "yes",
+    "name": "Номин дэлгүүр",
+    "name:en": "Nomin supermarket",
+    "opening_hours": "Mo-Sa 9:00 - 22:00; Su 9:00 - 21:30",
+    "phone": "11366366",
+    "shop": "mall",
+    "website": "https://www.nomin.mn/"
+  }
+},
+{
+  "type": "way",
+  "id": 155447763,
+  "center": {
+    "lat": 47.9230535,
+    "lon": 106.9217180
+  },
+  "tags": {
+    "fixme": "leisure=park is used to define the entire area, this polygon looks to be just the wooded section?",
+    "leisure": "park",
+    "name": "Сургуулийн ногоон талбай"
+  }
+},
+{
+  "type": "way",
+  "id": 155458531,
+  "center": {
+    "lat": 47.9147836,
+    "lon": 106.8574702
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Шастины нэрэмжит Клиникийн Нэгдсэн 3-р энмнэлэг"
+  }
+},
+{
+  "type": "way",
+  "id": 155474217,
+  "center": {
+    "lat": 47.9087995,
+    "lon": 106.9557756
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Өгөөмөр техникийн зах"
+  }
+},
+{
+  "type": "way",
+  "id": 155538708,
+  "center": {
+    "lat": 47.9179125,
+    "lon": 106.8885484
+  },
+  "tags": {
+    "amenity": "hospital",
+    "name": "Баянгол дүүргийн эрүүл мэндийн 7-р төв",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 155541552,
+  "center": {
+    "lat": 47.9182967,
+    "lon": 106.8902899
+  },
+  "tags": {
+    "addr:city": "Ulaanbaatar",
+    "addr:street": "Dilav' Khutagt Jamsranjav's street",
+    "amenity": "place_of_worship",
+    "name": "Төгсбаясгалант хийд",
+    "name:en": "Tugsbayasgalant Monastery",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 155543469,
+  "center": {
+    "lat": 47.9162441,
+    "lon": 106.8996700
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "building": "office",
+    "building:levels": "9",
+    "name": "Канон төв",
+    "name:en": "Canon center",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 155555407,
+  "center": {
+    "lat": 47.9230689,
+    "lon": 106.8735043
+  },
+  "tags": {
+    "name": "Худалдааны төв Б корпус",
+    "operator": "компьютер худалдаа",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 155555410,
+  "center": {
+    "lat": 47.9231733,
+    "lon": 106.8788428
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар (Ulaanbaatar)",
+    "addr:street": "Ард аюушийн өргөн чөлөө",
+    "building": "yes",
+    "name": "K FANCY Солонгос Барааны Дэлгүүр",
+    "operator": "бэлэг дурсгал, гоёл чимэглэл, accesories",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 155559294,
+  "center": {
+    "lat": 47.8940169,
+    "lon": 106.9044612
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Хүрээлэн"
+  }
+},
+{
+  "type": "way",
+  "id": 155563261,
+  "center": {
+    "lat": 47.9173287,
+    "lon": 106.8862020
+  },
+  "tags": {
+    "amenity": "university",
+    "building": "yes",
+    "name": "Мон-Алтиус Биеийн тамирын дээд сургууль"
+  }
+},
+{
+  "type": "way",
+  "id": 155565943,
+  "center": {
+    "lat": 47.9250981,
+    "lon": 106.9223744
+  },
+  "tags": {
+    "amenity": "university",
+    "building": "yes",
+    "level": "3",
+    "name": "ШУТИС 4-р байр",
+    "toilets:wheelchair": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 155772636,
+  "center": {
+    "lat": 47.9198990,
+    "lon": 106.9012605
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:housenumber": "29",
+    "building": "yes",
+    "building:levels": "3",
+    "name": "Бөмбөгөр худалдааны төв-2 (Содон бөмбөгөр)",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 155772643,
+  "center": {
+    "lat": 47.9199778,
+    "lon": 106.9002224
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:housenumber": "28",
+    "building": "yes",
+    "building:levels": "2",
+    "name": "Бөмбөгөр худалдааны төв-1",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 155773906,
+  "center": {
+    "lat": 47.9160873,
+    "lon": 106.8941806
+  },
+  "tags": {
+    "amenity": "university",
+    "building": "yes",
+    "name": "Улаанбаатар дээд сургууль"
+  }
+},
+{
+  "type": "way",
+  "id": 158549482,
+  "center": {
+    "lat": 47.9209336,
+    "lon": 106.9267369
+  },
+  "tags": {
+    "amenity": "university",
+    "building": "yes",
+    "level": "2",
+    "name": "Билиг дунд сургууль"
+  }
+},
+{
+  "type": "way",
+  "id": 158549504,
+  "center": {
+    "lat": 47.9195402,
+    "lon": 106.9245332
+  },
+  "tags": {
+    "amenity": "university",
+    "building": "yes",
+    "building:levels": "3",
+    "description": "A part of this building (2nd floor) is used by MME.",
+    "name": "МУБИС Багшийн Сургууль",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 159028353,
+  "center": {
+    "lat": 47.9223898,
+    "lon": 106.8954887
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "temple",
+    "name": "Гунгаачойлин Дацан",
+    "name:zh": "贡嘎却林扎仓",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 159028354,
+  "center": {
+    "lat": 47.9231903,
+    "lon": 106.8955589
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "temple",
+    "name": "Дүйнхор дацан",
+    "name:zh": "时轮扎仓",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 160959089,
+  "center": {
+    "lat": 47.9095516,
+    "lon": 106.9034582
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "yes",
+    "name": "Саруул market"
+  }
+},
+{
+  "type": "way",
+  "id": 161293767,
+  "center": {
+    "lat": 47.9162972,
+    "lon": 106.9226484
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "alt_name": "Улаанбаатар нэгдсэн лабортори",
+    "amenity": "hospital",
+    "building": "yes",
+    "healthcare": "hospital",
+    "name": "Сонгдо эмнэлэг",
+    "name:en": "Songdo hospital",
+    "name:mn": "Сонгдо эмнэлэг"
+  }
+},
+{
+  "type": "way",
+  "id": 177852814,
+  "center": {
+    "lat": 47.9247937,
+    "lon": 106.9091392
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:street": "бага тойруу",
+    "leisure": "park",
+    "name": "Эрдэнэсийн эрэлд"
+  }
+},
+{
+  "type": "way",
+  "id": 177852821,
+  "center": {
+    "lat": 47.9238194,
+    "lon": 106.9083119
+  },
+  "tags": {
+    "amenity": "university",
+    "building": "yes",
+    "building:levels": "2",
+    "name": "СУИС-ын соёлын боловсролын сургууль"
+  }
+},
+{
+  "type": "way",
+  "id": 177853576,
+  "center": {
+    "lat": 47.9259389,
+    "lon": 106.9114412
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "amenity": "hospital",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "hospital",
+    "name": "Чингэлтэй гэмтэл мэс заслын тасаг"
+  }
+},
+{
+  "type": "way",
+  "id": 177856609,
+  "center": {
+    "lat": 47.9151279,
+    "lon": 106.8841154
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Төмөр замын их сургуулийн урд цэцэрлэгт хүрээлэн"
+  }
+},
+{
+  "type": "way",
+  "id": 177856640,
+  "center": {
+    "lat": 47.9159469,
+    "lon": 106.8841353
+  },
+  "tags": {
+    "addr:city": "улаанбаатар",
+    "addr:street": "Энх тайваны өргөн чөлөө",
+    "amenity": "university",
+    "building": "university",
+    "name": "Төмөр замын их сургууль",
+    "wikidata": "Q16859931"
+  }
+},
+{
+  "type": "way",
+  "id": 177861210,
+  "center": {
+    "lat": 47.9141754,
+    "lon": 106.8795816
+  },
+  "tags": {
+    "addr:street": "Энх тайваны өргөн чөлөө",
+    "amenity": "hospital",
+    "name": "Төгс ялгуун эмнэлэг"
+  }
+},
+{
+  "type": "way",
+  "id": 177861277,
+  "center": {
+    "lat": 47.9177466,
+    "lon": 106.8789238
+  },
+  "tags": {
+    "addr:city": "Ulaanbaatar",
+    "addr:street": "Жалханз хутагт Дамдинбазарын гудамж",
+    "amenity": "hospital",
+    "building": "yes",
+    "emergency": "yes",
+    "name": "Нялхасын Клиник Сувилал"
+  }
+},
+{
+  "type": "way",
+  "id": 198248143,
+  "center": {
+    "lat": 47.9601134,
+    "lon": 106.8390653
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Өгөөж зах"
+  }
+},
+{
+  "type": "way",
+  "id": 198248295,
+  "center": {
+    "lat": 47.9589403,
+    "lon": 106.8379926
+  },
+  "tags": {
+    "amenity": "hospital",
+    "name": "Өндөр настны эмнэлэг"
+  }
+},
+{
+  "type": "way",
+  "id": 209328979,
+  "center": {
+    "lat": 47.9196786,
+    "lon": 106.8785453
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "paediatrics;geriatrics;gynaecology",
+    "name": "БГДЭМТ Ахмад, хүүхдийн эмнэлэг",
+    "operator": "Баянгол дүүргийн Эрүүл мэндийн төв"
+  }
+},
+{
+  "type": "way",
+  "id": 211635466,
+  "center": {
+    "lat": 47.9156692,
+    "lon": 106.9227454
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "amenity": "university",
+    "building": "yes",
+    "email": "info@mnums.edu.mn",
+    "name": "Анагаахын Шинжлэх Ухааны Үндэсний Их Сургууль",
+    "name:en": "Mongolia National University of Medical Sciences",
+    "phone": "+976 11 328670; +976 11 319051",
+    "short_name": "АШУҮИС",
+    "short_name:en": "MNUMS",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.mnums.edu.mn/index.php/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 216403213,
+  "center": {
+    "lat": 47.9227475,
+    "lon": 106.8886611
+  },
+  "tags": {
+    "building": "commercial",
+    "name": "Минж плаза",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 216421781,
+  "center": {
+    "lat": 47.9128768,
+    "lon": 106.9000853
+  },
+  "tags": {
+    "addr:city": "Ulaanbaatar",
+    "addr:street": "Сөүлийн гудамж",
+    "building": "yes",
+    "building:levels": "4",
+    "name": "Naran Mall",
+    "opening_hours": "Mo-Su 10:00-21:00",
+    "operator": "Naran Trade LLC",
+    "phone": "+97670136918",
+    "shop": "mall",
+    "toilets:wheelchair": "no",
+    "website": "https://www.facebook.com/NaranMallOfficial/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 216740397,
+  "center": {
+    "lat": 47.9221146,
+    "lon": 106.8812051
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "name": "5 эрдэнэ хүнсний зах"
+  }
+},
+{
+  "type": "way",
+  "id": 217526622,
+  "center": {
+    "lat": 47.9044677,
+    "lon": 106.9275964
+  },
+  "tags": {
+    "building": "manufacture",
+    "name": "Home Plaza",
+    "name:en": "Home Plaza",
+    "name:mn": "Хөүм Плаза",
+    "phone": "+976 7015 0264",
+    "shop": "mall",
+    "website": "https://homeplaza.mn/"
+  }
+},
+{
+  "type": "way",
+  "id": 218429198,
+  "center": {
+    "lat": 47.9157268,
+    "lon": 106.8535293
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар (Ulaanbaatar)",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Мөнгөн гүүр эмнэлэг",
+    "phone": "77060303"
+  }
+},
+{
+  "type": "way",
+  "id": 219123602,
+  "center": {
+    "lat": 47.9159029,
+    "lon": 106.8583738
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:street": "10r horoolol",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Ачтан Эмнэлэг"
+  }
+},
+{
+  "type": "way",
+  "id": 219246297,
+  "center": {
+    "lat": 47.9232892,
+    "lon": 106.8822195
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Москва их дэлгүүр",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 219477675,
+  "center": {
+    "lat": 47.9118420,
+    "lon": 106.8883942
+  },
+  "tags": {
+    "amenity": "university",
+    "building": "yes",
+    "name": "ЖОНОН дээд сургууль"
+  }
+},
+{
+  "type": "way",
+  "id": 219638223,
+  "center": {
+    "lat": 47.9173154,
+    "lon": 106.8880451
+  },
+  "tags": {
+    "amenity": "university",
+    "building": "yes",
+    "name": "Монгол Улсын Боловсролын Их Сургууль, Сургуулийн өмнөх боловсролын сургууль"
+  }
+},
+{
+  "type": "way",
+  "id": 219638237,
+  "center": {
+    "lat": 47.9171348,
+    "lon": 106.8885966
+  },
+  "tags": {
+    "addr:street": "ЭБО зам",
+    "amenity": "hospital",
+    "name": "ЭБО төв"
+  }
+},
+{
+  "type": "way",
+  "id": 219638421,
+  "center": {
+    "lat": 47.9246113,
+    "lon": 106.8893846
+  },
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "name": "Баянгол эмнэлэг",
+    "phone": "305903",
+    "website": "http://bayangolhospital.mn/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 219724090,
+  "center": {
+    "lat": 47.9157417,
+    "lon": 106.8919084
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Max Mall",
+    "name:en": "Max Mall",
+    "name:mn": "Макс Молл",
+    "shop": "mall",
+    "wheelchair": "limited",
+    "wheelchair:description": "угтах хэсэг нь налуу шатгүй учир тэргэнцэртэй хүн үйлчлүүлэхэд хүндрэлтэй, хаалга тэргэнцэр ороход багтахааргүй нарийхан"
+  }
+},
+{
+  "type": "way",
+  "id": 219724894,
+  "center": {
+    "lat": 47.9226316,
+    "lon": 106.8841191
+  },
+  "tags": {
+    "addr:city": "БГД, УБ",
+    "addr:housenumber": "17-р хороо",
+    "addr:street": "Ард Аюушийн өргөн чөлөө",
+    "building": "yes",
+    "name": "Гурван Билэг их дэлүүр",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 219724897,
+  "center": {
+    "lat": 47.9226793,
+    "lon": 106.8860336
+  },
+  "tags": {
+    "addr:city": "БГД, УБ",
+    "addr:housenumber": "17-р хороо",
+    "addr:street": "Ард Аюушийн өргөн чөлөө",
+    "building": "yes",
+    "name": "Элбэг Их дэлгүүр",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 219725091,
+  "center": {
+    "lat": 47.9193681,
+    "lon": 106.9002239
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "yes",
+    "building:levels": "2",
+    "name": "Алтжин Бөмбөгөр худалдааны төв"
+  }
+},
+{
+  "type": "way",
+  "id": 219748545,
+  "center": {
+    "lat": 47.9201719,
+    "lon": 106.9096698
+  },
+  "tags": {
+    "addr:city": "Ulaanbaatar",
+    "building": "yes",
+    "fee": "yes",
+    "name": "Занабазарын музей",
+    "name:en": "The Fine Arts Zanabazar Museum",
+    "name:ru": "Музей изобразительного искусства имени Дзанабадзара",
+    "opening_hours": "May-Sep Mo-Su 09:00-18:00; Oct-Apr Mo-Fr 10:00-17:00",
+    "source": "survey",
+    "toilets:wheelchair": "no",
+    "tourism": "museum",
+    "website": "http://www.zanabazarfam.mn",
+    "wheelchair": "limited",
+    "wikidata": "Q2370206",
+    "wikimedia_commons": "Category:Zanabazar Museum of Fine Arts",
+    "wikipedia": "mn:Занабазарын нэрэмжит Дүрслэх урлагийн музей"
+  }
+},
+{
+  "type": "way",
+  "id": 219750736,
+  "center": {
+    "lat": 47.9265614,
+    "lon": 106.9152264
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "3",
+    "name": "Metro Mall",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 219781876,
+  "center": {
+    "lat": 47.9273687,
+    "lon": 106.9436411
+  },
+  "tags": {
+    "amenity": "university",
+    "building": "yes",
+    "internet_access": "yes",
+    "name": "Бизнесийн удирдлага хүмүүнлэгийн сургууль",
+    "name:en": "school of business administration and humanities",
+    "wifi": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 219781884,
+  "center": {
+    "lat": 47.9283748,
+    "lon": 106.9432191
+  },
+  "tags": {
+    "amenity": "university",
+    "building": "yes",
+    "name": "KTMC дотуур байр"
+  }
+},
+{
+  "type": "way",
+  "id": 219794733,
+  "center": {
+    "lat": 47.9239857,
+    "lon": 106.9445676
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар (Ulaanbaatar)",
+    "addr:housenumber": "34а",
+    "addr:postcode": "13345",
+    "addr:street": "Б.Доржийн гудамж",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "evangelical",
+    "name": "Сайн үйлс Христийн Чуулган",
+    "name:en": "Christian Church",
+    "name:ja": "キリスト教会",
+    "name:mn": "Сайн үйлс Христийн Чуулган",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 219910348,
+  "center": {
+    "lat": 47.9336024,
+    "lon": 106.9229443
+  },
+  "tags": {
+    "addr:street": "Бага Тойруу",
+    "amenity": "university",
+    "building": "yes",
+    "name": "Соёл Урлагын Их Сургууль 2-р байр",
+    "name:en": "Mongolian State University of Arts and Culture",
+    "name:mn": "суис 2",
+    "website": "http://msuac.edu.mn"
+  }
+},
+{
+  "type": "way",
+  "id": 219975222,
+  "center": {
+    "lat": 47.9224731,
+    "lon": 106.9532386
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:street": "Б.Доржийн гудамж",
+    "building": "yes",
+    "name": "Монгол цэргийн музей",
+    "tourism": "museum",
+    "wikidata": "Q17034430",
+    "wikimedia_commons": "Category:Mongolian Military Museum",
+    "wikipedia": "en:Mongolian Military Museum"
+  }
+},
+{
+  "type": "way",
+  "id": 219975812,
+  "center": {
+    "lat": 47.9180265,
+    "lon": 106.9530474
+  },
+  "tags": {
+    "building": "yes",
+    "level": "1",
+    "name": "Жуковын Музей",
+    "name:en": "Museum of Jukov",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 219982209,
+  "center": {
+    "lat": 47.9209418,
+    "lon": 106.9008005
+  },
+  "tags": {
+    "addr:housenumber": "31А",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Бэтүб хийд",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 220086126,
+  "center": {
+    "lat": 47.9169305,
+    "lon": 106.9652788
+  },
+  "tags": {
+    "amenity": "hospital",
+    "building": "yes",
+    "name": "Монг-Эм эмнэлэг"
+  }
+},
+{
+  "type": "way",
+  "id": 220086150,
+  "center": {
+    "lat": 47.9171932,
+    "lon": 106.9751998
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "check_date": "2024-08-19",
+    "name": "Yржаншаддүвлин гандан",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 220122444,
+  "center": {
+    "lat": 47.9154619,
+    "lon": 106.9683330
+  },
+  "tags": {
+    "amenity": "university",
+    "name": "Цэцээ гүн менежментийн дээд сургууль"
+  }
+},
+{
+  "type": "way",
+  "id": 220134428,
+  "center": {
+    "lat": 47.9174445,
+    "lon": 106.9418632
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:district": "Баянзүрх",
+    "addr:housenumber": "52",
+    "addr:province": "Улаанбаатар",
+    "addr:street": "Энх тайвны өргөн чөлөө",
+    "addr:subdistrict": "Хороо 15",
+    "building:levels": "0-3",
+    "charge": "15000 MNT",
+    "contact:email": "mitgel@yahoo.com",
+    "contact:phone": "+976 11 46 1470",
+    "fee": "yes",
+    "name": "Оюун ухааны музей",
+    "name:en": "International Intellectual Museum",
+    "name:fr": "Musée international de l'intelligence",
+    "opening_hours": "Mo-Sa 10:00-18:00",
+    "operator:type": "private",
+    "toilets": "yes",
+    "tourism": "museum",
+    "website": "www.iqmuseum.mn",
+    "wikidata": "Q10926251",
+    "wikipedia": "en:International Intellectual Museum"
+  }
+},
+{
+  "type": "way",
+  "id": 220204287,
+  "center": {
+    "lat": 47.9261482,
+    "lon": 106.9222903
+  },
+  "tags": {
+    "amenity": "university",
+    "building": "yes",
+    "name": "Этүгэн их сургууль",
+    "toilets:wheelchair": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 220244802,
+  "center": {
+    "lat": 47.9009267,
+    "lon": 106.8971230
+  },
+  "tags": {
+    "amenity": "university",
+    "building": "yes",
+    "name": "Эдийн засаг бизнесийн дээд сургууль"
+  }
+},
+{
+  "type": "way",
+  "id": 220320624,
+  "center": {
+    "lat": 47.8983826,
+    "lon": 106.8933679
+  },
+  "tags": {
+    "amenity": "university",
+    "building": "yes",
+    "name": "Mongol Deed Surguuli"
+  }
+},
+{
+  "type": "way",
+  "id": 220523979,
+  "center": {
+    "lat": 47.8865662,
+    "lon": 106.9124476
+  },
+  "tags": {
+    "barrier": "wall",
+    "leisure": "park",
+    "name": "Будда парк",
+    "name:en": "Buddha Park",
+    "name:mn": "Будда парк"
+  }
+},
+{
+  "type": "way",
+  "id": 220869594,
+  "center": {
+    "lat": 47.8968767,
+    "lon": 106.8966518
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Гэгээн Эх Мариа католик сүм",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 220870889,
+  "center": {
+    "lat": 47.8961371,
+    "lon": 106.8917186
+  },
+  "tags": {
+    "amenity": "university",
+    "name": "Аврага БТДС"
+  }
+},
+{
+  "type": "way",
+  "id": 220876661,
+  "center": {
+    "lat": 47.9202267,
+    "lon": 106.8580906
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "yes",
+    "name": "дэлгүүр",
+    "name:mn": "дэлгүүр."
+  }
+},
+{
+  "type": "way",
+  "id": 220892826,
+  "center": {
+    "lat": 47.9186294,
+    "lon": 106.9198585
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:street": "Батболдын гудамж",
+    "amenity": "theatre",
+    "building": "yes",
+    "building:levels": "4",
+    "check_date": "2024-06-23",
+    "name": "Улсын дуурь бүжгийн эрдмийн театр",
+    "name:en": "National Academic Theatre of Opera",
+    "name:zh": "蒙古国家古典艺术剧院",
+    "toilets:wheelchair": "no",
+    "wheelchair": "limited",
+    "wikidata": "Q559620",
+    "wikimedia_commons": "Category:National Academic Theatre of Opera and Ballet of Mongolia",
+    "wikipedia": "mn:Улсын дуурь бүжгийн эрдмийн театр"
+  }
+},
+{
+  "type": "way",
+  "id": 221031368,
+  "center": {
+    "lat": 47.9217815,
+    "lon": 106.8953283
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "check_date": "2024-08-06",
+    "denomination": "gelug",
+    "name": "Vajradhara Temple",
+    "name:zh": "金刚持殿",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 221283478,
+  "center": {
+    "lat": 47.9167293,
+    "lon": 106.8602758
+  },
+  "tags": {
+    "amenity": "hospital",
+    "building:levels": "4",
+    "name": "Топ Аз Эмнэлэг"
+  }
+},
+{
+  "type": "way",
+  "id": 221981068,
+  "center": {
+    "lat": 47.9293243,
+    "lon": 106.9406178
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Mamba datsan bish",
+    "name:en": "Mambadatsan"
+  }
+},
+{
+  "type": "way",
+  "id": 222320558,
+  "center": {
+    "lat": 47.9182695,
+    "lon": 106.9361291
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:housenumber": "37",
+    "addr:street": "Энх тайвны өргөн чөлөө",
+    "building": "yes",
+    "building:levels": "1",
+    "museum": "history",
+    "name": "Улаанбаатар хотын музей",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "tourism": "museum",
+    "wikidata": "Q2368924"
+  }
+},
+{
+  "type": "way",
+  "id": 222333090,
+  "center": {
+    "lat": 47.9492635,
+    "lon": 106.9129127
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Есүс Христийн Хожмын Үеийн Гэгээнтнүүдийн Сүм",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 223217724,
+  "center": {
+    "lat": 47.9247740,
+    "lon": 106.8900066
+  },
+  "tags": {
+    "amenity": "hospital",
+    "building": "yes",
+    "emergency": "no",
+    "name": "Гурван гал эмнэлэг",
+    "phone": "70113344",
+    "website": "https://ggh.mn/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 223288920,
+  "center": {
+    "lat": 47.9135899,
+    "lon": 106.8555421
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар (Ulaanbaatar)",
+    "addr:postcode": "16081",
+    "addr:street": "Ард Аюушийн өргөн чөлөө",
+    "amenity": "hospital",
+    "contact:facebook": "https://www.facebook.com/profile.php?id=61577971811145",
+    "email": "hermescardio2025@gmail.com",
+    "healthcare": "hospital",
+    "healthcare:speciality": "cardiology",
+    "mobile": "+97689000537",
+    "name": "Хермес кардио эмнэлэг"
+  }
+},
+{
+  "type": "way",
+  "id": 236503062,
+  "center": {
+    "lat": 47.9091107,
+    "lon": 106.9208411
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Castle",
+    "name:en": "Castle",
+    "tourism": "attraction",
+    "wikidata": "Q2743662",
+    "wikimedia_commons": "Category:Red Rock Castle",
+    "wikipedia": "mn:Хиймэл нууран дахь цайз"
+  }
+},
+{
+  "type": "way",
+  "id": 241407940,
+  "center": {
+    "lat": 47.9143995,
+    "lon": 106.9741679
+  },
+  "tags": {
+    "alt_name": "ЭМ АЙ ЮУ",
+    "amenity": "university",
+    "name": "Монгол Олон Улсын Дээд Сургууль",
+    "name:en": "Mongolian International University",
+    "name:mn": "Монгол Олон Улсын Дээд Сургууль",
+    "short_name": "MIU",
+    "website": "https://www.miu.edu.mn/",
+    "wikidata": "Q1046619",
+    "wikimedia_commons": "Category:Mongolia International University",
+    "wikipedia": "mn:Монгол Олон Улсын Дээд Сургууль"
+  }
+},
+{
+  "type": "way",
+  "id": 241581059,
+  "center": {
+    "lat": 47.9186486,
+    "lon": 106.8597429
+  },
+  "tags": {
+    "amenity": "hospital",
+    "name": "Dald zasal"
+  }
+},
+{
+  "type": "way",
+  "id": 241581065,
+  "center": {
+    "lat": 47.9181732,
+    "lon": 106.8596392
+  },
+  "tags": {
+    "addr:city": "Ulaanbaatar",
+    "addr:housenumber": "none",
+    "addr:street": "10rhoroolol",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "building:levels": "3",
+    "ele": "3 davhar",
+    "level": "2",
+    "name": "НарХажид сүм",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 241662959,
+  "center": {
+    "lat": 47.9183343,
+    "lon": 106.9091557
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "leisure": "park",
+    "name": "Б.Явуухулангийн цэцэрлэг",
+    "name:en": "Park of B.Yavuukhulan",
+    "name:mn": "Б.Явуухулангийн цэцэрлэг"
+  }
+},
+{
+  "type": "way",
+  "id": 242172643,
+  "center": {
+    "lat": 47.9025726,
+    "lon": 106.9085633
+  },
+  "tags": {
+    "amenity": "hospital",
+    "building:levels": "2",
+    "healthcare": "hospital",
+    "name": "shvdnii emneleg"
+  }
+},
+{
+  "type": "way",
+  "id": 242312011,
+  "center": {
+    "lat": 47.9203962,
+    "lon": 106.9085223
+  },
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "lit": "no",
+    "name": "Барилгачдын талбай",
+    "place": "square",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 242436678,
+  "center": {
+    "lat": 47.9190048,
+    "lon": 106.8906241
+  },
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Модны 2",
+    "ref": "000001001"
+  }
+},
+{
+  "type": "way",
+  "id": 243246123,
+  "center": {
+    "lat": 47.9217541,
+    "lon": 106.9209287
+  },
+  "tags": {
+    "addr:city": "ulaanbaatar",
+    "leisure": "park",
+    "name": "30-р байрны park"
+  }
+},
+{
+  "type": "way",
+  "id": 244115251,
+  "center": {
+    "lat": 47.9223313,
+    "lon": 106.9002789
+  },
+  "tags": {
+    "addr:city": "ulaanbaatar",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Түвдэнпэлжээлин хийд",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 246253141,
+  "center": {
+    "lat": 47.9311172,
+    "lon": 106.9343786
+  },
+  "tags": {
+    "amenity": "bus_station",
+    "building": "yes",
+    "name": "Дундын буудал"
+  }
+},
+{
+  "type": "way",
+  "id": 264556056,
+  "center": {
+    "lat": 47.9102575,
+    "lon": 106.8888409
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "47-r bairnii togloomin talbai"
+  }
+},
+{
+  "type": "way",
+  "id": 287669626,
+  "center": {
+    "lat": 47.8985519,
+    "lon": 106.9430879
+  },
+  "tags": {
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 288074039,
+  "center": {
+    "lat": 47.9200126,
+    "lon": 106.9141827
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Асашёорюүгийн цэцэрлэгт хүрээлэн"
+  }
+},
+{
+  "type": "way",
+  "id": 301331105,
+  "center": {
+    "lat": 47.8944729,
+    "lon": 106.9138866
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Ясли",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 344181085,
+  "center": {
+    "lat": 47.9119710,
+    "lon": 106.9072558
+  },
+  "tags": {
+    "addr:city": "Ulaanbaatar",
+    "amenity": "theatre",
+    "building": "yes",
+    "name": "Аса Арена",
+    "name:en": "ASA Arena",
+    "name:mn": "Аса Арена",
+    "old_name": "Монгол Улсын Цирк",
+    "old_name:en": "Mongolian National Circus",
+    "old_name:mn": "Монгол Улсын Цирк",
+    "theatre:genre": "circus",
+    "wikidata": "Q17059451",
+    "wikimedia_commons": "Category:ASA Arena",
+    "wikipedia": "en:ASA Arena"
+  }
+},
+{
+  "type": "way",
+  "id": 354233033,
+  "center": {
+    "lat": 47.8443836,
+    "lon": 106.6790740
+  },
+  "tags": {
+    "amenity": "bus_station",
+    "name": "Биокомбинат"
+  }
+},
+{
+  "type": "way",
+  "id": 377085549,
+  "center": {
+    "lat": 47.9416705,
+    "lon": 106.9142834
+  },
+  "tags": {
+    "amenity": "university",
+    "name": "АШИУС",
+    "name:mn": "АШУҮИС НАСС"
+  }
+},
+{
+  "type": "way",
+  "id": 385815903,
+  "center": {
+    "lat": 47.9045160,
+    "lon": 106.9271363
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Good price дэлгүүр",
+    "phone": "+976 7777 5555",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 386119823,
+  "center": {
+    "lat": 47.9002769,
+    "lon": 106.9286893
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Emart Хан-Уул салбар",
+    "name:en": "Emart - Khan-Uul branch",
+    "shop": "mall",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 386121930,
+  "center": {
+    "lat": 47.9233384,
+    "lon": 106.8909415
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Энэбишийн хөшөө"
+  }
+},
+{
+  "type": "way",
+  "id": 386178936,
+  "center": {
+    "lat": 47.9289785,
+    "lon": 106.9126552
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Үүрдийн гэгээ сүм"
+  }
+},
+{
+  "type": "way",
+  "id": 386511459,
+  "center": {
+    "lat": 47.9100138,
+    "lon": 106.8297777
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Ногоон байгууламж"
+  }
+},
+{
+  "type": "way",
+  "id": 386513642,
+  "center": {
+    "lat": 47.9166696,
+    "lon": 106.8409659
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Христийн Сүм",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 386599365,
+  "center": {
+    "lat": 47.9155331,
+    "lon": 106.8951361
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "хайрын төгөл"
+  }
+},
+{
+  "type": "way",
+  "id": 386663746,
+  "center": {
+    "lat": 47.8457344,
+    "lon": 106.7241350
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "yes",
+    "name": "\"Мөөлөө\" хүнсний дэлгүүр",
+    "opening_hours": "08:00-22:00"
+  }
+},
+{
+  "type": "way",
+  "id": 386664596,
+  "center": {
+    "lat": 47.8453741,
+    "lon": 106.7249782
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "yes",
+    "name": "Хүнсний дэлгүүр"
+  }
+},
+{
+  "type": "way",
+  "id": 386766471,
+  "center": {
+    "lat": 47.9191014,
+    "lon": 106.8911850
+  },
+  "tags": {
+    "amenity": "bus_station",
+    "building": "yes",
+    "name": "Модны 2",
+    "ref": "000000159"
+  }
+},
+{
+  "type": "way",
+  "id": 386800935,
+  "center": {
+    "lat": 47.9062697,
+    "lon": 106.9476269
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "commercial",
+    "name": "Дүнжингарав худалдааны төв",
+    "smoking": "separated"
+  }
+},
+{
+  "type": "way",
+  "id": 386810864,
+  "center": {
+    "lat": 47.9505026,
+    "lon": 106.9136703
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Dalaikhuu",
+    "name:mn": "Далайхүү худалдааны төв",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 386892938,
+  "center": {
+    "lat": 47.8710641,
+    "lon": 106.8192151
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "yes",
+    "name": "\"Мөнгөн солонго\" дэлгүүр"
+  }
+},
+{
+  "type": "way",
+  "id": 386892967,
+  "center": {
+    "lat": 47.8748539,
+    "lon": 106.8190348
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "yes",
+    "name": "\"Агар\" хүнсний дэлгүүр",
+    "opening_hours": "08:00-00:00"
+  }
+},
+{
+  "type": "way",
+  "id": 387545832,
+  "center": {
+    "lat": 47.8702570,
+    "lon": 106.8253074
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Дунд Бодь Хийд",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 387563737,
+  "center": {
+    "lat": 47.8993306,
+    "lon": 106.8996557
+  },
+  "tags": {
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 387649559,
+  "center": {
+    "lat": 47.9141776,
+    "lon": 106.7756997
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "yes",
+    "name": "Өгөөж"
+  }
+},
+{
+  "type": "way",
+  "id": 387761021,
+  "center": {
+    "lat": 47.9264163,
+    "lon": 106.8902747
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Эх нялхасын эрүүл мэндийг хамгаалах үндэсний төв",
+    "wall:handle": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 387812560,
+  "center": {
+    "lat": 47.9229679,
+    "lon": 106.9339502
+  },
+  "tags": {
+    "addr:street": "Токиогийн гудамж",
+    "building": "yes",
+    "building:levels": "6",
+    "internet_access": "wlan",
+    "name": "E Mart",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "phone": "976 - 7611 0101",
+    "shop": "mall",
+    "website": "http://e-mart.mn",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 387846873,
+  "center": {
+    "lat": 47.9888815,
+    "lon": 106.9531113
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:street": "Бэлх",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "catholic",
+    "name": "Есүсийн сүм",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 387967135,
+  "center": {
+    "lat": 47.9275073,
+    "lon": 106.9434808
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар хот",
+    "addr:street": "Б.Доржийн гудамж",
+    "amenity": "university",
+    "name": "ШУТИС-5 байр"
+  }
+},
+{
+  "type": "way",
+  "id": 388032553,
+  "center": {
+    "lat": 47.9096023,
+    "lon": 106.9440144
+  },
+  "tags": {
+    "name": "Шөнийн худалдаа",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 388102594,
+  "center": {
+    "lat": 47.9216157,
+    "lon": 106.9558741
+  },
+  "tags": {
+    "addr:street": "Орон сууцны дундуурх зам",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Тарвалин хийд",
+    "name:mn": "Тарвалин хийд",
+    "name:ru": "Буддиский храм Тарвалин",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 388105059,
+  "center": {
+    "lat": 47.9146213,
+    "lon": 106.9142580
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:street": "Чингисийн өргөн чөлөө",
+    "amenity": "theatre",
+    "building": "yes",
+    "check_date": "2024-08-06",
+    "name": "Улсын драмын Эрдмийн театр",
+    "name:en": "National Academic Drama Theatre",
+    "name:zh": "蒙古国家话剧院",
+    "toilets:wheelchair": "no",
+    "wheelchair": "yes",
+    "wikidata": "Q6899648",
+    "wikimedia_commons": "Category:National Academic Drama Theatre, Ulaanbaatar",
+    "wikipedia": "mn:Улсын Драмын Эрдмийн Театр"
+  }
+},
+{
+  "type": "way",
+  "id": 388177497,
+  "center": {
+    "lat": 47.9155546,
+    "lon": 106.9394187
+  },
+  "tags": {
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 388672329,
+  "center": {
+    "lat": 47.9281220,
+    "lon": 106.9610109
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "yes",
+    "name": "Номгон"
+  }
+},
+{
+  "type": "way",
+  "id": 388672509,
+  "center": {
+    "lat": 47.9284567,
+    "lon": 106.9621093
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "yes",
+    "name": "Цэцэрлэг"
+  }
+},
+{
+  "type": "way",
+  "id": 388672535,
+  "center": {
+    "lat": 47.9290651,
+    "lon": 106.9642503
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "yes",
+    "name": "Кока кола"
+  }
+},
+{
+  "type": "way",
+  "id": 394198638,
+  "center": {
+    "lat": 47.8974209,
+    "lon": 106.9069513
+  },
+  "tags": {
+    "addr:street": "Зайсангийн гудамж",
+    "alt_name": "Богд хааны өвлийн ордон",
+    "alt_name:en": "Winter Palace of the Bogd Khan",
+    "alt_name:hu": "Bogdo Gegen téli palotája",
+    "alt_name:mn": "Богд хааны өвлийн ордон",
+    "fee": "yes",
+    "name": "Богд хааны ордон музей",
+    "name:en": "Bogd Khan Palace Museum",
+    "name:hu": "Bogd kán Palotamúzeum",
+    "name:ko": "복드칸 궁전 박물관",
+    "name:zh": "博格达汗冬宫",
+    "tourism": "museum",
+    "website": "https://bogdkhaanpalacemuseum.com/",
+    "wikipedia": "mn:Богд хааны ордон музей"
+  }
+},
+{
+  "type": "way",
+  "id": 437709971,
+  "center": {
+    "lat": 47.8958361,
+    "lon": 106.9126875
+  },
+  "tags": {
+    "amenity": "hospital",
+    "name": "Баясгалантай Дэлхий эмнэлэг"
+  }
+},
+{
+  "type": "way",
+  "id": 438406283,
+  "center": {
+    "lat": 47.9969291,
+    "lon": 106.9442052
+  },
+  "tags": {
+    "building": "yes",
+    "historic": "monument",
+    "name": "Japanese War Cemetery 日本人墓地",
+    "name:ja": "ダンバダルジャー日本人墓地",
+    "source": "bing"
+  }
+},
+{
+  "type": "way",
+  "id": 443874629,
+  "center": {
+    "lat": 47.9150690,
+    "lon": 106.9183004
+  },
+  "tags": {
+    "fee": "yes",
+    "name": "Чойжин ламын сүм музей",
+    "name:en": "Choijin Lama Temple Museum",
+    "name:hu": "Csojdzsin láma kolostormúzeum",
+    "name:zh": "兴仁寺",
+    "toilets:wheelchair": "no",
+    "tourism": "museum",
+    "website": "http://www.templemuseum.mn/",
+    "wheelchair": "no",
+    "wikidata": "Q2093410",
+    "wikimedia_commons": "Category:Choijin Lama Temple",
+    "wikipedia": "mn:Чойжин ламын сүм музей"
+  }
+},
+{
+  "type": "way",
+  "id": 499657667,
+  "center": {
+    "lat": 47.9157103,
+    "lon": 106.9730610
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Офицерийн тойрог"
+  }
+},
+{
+  "type": "way",
+  "id": 569530840,
+  "center": {
+    "lat": 47.9227804,
+    "lon": 106.9451382
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "10-р төв"
+  }
+},
+{
+  "type": "way",
+  "id": 598440149,
+  "center": {
+    "lat": 47.9030298,
+    "lon": 106.9123856
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Наадам төв центр",
+    "name:en": "Naadam center",
+    "name:mn": "Наадам төв",
+    "opening_hours": "Mo-Sa 08:00-20:00",
+    "operator": "Хурд групп",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 611007130,
+  "center": {
+    "lat": 47.9215440,
+    "lon": 106.8953623
+  },
+  "tags": {
+    "addr:street": "Gandan’s library",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Ancien Gandan",
+    "name:zh": "老甘丹寺",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 611007134,
+  "center": {
+    "lat": 47.9217486,
+    "lon": 106.8956737
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "check_date": "2024-08-06",
+    "denomination": "gelug",
+    "name": "Gandan Temple",
+    "name:zh": "甘丹寺",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 641646680,
+  "center": {
+    "lat": 47.9204057,
+    "lon": 106.9085146
+  },
+  "tags": {
+    "name": "Барилгачдын Талбай",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 665325876,
+  "center": {
+    "lat": 47.9218589,
+    "lon": 106.8818963
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "commercial",
+    "name": "Бэст хүнсний зах"
+  }
+},
+{
+  "type": "way",
+  "id": 665482363,
+  "center": {
+    "lat": 47.9218354,
+    "lon": 106.8833978
+  },
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "name": "MongolMed эмнэлэг"
+  }
+},
+{
+  "type": "way",
+  "id": 669481264,
+  "center": {
+    "lat": 47.8975131,
+    "lon": 106.9787407
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Үндэсний Цэцэрлэгт Хүрээлэн ᠦᠨᠳᠦᠰᠦᠨ ᠦ ᠴᠡᠴᠡᠷᠯᠢᠭ᠍ᠲᠤ ᠬᠦᠷᠢᠶᠡᠯᠡᠩ",
+    "name:mn": "Үндэсний Цэцэрлэгт Хүрээлэн",
+    "name:mn-Cyrl": "Үндэсний Цэцэрлэгт Хүрээлэн",
+    "name:mn-Mong": "ᠦᠨᠳᠦᠰᠦᠨ ᠦ ᠴᠡᠴᠡᠷᠯᠢᠭ᠍ᠲᠤ ᠬᠦᠷᠢᠶᠡᠯᠡᠩ",
+    "name:zh": "蒙古国家花园公园",
+    "wikidata": "Q131416188"
+  }
+},
+{
+  "type": "way",
+  "id": 684511894,
+  "center": {
+    "lat": 47.9187888,
+    "lon": 106.9237841
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:street": "Бага Тойруу",
+    "amenity": "bus_station",
+    "building": "yes",
+    "bus": "yes",
+    "name": "u money",
+    "name:en": "u money",
+    "name:mn": "улаанбаатар смарт карт",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "way",
+  "id": 781362874,
+  "center": {
+    "lat": 47.9146661,
+    "lon": 106.8939003
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "building": "commercial",
+    "building:levels": "17",
+    "height": "55",
+    "name": "GEM Palace",
+    "opening_hours": "Mo-Su 10:00-20:30",
+    "phone": "+976 7509 5000",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 787038258,
+  "center": {
+    "lat": 47.9198960,
+    "lon": 106.8126687
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general;psychiatry;emergency;surgery;cardiology;dialysis;physiatry;community",
+    "name": "СХД-н \"Жишиг Эмнэлэг\""
+  }
+},
+{
+  "type": "way",
+  "id": 816308979,
+  "center": {
+    "lat": 47.9066093,
+    "lon": 107.0169856
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "yes",
+    "building:levels": "3",
+    "name": "Амгалан зах"
+  }
+},
+{
+  "type": "way",
+  "id": 862127992,
+  "center": {
+    "lat": 47.9213854,
+    "lon": 106.9361044
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар (Ulaanbaatar)",
+    "addr:housenumber": "24/3",
+    "addr:postcode": "13381",
+    "addr:street": "Токиогийн гудамж",
+    "amenity": "hospital",
+    "contact:email": "info@ubmed.mn",
+    "contact:facebook": "https://www.facebook.com/ubmed.mn/",
+    "contact:phone": "+976 11351135",
+    "contact:website": "https://ubmed.mn",
+    "healthcare": "hospital",
+    "name": "Улаанбаатар Мед эмнэлэг",
+    "name:en": "Ulaanbaatar Med Hospital",
+    "phone": "+976 11351135"
+  }
+},
+{
+  "type": "way",
+  "id": 862431031,
+  "center": {
+    "lat": 47.9201752,
+    "lon": 106.8556602
+  },
+  "tags": {
+    "addr:street": "Ард Аюушийн өргөн чөлөө",
+    "alt_name": "Med Trauma",
+    "amenity": "hospital",
+    "building": "hospital",
+    "healthcare": "hospital",
+    "name": "Med Trauma Hospital",
+    "phone": "77110351"
+  }
+},
+{
+  "type": "way",
+  "id": 862967167,
+  "center": {
+    "lat": 47.9179749,
+    "lon": 106.8890352
+  },
+  "tags": {
+    "addr:street": "ЭБО зам",
+    "amenity": "hospital",
+    "building": "yes",
+    "name": "Энхийн мишээл эмнэлэг",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 863231664,
+  "center": {
+    "lat": 47.9120760,
+    "lon": 106.9758886
+  },
+  "tags": {
+    "addr:city": "Ulaanbaatar",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "catholic",
+    "name": "Saint Peter and Paul Cathedral",
+    "name:de": "Kathedrale Sankt Peter und Paul",
+    "name:en": "Saint Peter and Paul Cathedral",
+    "name:it": "Cattedrale dei Santi Pietro e Paolo",
+    "name:pl": "Prokatedra świętych Piotra i Pawła",
+    "name:ru": "Собор святых апостолов Петра и Павла",
+    "name:zh": "圣伯多禄圣保禄堂",
+    "religion": "christian",
+    "website": "http://www.catholicchurch-mongolia.mn/Parishes/view/1/",
+    "wikidata": "Q16538387",
+    "wikimedia_commons": "Category:Cathedral of St Peter and St Paul in Ulaanbaatar",
+    "wikipedia": "mn:Гэгээн Петр, Паулын цогчин дуган"
+  }
+},
+{
+  "type": "way",
+  "id": 881540857,
+  "center": {
+    "lat": 47.9100231,
+    "lon": 106.9031356
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "yes",
+    "name": "Саруул market"
+  }
+},
+{
+  "type": "way",
+  "id": 892205634,
+  "center": {
+    "lat": 47.8810578,
+    "lon": 106.8653542
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Нар ванчин",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 894732836,
+  "center": {
+    "lat": 47.8786207,
+    "lon": 106.8511989
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Хүннү молл",
+    "shop": "mall",
+    "wikidata": "Q135218563"
+  }
+},
+{
+  "type": "way",
+  "id": 894883931,
+  "center": {
+    "lat": 47.9261918,
+    "lon": 106.7911022
+  },
+  "tags": {
+    "addr:city": "Ulaanbaatar",
+    "addr:street": "Songino Khairkhan",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "sunni",
+    "name": "Tolgoit Mosque",
+    "religion": "muslim",
+    "wikidata": "Q131463617"
+  }
+},
+{
+  "type": "way",
+  "id": 906834907,
+  "center": {
+    "lat": 47.9226845,
+    "lon": 106.9148790
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:postcode": "15160",
+    "addr:street": "Ж.Самбуугийн гудамж",
+    "building": "yes",
+    "contact:facebook": "https://www.facebook.com/chinggiskhaanmuseum.mn",
+    "contact:instagram": "https://www.instagram.com/chinggismuseum/",
+    "contact:youtube": "https://www.youtube.com/@chinggiskhaanmuseum",
+    "fee": "yes",
+    "height": "40",
+    "museum": "history",
+    "name": "Чингис хаан Үндэсний музей",
+    "name:en": "Chinggis Khaan National Museum",
+    "name:mn": "Чингис хаан Үндэсний музей",
+    "opening_hours": "Sep-Apr: We-Mo 09:00-17:00; May-Aug: We-Mo 09:00-20:00",
+    "phone": "+976 70212222",
+    "start_date": "2019",
+    "tourism": "museum",
+    "website": "https://chinggismuseum.com/",
+    "wikidata": "Q120021719"
+  }
+},
+{
+  "type": "way",
+  "id": 913250303,
+  "center": {
+    "lat": 47.8888073,
+    "lon": 106.9390483
+  },
+  "tags": {
+    "building": "yes",
+    "historic": "city_gate",
+    "layer": "2",
+    "name": "Хаан хаалга",
+    "start_date": "2011"
+  }
+},
+{
+  "type": "way",
+  "id": 922871295,
+  "center": {
+    "lat": 47.9186464,
+    "lon": 106.9880266
+  },
+  "tags": {
+    "building": "yes",
+    "elevator": "yes",
+    "name": "Cinema Next",
+    "shop": "mall",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 952080972,
+  "center": {
+    "lat": 47.8999783,
+    "lon": 106.7837697
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Зоонозын өвчин судлалын үндэсний төв",
+    "website": "https://nczd.gov.mn/"
+  }
+},
+{
+  "type": "way",
+  "id": 961119183,
+  "center": {
+    "lat": 47.9001358,
+    "lon": 106.9162300
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:postcode": "210646",
+    "leisure": "stadium",
+    "name": "МХХ Хөлбөмбөгийн төв",
+    "name:en": "MFF Football Centre",
+    "name:mn": "МХХ Хөлбөмбөгийн төв",
+    "wikidata": "Q1638795",
+    "wikimedia_commons": "Category:MFF Football Centre",
+    "wikipedia": "de:MFF Football Centre"
+  }
+},
+{
+  "type": "way",
+  "id": 972441327,
+  "center": {
+    "lat": 47.8982477,
+    "lon": 106.9056248
+  },
+  "tags": {
+    "addr:city": "Ulaanbaatar",
+    "addr:district": "Khan-Uul",
+    "addr:housenumber": "Чингисийн өргөн чөлөө 41, Хан-Уул дүүрэг 15, Үйлдвэр 17040",
+    "addr:postcode": "17040",
+    "addr:street": "Чингисийн өргөн чөлөө",
+    "addr:subdistrict": "Khoroo-15",
+    "amenity": "hospital",
+    "contact:facebook": "intermedmongolia.imc",
+    "contact:mobile": "80081919",
+    "emergency": "yes",
+    "emergency_telephone_code": "77000103",
+    "facility:insurance": "private",
+    "health_facility:type": "integrated hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "surgery;thoracic_surgery;orthopaedics;gynaecology;paediatrics;gastroenterology;endocrinology;cardiovascular;urology;pulmonary;dentist;ophthalmology;rheumatology;",
+    "healthcare:speciality:1": "emergency;intensive;anesthesiology;laboratory;radiology;neurology;dermatology;rehabilitation;traditional medicine",
+    "healthcare:speciality:mn": "ерөнхий мэс засал;цээжний хөндийн мэс засал;гэмтэл согог мэс засал;эх барих;эмэгтэйчүүд;хүүхэд;нярай;хоол боловсруулах эрхтэн судлал-дурангийн төв;дотоод шүүрэл;зүрх судас;бөөр;уушги;шүд;нүд;үе мөч",
+    "healthcare:speciality:mn:1": "урьдчилан сэргийлэх үзлэгийн төв;яаралтай тусламж;эрчимт эмчилгээ;мэдээгүйжүүлгийн тасаг;лаборатори;радиологи;мэдрэл;арьс;харшил;чих;хамар;хоолой;сэргээн засах эмчилгээ;уламжлалт эмчилгээ",
+    "hospital:level": "private",
+    "name": "Интермед эмнэлэг",
+    "name:en": "Intermed hospital",
+    "opening_hours": "Mo-Fr 08:00-17:00; Sa-Su 09:00-16:00",
+    "operator": "MCS Групп, Энержи ресурс ХХК болон Шунхлай Групп хамтран хөрөнгө оруулсан",
+    "operator:type": "private",
+    "phone": "77011111",
+    "website": "https://www.intermed.mn/",
+    "wheelchair": "yes",
+    "wikidata": "Q30641659"
+  }
+},
+{
+  "type": "way",
+  "id": 977856902,
+  "center": {
+    "lat": 47.8851896,
+    "lon": 106.9094926
+  },
+  "tags": {
+    "amenity": "university",
+    "description": "ХААИС-н төв байр",
+    "name": "Хөдөө Аж Ахуйн Их Сургууль",
+    "name:de": "Mongolische Staatsuniversität für Landwirtschaft",
+    "name:en": "Mongolian State University of Agriculture",
+    "name:zh": "蒙古国立农业大学",
+    "short_name:en": "MSUA",
+    "wikidata": "Q2514534",
+    "wikimedia_commons": "Category:Mongolian State University of Agriculture",
+    "wikipedia": "mn:Хөдөө Аж Ахуйн Их Сургууль"
+  }
+},
+{
+  "type": "way",
+  "id": 1009523610,
+  "center": {
+    "lat": 47.8971435,
+    "lon": 106.9089347
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Гэгээнтэн төв",
+    "name:en": "Gegeenten entertainment center",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 1009523617,
+  "center": {
+    "lat": 47.9026791,
+    "lon": 106.9400172
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Парк Од Малл",
+    "name:en": "Park Od Mall",
+    "shop": "mall",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1012320277,
+  "center": {
+    "lat": 47.9174518,
+    "lon": 106.9664768
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Цэргийн төв эмнэлэг",
+    "name:zh": "蒙古国军队中心医院"
+  }
+},
+{
+  "type": "way",
+  "id": 1021983661,
+  "center": {
+    "lat": 47.9140096,
+    "lon": 106.9469626
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:street": "Нам Ян Жүгийн гудамж",
+    "amenity": "hospital",
+    "email": "info@nccd.gov.mn",
+    "healthcare": "hospital",
+    "name": "Халдварт өвчин судлалын үндэсний төв"
+  }
+},
+{
+  "type": "way",
+  "id": 1021984771,
+  "center": {
+    "lat": 47.9138936,
+    "lon": 106.9420188
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:street": "Нам Ян Жү-гийн гудамж",
+    "amenity": "hospital",
+    "email": "nccm@cancer-center.gov.mn",
+    "healthcare": "hospital",
+    "name": "Хавдар судлалын үндэсний төв",
+    "wikidata": "Q123757804"
+  }
+},
+{
+  "type": "way",
+  "id": 1021993309,
+  "center": {
+    "lat": 47.8980545,
+    "lon": 106.9080931
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Богд хааны ордон музейн цэцэрлэгт хүрээлэн",
+    "name:zh": "博格达汗宫花园"
+  }
+},
+{
+  "type": "way",
+  "id": 1064760480,
+  "center": {
+    "lat": 47.9330929,
+    "lon": 107.0109825
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Сэтгэцийн эрүүл мэндийн үндэсний төв"
+  }
+},
+{
+  "type": "way",
+  "id": 1090511145,
+  "center": {
+    "lat": 47.9333773,
+    "lon": 106.9170815
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Сөүл эмнэлэг"
+  }
+},
+{
+  "type": "way",
+  "id": 1098493708,
+  "center": {
+    "lat": 47.9124117,
+    "lon": 106.9014272
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:postcode": "14252",
+    "addr:street": "Сөүлийн гудамж",
+    "description": "Сүхбаатар дүүргийн 3р хорооны 9, 2А, 8, 47 дугаар байрны дундах хүүхдийн тоглоомын талбай",
+    "leisure": "park",
+    "name": "9 дүгээр байрны тоглоомын талбай",
+    "operator": "Public"
+  }
+},
+{
+  "type": "way",
+  "id": 1157016068,
+  "center": {
+    "lat": 47.9175265,
+    "lon": 106.9178249
+  },
+  "tags": {
+    "amenity": "theatre",
+    "lit": "yes",
+    "name": "Ulaanbaatar Central Amphitheater",
+    "name:zh": "乌兰巴托中央露天剧场",
+    "theatre:type": "amphi"
+  }
+},
+{
+  "type": "way",
+  "id": 1157076542,
+  "center": {
+    "lat": 47.9216715,
+    "lon": 106.9493241
+  },
+  "tags": {
+    "addr:city": "Ulaanbaatar",
+    "leisure": "stadium",
+    "name": "Спорт талбай",
+    "note": "15r horoololiin sport talbai"
+  }
+},
+{
+  "type": "way",
+  "id": 1184935729,
+  "center": {
+    "lat": 47.9207646,
+    "lon": 106.9661286
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "amenity": "university",
+    "name": "ШУТИС - Мэдээлэл, холбооны технологийн сургууль",
+    "name:zh": "蒙古国立科技大学信息与通信技术学院",
+    "website": "https://sict.edu.mn"
+  }
+},
+{
+  "type": "way",
+  "id": 1300133916,
+  "center": {
+    "lat": 47.9279241,
+    "lon": 106.9186064
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:postcode": "14193",
+    "addr:street": "Их Сургуулийн гудамж 11-1, 6-р хороо, Сүхбаатар дүүрэг",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "check_date": "2024-07-09",
+    "denomination": "roman_catholic",
+    "email": "stthomascatholicchurch.2012@gmail.com",
+    "name": "Гэгээнтэн Томас Аквинагийн католик сүм",
+    "name:en": "St. Saint Thomas Aquinas Chapel",
+    "name:fr": "Chapelle St-Thomas-d'Aquin",
+    "phone": "+976 99291489",
+    "religion": "christian",
+    "service_times": "Su 10:00; Tu-Th 19:30",
+    "website": "http://www.catholicchurch-mongolia.mn/sumuud/view/7",
+    "website:en": "http://www.catholicchurch-mongolia.mn/Parishes/view/7"
+  }
+},
+{
+  "type": "way",
+  "id": 1302566122,
+  "center": {
+    "lat": 47.9148537,
+    "lon": 106.9962929
+  },
+  "tags": {
+    "amenity": "university",
+    "name": "Дотоод хэргийн их сургууль",
+    "name:en": "University of Internal affairs",
+    "wikidata": "Q25632487"
+  }
+},
+{
+  "type": "way",
+  "id": 1317637592,
+  "center": {
+    "lat": 47.8439238,
+    "lon": 106.7894390
+  },
+  "tags": {
+    "amenity": "hospital",
+    "barrier": "fence",
+    "healthcare": "hospital",
+    "healthcare:speciality": "mother_child",
+    "name": "Эх, нярай, эмэгтэйчүүдийн үндэсний төв",
+    "website": "https://eneut.moh.gov.mn/"
+  }
+},
+{
+  "type": "way",
+  "id": 1319022788,
+  "center": {
+    "lat": 47.8665947,
+    "lon": 106.8100600
+  },
+  "tags": {
+    "amenity": "hospital",
+    "barrier": "fence",
+    "healthcare": "hospital",
+    "name": "Хан-Уул дүүргийн эрүүл мэндийн төв Яармаг салбар"
+  }
+},
+{
+  "type": "way",
+  "id": 1331394413,
+  "center": {
+    "lat": 47.9204345,
+    "lon": 106.9372537
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Улсын хоёрдугаар төв эмнэлэг"
+  }
+},
+{
+  "type": "way",
+  "id": 1333373403,
+  "center": {
+    "lat": 47.9308623,
+    "lon": 106.9289711
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Сүхбаатар дүүргийн нэгдсэн эмнэлэг"
+  }
+},
+{
+  "type": "way",
+  "id": 1333387066,
+  "center": {
+    "lat": 47.9173087,
+    "lon": 106.9275737
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "\"Өргөө\" амаржих газар"
+  }
+},
+{
+  "type": "way",
+  "id": 1333389842,
+  "center": {
+    "lat": 47.9138593,
+    "lon": 106.9015835
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "\"Хүрээ\" амаржих газар / 2-р төрөх эмнэлэг"
+  }
+},
+{
+  "type": "way",
+  "id": 1374349959,
+  "center": {
+    "lat": 47.9267590,
+    "lon": 106.9102615
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "61-r bair Park"
+  }
+},
+{
+  "type": "way",
+  "id": 1415711375,
+  "center": {
+    "lat": 47.8742438,
+    "lon": 107.1067976
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "commercial",
+    "name": "CU - Market",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "way",
+  "id": 1470405550,
+  "center": {
+    "lat": 47.9118184,
+    "lon": 106.7846091
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Сонгинохайрхан нэгдсэн эмнэлгийн салбар амбулатори"
+  }
+},
+{
+  "type": "way",
+  "id": 1475201393,
+  "center": {
+    "lat": 47.9254055,
+    "lon": 106.9065094
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Ch.Ankhbayar Erdenesiin aral Park"
+  }
+},
+{
+  "type": "way",
+  "id": 1490231666,
+  "center": {
+    "lat": 47.8098352,
+    "lon": 106.8155567
+  },
+  "tags": {
+    "access": "yes",
+    "area": "yes",
+    "name": "Chinggis Khan Enclosure Complex",
+    "name:mn": "Чингис хааны хүрээ цогцолбор",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "way",
+  "id": 1495767133,
+  "center": {
+    "lat": 47.9119254,
+    "lon": 106.9174232
+  },
+  "tags": {
+    "amenity": "theatre",
+    "name": "Задгай ногоон театр",
+    "theatre:type": "amphi"
+  }
+},
+{
+  "type": "way",
+  "id": 1495767145,
+  "center": {
+    "lat": 47.9107302,
+    "lon": 106.9164891
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Ulaanbaatar Park",
+    "wikidata": "Q131424861"
+  }
+},
+{
+  "type": "way",
+  "id": 1508773046,
+  "center": {
+    "lat": 47.9210537,
+    "lon": 106.8940946
+  },
+  "tags": {
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 1529364678,
+  "center": {
+    "lat": 47.9120996,
+    "lon": 106.9193825
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "SocialPay Park",
+    "name:zh": "儿童公园"
+  }
+},
+{
+  "type": "way",
+  "id": 1529997393,
+  "center": {
+    "lat": 47.9208589,
+    "lon": 106.9418800
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:postcode": "13381",
+    "addr:street": "Баянзүрх дүүрэг, 3 хороо",
+    "leisure": "park",
+    "name": "Тоглоомын талбай"
+  }
+},
+{
+  "type": "way",
+  "id": 1530160132,
+  "center": {
+    "lat": 47.8992979,
+    "lon": 106.8984871
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:housenumber": "35/5",
+    "addr:place": "Нэхмэл-8 хотхон",
+    "building": "retail",
+    "name": "Paragon",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 1537293058,
+  "center": {
+    "lat": 47.9133769,
+    "lon": 106.9059751
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "retail",
+    "name": "Zuu Street Food"
+  }
+},
+{
+  "type": "way",
+  "id": 1540749667,
+  "center": {
+    "lat": 47.9197023,
+    "lon": 106.9047283
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Урт цагаан"
+  }
+},
+{
+  "type": "way",
+  "id": 1545572598,
+  "center": {
+    "lat": 47.9194940,
+    "lon": 106.9550330
+  },
+  "tags": {
+    "access": "permit",
+    "leisure": "park",
+    "name": "Green Chemistry",
+    "name:en": "Green Chemistry",
+    "name:mn": "Грийн Химистри",
+    "operator": "Green Chemistry LLC",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 1545575565,
+  "center": {
+    "lat": 47.9099277,
+    "lon": 106.9477605
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Нарантуул зах",
+    "name:en": "Narantuul market"
+  }
+},
+{
+  "type": "way",
+  "id": 1546672936,
+  "center": {
+    "lat": 47.8839927,
+    "lon": 106.9155079
+  },
+  "tags": {
+    "building": "yes",
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Зайсан толгой",
+    "name:en": "Zaisan Memorial",
+    "name:ru": "Мемориал Зайсан",
+    "tourism": "attraction",
+    "wikidata": "Q144444",
+    "wikimedia_commons": "Category:Zaisan Memorial",
+    "wikipedia": "mn:Зайсан толгой"
+  }
+},
+{
+  "type": "way",
+  "id": 1558875101,
+  "center": {
+    "lat": 47.9171130,
+    "lon": 106.8789934
+  },
+  "tags": {
+    "addr:city": "Ulaanbaatar",
+    "addr:postcode": "16064",
+    "addr:street": "Х.Чингүнжавын гудамж",
+    "leisure": "park",
+    "name": "dalan"
+  }
+},
+{
+  "type": "relation",
+  "id": 5241930,
+  "center": {
+    "lat": 47.9161715,
+    "lon": 106.9244321
+  },
+  "tags": {
+    "addr:city": "Улаанбаатар",
+    "addr:postcode": "210648",
+    "addr:street": "С.Зоригийн гудамж",
+    "amenity": "hospital",
+    "building": "yes",
+    "emergency": "yes",
+    "health_facility:type": "integrated hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "diagnose treatment;nursing;rehabilitation;emergency medicine;intensive care unit;disaster relief;blood product transfusion;pathology;medicine;ambulance;traditional medicine;palliative care;internal medicine;neurology;pediatric;general surgery;traumatology",
+    "healthcare:speciality:mn": "оношилгоо эмчилгээ;сувилахуй;сэргээн засах;яаралтай тусламж;эрчимт эмчилгээ;гамшгийн үеийн тусламж үйлчилгээ;цус сэлбэлт;эмгэг судлал;эмзүйн тусламж үйлчилгээ;түргэн тусламж;уламжлалт анагаах ухаан;хөнгөвчлөх;дотрын анагаах ухаан;мэдрэл;хүүхэд;мэс засал;г",
+    "insurance:health": "no",
+    "name": "улсын нэгдүгээр төв эмнэлэг",
+    "name:en": "state clinical central hospital",
+    "operator": "government",
+    "operator:type": "national",
+    "type": "multipolygon",
+    "wikidata": "Q131850817"
+  }
+},
+{
+  "type": "relation",
+  "id": 15638347,
+  "center": {
+    "lat": 47.9188085,
+    "lon": 106.9176269
+  },
+  "tags": {
+    "name": "Сүхбаатарын талбай",
+    "name:en": "Sukhbaatar Square",
+    "name:fr": "Place Gengis Khan",
+    "name:ru": "Площадь Сухэ-Батора",
+    "name:zh": "成吉思汗广场",
+    "place": "square",
+    "type": "multipolygon",
+    "wikidata": "Q1348864",
+    "wikipedia": "mn:Сүхбаатарын талбай"
+  }
+},
+{
+  "type": "relation",
+  "id": 15638398,
+  "center": {
+    "lat": 47.9174170,
+    "lon": 106.9178173
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Хонхтой цэцэрлэгт хүрээлэн",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 21094827,
+  "center": {
+    "lat": 47.9254756,
+    "lon": 106.9210019
+  },
+  "tags": {
+    "amenity": "university",
+    "name": "Монгол Улсын Их Сургууль",
+    "name:en": "National University of Mongolia",
+    "name:mn": "Монгол Улсын Их Сургууль",
+    "short_name": "МУИС",
+    "short_name:en": "NUM",
+    "short_name:mn": "МУИС",
+    "type": "multipolygon",
+    "website": "https://www.num.edu.mn/",
+    "wikidata": "Q1349150",
+    "wikipedia": "en:National University of Mongolia"
+  }
+}
+
+  ]
+}

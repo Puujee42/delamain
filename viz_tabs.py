@@ -45,8 +45,56 @@ def _xy(g, ids):
     return np.array([(g.nodes[i][2], g.nodes[i][1]) for i in ids])
 
 
+def edge_poly(g, a, b):
+    """(lon, lat) points of the road from a to b: the real street shape when the
+    graph has geometry (data_ub/geometry.csv), else a straight line."""
+    geo = getattr(g, "geometry", None)
+    if geo is not None and (a, b) in geo:
+        return geo[(a, b)]
+    return np.array([(g.nodes[a][2], g.nodes[a][1]), (g.nodes[b][2], g.nodes[b][1])])
+
+
+def path_poly(g, path):
+    if not path:
+        return np.empty((0, 2))
+    if len(path) == 1:
+        return _xy(g, path)
+    return np.vstack([edge_poly(g, a, b) for a, b in zip(path, path[1:])])
+
+
 def _segments(g):
-    return [[(g.nodes[e["src"]][2], g.nodes[e["src"]][1]), (g.nodes[e["dst"]][2], g.nodes[e["dst"]][1])] for e in g.edges]
+    return [edge_poly(g, e["src"], e["dst"]) for e in g.edges]
+
+
+def label_nodes(ax, g, fontsize=6.5, min_km=0.9, names=True, color="#5d647d"):
+    """Station names, skipping ones that would sit on top of an already labelled one."""
+    from graph import haversine_km
+    done = []
+    for i, (nm, la, lo) in g.nodes.items():
+        if any(haversine_km(la, lo, a, b) < min_km for a, b in done):
+            continue
+        done.append((la, lo))
+        ax.annotate(nm if names else i, (lo, la), fontsize=fontsize, xytext=(4, 4), textcoords="offset points",
+                    color=color, zorder=9)
+
+
+def draw_places(ax, g, ids=None):
+    """Dashed connector from the road junction (node) to the real place (OSM point)."""
+    pl = getattr(g, "places", None)
+    if not pl:
+        return
+    for i in (ids if ids is not None else g.nodes):
+        if i in pl:
+            (plo, pla), (_, la, lo) = pl[i], g.nodes[i]
+            ax.plot([lo, plo], [la, pla], ls=":", color="#5d647d", lw=1, zorder=4)
+            ax.scatter([plo], [pla], marker="D", s=14, color="#5d647d", zorder=4)
+
+
+def basemap(ax, g):
+    """All real roads (OSM) as a faint background, when the graph has one."""
+    bm = getattr(g, "basemap", None)
+    if bm is not None and len(bm):
+        ax.add_collection(LineCollection(bm, colors="#e6e8f0", linewidths=0.6, zorder=0))
 
 
 def _plain(ax):
@@ -68,7 +116,8 @@ class StepView:
         names = len(g.nodes) <= 20
         for i, algo in enumerate(ALGOS):
             ax = fig.add_subplot(1, 2, i + 1)
-            ax.add_collection(LineCollection(segs, colors="#d5d8e6", linewidths=0.6 if big else 2.2, zorder=1))
+            basemap(ax, g)
+            ax.add_collection(LineCollection(segs, colors="#c9cde0", linewidths=0.6 if big else 2.2, zorder=1))
             if not big:
                 ax.scatter(*_xy(g, g.nodes).T, s=28, color="#c9cde0", zorder=2)
             a = dict(ax=ax)
@@ -84,9 +133,7 @@ class StepView:
             ax.scatter([s[2]], [s[1]], s=140, color=GREEN, edgecolor="white", zorder=8)
             ax.scatter([t[2]], [t[1]], s=200, marker="*", color=RED, edgecolor="white", zorder=8)
             if not big:
-                for n, (nm, la, lo) in g.nodes.items():
-                    ax.annotate(nm if names else n, (lo, la), fontsize=6.5, xytext=(5, 5), textcoords="offset points",
-                                color="#5d647d", zorder=9)
+                label_nodes(ax, g, 6.5 if names else 6, 0.0 if names else 1.2)
             ax.autoscale()
             _plain(ax)
             a["title"] = ax.set_title(ALGO_NAME[algo], fontsize=11, color=ALGO_COLOR[algo], weight="bold")
@@ -102,12 +149,12 @@ class StepView:
         a["front"].set_offsets(_xy(g, live))
         a["cur"].set_offsets(_xy(g, [s.u] if s.u and not s.finished else []))
         if s.event in ("relax", "test", "push") and s.v is not None:
-            (x0, y0), (x1, y1) = _xy(g, [s.u, s.v])
-            a["relax"].set_data([x0, x1], [y0, y1])
+            p = edge_poly(g, s.u, s.v)
+            a["relax"].set_data(p[:, 0], p[:, 1])
         else:
             a["relax"].set_data([], [])
         if s.path:
-            p = _xy(g, s.path)
+            p = path_poly(g, s.path)
             a["path"].set_data(p[:, 0], p[:, 1])
         else:
             a["path"].set_data([], [])
@@ -164,16 +211,21 @@ def draw_route(fig, st, res, segs, selected=None, method=None):
     # ---- route map
     ax = fig.add_subplot(gs[1, 0])
     pts = _xy(g, path)
-    (x0, y0), (x1, y1) = pts.min(0), pts.max(0)
+    allp = path_poly(g, path)
+    (x0, y0), (x1, y1) = allp.min(0), allp.max(0)
     pad = max(x1 - x0, (y1 - y0) / COS_LAT, 0.01) * 0.12
-    ax.add_collection(LineCollection(_segments(g), colors="#e1e3ec", linewidths=1.2, zorder=1))
+    basemap(ax, g)
+    ax.add_collection(LineCollection(_segments(g), colors="#d9dce8", linewidths=1.2, zorder=1))
     for s_ in segs:
-        (ax_, ay), (bx, by) = _xy(g, [s_["a"], s_["b"]])
+        poly = edge_poly(g, s_["a"], s_["b"])
         sel = selected == s_["i"]
         if sel:
-            ax.plot([ax_, bx], [ay, by], color=DARK, lw=12, zorder=2, solid_capstyle="round")
-        ln, = ax.plot([ax_, bx], [ay, by], color=CMAP(NORM(s_["c"])), lw=7, zorder=3, solid_capstyle="round", picker=6)
+            ax.plot(poly[:, 0], poly[:, 1], color=DARK, lw=12, zorder=2, solid_capstyle="round")
+        ln, = ax.plot(poly[:, 0], poly[:, 1], color=CMAP(NORM(s_["c"])), lw=7, zorder=3, solid_capstyle="round",
+                      picker=6)
         ln.set_gid(f"seg:{s_['i']}")
+        m = len(poly) // 2
+        (ax_, ay), (bx, by) = (poly[m - 1], poly[m]) if len(poly) > 2 else (poly[0], poly[-1])
         mx, my, dx, dy = (ax_ + bx) / 2, (ay + by) / 2, (bx - ax_) * 0.04, (by - ay) * 0.04
         ax.annotate("", (mx + dx, my + dy), (mx - dx, my - dy),
                     arrowprops=dict(arrowstyle="-|>", color=DARK, lw=0, mutation_scale=16), zorder=4)
@@ -191,6 +243,7 @@ def draw_route(fig, st, res, segs, selected=None, method=None):
         ax.text(x, y, str(k), ha="center", va="center", fontsize=7, weight="bold", zorder=6)
         ax.annotate(f"{cum[k]:.1f} min", (x, y), xytext=(8, -12), textcoords="offset points", fontsize=7,
                     color=DARK, zorder=6, bbox=dict(boxstyle="round,pad=0.15", fc="white", ec="none", alpha=0.8))
+    draw_places(ax, g, [path[0], path[-1]])
     ax.scatter([pts[0][0]], [pts[0][1]], s=260, color=GREEN, zorder=4)
     ax.scatter([pts[-1][0]], [pts[-1][1]], s=330, marker="*", color=RED, zorder=7)
     ax.set_xlim(x0 - pad, x1 + pad); ax.set_ylim(y0 - pad * COS_LAT, y1 + pad * COS_LAT)
