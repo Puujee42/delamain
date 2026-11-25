@@ -1,0 +1,7 @@
+evidence,hand,bayes_net,hand_minus_bn,sampling_mean,sampling_mean_abs_err
+clear / off_peak,0.1,0.1,0.0e+00,0.1023,0.0065
+rain / morning_peak,0.5,0.5,0.0e+00,0.5113,0.0145
+snow / morning_peak,0.65,0.65,0.0e+00,0.6439,0.0175
+snow / evening_peak,0.75,0.75,0.0e+00,0.7431,0.0089
+rain / *,0.2675,0.2675,0.0e+00,0.2639,0.0182
+* / evening_peak,0.5525,0.5525,1.1e-16,0.5574,0.0089

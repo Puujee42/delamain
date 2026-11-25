@@ -1,0 +1,5 @@
+condition,runs,optimal_same,ucs_nodes,astar_nodes,nodes_saved_pct,ucs_ms,astar_ms,avg_trip_min,dist_route_avg_min,pairs_where_distance_route_is_slower,avg_time_saved_pct,max_time_saved_pct
+clear+night,300,300/300,8,6.07,24.2,0.0072,0.0117,14.4,14.4,0,0.0,0.0
+clear+day,300,300/300,8.03,6.43,19.9,0.0071,0.0117,16.8,16.8,1,0.0,1.1
+rain+morning_peak,300,300/300,7.97,6.73,15.5,0.007,0.012,23.0,23.1,1,0.3,8.2
+snow+evening_peak,300,300/300,8,6.93,13.3,0.0071,0.0124,25.9,26.0,4,0.4,10.5

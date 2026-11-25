@@ -1,0 +1,10 @@
+{
+ "k": {
+  "local": 1.0,
+  "main": 1.0,
+  "arterial": 0.5
+ },
+ "rmse_min": 1.627,
+ "trips": 60,
+ "source": "synthetic"
+}

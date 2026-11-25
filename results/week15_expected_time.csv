@@ -1,0 +1,7 @@
+graph,condition,pairs,avg_cost_increase_pct,max_cost_increase_pct,routes_different,routes_different_pct,ucs_eq_astar
+city,rain+morning_peak,210,4.6,11.41,0,0.0,210/210
+city,snow+evening_peak,210,2.95,7.31,0,0.0,210/210
+scale,rain+morning_peak,4032,3.2,11.65,338,8.4,4032/4032
+scale,snow+evening_peak,4032,1.98,7.47,145,3.6,4032/4032
+osm,rain+morning_peak,500,3.25,7.07,51,10.2,500/500
+osm,snow+evening_peak,500,1.92,4.11,19,3.8,500/500

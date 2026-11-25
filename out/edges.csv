@@ -1,0 +1,6 @@
+from,to,road,speed_limit_kmh,oneway,base_congestion,blocked,highway,length_km,lanes,congestion_source,speed_source,osm_way_id
+N0001,N0003,Peace Avenue,60,0,0.55,0,primary,1.0002,,assumed_by_class,class_default,101
+N0003,N0004,Peace Avenue,60,0,0.55,0,primary,0.7452,,assumed_by_class,class_default,101
+N0004,N0005,Seoul Street,50,1,0.45,0,secondary,1.1119,,assumed_by_class,class_default,102
+N0005,N0002,Chinggis Avenue,40,1,0.35,0,tertiary,1.4901,,assumed_by_class,class_default,103
+N0002,N0003,Tokyo Street,30,0,0.2,0,residential,1.3385,,assumed_by_class,class_default,104

@@ -1,0 +1,17 @@
+graph,model,condition,pairs,routes_changed,routes_changed_pct,avg_saved_pct_on_changed,max_saved_pct,ucs_eq_astar
+city (15 nodes),uniform,clear+off_peak,210,0,0.0,0.0,0.0,210/210
+city (15 nodes),uniform,rain+morning_peak,210,1,0.5,3.5,3.5,210/210
+city (15 nodes),uniform,snow+morning_peak,210,1,0.5,4.8,4.8,210/210
+city (15 nodes),uniform,snow+evening_peak,210,1,0.5,5.7,5.7,210/210
+city (15 nodes),road_class,clear+off_peak,210,0,0.0,0.0,0.0,210/210
+city (15 nodes),road_class,rain+morning_peak,210,4,1.9,4.1,8.1,210/210
+city (15 nodes),road_class,snow+morning_peak,210,4,1.9,5.8,12.2,210/210
+city (15 nodes),road_class,snow+evening_peak,210,4,1.9,6.9,14.7,210/210
+scale (64 nodes),uniform,clear+off_peak,4032,0,0.0,0.0,0.0,4032/4032
+scale (64 nodes),uniform,rain+morning_peak,4032,344,8.5,1.2,4.2,4032/4032
+scale (64 nodes),uniform,snow+morning_peak,4032,559,13.9,1.1,5.6,4032/4032
+scale (64 nodes),uniform,snow+evening_peak,4032,580,14.4,1.4,6.5,4032/4032
+scale (64 nodes),road_class,clear+off_peak,4032,0,0.0,0.0,0.0,4032/4032
+scale (64 nodes),road_class,rain+morning_peak,4032,875,21.7,2.5,18.5,4032/4032
+scale (64 nodes),road_class,snow+morning_peak,4032,1158,28.7,3.0,25.4,4032/4032
+scale (64 nodes),road_class,snow+evening_peak,4032,1285,31.9,3.5,29.5,4032/4032

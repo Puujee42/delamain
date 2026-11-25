@@ -1,0 +1,6 @@
+condition,pairs,ucs_nodes_time,astar_nodes_time,reduction_time_pct,ucs_ms_time,astar_ms_time,ucs_nodes_dist,astar_nodes_dist,reduction_dist_pct,ucs_ms_dist,astar_ms_dist,optimal_same
+default,500,924.4,586.8,36.5,0.914,0.96,924.1,263.6,71.5,0.917,0.633,1000/1000
+clear+off_peak,500,924.5,547.6,40.8,0.959,0.941,924.1,263.6,71.5,0.958,0.647,1000/1000
+rain+morning_peak,500,924.5,616.0,33.4,0.967,1.064,924.1,263.6,71.5,0.972,0.653,1000/1000
+snow+morning_peak,500,924.5,630.2,31.8,0.97,1.084,924.1,263.6,71.5,0.969,0.654,1000/1000
+snow+evening_peak,500,924.5,639.0,30.9,0.978,1.11,924.1,263.6,71.5,0.973,0.651,1000/1000

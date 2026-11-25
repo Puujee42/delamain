@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="test">
+  <node id="1" lat="47.9200" lon="106.9100"/>
+  <node id="2" lat="47.9200" lon="106.9200"/>
+  <node id="3" lat="47.9200" lon="106.9300"/>
+  <node id="4" lat="47.9300" lon="106.9300"/>
+  <node id="5" lat="47.9300" lon="106.9100"/>
+  <node id="6" lat="47.9230" lon="106.9150"/>
+  <node id="7" lat="47.9400" lon="106.9100"/>
+  <node id="8" lat="47.9400" lon="106.9200"/>
+
+  <!-- Way 1: primary, 1 -> 6 -> 2 -> 3 (junction at 2, curved via 6) -->
+  <way id="101">
+    <nd ref="1"/>
+    <nd ref="6"/>
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <tag k="highway" v="primary"/>
+    <tag k="name" v="Peace Avenue"/>
+  </way>
+
+  <!-- Way 2: secondary with oneway=yes, 3 -> 4 -->
+  <way id="102">
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="name" v="Seoul Street"/>
+  </way>
+
+  <!-- Way 3: tertiary with oneway=-1, 5 -> 4 drawn, so directed 4 -> 5 -->
+  <way id="103">
+    <nd ref="5"/>
+    <nd ref="4"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="oneway" v="-1"/>
+    <tag k="name" v="Chinggis Avenue"/>
+  </way>
+
+  <!-- Way 4: residential, 5 -> 2 -->
+  <way id="104">
+    <nd ref="5"/>
+    <nd ref="2"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Tokyo Street"/>
+  </way>
+
+  <!-- Way 5: footway (should be excluded) -->
+  <way id="105">
+    <nd ref="2"/>
+    <nd ref="4"/>
+    <tag k="highway" v="footway"/>
+    <tag k="name" v="Park Footpath"/>
+  </way>
+
+  <!-- Way 6: disconnected road (should be dropped) -->
+  <way id="106">
+    <nd ref="7"/>
+    <nd ref="8"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Lost Lane"/>
+  </way>
+</osm>

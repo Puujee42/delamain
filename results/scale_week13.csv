@@ -1,0 +1,9 @@
+graph,nodes,directed_edges,condition,pairs,ucs_nodes_time,astar_nodes_time,reduction_time_pct,ucs_nodes_dist,astar_nodes_dist,reduction_dist_pct,optimal_same
+city (15 nodes),15,36,default,210,8.5,7.02,17.4,8.5,5.6,34.1,420/420
+city (15 nodes),15,36,clear+off_peak,210,8.5,6.76,20.4,8.5,5.6,34.1,420/420
+city (15 nodes),15,36,rain+morning_peak,210,8.5,7.24,14.8,8.5,5.6,34.1,420/420
+city (15 nodes),15,36,snow+morning_peak,210,8.5,7.38,13.2,8.5,5.6,34.1,420/420
+scale (64 nodes),64,247,default,4032,33,23.57,28.6,33,13.86,58.0,8064/8064
+scale (64 nodes),64,247,clear+off_peak,4032,33,22.16,32.9,33,13.86,58.0,8064/8064
+scale (64 nodes),64,247,rain+morning_peak,4032,33,24.63,25.4,33,13.86,58.0,8064/8064
+scale (64 nodes),64,247,snow+morning_peak,4032,33,25.15,23.8,33,13.86,58.0,8064/8064

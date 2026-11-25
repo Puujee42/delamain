@@ -1,0 +1,5 @@
+trips,noise_pct,runs,exact_recoveries,mean_abs_err_local,mean_abs_err_main,mean_abs_err_arterial
+30,5,3,1,0.25,0.167,0.083
+60,5,3,0,0.333,0.083,0.083
+120,5,3,0,0.417,0.0,0.083
+240,5,3,1,0.083,0.083,0.0

@@ -1,0 +1,21 @@
+from,to,road,speed_limit_kmh,oneway,base_congestion,blocked
+N01,N02,Peace Avenue,40,0,0.7,0
+N02,N03,Peace Avenue,40,0,0.6,0
+N03,N04,Peace Avenue,50,0,0.5,0
+N04,N14,Peace Avenue,50,0,0.5,0
+N14,N11,Peace Avenue,60,0,0.4,0
+N11,N10,Khan-Uul Road,60,0,0.3,0
+N10,N15,Airport Road,70,0,0.2,0
+N01,N13,Chinggis Avenue,40,0,0.6,0
+N13,N03,Enkh Taivan Street,40,1,0.5,0
+N01,N12,Seoul Street,40,0,0.7,0
+N01,N07,Chinggis Avenue,50,0,0.7,0
+N07,N06,Chinggis Avenue,60,0,0.8,0
+N06,N08,Narantuul Road,50,0,0.6,0
+N07,N08,Ikh Toiruu,50,0,0.6,0
+N01,N05,Zaisan Road,50,0,0.5,0
+N05,N11,Zaisan Bypass,60,0,0.3,0
+N12,N13,Tokyo Street,40,0,0.5,0
+N14,N09,Tolgoit Road,60,0,0.4,0
+N02,N05,Naadam Road,50,1,0.6,0
+N11,N04,Khan-Uul Link,40,0,0.9,1
