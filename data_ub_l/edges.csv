@@ -1,0 +1,1433 @@
+from,to,road,speed_limit_kmh,oneway,base_congestion,blocked,highway,length_km,congestion_source,speed_source,signals
+B001,B002,Peace Avenue / Baga Toiruu Street,61.07,1,0.45,0,trunk,1.414,osm_class_default,osm_length_weighted,3.0
+B001,B088,Peace Avenue / Olympic Street,60.0,1,0.4852,0,trunk,1.137,osm_class_default,osm_length_weighted,8.0
+B001,P009,Seoul Street / Baga Toiruu Street,60.0,1,0.45,0,secondary,0.882,osm_class_default,osm_length_weighted,6.0
+B001,P011,Peace Avenue / Baga Toiruu Street,60.0,1,0.45,0,trunk,1.351,osm_class_default,osm_length_weighted,7.5
+B001,P015,Peace Avenue / Baga Toiruu Street,58.43,1,0.45,0,secondary,0.752,osm_class_default,osm_length_weighted,2.0
+B001,P040,Baga Toiruu street / Baga Toiruu Street,60.0,1,0.45,0,secondary,0.224,osm_class_default,osm_length_weighted,1.0
+B001,U01,Peace Avenue / Ikh Surguulyn street,60.0,1,0.4756,0,trunk,1.0,osm_class_default,osm_length_weighted,7.5
+B001,U05,Peace Avenue / Baga Toiruu Street,60.0,1,0.45,0,trunk,0.611,osm_class_default,osm_length_weighted,4.5
+B001,U08,Peace Avenue / D. Choidog Street,60.0,1,0.4427,0,trunk,1.09,osm_class_default,osm_length_weighted,6.5
+B002,B001,Peace Avenue / Baga Toiruu Street,60.0,1,0.4513,0,trunk,1.532,osm_class_default,osm_length_weighted,10.0
+B002,B083,Narny road / Undsen khuuliin street,60.0,1,0.5477,0,primary,1.711,osm_class_default,osm_length_weighted,6.0
+B002,B089,Нарны гүүр / Undsen khuuliin street,60.0,1,0.5476,0,primary,1.599,osm_class_default,osm_length_weighted,4.0
+B002,P006,Narny road / Undsen khuuliin street,60.0,1,0.5474,0,primary,1.477,osm_class_default,osm_length_weighted,4.5
+B002,P011,Peace Avenue / Их тойруу,60.0,1,0.4508,0,trunk,2.555,osm_class_default,osm_length_weighted,13.5
+B002,P015,Juulchny Street / Их тойруу,57.39,1,0.4828,0,secondary,1.449,osm_class_default,osm_length_weighted,2.0
+B002,P016,Seoul Street / Undsen khuuliin street,60.0,1,0.4914,0,secondary,0.587,osm_class_default,osm_length_weighted,3.5
+B002,P040,Juulchny Street / Их тойруу,58.21,1,0.4825,0,secondary,1.48,osm_class_default,osm_length_weighted,3.0
+B002,U01,Peace Avenue / Ikh Surguulyn street,60.0,1,0.4627,0,trunk,2.204,osm_class_default,osm_length_weighted,13.5
+B002,U05,Peace Avenue / Chinggis Avenue,60.0,1,0.4511,0,trunk,1.815,osm_class_default,osm_length_weighted,10.5
+B002,U29,Peace Avenue,60.0,1,0.45,0,trunk,0.242,osm_class_default,osm_length_weighted,2.0
+B002,U30,Их тойруу,60.49,1,0.5456,0,primary,0.67,osm_class_default,osm_length_weighted,1.0
+B003,B014,Ж.Самбуугийн гудамж / J. Sambuu Street,60.0,1,0.55,0,primary,1.163,osm_class_default,osm_length_weighted,4.0
+B003,P011,Baga Toiruu street / Ж.Самбуугийн гудамж,60.0,1,0.4778,0,secondary,1.108,osm_class_default,osm_length_weighted,4.0
+B003,P031,Ikh surguuliin Street / Nogoon nuuryn Street,60.0,1,0.55,0,primary,1.224,osm_class_default,osm_length_weighted,5.0
+B003,P039,Ж.Самбуугийн гудамж / Beijing Street,60.0,1,0.55,0,primary,0.398,osm_class_default,osm_length_weighted,2.0
+B003,U01,Ikh Surguulyn street / Ж.Самбуугийн гудамж,60.0,1,0.5469,0,primary,0.405,osm_class_default,osm_length_weighted,2.0
+B003,U04,J. Sambuu Street / Д.Сүхбаатарын гудамж,60.0,1,0.55,0,primary,0.464,osm_class_default,osm_length_weighted,2.0
+B003,U06,Ikh surguuliin Street / Их тойруу,60.0,1,0.55,0,primary,1.099,osm_class_default,osm_length_weighted,4.0
+B003,U07,Нэгдсэн үндэсний гудамж / Д.Сүхбаатарын гудамж,54.64,1,0.4545,0,primary,1.005,osm_class_default,osm_length_weighted,1.0
+B003,U26,Д.Сүхбаатарын гудамж / J. Sambuu Street,60.0,1,0.55,0,primary,0.695,osm_class_default,osm_length_weighted,2.0
+B004,B080,Хайрхан-9 / Дунд наран-20,40.18,1,0.351,0,tertiary,5.447,osm_class_default,osm_length_weighted,1.5
+B004,P048,Zaluusyn street / Өнөр хорооллын гудамж,50.78,1,0.4196,0,secondary,1.405,osm_class_default,osm_length_weighted,2.0
+B004,U48,Москвагийн гудамж,60.0,1,0.45,0,trunk,0.31,osm_class_default,osm_length_weighted,0.0
+B005,B019,Залуучуудын гудамж / Их тойруу,41.03,1,0.3625,0,tertiary,0.626,osm_class_default,osm_length_weighted,4.0
+B005,B026,Их тойруу / Токиогийн гудамж,58.34,1,0.5163,0,primary,1.127,osm_class_default,osm_length_weighted,1.0
+B005,P010,Их тойруу / Эрхүүгийн гудамж,58.31,1,0.5016,0,primary,1.102,osm_class_default,osm_length_weighted,1.0
+B005,P023,Токиогийн гудамж,60.0,1,0.4324,0,secondary,0.602,osm_class_default,osm_length_weighted,1.5
+B005,P030,Их тойруу / Сансарын Тойрог,58.71,1,0.5168,0,primary,0.895,osm_class_default,osm_length_weighted,0.5
+B005,P047,Токиогийн гудамж / Дарь-Эхийн гудамж,55.21,1,0.4233,0,secondary,0.369,osm_class_default,osm_length_weighted,1.0
+B005,P064,Их тойруу / Л.Энэбишийн өргөн чөлөө,59.45,1,0.5392,0,primary,3.477,osm_class_default,osm_length_weighted,5.0
+B005,P067,Их тойруу / Токиогийн гудамж,58.23,1,0.5139,0,primary,1.051,osm_class_default,osm_length_weighted,1.0
+B005,U27,B. Dorj Street / Их тойруу,59.08,1,0.5289,0,primary,1.498,osm_class_default,osm_length_weighted,3.0
+B006,B087,Наадамчдын зам,60.0,1,0.45,0,secondary,0.809,osm_class_default,osm_length_weighted,0.0
+B006,P076,local road,41.07,1,0.3559,0,tertiary,0.255,osm_class_default,osm_length_weighted,0.0
+B006,U42,Морингийн зам,60.0,1,0.45,0,secondary,0.396,osm_class_default,osm_length_weighted,0.0
+B007,B004,Москвагийн гудамж,60.0,1,0.45,0,trunk,0.478,osm_class_default,osm_length_weighted,1.5
+B007,B047,Ажилчны гудамж / Moscow street,57.32,1,0.5025,0,primary,3.356,osm_class_default,osm_length_weighted,0.5
+B007,B053,Ажилчны гудамж / Moscow street,60.33,1,0.5186,0,primary,4.229,osm_class_default,osm_length_weighted,0.5
+B007,P004,Peace Avenue / Нарны зам,60.41,1,0.4728,0,trunk,2.632,osm_class_default,osm_length_weighted,4.0
+B007,P017,Баруун үйлдвэрийн гудамж / Ажилчны гудамж,60.17,1,0.4274,0,tertiary,3.919,osm_class_default,osm_length_weighted,0.5
+B007,P043,Peace Avenue / Moscow street,60.0,1,0.45,0,trunk,2.568,osm_class_default,osm_length_weighted,8.0
+B007,P044,Ажилчны гудамж / Moscow street,57.35,1,0.4918,0,primary,3.689,osm_class_default,osm_length_weighted,0.5
+B007,P048,Ард Аюушийн өргөн чөлөө / Moscow street,60.13,1,0.4973,0,trunk,1.495,osm_class_default,osm_length_weighted,5.0
+B007,P050,Peace Avenue / Moscow street,60.19,1,0.45,0,trunk,2.075,osm_class_default,osm_length_weighted,4.0
+B007,P072,Ажилчны гудамж / Moscow street,60.75,1,0.5143,0,primary,4.326,osm_class_default,osm_length_weighted,0.5
+B007,U09,Peace Avenue / Moscow street,59.95,1,0.4495,0,trunk,3.026,osm_class_default,osm_length_weighted,7.0
+B008,B009,Хувьсгалын зам,60.0,1,0.55,0,primary,0.971,osm_class_default,osm_length_weighted,0.0
+B008,B012,Л.Энэбишийн өргөн чөлөө / Эх нялхасын гудамж,60.0,1,0.5428,0,primary,0.549,osm_class_default,osm_length_weighted,0.0
+B008,P013,Л.Энэбишийн өргөн чөлөө,60.0,1,0.55,0,primary,0.859,osm_class_default,osm_length_weighted,0.0
+B008,P028,Хасбаатарын гудамж / Хувьсгалын зам,60.0,1,0.4591,0,tertiary,0.726,osm_class_default,osm_length_weighted,0.0
+B008,P051,Л.Энэбишийн өргөн чөлөө / С.Амарсанаагийн гудамж,59.73,1,0.5059,0,primary,0.98,osm_class_default,osm_length_weighted,0.0
+B008,P064,Хувьсгалын зам,60.0,1,0.55,0,primary,0.154,osm_class_default,osm_length_weighted,1.0
+B008,P068,Л.Энэбишийн өргөн чөлөө / Хувьсгалын зам,60.0,1,0.55,0,primary,0.868,osm_class_default,osm_length_weighted,1.0
+B008,U02,Л.Энэбишийн өргөн чөлөө,60.0,1,0.55,0,primary,0.455,osm_class_default,osm_length_weighted,0.0
+B008,U07,Л.Энэбишийн өргөн чөлөө / Д.Дамбын гудамж,54.24,1,0.484,0,primary,1.368,osm_class_default,osm_length_weighted,1.0
+B009,B008,Хувьсгалын зам,60.0,1,0.55,0,primary,0.971,osm_class_default,osm_length_weighted,0.0
+B009,B010,Хувьсгалын зам,60.0,1,0.55,0,primary,0.646,osm_class_default,osm_length_weighted,0.0
+B009,B020,local road,40.0,1,0.35,0,tertiary,2.082,osm_class_default,osm_length_weighted,0.0
+B009,B111,Самбалхүндэвийн зам,40.0,1,0.35,0,tertiary,1.816,osm_class_default,osm_length_weighted,0.0
+B009,P028,Хувьсгалын зам / Хасбаатарын гудамж,60.0,1,0.4844,0,primary,0.979,osm_class_default,osm_length_weighted,0.0
+B010,B009,Хувьсгалын зам,60.0,1,0.55,0,primary,0.646,osm_class_default,osm_length_weighted,0.0
+B010,B011,Хувьсгалын зам,55.17,1,0.5088,0,primary,2.174,osm_class_default,osm_length_weighted,0.0
+B010,B078,Өргөө гудамж,60.0,1,0.35,0,tertiary,1.782,osm_class_default,osm_length_weighted,0.0
+B010,B080,Хувьсгалын зам,60.0,1,0.55,0,primary,2.269,osm_class_default,osm_length_weighted,0.0
+B010,B105,Хувьсгалын зам,45.68,1,0.4155,0,tertiary,0.879,osm_class_default,osm_length_weighted,0.0
+B011,B010,Хувьсгалын зам,55.17,1,0.5088,0,primary,2.174,osm_class_default,osm_length_weighted,0.0
+B011,B080,Хувьсгалын зам,49.09,1,0.4511,0,primary,0.857,osm_class_default,osm_length_weighted,0.0
+B011,B081,local road,40.0,1,0.35,0,tertiary,0.369,osm_class_default,osm_length_weighted,0.0
+B011,B105,Хувьсгалын зам,50.23,1,0.4625,0,primary,2.397,osm_class_default,osm_length_weighted,0.0
+B012,B018,Л.Энэбишийн өргөн чөлөө / Эх нялхасын гудамж,60.0,1,0.547,0,primary,0.804,osm_class_default,osm_length_weighted,0.0
+B012,P013,Л.Энэбишийн өргөн чөлөө / Эх нялхасын гудамж,60.0,1,0.5432,0,primary,0.361,osm_class_default,osm_length_weighted,0.0
+B012,P028,Эх нялхасын төв гудамж,60.0,1,0.35,0,tertiary,0.375,osm_class_default,osm_length_weighted,0.0
+B012,P051,С.Амарсанаагийн гудамж / Эх нялхасын гудамж,59.48,1,0.4409,0,secondary,0.507,osm_class_default,osm_length_weighted,0.0
+B012,U02,Л.Энэбишийн өргөн чөлөө / Эх нялхасын гудамж,59.39,1,0.5248,0,primary,0.431,osm_class_default,osm_length_weighted,0.0
+B013,P017,Yйлдвэрийн гудамж / Чингисийн өргөн чөлөө,53.73,1,0.4444,0,secondary,1.126,osm_class_default,osm_length_weighted,0.0
+B013,P075,Чингисийн өргөн чөлөө,60.0,1,0.45,0,trunk,0.393,osm_class_default,osm_length_weighted,1.0
+B013,U39,Чингисийн өргөн чөлөө,60.0,1,0.45,0,trunk,0.336,osm_class_default,osm_length_weighted,0.0
+B014,B003,Ж.Самбуугийн гудамж / J. Sambuu Street,60.0,1,0.55,0,primary,1.189,osm_class_default,osm_length_weighted,4.0
+B014,B089,Их тойруу / Нарны гүүр,60.0,1,0.55,0,primary,2.653,osm_class_default,osm_length_weighted,6.0
+B014,P006,Их тойруу / Narny road,60.0,1,0.55,0,primary,2.531,osm_class_default,osm_length_weighted,6.5
+B014,P015,Баруун сэлбийн гудамж / Ж.Самбуугийн гудамж,58.51,1,0.477,0,secondary,0.793,osm_class_default,osm_length_weighted,0.5
+B014,P016,Их тойруу / Seoul Street,60.0,1,0.5324,0,primary,1.641,osm_class_default,osm_length_weighted,5.5
+B014,P040,Ж.Самбуугийн гудамж / Baga Toiruu street,60.0,1,0.5228,0,primary,0.81,osm_class_default,osm_length_weighted,2.0
+B014,P064,Хувьсгалын зам / Ж.Самбуугийн гудамж,60.0,1,0.55,0,primary,0.72,osm_class_default,osm_length_weighted,1.0
+B014,P068,Их тойруу / Ж.Самбуугийн гудамж,60.0,1,0.55,0,primary,1.03,osm_class_default,osm_length_weighted,0.0
+B014,U01,J. Sambuu Street / Ж.Самбуугийн гудамж,60.0,1,0.5492,0,primary,1.492,osm_class_default,osm_length_weighted,5.0
+B014,U04,Ж.Самбуугийн гудамж / J. Sambuu Street,60.0,1,0.55,0,primary,1.092,osm_class_default,osm_length_weighted,2.0
+B014,U07,Ж.Самбуугийн гудамж / Ankara street,54.74,1,0.4818,0,primary,1.026,osm_class_default,osm_length_weighted,1.0
+B014,U26,Ankara street / Ж.Самбуугийн гудамж,60.0,1,0.5023,0,secondary,1.154,osm_class_default,osm_length_weighted,2.0
+B014,U29,Их тойруу / Ж.Самбуугийн гудамж,60.32,1,0.535,0,primary,1.285,osm_class_default,osm_length_weighted,3.0
+B014,U30,Их тойруу / Ж.Самбуугийн гудамж,60.0,1,0.55,0,primary,0.721,osm_class_default,osm_length_weighted,2.0
+B015,B016,Гачууртын зам / Ulaanbaatar - Nalaikh,60.19,1,0.45,0,secondary,12.731,osm_class_default,osm_length_weighted,0.0
+B015,B118,Ulaanbaatar - Nalaikh / Гачууртын зам,60.7,1,0.45,0,trunk,3.571,osm_class_default,osm_length_weighted,0.0
+B015,U14,Dunjingarav Street / Old G0501 Road,60.0,1,0.55,0,primary,10.48,osm_class_default,osm_length_weighted,0.0
+B015,U51,Ulaanbaatar - Nalaikh / Гачууртын зам,57.61,1,0.4366,0,trunk,4.609,osm_class_default,osm_length_weighted,0.0
+B016,B118,Гачууртын зам / Улиастайн гүүр,60.0,1,0.45,0,secondary,10.102,osm_class_default,osm_length_weighted,0.0
+B016,U51,Гачууртын зам,58.61,1,0.4437,0,secondary,8.939,osm_class_default,osm_length_weighted,0.0
+B017,B067,Баруун Алтан-Өлгий гудамж,50.0,1,0.45,0,secondary,2.636,osm_class_default,osm_length_weighted,0.5
+B017,B074,Баруун Алтан-Өлгий гудамж,49.4,1,0.4445,0,secondary,2.015,osm_class_default,osm_length_weighted,0.5
+B017,B075,Баруун Алтан-Өлгий гудамж,48.69,1,0.438,0,secondary,2.162,osm_class_default,osm_length_weighted,0.5
+B017,P008,B. Dorj Street,60.0,1,0.55,0,primary,0.378,osm_class_default,osm_length_weighted,1.0
+B017,P037,local road,40.0,1,0.35,0,tertiary,0.485,osm_class_default,osm_length_weighted,0.0
+B017,P052,B. Dorj Street,60.0,1,0.55,0,primary,0.605,osm_class_default,osm_length_weighted,1.0
+B018,P013,Л.Энэбишийн өргөн чөлөө,60.0,1,0.55,0,primary,0.45,osm_class_default,osm_length_weighted,0.0
+B019,P023,Залуучуудын гудамж / Сансарын тунел,60.0,1,0.55,0,primary,0.533,osm_class_default,osm_length_weighted,1.5
+B019,P030,Их тойруу / Сансарын Тойрог,60.0,1,0.55,0,primary,0.546,osm_class_default,osm_length_weighted,3.0
+B019,P041,Их тойруу,60.0,1,0.55,0,primary,0.764,osm_class_default,osm_length_weighted,4.0
+B019,P054,Их тойруу / Peace Avenue,60.0,1,0.548,0,primary,0.71,osm_class_default,osm_length_weighted,6.0
+B019,P065,Peace Avenue / Их тойруу,60.0,1,0.4843,0,trunk,1.863,osm_class_default,osm_length_weighted,5.0
+B019,U16,Peace Avenue / Их тойруу,60.0,1,0.4932,0,trunk,1.465,osm_class_default,osm_length_weighted,5.0
+B019,U27,B. Dorj Street / Их тойруу,59.8,1,0.5482,0,primary,1.149,osm_class_default,osm_length_weighted,5.5
+B020,B002,Их тойруу / Э.Галданбошготын гудамж,59.17,1,0.5267,0,primary,3.131,osm_class_default,osm_length_weighted,6.0
+B020,B008,Э.Галданбошготын гудамж / Л.Энэбишийн өргөн чөлөө,58.45,1,0.5372,0,primary,1.663,osm_class_default,osm_length_weighted,0.0
+B020,B009,local road,40.0,1,0.35,0,tertiary,2.082,osm_class_default,osm_length_weighted,0.0
+B020,B014,Э.Галданбошготын гудамж / L. Laagan Street,58.32,1,0.5038,0,primary,1.809,osm_class_default,osm_length_weighted,0.0
+B020,B089,Их тойруу / Нарны гүүр,59.36,1,0.5448,0,primary,4.107,osm_class_default,osm_length_weighted,6.0
+B020,B111,Самбалхүндэвийн зам,40.0,1,0.35,0,tertiary,1.312,osm_class_default,osm_length_weighted,0.0
+B020,P006,Их тойруу / Э.Галданбошготын гудамж,59.34,1,0.5446,0,primary,3.985,osm_class_default,osm_length_weighted,6.5
+B020,P016,Их тойруу / Э.Галданбошготын гудамж,59.16,1,0.5338,0,primary,3.095,osm_class_default,osm_length_weighted,5.5
+B020,P064,Л.Энэбишийн өргөн чөлөө / Э.Галданбошготын гудамж,58.48,1,0.5374,0,primary,1.69,osm_class_default,osm_length_weighted,1.0
+B020,P068,Э.Галданбошготын гудамж / Чингэлтэйн тойрог,57.28,1,0.5273,0,primary,0.928,osm_class_default,osm_length_weighted,0.0
+B020,U07,Э.Галданбошготын гудамж / Д.Дамбын гудамж,53.22,1,0.4759,0,primary,1.486,osm_class_default,osm_length_weighted,0.0
+B020,U22,Самбалхүндэвийн зам,40.0,1,0.35,0,tertiary,1.553,osm_class_default,osm_length_weighted,0.0
+B020,U29,Их тойруу / Э.Галданбошготын гудамж,59.19,1,0.5352,0,primary,2.739,osm_class_default,osm_length_weighted,3.0
+B020,U30,Их тойруу / Э.Галданбошготын гудамж,58.81,1,0.5402,0,primary,2.175,osm_class_default,osm_length_weighted,2.0
+B021,B038,local road,40.0,1,0.35,0,tertiary,3.479,osm_class_default,osm_length_weighted,0.0
+B021,B041,Баруун салааны гудамж,60.0,1,0.45,0,secondary,1.223,osm_class_default,osm_length_weighted,0.0
+B021,B042,Баруун салааны гудамж,60.0,1,0.45,0,secondary,2.483,osm_class_default,osm_length_weighted,0.0
+B022,B025,local road,40.0,1,0.35,0,tertiary,1.277,osm_class_default,osm_length_weighted,0.0
+B022,B034,Нарангийн гудамж,50.0,1,0.45,0,secondary,0.474,osm_class_default,osm_length_weighted,0.0
+B022,B068,Найрамдлын зам,50.65,1,0.45,0,secondary,1.403,osm_class_default,osm_length_weighted,0.0
+B022,P007,Нарангийн гудамж,50.0,1,0.45,0,secondary,0.904,osm_class_default,osm_length_weighted,0.0
+B023,B025,Толгойтын гудамж,60.0,1,0.55,0,primary,0.457,osm_class_default,osm_length_weighted,0.0
+B023,P007,Нарангийн гудамж,50.0,1,0.45,0,secondary,0.558,osm_class_default,osm_length_weighted,0.0
+B023,P063,Толгойтын гудамж,60.0,1,0.55,0,primary,0.421,osm_class_default,osm_length_weighted,0.0
+B024,B034,Нарангийн гудамж,50.0,1,0.45,0,secondary,1.281,osm_class_default,osm_length_weighted,0.0
+B025,B022,local road,40.0,1,0.35,0,tertiary,1.277,osm_class_default,osm_length_weighted,0.0
+B025,B023,Толгойтын гудамж,60.0,1,0.55,0,primary,0.457,osm_class_default,osm_length_weighted,0.0
+B025,B079,Толгойтын гудамж,60.0,1,0.55,0,primary,0.476,osm_class_default,osm_length_weighted,0.0
+B026,B002,Peace Avenue / Денверийн гудамж,59.98,1,0.4158,0,trunk,3.976,osm_class_default,osm_length_weighted,7.5
+B026,B005,Их тойруу / Их тойрог,58.24,1,0.5076,0,primary,0.736,osm_class_default,osm_length_weighted,0.0
+B026,B019,Их тойруу / Их тойрог,60.0,1,0.55,0,primary,1.251,osm_class_default,osm_length_weighted,2.0
+B026,B088,Денверийн гудамж / Peace Avenue,59.37,1,0.4139,0,tertiary,2.511,osm_class_default,osm_length_weighted,5.5
+B026,P010,Их тойруу / Их тойрог,60.0,1,0.5374,0,primary,1.293,osm_class_default,osm_length_weighted,1.0
+B026,P011,Денверийн гудамж / Peace Avenue,59.25,1,0.3837,0,tertiary,2.091,osm_class_default,osm_length_weighted,2.0
+B026,P023,Токиогийн гудамж / Их тойруу,58.82,1,0.4978,0,secondary,1.108,osm_class_default,osm_length_weighted,1.5
+B026,P030,Их тойруу / Сансарын Тойрог,60.0,1,0.55,0,primary,1.168,osm_class_default,osm_length_weighted,1.0
+B026,P039,Денверийн гудамж / Beijing Street,60.0,1,0.4209,0,tertiary,1.363,osm_class_default,osm_length_weighted,1.0
+B026,P047,Их тойруу / Их тойрог,60.0,1,0.5347,0,primary,0.56,osm_class_default,osm_length_weighted,1.0
+B026,P067,Их тойруу / Их тойрог,60.0,1,0.5487,0,primary,1.242,osm_class_default,osm_length_weighted,1.0
+B026,U05,Peace Avenue / Денверийн гудамж,59.38,1,0.3963,0,tertiary,2.557,osm_class_default,osm_length_weighted,6.0
+B026,U08,Денверийн гудамж / Peace Avenue,59.36,1,0.3913,0,tertiary,2.464,osm_class_default,osm_length_weighted,4.0
+B026,U27,Их тойруу / B. Dorj Street,59.87,1,0.5488,0,primary,1.771,osm_class_default,osm_length_weighted,3.5
+B027,B028,Чингэлтэйн өргөн чөлөө / Санзайн зам,60.0,1,0.55,0,primary,1.877,osm_class_default,osm_length_weighted,0.0
+B027,B049,Чингэлтэйн өргөн чөлөө,47.86,1,0.4363,0,tertiary,1.821,osm_class_default,osm_length_weighted,0.0
+B027,B059,Сэлбэ дэдтөвийн зам / Дарь-Эхийн гудамж,47.3,1,0.3777,0,tertiary,2.255,osm_class_default,osm_length_weighted,0.5
+B027,P022,Чингэлтэйн өргөн чөлөө,60.0,1,0.55,0,primary,1.043,osm_class_default,osm_length_weighted,0.5
+B028,B027,Чингэлтэйн өргөн чөлөө / Санзайн зам,60.0,1,0.55,0,primary,1.879,osm_class_default,osm_length_weighted,0.0
+B028,B049,Санзайн зам,54.5,1,0.4977,0,secondary,1.407,osm_class_default,osm_length_weighted,0.0
+B028,B059,Сэлбэ дэд төвийн зам / Санзайн зам,51.87,1,0.4183,0,tertiary,3.863,osm_class_default,osm_length_weighted,0.5
+B028,U44,Дамбадаржаагийн гудамж,60.0,1,0.45,0,secondary,1.278,osm_class_default,osm_length_weighted,0.0
+B029,B020,Э.Галданбошготын гудамж / Nogoon nuuryn Street,58.39,1,0.5367,0,primary,1.596,osm_class_default,osm_length_weighted,1.0
+B029,B107,Э.Галданбошготын гудамж / Nogoon nuuryn Street,60.0,1,0.5494,0,primary,1.358,osm_class_default,osm_length_weighted,1.0
+B029,P022,Чингэлтэйн өргөн чөлөө / Nogoon nuuryn Street,60.0,1,0.55,0,primary,1.681,osm_class_default,osm_length_weighted,1.0
+B029,P031,Nogoon nuuryn Street,60.0,1,0.55,0,primary,0.203,osm_class_default,osm_length_weighted,0.0
+B029,U22,Дэнжийн 1000-ын гудамж / Э.Галданбошготын гудамж,59.6,1,0.5132,0,primary,2.009,osm_class_default,osm_length_weighted,1.0
+B030,P049,Морингийн зам,60.0,1,0.45,0,secondary,2.991,osm_class_default,osm_length_weighted,0.0
+B030,U42,Морингийн зам,60.0,1,0.45,0,secondary,0.058,osm_class_default,osm_length_weighted,0.0
+B031,B032,Сонсголонгийн зам / Сонсголонгийн гүүр,60.0,1,0.55,0,primary,2.75,osm_class_default,osm_length_weighted,0.0
+B031,B097,Сонсголонгийн зам,60.0,1,0.55,0,primary,0.836,osm_class_default,osm_length_weighted,0.0
+B032,B031,Сонсголонгийн зам / Сонсголонгийн гүүр,60.0,1,0.5496,0,primary,2.787,osm_class_default,osm_length_weighted,0.0
+B032,B033,Сонсголонгийн зам,60.0,1,0.55,0,primary,1.882,osm_class_default,osm_length_weighted,0.0
+B032,B047,Эрчим хүчний гудамж / Ажилчны гудамж,55.65,1,0.4423,0,secondary,6.928,osm_class_default,osm_length_weighted,0.0
+B032,B053,Эрчим хүчний гудамж / Ажилчны гудамж,57.34,1,0.457,0,secondary,7.801,osm_class_default,osm_length_weighted,0.0
+B032,B091,Эрчим хүчний гудамж / Наадамчдын зам,59.3,1,0.4512,0,secondary,7.145,osm_class_default,osm_length_weighted,0.5
+B032,P017,Эрчим хүчний гудамж / Баруун үйлдвэрийн гудамж,59.92,1,0.4255,0,secondary,8.077,osm_class_default,osm_length_weighted,0.0
+B032,P044,Эрчим хүчний гудамж / Ажилчны гудамж,55.74,1,0.4392,0,secondary,7.261,osm_class_default,osm_length_weighted,0.0
+B032,P072,Эрчим хүчний гудамж / Наадамчдын зам,57.58,1,0.4551,0,secondary,7.898,osm_class_default,osm_length_weighted,0.0
+B033,P053,Товчооны зам,60.93,1,0.45,0,trunk,0.73,osm_class_default,osm_length_weighted,0.5
+B033,P060,Сонсголонгийн зам / Товчооны зам,60.0,1,0.5401,0,primary,0.11,osm_class_default,osm_length_weighted,0.0
+B033,P069,Товчооны зам / Сонсголонгийн зам,60.0,1,0.4507,0,trunk,7.645,osm_class_default,osm_length_weighted,0.0
+B034,B022,Нарангийн гудамж,50.0,1,0.45,0,secondary,0.474,osm_class_default,osm_length_weighted,0.0
+B034,B024,Нарангийн гудамж,50.0,1,0.45,0,secondary,1.281,osm_class_default,osm_length_weighted,0.0
+B035,B079,Толгойтын гудамж,60.0,1,0.55,0,primary,0.988,osm_class_default,osm_length_weighted,3.0
+B035,B125,Толгойтын гудамж,60.0,1,0.55,0,primary,0.742,osm_class_default,osm_length_weighted,0.0
+B035,P055,Их нарангийн гудамж,50.0,1,0.45,0,secondary,0.951,osm_class_default,osm_length_weighted,0.0
+B036,B037,Баянхошууны гудамж,60.0,1,0.55,0,primary,0.577,osm_class_default,osm_length_weighted,0.0
+B036,B051,Баянхошууны гудамж,60.0,1,0.55,0,primary,0.63,osm_class_default,osm_length_weighted,0.0
+B037,B036,Баянхошууны гудамж,60.0,1,0.55,0,primary,0.577,osm_class_default,osm_length_weighted,0.0
+B037,B038,local road,40.0,1,0.35,0,tertiary,0.783,osm_class_default,osm_length_weighted,0.0
+B037,B039,Баянхошууны гудамж,60.0,1,0.55,0,primary,0.722,osm_class_default,osm_length_weighted,0.0
+B037,B125,local road,40.0,1,0.35,0,tertiary,1.815,osm_class_default,osm_length_weighted,0.0
+B037,P055,Их нарангийн гудамж,40.1,1,0.3511,0,tertiary,1.788,osm_class_default,osm_length_weighted,0.0
+B038,B021,local road,40.0,1,0.35,0,tertiary,3.479,osm_class_default,osm_length_weighted,0.0
+B038,B037,local road,40.0,1,0.35,0,tertiary,0.783,osm_class_default,osm_length_weighted,0.0
+B038,B039,local road,40.0,1,0.35,0,tertiary,0.48,osm_class_default,osm_length_weighted,0.0
+B038,B125,local road,40.0,1,0.35,0,tertiary,1.952,osm_class_default,osm_length_weighted,0.0
+B038,P055,Их нарангийн гудамж,40.1,1,0.3511,0,tertiary,1.911,osm_class_default,osm_length_weighted,0.0
+B039,B037,Баянхошууны гудамж,60.0,1,0.55,0,primary,0.722,osm_class_default,osm_length_weighted,0.0
+B039,B038,local road,40.0,1,0.35,0,tertiary,0.48,osm_class_default,osm_length_weighted,0.0
+B039,B040,Баянхошууны гудамж,60.0,1,0.55,0,primary,1.753,osm_class_default,osm_length_weighted,0.0
+B039,B043,Баянхошууны гудамж / Хувьсгалын зам,46.85,1,0.428,0,tertiary,4.418,osm_class_default,osm_length_weighted,0.0
+B039,B108,Баянхошууны гудамж / Ногоон чулуут 10,42.74,1,0.382,0,tertiary,7.432,osm_class_default,osm_length_weighted,0.0
+B040,B039,Баянхошууны гудамж,60.0,1,0.55,0,primary,1.753,osm_class_default,osm_length_weighted,0.0
+B040,B043,Хувьсгалын зам / Баянхошууны гудамж,58.27,1,0.4957,0,primary,2.92,osm_class_default,osm_length_weighted,0.0
+B040,U43,Баянхошууны гудамж,60.0,1,0.55,0,primary,0.395,osm_class_default,osm_length_weighted,0.0
+B041,B021,Баруун салааны гудамж,60.0,1,0.45,0,secondary,1.223,osm_class_default,osm_length_weighted,0.0
+B041,U43,Баруун салааны гудамж,60.0,1,0.45,0,secondary,0.379,osm_class_default,osm_length_weighted,0.0
+B042,B021,Баруун салааны гудамж,60.0,1,0.45,0,secondary,2.483,osm_class_default,osm_length_weighted,0.0
+B042,P002,Баруун салааны гудамж,60.0,1,0.45,0,secondary,0.103,osm_class_default,osm_length_weighted,0.0
+B043,B039,Баянхошууны гудамж / Хувьсгалын зам,46.85,1,0.428,0,tertiary,4.418,osm_class_default,osm_length_weighted,0.0
+B043,B040,Хувьсгалын зам / Баянхошууны гудамж,58.27,1,0.4957,0,primary,2.92,osm_class_default,osm_length_weighted,0.0
+B043,B049,Хувьсгалын зам / Ногоон чулуут 10,42.97,1,0.3833,0,tertiary,6.076,osm_class_default,osm_length_weighted,0.0
+B043,B080,Хувьсгалын зам,60.0,1,0.55,0,primary,0.011,osm_class_default,osm_length_weighted,0.0
+B043,B104,Самбалхүндэвийн зам,40.0,1,0.35,0,tertiary,0.982,osm_class_default,osm_length_weighted,0.0
+B043,B108,Хувьсгалын зам / Ногоон чулуут 10,42.04,1,0.3734,0,tertiary,4.122,osm_class_default,osm_length_weighted,0.0
+B043,U24,Хувьсгалын зам / Баянхошууны гудамж,60.0,1,0.5054,0,primary,2.24,osm_class_default,osm_length_weighted,0.0
+B043,U43,Хувьсгалын зам / Баянхошууны гудамж,60.0,1,0.55,0,primary,2.738,osm_class_default,osm_length_weighted,0.0
+B044,B045,Зүүн салааны гудамж,60.0,1,0.45,0,secondary,1.149,osm_class_default,osm_length_weighted,0.0
+B044,B046,Зүүн салааны гудамж,60.0,1,0.45,0,secondary,1.357,osm_class_default,osm_length_weighted,0.0
+B045,B044,Зүүн салааны гудамж,60.0,1,0.45,0,secondary,1.149,osm_class_default,osm_length_weighted,0.0
+B045,U53,Зүүн салааны гудамж,60.0,1,0.45,0,secondary,0.553,osm_class_default,osm_length_weighted,0.0
+B046,B044,Зүүн салааны гудамж,60.0,1,0.45,0,secondary,1.357,osm_class_default,osm_length_weighted,0.0
+B046,U24,local road,42.11,1,0.35,0,tertiary,0.993,osm_class_default,osm_length_weighted,0.0
+B046,U43,Зүүн салааны гудамж,60.0,1,0.45,0,secondary,0.473,osm_class_default,osm_length_weighted,0.0
+B047,B007,Ажилчны гудамж / Москвагийн гудамж,60.0,1,0.5406,0,primary,1.681,osm_class_default,osm_length_weighted,4.0
+B047,B031,Эрчим хүчний гудамж / Сонсголонгийн зам,59.9,1,0.4864,0,secondary,9.153,osm_class_default,osm_length_weighted,0.0
+B047,B033,Эрчим хүчний гудамж / Сонсголонгийн зам,59.89,1,0.4794,0,secondary,8.224,osm_class_default,osm_length_weighted,0.0
+B047,B053,Ажилчны гудамж / Chinggis Avenue,59.98,1,0.5299,0,primary,2.941,osm_class_default,osm_length_weighted,0.0
+B047,P004,Ажилчны гудамж / Peace Avenue,60.5,1,0.5135,0,primary,3.261,osm_class_default,osm_length_weighted,1.5
+B047,P017,Баруун үйлдвэрийн гудамж / Ажилчны гудамж,60.0,1,0.3927,0,tertiary,2.581,osm_class_default,osm_length_weighted,0.0
+B047,P043,Peace Avenue / Ажилчны гудамж,60.17,1,0.4974,0,trunk,3.197,osm_class_default,osm_length_weighted,5.5
+B047,P044,Ажилчны гудамж,55.5,1,0.4922,0,primary,2.401,osm_class_default,osm_length_weighted,0.0
+B047,P048,Ажилчны гудамж / Ард Аюушийн өргөн чөлөө,60.0,1,0.55,0,primary,2.149,osm_class_default,osm_length_weighted,4.0
+B047,P050,Ажилчны гудамж / Peace Avenue,60.35,1,0.5057,0,primary,2.704,osm_class_default,osm_length_weighted,1.5
+B047,P072,Ажилчны гудамж / Наадамчдын зам,60.58,1,0.5238,0,primary,3.038,osm_class_default,osm_length_weighted,0.0
+B047,U09,Peace Avenue / Ажилчны гудамж,60.1,1,0.4913,0,trunk,3.655,osm_class_default,osm_length_weighted,4.5
+B048,B050,Гачууртын зам,60.0,1,0.45,0,trunk,0.695,osm_class_default,osm_length_weighted,0.0
+B048,B116,local road,40.0,1,0.35,0,tertiary,1.979,osm_class_default,osm_length_weighted,0.0
+B048,U21,Гачууртын зам,60.0,1,0.45,0,trunk,0.478,osm_class_default,osm_length_weighted,0.0
+B049,B027,Чингэлтэйн өргөн чөлөө,47.86,1,0.4363,0,tertiary,1.821,osm_class_default,osm_length_weighted,0.0
+B049,B028,Санзайн зам,54.47,1,0.4973,0,secondary,1.417,osm_class_default,osm_length_weighted,0.0
+B049,B043,Хувьсгалын зам / Ногоон чулуут 10,42.97,1,0.3833,0,tertiary,6.076,osm_class_default,osm_length_weighted,0.0
+B049,B056,local road,42.74,1,0.3794,0,tertiary,3.77,osm_class_default,osm_length_weighted,0.0
+B049,B059,Сэлбэ дэд төвийн зам / Чингэлтэйн өргөн чөлөө,50.3,1,0.4012,0,tertiary,3.876,osm_class_default,osm_length_weighted,0.5
+B049,B108,Дэнжийн 1000-ын гудамж,42.93,1,0.3805,0,tertiary,3.666,osm_class_default,osm_length_weighted,0.0
+B049,U24,Хувьсгалын зам / Баянхошууны гудамж,44.98,1,0.3926,0,tertiary,7.208,osm_class_default,osm_length_weighted,0.0
+B049,U43,Хувьсгалын зам / Баянхошууны гудамж,45.72,1,0.4143,0,tertiary,7.706,osm_class_default,osm_length_weighted,0.0
+B050,B048,Гачууртын зам,60.0,1,0.45,0,trunk,0.695,osm_class_default,osm_length_weighted,0.0
+B050,B113,Гачууртын зам / Цагдаагийн академийн өргөн чөлөө,40.91,1,0.355,0,tertiary,2.766,osm_class_default,osm_length_weighted,0.0
+B050,P038,Цагдаагийн академийн өргөн чөлөө / Гачууртын зам,60.0,1,0.45,0,trunk,0.533,osm_class_default,osm_length_weighted,0.0
+B051,B004,Өнөр хорооллын гудамж / Zaluusyn street,49.63,1,0.4296,0,tertiary,3.428,osm_class_default,osm_length_weighted,2.5
+B051,B036,Баянхошууны гудамж,60.0,1,0.55,0,primary,0.63,osm_class_default,osm_length_weighted,0.0
+B051,B125,Толгойтын гудамж / Баянхошууны гудамж,60.0,1,0.55,0,primary,0.716,osm_class_default,osm_length_weighted,0.0
+B051,P018,Баянхошууны гудамж,60.0,1,0.55,0,primary,0.943,osm_class_default,osm_length_weighted,0.0
+B051,P032,local road,40.0,1,0.35,0,tertiary,0.093,osm_class_default,osm_length_weighted,0.0
+B051,P048,Баянхошууны гудамж / Ард Аюушийн өргөн чөлөө,59.84,1,0.5486,0,primary,3.274,osm_class_default,osm_length_weighted,0.0
+B051,U38,Ард Аюушийн өргөн чөлөө / Баянхошууны гудамж,60.0,1,0.55,0,primary,3.46,osm_class_default,osm_length_weighted,0.0
+B052,U23,local road,70.0,1,0.45,0,trunk,0.457,osm_class_default,osm_length_weighted,0.5
+B052,U34,local road,70.0,1,0.45,0,trunk,0.351,osm_class_default,osm_length_weighted,0.0
+B053,B047,Chinggis Avenue / Ажилчны гудамж,55.03,1,0.4737,0,primary,1.911,osm_class_default,osm_length_weighted,0.0
+B053,P044,Ажилчны гудамж / Chinggis Avenue,60.0,1,0.45,0,secondary,1.661,osm_class_default,osm_length_weighted,0.0
+B053,P072,Chinggis Avenue / Наадамчдын зам,66.39,1,0.45,0,trunk,1.124,osm_class_default,osm_length_weighted,0.0
+B053,U36,Chinggis Avenue / Чингисийн өргөн чөлөө,60.0,1,0.45,0,trunk,0.837,osm_class_default,osm_length_weighted,0.0
+B054,U32,Найрамдлын зам,50.0,1,0.45,0,secondary,1.647,osm_class_default,osm_length_weighted,0.0
+B054,U49,local road,50.0,1,0.45,0,secondary,0.014,osm_class_default,osm_length_weighted,0.0
+B055,B001,Peace Avenue / Baga Toiruu Street,60.0,1,0.45,0,trunk,1.512,osm_class_default,osm_length_weighted,6.5
+B055,B002,Peace Avenue / Арслантай гүүр,60.57,1,0.45,0,trunk,2.622,osm_class_default,osm_length_weighted,7.5
+B055,B003,Baga Toiruu street / Peace Avenue,60.0,1,0.4743,0,secondary,1.275,osm_class_default,osm_length_weighted,3.0
+B055,B026,Денверийн гудамж / Болгарын гудамж,58.95,1,0.3549,0,tertiary,1.49,osm_class_default,osm_length_weighted,0.0
+B055,B088,Peace Avenue / Olympic Street,60.0,1,0.4858,0,trunk,1.157,osm_class_default,osm_length_weighted,5.5
+B055,P009,Peace Avenue / Seoul Street,59.78,1,0.45,0,trunk,1.975,osm_class_default,osm_length_weighted,9.0
+B055,P010,Эрхүүгийн гудамж / Болгарын гудамж,59.02,1,0.412,0,tertiary,1.596,osm_class_default,osm_length_weighted,1.0
+B055,P011,Peace Avenue / Арслантай гүүр,60.0,1,0.45,0,trunk,0.737,osm_class_default,osm_length_weighted,2.0
+B055,P015,Peace Avenue / Баруун Сэлбийн гудамж,59.39,1,0.45,0,trunk,1.96,osm_class_default,osm_length_weighted,6.5
+B055,P020,Paris Street / G. Chagdarjav Street,60.0,1,0.398,0,tertiary,2.003,osm_class_default,osm_length_weighted,2.0
+B055,P023,Beijing Street / Болгарын гудамж,58.95,1,0.4467,0,tertiary,1.486,osm_class_default,osm_length_weighted,1.5
+B055,P031,Baga Toiruu street / Nogoon nuuryn Street,60.0,1,0.483,0,secondary,2.356,osm_class_default,osm_length_weighted,7.0
+B055,P039,Baga Toiruu street / Peace Avenue,60.0,1,0.4613,0,secondary,1.103,osm_class_default,osm_length_weighted,3.0
+B055,U01,Peace Avenue / Ikh Surguulyn street,60.0,1,0.4744,0,trunk,0.994,osm_class_default,osm_length_weighted,3.0
+B055,U04,Peace Avenue / D.Sükhbaataryn Street,60.0,1,0.4799,0,trunk,1.435,osm_class_default,osm_length_weighted,5.0
+B055,U05,Peace Avenue / Chinggis Avenue,60.0,1,0.45,0,trunk,1.203,osm_class_default,osm_length_weighted,6.0
+B055,U06,Baga Toiruu street / Peace Avenue,60.0,1,0.479,0,secondary,2.231,osm_class_default,osm_length_weighted,6.0
+B055,U08,Peace Avenue / D. Choidog Street,60.0,1,0.4441,0,trunk,1.11,osm_class_default,osm_length_weighted,4.0
+B055,U26,Baga Toiruu street / Peace Avenue,60.0,1,0.45,0,secondary,1.853,osm_class_default,osm_length_weighted,6.0
+B056,B049,local road,42.74,1,0.3794,0,tertiary,3.77,osm_class_default,osm_length_weighted,0.0
+B056,B057,Дэнжийн 1000-ын гудамж,60.0,1,0.45,0,secondary,0.208,osm_class_default,osm_length_weighted,0.0
+B056,P022,Чингэлтэйн өргөн чөлөө,43.07,1,0.383,0,tertiary,1.377,osm_class_default,osm_length_weighted,0.5
+B056,P035,Дэнжийн 1000 гудамж / Чингэлтэйн өргөн чөлөө,42.4,1,0.373,0,tertiary,1.231,osm_class_default,osm_length_weighted,0.0
+B056,P064,Дэнжийн 1000-ын гудамж / Э.Галданбошготын гудамж,60.0,1,0.5149,0,primary,2.963,osm_class_default,osm_length_weighted,1.0
+B056,U22,Дэнжийн 1000-ын гудамж / Самбалхүндэвийн зам,58.12,1,0.4414,0,secondary,0.418,osm_class_default,osm_length_weighted,0.0
+B056,U29,Их тойруу / Дэнжийн 1000-ын гудамж,60.1,1,0.5193,0,primary,4.012,osm_class_default,osm_length_weighted,3.0
+B057,B056,Дэнжийн 1000-ын гудамж,60.0,1,0.45,0,secondary,0.208,osm_class_default,osm_length_weighted,0.0
+B057,B108,Дэнжийн 1000-ын гудамж,60.0,1,0.45,0,secondary,2.001,osm_class_default,osm_length_weighted,0.0
+B057,B111,local road,40.0,1,0.35,0,tertiary,0.547,osm_class_default,osm_length_weighted,0.0
+B058,B062,Дамбадаржаагийн гудамж,60.0,1,0.45,0,secondary,2.437,osm_class_default,osm_length_weighted,0.0
+B058,U25,Дамбадаржаагийн гудамж,60.0,1,0.45,0,secondary,0.352,osm_class_default,osm_length_weighted,0.0
+B059,B027,Сэлбэ дэдтөвийн зам / Дарь-Эхийн гудамж,47.3,1,0.3777,0,tertiary,2.255,osm_class_default,osm_length_weighted,0.5
+B059,B028,Сэлбэ дэд төвийн зам / Санзайн зам,51.87,1,0.4182,0,tertiary,3.861,osm_class_default,osm_length_weighted,0.5
+B059,B060,Дарь-Эхийн гудамж,56.05,1,0.45,0,secondary,0.647,osm_class_default,osm_length_weighted,0.0
+B059,B066,Дарь-Эхийн гудамж,50.48,1,0.45,0,secondary,1.058,osm_class_default,osm_length_weighted,0.0
+B059,P022,Дарь-Эхийн гудамж / Чингэлтэйн өргөн чөлөө,50.43,1,0.4509,0,secondary,1.478,osm_class_default,osm_length_weighted,0.5
+B059,P047,Дарь-Эхийн гудамж,60.0,1,0.45,0,secondary,2.365,osm_class_default,osm_length_weighted,0.0
+B060,B059,Дарь-Эхийн гудамж,56.05,1,0.45,0,secondary,0.647,osm_class_default,osm_length_weighted,0.0
+B060,B061,Дарь-Эхийн гудамж,60.0,1,0.45,0,secondary,2.798,osm_class_default,osm_length_weighted,0.0
+B061,B060,Дарь-Эхийн гудамж,60.0,1,0.45,0,secondary,2.798,osm_class_default,osm_length_weighted,0.0
+B061,B062,Дарь-Эхийн гудамж,60.0,1,0.45,0,secondary,0.326,osm_class_default,osm_length_weighted,0.0
+B061,P071,Тоосгоны үйлдвэрийн гудамж,50.0,1,0.45,0,secondary,2.017,osm_class_default,osm_length_weighted,0.0
+B062,B058,Дамбадаржаагийн гудамж,60.0,1,0.45,0,secondary,2.437,osm_class_default,osm_length_weighted,0.0
+B062,B061,Дарь-Эхийн гудамж,60.0,1,0.45,0,secondary,0.326,osm_class_default,osm_length_weighted,0.0
+B062,U44,Дамбадаржаагийн гудамж,60.0,1,0.45,0,secondary,0.309,osm_class_default,osm_length_weighted,0.0
+B063,P058,Улаанхуарангийн гудамж / Peace Avenue,59.45,1,0.45,0,secondary,1.348,osm_class_default,osm_length_weighted,1.5
+B063,U17,Улаанхуарангийн гудамж / Peace Avenue,59.26,1,0.45,0,secondary,0.996,osm_class_default,osm_length_weighted,0.0
+B063,U46,Улаанхуарангийн гудамж,60.0,1,0.45,0,secondary,0.21,osm_class_default,osm_length_weighted,0.0
+B064,B082,Нарны зам / Их хүрээ гудамж,60.0,1,0.55,0,primary,0.631,osm_class_default,osm_length_weighted,1.0
+B064,B083,Narny road / Нарны зам,59.95,1,0.5495,0,primary,2.69,osm_class_default,osm_length_weighted,4.5
+B064,B088,Нарны зам / Narny road,60.0,1,0.5488,0,primary,2.016,osm_class_default,osm_length_weighted,3.0
+B064,B126,Нарны зам / Манлай баатар Дамдинсүрэнгийн гудамж,49.93,1,0.4477,0,primary,1.637,osm_class_default,osm_length_weighted,0.5
+B064,B127,Баян Монголын нүхэн гарц,40.0,1,0.35,0,tertiary,0.4,osm_class_default,osm_length_weighted,0.0
+B064,P011,Paris Street / Нарны зам,60.0,1,0.4446,0,tertiary,2.146,osm_class_default,osm_length_weighted,0.5
+B064,P020,Нарны зам / Narny road,60.0,1,0.55,0,primary,1.06,osm_class_default,osm_length_weighted,0.5
+B064,P024,Нарны зам,60.0,1,0.55,0,primary,0.567,osm_class_default,osm_length_weighted,0.5
+B064,P074,Narny road / Нарны зам,60.0,1,0.55,0,primary,2.04,osm_class_default,osm_length_weighted,0.5
+B064,U10,Narny road / Нарны зам,57.33,1,0.5277,0,primary,2.885,osm_class_default,osm_length_weighted,3.5
+B065,B083,Narny road / Нарны гүүр,60.0,1,0.55,0,primary,1.86,osm_class_default,osm_length_weighted,3.0
+B065,B089,Нарны гүүр / Engels street,60.0,1,0.55,0,primary,2.22,osm_class_default,osm_length_weighted,3.0
+B065,P003,Нарны гүүр / Undsen khuuliin street,60.0,1,0.5184,0,primary,1.653,osm_class_default,osm_length_weighted,0.0
+B065,P004,Нарны зам / Нарны гүүр,60.0,1,0.55,0,primary,2.417,osm_class_default,osm_length_weighted,2.5
+B065,P006,Нарны гүүр / Narny road,60.0,1,0.55,0,primary,1.626,osm_class_default,osm_length_weighted,1.5
+B065,P015,Нарны гүүр / Juulchny Street,58.47,1,0.5158,0,primary,2.713,osm_class_default,osm_length_weighted,4.0
+B065,P016,Нарны гүүр / Seoul Street,60.0,1,0.5295,0,primary,1.351,osm_class_default,osm_length_weighted,0.5
+B065,P040,Juulchny Street / Нарны гүүр,58.91,1,0.5156,0,primary,2.744,osm_class_default,osm_length_weighted,5.0
+B065,P077,Нарны зам / Нарны гүүр,60.0,1,0.5306,0,primary,1.99,osm_class_default,osm_length_weighted,2.5
+B065,U09,Нарны гүүр / Peace Avenue,60.0,1,0.5055,0,primary,1.985,osm_class_default,osm_length_weighted,3.0
+B065,U29,Нарны гүүр / Undsen khuuliin street,60.0,1,0.5371,0,primary,1.491,osm_class_default,osm_length_weighted,3.0
+B065,U30,Нарны гүүр / Их тойруу,60.0,1,0.55,0,primary,1.934,osm_class_default,osm_length_weighted,3.0
+B065,U31,Нарны зам / Нарны гүүр,60.0,1,0.5491,0,primary,1.87,osm_class_default,osm_length_weighted,2.5
+B066,B049,Сэлбэ дэд төвийн зам / Чингэлтэйн өргөн чөлөө,50.13,1,0.4113,0,secondary,4.822,osm_class_default,osm_length_weighted,0.5
+B066,B059,Дарь-Эхийн гудамж,50.48,1,0.45,0,secondary,1.058,osm_class_default,osm_length_weighted,0.0
+B066,B067,Баруун алтан өлгийн гудамж / Баруун Алтан-Өлгий гудамж,50.0,1,0.45,0,secondary,2.755,osm_class_default,osm_length_weighted,0.0
+B066,B075,local road,40.0,1,0.35,0,tertiary,2.409,osm_class_default,osm_length_weighted,0.0
+B066,U47,local road,40.0,1,0.35,0,tertiary,1.028,osm_class_default,osm_length_weighted,0.0
+B067,B017,Баруун Алтан-Өлгий гудамж,50.0,1,0.45,0,secondary,2.636,osm_class_default,osm_length_weighted,1.5
+B067,B066,Баруун алтан өлгийн гудамж / Баруун Алтан-Өлгий гудамж,50.0,1,0.45,0,secondary,2.755,osm_class_default,osm_length_weighted,0.0
+B067,B071,Алтан Өлгийн гудамж,50.0,1,0.45,0,secondary,0.385,osm_class_default,osm_length_weighted,0.0
+B067,B074,Баруун Алтан-Өлгий гудамж,48.54,1,0.4366,0,secondary,0.817,osm_class_default,osm_length_weighted,0.0
+B067,B075,Баруун Алтан-Өлгий гудамж,47.08,1,0.4228,0,secondary,0.94,osm_class_default,osm_length_weighted,0.0
+B068,B022,Найрамдлын зам,50.65,1,0.45,0,secondary,1.403,osm_class_default,osm_length_weighted,0.0
+B068,P069,Тахилт гудамж / Товчооны зам,57.43,1,0.45,0,secondary,7.048,osm_class_default,osm_length_weighted,0.0
+B068,U49,Найрамдлын зам,60.0,1,0.45,0,secondary,1.255,osm_class_default,osm_length_weighted,0.0
+B069,B004,Moscow street / Москвагийн гудамж,60.3,1,0.45,0,trunk,0.654,osm_class_default,osm_length_weighted,3.0
+B069,B007,Moscow street,60.29,1,0.45,0,trunk,0.823,osm_class_default,osm_length_weighted,1.5
+B069,B047,Ажилчны гудамж / Moscow street,57.37,1,0.5007,0,primary,3.486,osm_class_default,osm_length_weighted,2.0
+B069,B053,Ажилчны гудамж / Moscow street,60.27,1,0.5166,0,primary,4.359,osm_class_default,osm_length_weighted,2.0
+B069,P004,Peace Avenue / Moscow street,60.32,1,0.4717,0,trunk,2.762,osm_class_default,osm_length_weighted,5.5
+B069,P017,Баруун үйлдвэрийн гудамж / Ажилчны гудамж,60.12,1,0.4281,0,tertiary,4.049,osm_class_default,osm_length_weighted,2.0
+B069,P043,Peace Avenue / Moscow street,59.93,1,0.45,0,trunk,2.698,osm_class_default,osm_length_weighted,9.5
+B069,P044,Ажилчны гудамж / Moscow street,57.39,1,0.4905,0,primary,3.819,osm_class_default,osm_length_weighted,2.0
+B069,P048,Moscow street / Ард Аюушийн өргөн чөлөө,60.0,1,0.4936,0,trunk,1.625,osm_class_default,osm_length_weighted,6.5
+B069,P050,Peace Avenue / Moscow street,60.09,1,0.45,0,trunk,2.205,osm_class_default,osm_length_weighted,5.5
+B069,P072,Ажилчны гудамж / Moscow street,60.68,1,0.5125,0,primary,4.456,osm_class_default,osm_length_weighted,2.0
+B069,U09,Peace Avenue / Moscow street,59.89,1,0.4495,0,trunk,3.156,osm_class_default,osm_length_weighted,8.5
+B069,U48,local road,70.0,1,0.45,0,trunk,0.023,osm_class_default,osm_length_weighted,0.0
+B070,B095,Цагдаагийн академийн өргөн чөлөө / Чулуун овооны тойрог,65.17,1,0.45,0,trunk,0.551,osm_class_default,osm_length_weighted,0.0
+B070,P005,Нарны зам / Энх тайвны өргөн чөлөө,61.06,1,0.5372,0,primary,1.962,osm_class_default,osm_length_weighted,0.0
+B070,U15,Нарны зам / Энх тайвны өргөн чөлөө,60.92,1,0.5375,0,primary,2.109,osm_class_default,osm_length_weighted,0.0
+B070,U35,Энх тайвны өргөн чөлөө / Чулуун овооны тойрог,66.59,1,0.45,0,trunk,0.52,osm_class_default,osm_length_weighted,0.0
+B071,B067,Алтан Өлгийн гудамж,50.0,1,0.45,0,secondary,0.385,osm_class_default,osm_length_weighted,0.0
+B071,P001,Алтан Өлгийн гудамж,50.0,1,0.45,0,secondary,1.217,osm_class_default,osm_length_weighted,0.0
+B072,B073,Өлзийтийн зам,61.6,1,0.45,0,trunk,0.11,osm_class_default,osm_length_weighted,0.0
+B073,B032,Сонсголонгийн зам / Өлзийтийн зам,60.08,1,0.531,0,primary,4.564,osm_class_default,osm_length_weighted,1.0
+B073,B084,Наадамчдын зам / Өлзийтийн зам,60.41,1,0.45,0,trunk,2.096,osm_class_default,osm_length_weighted,1.5
+B073,B097,Сонсголонгийн зам / Өлзийтийн зам,60.13,1,0.517,0,primary,2.672,osm_class_default,osm_length_weighted,1.0
+B073,P061,Өлзийтийн зам,60.0,1,0.45,0,trunk,0.537,osm_class_default,osm_length_weighted,0.0
+B073,U40,Өлзийтийн зам / Наадамчдын зам,60.37,1,0.45,0,trunk,1.277,osm_class_default,osm_length_weighted,1.0
+B074,B017,Баруун Алтан-Өлгий гудамж,49.4,1,0.4445,0,secondary,2.015,osm_class_default,osm_length_weighted,1.5
+B074,B067,Баруун Алтан-Өлгий гудамж,48.54,1,0.4366,0,secondary,0.817,osm_class_default,osm_length_weighted,0.0
+B074,B075,Баруун Алтан-Өлгий гудамж,40.28,1,0.3531,0,tertiary,0.343,osm_class_default,osm_length_weighted,0.0
+B074,P001,Алтан Өлгийн гудамж,44.34,1,0.3958,0,tertiary,0.73,osm_class_default,osm_length_weighted,0.0
+B075,B017,Баруун Алтан-Өлгий гудамж,48.69,1,0.438,0,secondary,2.162,osm_class_default,osm_length_weighted,1.5
+B075,B066,local road,40.0,1,0.35,0,tertiary,2.409,osm_class_default,osm_length_weighted,0.0
+B075,B067,Баруун Алтан-Өлгий гудамж,47.08,1,0.4228,0,secondary,0.94,osm_class_default,osm_length_weighted,0.0
+B075,B074,Баруун Алтан-Өлгий гудамж,40.28,1,0.3531,0,tertiary,0.343,osm_class_default,osm_length_weighted,0.0
+B075,U47,local road,40.0,1,0.35,0,tertiary,2.583,osm_class_default,osm_length_weighted,0.0
+B076,P012,local road,60.0,1,0.35,0,tertiary,0.368,osm_class_default,osm_length_weighted,0.5
+B076,U18,local road,60.0,1,0.35,0,tertiary,0.322,osm_class_default,osm_length_weighted,0.0
+B077,B096,Ar Zaisan Street,40.0,1,0.35,0,tertiary,1.778,osm_class_default,osm_length_weighted,0.0
+B077,P036,Zaisan Street,60.0,1,0.55,0,primary,0.604,osm_class_default,osm_length_weighted,0.0
+B077,U13,Zaisan Street,60.0,1,0.55,0,primary,0.159,osm_class_default,osm_length_weighted,0.0
+B078,B010,Өргөө гудамж,60.0,1,0.35,0,tertiary,1.782,osm_class_default,osm_length_weighted,0.0
+B078,B018,Л.Энэбишийн өргөн чөлөө / Өргөө гудамж,59.52,1,0.4579,0,tertiary,0.591,osm_class_default,osm_length_weighted,3.0
+B078,B051,Хасбаатарын гудамж / Ард Аюушийн өргөн чөлөө,60.0,1,0.5194,0,primary,4.836,osm_class_default,osm_length_weighted,0.0
+B078,B081,Өргөө гудамж / Зүүн ард аюуш 16,45.14,1,0.35,0,tertiary,2.367,osm_class_default,osm_length_weighted,0.0
+B078,B125,Хасбаатарын гудамж / Ард Аюушийн өргөн чөлөө,60.0,1,0.5214,0,primary,5.168,osm_class_default,osm_length_weighted,0.0
+B078,P014,Ард Аюушийн өргөн чөлөө / Өргөө гудамж,60.0,1,0.505,0,primary,1.1,osm_class_default,osm_length_weighted,1.0
+B078,P018,Хасбаатарын гудамж / Ард Аюушийн өргөн чөлөө,60.0,1,0.5226,0,primary,5.395,osm_class_default,osm_length_weighted,0.0
+B078,P033,Хасбаатарын гудамж,60.0,1,0.35,0,tertiary,0.82,osm_class_default,osm_length_weighted,0.0
+B078,P048,Ард Аюушийн өргөн чөлөө / Хасбаатарын гудамж,59.74,1,0.4717,0,primary,2.049,osm_class_default,osm_length_weighted,0.0
+B078,U20,Өргөө гудамж / Хасбаатарын гудамж,59.17,1,0.3678,0,tertiary,0.341,osm_class_default,osm_length_weighted,2.0
+B079,B025,Толгойтын гудамж,60.0,1,0.55,0,primary,0.476,osm_class_default,osm_length_weighted,0.0
+B079,B035,Толгойтын гудамж,60.0,1,0.55,0,primary,0.988,osm_class_default,osm_length_weighted,3.0
+B079,B124,Алтан овооны гудамж,50.0,1,0.45,0,secondary,0.958,osm_class_default,osm_length_weighted,0.0
+B080,B004,Хайрхан-9 / Дунд наран-20,40.18,1,0.351,0,tertiary,5.447,osm_class_default,osm_length_weighted,2.5
+B080,B010,Хувьсгалын зам,60.0,1,0.55,0,primary,2.269,osm_class_default,osm_length_weighted,0.0
+B080,B011,Хувьсгалын зам,49.09,1,0.4511,0,primary,0.857,osm_class_default,osm_length_weighted,0.0
+B080,B043,Хувьсгалын зам,60.0,1,0.55,0,primary,0.011,osm_class_default,osm_length_weighted,0.0
+B080,B052,Дунд наран-20 / Өнөр хорооллын гудамж,42.53,1,0.3616,0,tertiary,6.618,osm_class_default,osm_length_weighted,0.5
+B080,P014,Дунд наран-19 / Хасбаатарын гудамж,41.74,1,0.3584,0,tertiary,3.87,osm_class_default,osm_length_weighted,0.0
+B080,P048,Дунд наран-19 / Ард Аюушийн өргөн чөлөө,44.17,1,0.392,0,tertiary,4.75,osm_class_default,osm_length_weighted,0.0
+B081,B011,local road,40.0,1,0.35,0,tertiary,0.369,osm_class_default,osm_length_weighted,0.0
+B081,B078,Өргөө гудамж / Зүүн ард аюуш 16,45.14,1,0.35,0,tertiary,2.367,osm_class_default,osm_length_weighted,0.0
+B082,B127,Хүннүгийн гудамж / Нийслэл хүрээ өргөн чөлөө,60.0,1,0.484,0,secondary,0.836,osm_class_default,osm_length_weighted,1.0
+B082,P024,Нийслэл хүрээ өргөн чөлөө / Хүннүгийн гудамж,60.0,1,0.5484,0,primary,0.66,osm_class_default,osm_length_weighted,1.5
+B082,P026,Нийслэл хүрээ өргөн чөлөө,60.0,1,0.55,0,primary,0.631,osm_class_default,osm_length_weighted,1.5
+B082,U37,Нийслэл хүрээ өргөн чөлөө / Хүннүгийн гудамж,60.0,1,0.5381,0,primary,0.314,osm_class_default,osm_length_weighted,1.0
+B083,B001,Usny street / Peace Avenue,51.12,1,0.4312,0,secondary,1.437,osm_class_default,osm_length_weighted,4.5
+B083,B088,P. Genden Street / Narny road,53.18,1,0.4118,0,tertiary,1.552,osm_class_default,osm_length_weighted,5.5
+B083,P006,Нарны зам / Usny street,59.46,1,0.5451,0,primary,0.264,osm_class_default,osm_length_weighted,1.5
+B083,P009,Usny street / Seoul Street,51.66,1,0.45,0,secondary,0.837,osm_class_default,osm_length_weighted,4.5
+B083,P015,Peace Avenue / Usny street,52.49,1,0.4353,0,secondary,1.885,osm_class_default,osm_length_weighted,4.5
+B083,P020,Narny road,60.0,1,0.55,0,primary,1.634,osm_class_default,osm_length_weighted,2.0
+B083,P059,Narny road,53.27,1,0.4697,0,secondary,1.496,osm_class_default,osm_length_weighted,2.0
+B083,P074,Narny road,60.0,1,0.55,0,primary,1.066,osm_class_default,osm_length_weighted,2.0
+B083,U05,Chinggis Avenue / Narny road,51.99,1,0.4379,0,trunk,1.292,osm_class_default,osm_length_weighted,6.0
+B083,U10,Narny road,52.14,1,0.4809,0,primary,0.849,osm_class_default,osm_length_weighted,2.0
+B084,B032,Сонсголонгийн зам / Наадамчдын зам,60.16,1,0.5245,0,primary,4.935,osm_class_default,osm_length_weighted,1.5
+B084,B073,Наадамчдын зам / Өлзийтийн зам,60.24,1,0.45,0,trunk,2.297,osm_class_default,osm_length_weighted,2.5
+B084,B090,Наадамчдын зам,60.0,1,0.45,0,trunk,1.692,osm_class_default,osm_length_weighted,3.0
+B084,B097,Сонсголонгийн зам / Наадамчдын зам,60.27,1,0.5077,0,primary,3.043,osm_class_default,osm_length_weighted,1.5
+B084,P056,Наадамчдын зам,60.0,1,0.45,0,trunk,2.596,osm_class_default,osm_length_weighted,2.5
+B084,P062,Наадамчдын зам,60.18,1,0.45,0,trunk,1.189,osm_class_default,osm_length_weighted,2.0
+B084,P070,Наадамчдын зам,60.1,1,0.45,0,trunk,1.972,osm_class_default,osm_length_weighted,2.0
+B084,U40,Наадамчдын зам,60.22,1,0.45,0,trunk,1.684,osm_class_default,osm_length_weighted,2.5
+B085,B098,Их Монгол улсын гудамж / Махатма Гандигийн гудамж,57.9,1,0.4804,0,secondary,3.037,osm_class_default,osm_length_weighted,4.5
+B085,B110,Dund River Street,59.63,1,0.4483,0,secondary,0.721,osm_class_default,osm_length_weighted,0.0
+B085,P026,Махатма Гандигийн гудамж / Нийслэл хүрээ өргөн чөлөө,58.08,1,0.4867,0,secondary,3.33,osm_class_default,osm_length_weighted,3.0
+B085,P034,Dund River Street / Togtokh Vang Street,54.62,1,0.4015,0,secondary,1.042,osm_class_default,osm_length_weighted,2.5
+B085,P059,Dund River Street,57.33,1,0.45,0,secondary,0.682,osm_class_default,osm_length_weighted,0.0
+B085,U10,local road,40.0,1,0.35,0,tertiary,0.605,osm_class_default,osm_length_weighted,0.0
+B085,U11,Махатма Гандигийн гудамж / Mahatma Gandhi Street,56.76,1,0.45,0,secondary,1.962,osm_class_default,osm_length_weighted,0.0
+B086,B055,Сангийн хорооны гудамж / Peace Avenue,59.85,1,0.3834,0,tertiary,1.353,osm_class_default,osm_length_weighted,0.0
+B086,B126,Манлай баатар Дамдинсүрэнгийн гудамж,58.65,1,0.45,0,secondary,0.731,osm_class_default,osm_length_weighted,0.0
+B086,P012,Манлай баатар Дамдинсүрэнгийн гудамж,60.0,1,0.45,0,secondary,0.336,osm_class_default,osm_length_weighted,0.5
+B086,P020,Манлай баатар Дамдинсүрэнгийн гудамж / Narny road,49.07,1,0.4212,0,tertiary,1.408,osm_class_default,osm_length_weighted,0.0
+B086,P023,Сангийн хорооны гудамж / Tokyo Street,59.86,1,0.3903,0,tertiary,1.499,osm_class_default,osm_length_weighted,1.5
+B086,P042,Сангийн хорооны гудамж,60.38,1,0.3541,0,tertiary,0.917,osm_class_default,osm_length_weighted,0.0
+B087,B006,Наадамчдын зам,60.0,1,0.45,0,secondary,0.809,osm_class_default,osm_length_weighted,0.0
+B087,U40,Наадамчдын зам,60.0,1,0.45,0,secondary,0.313,osm_class_default,osm_length_weighted,0.0
+B088,B001,Peace Avenue / Olympic Street,60.0,1,0.4867,0,trunk,1.127,osm_class_default,osm_length_weighted,7.0
+B088,B002,Peace Avenue / Olympic Street,60.67,1,0.4691,0,trunk,2.237,osm_class_default,osm_length_weighted,8.0
+B088,B083,P. Genden Street / Нарны зам,53.15,1,0.4121,0,tertiary,1.516,osm_class_default,osm_length_weighted,5.5
+B088,B126,UNESCO Street / Olympic Street,60.0,1,0.4878,0,secondary,0.728,osm_class_default,osm_length_weighted,1.5
+B088,P015,Peace Avenue / Olympic Street,59.24,1,0.4762,0,trunk,1.575,osm_class_default,osm_length_weighted,7.0
+B088,P020,Paris Street / Ambassador Street,60.0,1,0.3753,0,tertiary,1.46,osm_class_default,osm_length_weighted,0.5
+B088,P059,Chinggis Avenue / P. Genden Street,60.0,1,0.423,0,trunk,1.774,osm_class_default,osm_length_weighted,1.5
+B088,P074,Narny road / Olympic Street,60.0,1,0.55,0,primary,1.453,osm_class_default,osm_length_weighted,1.5
+B088,U01,Olympic Street / Ikh Surguulyn street,60.0,1,0.55,0,primary,0.609,osm_class_default,osm_length_weighted,3.5
+B088,U03,Jamyan Gun Street / Olympic Street,60.0,1,0.4516,0,tertiary,0.582,osm_class_default,osm_length_weighted,0.5
+B088,U04,D.Sükhbaataryn Street / Olympic Street,60.0,1,0.5267,0,primary,1.05,osm_class_default,osm_length_weighted,5.5
+B088,U08,S. Zorig Street / Ambassador Street,60.0,1,0.35,0,tertiary,0.405,osm_class_default,osm_length_weighted,0.5
+B088,U10,P. Genden Street / Chinggis Avenue,50.36,1,0.3951,0,tertiary,1.711,osm_class_default,osm_length_weighted,4.5
+B088,U28,Olympic Street / Их Монгол улсын гудамж,59.75,1,0.5477,0,primary,1.135,osm_class_default,osm_length_weighted,1.5
+B089,B065,Engels street,60.0,1,0.55,0,primary,0.264,osm_class_default,osm_length_weighted,0.0
+B089,B110,Dund River Street,59.33,1,0.447,0,secondary,0.4,osm_class_default,osm_length_weighted,0.0
+B089,P017,Yйлдвэрийн гудамж / Dund River Street,58.24,1,0.4434,0,secondary,0.843,osm_class_default,osm_length_weighted,1.0
+B089,P034,Чингисийн өргөн чөлөө / Engels street,60.0,1,0.4868,0,trunk,0.976,osm_class_default,osm_length_weighted,5.5
+B089,U39,Engels street / Чингисийн өргөн чөлөө,60.0,1,0.5285,0,primary,0.423,osm_class_default,osm_length_weighted,3.0
+B090,U41,Наадамчдын зам,60.0,1,0.45,0,trunk,0.373,osm_class_default,osm_length_weighted,0.0
+B091,P056,local road,70.0,1,0.45,0,trunk,0.025,osm_class_default,osm_length_weighted,0.0
+B091,P070,Наадамчдын зам,60.0,1,0.45,0,trunk,0.645,osm_class_default,osm_length_weighted,0.0
+B092,B047,Наадамчдын зам / Chinggis Avenue,59.52,1,0.4654,0,trunk,4.204,osm_class_default,osm_length_weighted,0.0
+B092,B053,Наадамчдын зам / Chinggis Avenue,62.98,1,0.45,0,trunk,2.801,osm_class_default,osm_length_weighted,0.0
+B092,P025,Наадамчдын зам,60.17,1,0.45,0,trunk,1.107,osm_class_default,osm_length_weighted,0.0
+B092,P036,Dunjingarav Street / Наадамчдын зам,59.29,1,0.5196,0,primary,5.654,osm_class_default,osm_length_weighted,2.0
+B092,P072,Наадамчдын зам / Dunjingarav Street,53.49,1,0.4632,0,trunk,2.687,osm_class_default,osm_length_weighted,0.0
+B093,B047,Наадамчдын зам / Chinggis Avenue,59.45,1,0.4694,0,trunk,3.334,osm_class_default,osm_length_weighted,0.0
+B093,B053,Наадамчдын зам / Chinggis Avenue,64.54,1,0.45,0,trunk,1.931,osm_class_default,osm_length_weighted,0.0
+B093,P025,Наадамчдын зам,60.0,1,0.45,0,trunk,0.235,osm_class_default,osm_length_weighted,0.0
+B093,P036,Dunjingarav Street / Наадамчдын зам,59.21,1,0.5311,0,primary,4.784,osm_class_default,osm_length_weighted,2.0
+B093,P072,Наадамчдын зам / Dunjingarav Street,50.93,1,0.4685,0,trunk,1.817,osm_class_default,osm_length_weighted,0.0
+B094,P061,Өлзийтийн зам,60.39,1,0.45,0,trunk,1.984,osm_class_default,osm_length_weighted,0.0
+B095,P005,Нарны зам / Цагдаагийн академийн өргөн чөлөө,60.38,1,0.5382,0,primary,1.915,osm_class_default,osm_length_weighted,0.0
+B095,P038,Цагдаагийн академийн өргөн чөлөө,60.0,1,0.45,0,trunk,1.079,osm_class_default,osm_length_weighted,0.0
+B095,U15,Нарны зам / Цагдаагийн академийн өргөн чөлөө,60.29,1,0.5385,0,primary,2.062,osm_class_default,osm_length_weighted,0.0
+B095,U35,Цагдаагийн академийн өргөн чөлөө / Энх тайвны өргөн чөлөө,60.34,1,0.45,0,trunk,0.279,osm_class_default,osm_length_weighted,0.0
+B096,B077,Ar Zaisan Street,40.0,1,0.35,0,tertiary,1.778,osm_class_default,osm_length_weighted,0.0
+B097,B032,Сонсголонгийн зам / Сонсголонгийн гүүр,60.12,1,0.5489,0,primary,3.781,osm_class_default,osm_length_weighted,1.0
+B097,B073,Өлзийтийн зам / Сонсголонгийн зам,60.17,1,0.4618,0,trunk,1.037,osm_class_default,osm_length_weighted,0.0
+B097,B084,Наадамчдын зам / Сонсголонгийн зам,60.23,1,0.4592,0,trunk,1.331,osm_class_default,osm_length_weighted,1.5
+B097,U40,Наадамчдын зам,60.0,1,0.4947,0,secondary,0.397,osm_class_default,osm_length_weighted,0.0
+B098,B064,Нарны зам / Narny road,49.55,1,0.4537,0,primary,1.088,osm_class_default,osm_length_weighted,1.5
+B098,B083,Narny road / Нарны зам,59.93,1,0.5494,0,primary,2.182,osm_class_default,osm_length_weighted,4.0
+B098,B088,Olympic Street / Их Монгол улсын гудамж,60.0,1,0.55,0,primary,1.203,osm_class_default,osm_length_weighted,2.5
+B098,B126,UNESCO Street / Их Монгол улсын гудамж,60.0,1,0.5191,0,primary,1.417,osm_class_default,osm_length_weighted,1.0
+B098,B127,Хүннүгийн гудамж,59.59,1,0.4481,0,secondary,0.575,osm_class_default,osm_length_weighted,0.0
+B098,P020,Нарны зам / Narny road,52.15,1,0.4795,0,primary,1.524,osm_class_default,osm_length_weighted,0.0
+B098,P074,Narny road / Их Монгол улсын гудамж,60.0,1,0.55,0,primary,1.532,osm_class_default,osm_length_weighted,0.0
+B098,U28,Их Монгол улсын гудамж,51.07,1,0.4617,0,secondary,0.59,osm_class_default,osm_length_weighted,0.0
+B099,B118,Гачууртын зам / Улиастайн гүүр,59.78,1,0.45,0,trunk,0.427,osm_class_default,osm_length_weighted,0.0
+B099,U21,Гачууртын зам,60.0,1,0.45,0,trunk,0.811,osm_class_default,osm_length_weighted,0.0
+B100,B103,Да хүрээ гудамж / Д.Нянтайсүрэнгийн гудамж,60.0,1,0.45,0,secondary,0.827,osm_class_default,osm_length_weighted,0.0
+B100,P052,Да хүрээ гудамж,58.78,1,0.45,0,secondary,0.874,osm_class_default,osm_length_weighted,1.0
+B100,P066,газарчин зам / Да хүрээ гудамж,43.85,1,0.3708,0,tertiary,0.714,osm_class_default,osm_length_weighted,0.0
+B100,U46,Д.Нянтайсүрэнгийн гудамж,60.0,1,0.45,0,secondary,0.507,osm_class_default,osm_length_weighted,0.0
+B100,U52,газарчин зам / Да хүрээ гудамж,43.51,1,0.369,0,tertiary,0.777,osm_class_default,osm_length_weighted,0.0
+B101,B114,Шар хад 63 / Street 62,40.0,1,0.35,0,tertiary,1.261,osm_class_default,osm_length_weighted,0.0
+B101,P001,Шар хад 63 / Шар хадны зам,40.13,1,0.35,0,tertiary,4.514,osm_class_default,osm_length_weighted,0.0
+B101,U45,Шар хад 63 / Шар хадны гудамж,42.75,1,0.35,0,tertiary,1.442,osm_class_default,osm_length_weighted,0.0
+B102,B120,Да хүрээ гудамж,60.0,1,0.45,0,secondary,0.316,osm_class_default,osm_length_weighted,0.0
+B102,P001,local road,40.0,1,0.35,0,tertiary,2.641,osm_class_default,osm_length_weighted,0.0
+B102,U45,Шар хадны гудамж,60.0,1,0.45,0,secondary,0.988,osm_class_default,osm_length_weighted,0.0
+B103,B100,Да хүрээ гудамж / Д.Нянтайсүрэнгийн гудамж,60.0,1,0.45,0,secondary,0.827,osm_class_default,osm_length_weighted,0.0
+B103,B119,Хилчний гудамж,58.29,1,0.45,0,secondary,0.402,osm_class_default,osm_length_weighted,0.0
+B103,B120,Да хүрээ гудамж,60.0,1,0.45,0,secondary,0.051,osm_class_default,osm_length_weighted,0.0
+B103,P001,Да хүрээ гудамж / газарчин зам,43.31,1,0.368,0,tertiary,2.785,osm_class_default,osm_length_weighted,0.0
+B103,P066,Да хүрээ гудамж / газарчин зам,48.95,1,0.3972,0,secondary,1.165,osm_class_default,osm_length_weighted,0.0
+B103,U52,Да хүрээ гудамж / газарчин зам,48.39,1,0.3944,0,secondary,1.228,osm_class_default,osm_length_weighted,0.0
+B104,B043,Самбалхүндэвийн зам,40.0,1,0.35,0,tertiary,0.982,osm_class_default,osm_length_weighted,0.0
+B104,B105,Самбалхүндэвийн зам,40.0,1,0.35,0,tertiary,1.154,osm_class_default,osm_length_weighted,0.0
+B105,B010,Хувьсгалын зам,45.68,1,0.4155,0,tertiary,0.879,osm_class_default,osm_length_weighted,0.0
+B105,B011,Хувьсгалын зам,50.23,1,0.4625,0,primary,2.397,osm_class_default,osm_length_weighted,0.0
+B105,B104,Самбалхүндэвийн зам,40.0,1,0.35,0,tertiary,1.154,osm_class_default,osm_length_weighted,0.0
+B105,B112,Самбалхүндэвийн зам,40.0,1,0.35,0,tertiary,0.508,osm_class_default,osm_length_weighted,0.0
+B106,B109,Dunjingarav Street,60.0,1,0.55,0,primary,0.463,osm_class_default,osm_length_weighted,0.0
+B106,U13,Zaisan Street,60.0,1,0.55,0,primary,0.813,osm_class_default,osm_length_weighted,0.0
+B106,U14,Dunjingarav Street,60.0,1,0.55,0,primary,1.911,osm_class_default,osm_length_weighted,0.0
+B107,B008,Э.Галданбошготын гудамж / Л.Энэбишийн өргөн чөлөө,60.0,1,0.55,0,primary,3.019,osm_class_default,osm_length_weighted,1.0
+B107,B014,Э.Галданбошготын гудамж / L. Laagan Street,59.84,1,0.5306,0,primary,3.165,osm_class_default,osm_length_weighted,1.0
+B107,B020,Э.Галданбошготын гудамж / Чингэлтэйн өргөн чөлөө,58.32,1,0.5361,0,primary,1.532,osm_class_default,osm_length_weighted,1.0
+B107,B029,Nogoon nuuryn Street / Э.Галданбошготын гудамж,60.0,1,0.55,0,primary,1.124,osm_class_default,osm_length_weighted,0.5
+B107,P022,Чингэлтэйн өргөн чөлөө / Э.Галданбошготын гудамж,60.0,1,0.55,0,primary,1.617,osm_class_default,osm_length_weighted,1.0
+B107,P067,Цагдаагийн гудамж / Э.Галданбошготын гудамж,60.0,1,0.55,0,primary,2.012,osm_class_default,osm_length_weighted,1.0
+B107,P068,Э.Галданбошготын гудамж / Чингэлтэйн тойрог,60.0,1,0.55,0,primary,2.284,osm_class_default,osm_length_weighted,1.0
+B107,U22,Э.Галданбошготын гудамж / Дэнжийн 1000-ын гудамж,59.59,1,0.512,0,primary,1.945,osm_class_default,osm_length_weighted,1.0
+B108,B039,Баянхошууны гудамж / Ногоон чулуут 10,42.74,1,0.382,0,tertiary,7.432,osm_class_default,osm_length_weighted,0.0
+B108,B043,Хувьсгалын зам / Ногоон чулуут 10,42.04,1,0.3734,0,tertiary,4.122,osm_class_default,osm_length_weighted,0.0
+B108,B049,Дэнжийн 1000-ын гудамж,42.93,1,0.3805,0,tertiary,3.666,osm_class_default,osm_length_weighted,0.0
+B108,B057,Дэнжийн 1000-ын гудамж,60.0,1,0.45,0,secondary,2.001,osm_class_default,osm_length_weighted,0.0
+B108,U24,Хувьсгалын зам / Баянхошууны гудамж,44.93,1,0.3879,0,tertiary,5.254,osm_class_default,osm_length_weighted,0.0
+B108,U43,Хувьсгалын зам / Баянхошууны гудамж,45.93,1,0.4175,0,tertiary,5.752,osm_class_default,osm_length_weighted,0.0
+B109,B106,Dunjingarav Street,60.0,1,0.55,0,primary,0.463,osm_class_default,osm_length_weighted,0.0
+B109,P019,Zaisan Street / Dunjingarav Street,49.46,1,0.55,0,primary,0.523,osm_class_default,osm_length_weighted,0.5
+B109,P036,Dunjingarav Street,60.0,1,0.55,0,primary,0.116,osm_class_default,osm_length_weighted,0.5
+B110,B065,Engels street,41.04,1,0.3626,0,tertiary,0.58,osm_class_default,osm_length_weighted,0.0
+B110,B085,Dund River Street,59.63,1,0.4483,0,secondary,0.721,osm_class_default,osm_length_weighted,0.0
+B110,B089,Dund River Street,59.33,1,0.447,0,secondary,0.4,osm_class_default,osm_length_weighted,0.0
+B110,P034,Togtokh Vang Street / Tobang street,51.59,1,0.3736,0,tertiary,0.657,osm_class_default,osm_length_weighted,2.5
+B111,B009,Самбалхүндэвийн зам,40.0,1,0.35,0,tertiary,1.816,osm_class_default,osm_length_weighted,0.0
+B111,B020,Самбалхүндэвийн зам,40.0,1,0.35,0,tertiary,1.312,osm_class_default,osm_length_weighted,0.0
+B111,B057,local road,40.0,1,0.35,0,tertiary,0.547,osm_class_default,osm_length_weighted,0.0
+B111,B112,Самбалхүндэвийн зам,40.0,1,0.35,0,tertiary,0.487,osm_class_default,osm_length_weighted,0.0
+B111,U22,Самбалхүндэвийн зам,40.0,1,0.35,0,tertiary,0.329,osm_class_default,osm_length_weighted,0.0
+B112,B105,Самбалхүндэвийн зам,40.0,1,0.35,0,tertiary,0.508,osm_class_default,osm_length_weighted,0.0
+B112,B111,Самбалхүндэвийн зам,40.0,1,0.35,0,tertiary,0.487,osm_class_default,osm_length_weighted,0.0
+B113,B050,Гачууртын зам / Цагдаагийн академийн өргөн чөлөө,40.91,1,0.355,0,tertiary,2.766,osm_class_default,osm_length_weighted,0.0
+B113,B114,local road,50.0,1,0.45,0,secondary,0.397,osm_class_default,osm_length_weighted,0.0
+B113,P038,Цагдаагийн академийн өргөн чөлөө,41.65,1,0.359,0,tertiary,2.931,osm_class_default,osm_length_weighted,0.0
+B113,U45,local road,50.0,1,0.45,0,secondary,0.651,osm_class_default,osm_length_weighted,0.0
+B114,B101,Шар хад 63 / Street 62,40.0,1,0.35,0,tertiary,1.261,osm_class_default,osm_length_weighted,0.0
+B114,B113,local road,50.0,1,0.45,0,secondary,0.397,osm_class_default,osm_length_weighted,0.0
+B114,B115,Улиастайн гудамж,50.0,1,0.45,0,secondary,0.533,osm_class_default,osm_length_weighted,0.0
+B115,B114,Улиастайн гудамж,50.0,1,0.45,0,secondary,0.533,osm_class_default,osm_length_weighted,0.0
+B115,B116,Улиастайн гудамж,50.0,1,0.45,0,secondary,1.101,osm_class_default,osm_length_weighted,0.0
+B115,U51,local road,40.4,1,0.35,0,tertiary,2.087,osm_class_default,osm_length_weighted,0.0
+B116,B048,local road,40.0,1,0.35,0,tertiary,1.979,osm_class_default,osm_length_weighted,0.0
+B116,B115,Улиастайн гудамж,50.0,1,0.45,0,secondary,1.101,osm_class_default,osm_length_weighted,0.0
+B116,B117,Улиастайн гудамж,50.0,1,0.45,0,secondary,0.936,osm_class_default,osm_length_weighted,0.0
+B117,B116,Улиастайн гудамж,50.0,1,0.45,0,secondary,0.936,osm_class_default,osm_length_weighted,0.0
+B117,B118,Улиастайн гудамж,50.0,1,0.45,0,secondary,0.91,osm_class_default,osm_length_weighted,0.0
+B118,B015,Ulaanbaatar - Nalaikh / Улиастайн гүүр,60.36,1,0.45,0,trunk,6.922,osm_class_default,osm_length_weighted,0.0
+B118,B016,Гачууртын зам / Ulaanbaatar - Nalaikh,60.27,1,0.45,0,secondary,12.361,osm_class_default,osm_length_weighted,0.0
+B118,B099,Гачууртын зам / Улиастайн гүүр,60.0,1,0.45,0,trunk,0.331,osm_class_default,osm_length_weighted,0.0
+B118,B117,Улиастайн гудамж,50.0,1,0.45,0,secondary,0.91,osm_class_default,osm_length_weighted,0.0
+B118,B127,Хүннүгийн гудамж / Гачууртын зам,51.63,1,0.45,0,secondary,7.374,osm_class_default,osm_length_weighted,1.5
+B118,P026,Хүннүгийн гудамж / Нийслэл хүрээ өргөн чөлөө,51.42,1,0.4549,0,secondary,7.169,osm_class_default,osm_length_weighted,2.0
+B118,U37,Хүннүгийн гудамж / Гачууртын зам,51.09,1,0.4501,0,secondary,6.852,osm_class_default,osm_length_weighted,1.5
+B118,U51,Ulaanbaatar - Nalaikh / Гачууртын зам,57.61,1,0.4355,0,trunk,4.239,osm_class_default,osm_length_weighted,0.0
+B119,B120,Хилчний гудамж,60.0,1,0.45,0,secondary,0.398,osm_class_default,osm_length_weighted,0.0
+B119,P038,Хилчний гудамж,60.0,1,0.45,0,secondary,0.924,osm_class_default,osm_length_weighted,0.0
+B119,U46,local road,50.0,1,0.45,0,secondary,0.864,osm_class_default,osm_length_weighted,0.0
+B120,B102,Да хүрээ гудамж,60.0,1,0.45,0,secondary,0.316,osm_class_default,osm_length_weighted,0.0
+B120,B103,Да хүрээ гудамж,60.0,1,0.45,0,secondary,0.051,osm_class_default,osm_length_weighted,0.0
+B120,B119,Хилчний гудамж / Да хүрээ гудамж,58.68,1,0.45,0,secondary,0.41,osm_class_default,osm_length_weighted,0.0
+B121,B122,Алтан овооны гудамж,50.0,1,0.45,0,secondary,1.458,osm_class_default,osm_length_weighted,0.0
+B121,P055,Их нарангийн гудамж,50.0,1,0.45,0,secondary,3.46,osm_class_default,osm_length_weighted,0.0
+B122,B121,Алтан овооны гудамж,50.0,1,0.45,0,secondary,1.458,osm_class_default,osm_length_weighted,0.0
+B122,B123,Алтан овооны гудамж,50.0,1,0.45,0,secondary,0.698,osm_class_default,osm_length_weighted,0.0
+B123,B122,Алтан овооны гудамж,50.0,1,0.45,0,secondary,0.698,osm_class_default,osm_length_weighted,0.0
+B123,B124,Алтан овооны гудамж,50.0,1,0.45,0,secondary,1.039,osm_class_default,osm_length_weighted,0.0
+B123,P073,Алтан овооны гудамж,41.57,1,0.367,0,tertiary,1.386,osm_class_default,osm_length_weighted,0.0
+B124,B079,Алтан овооны гудамж,50.0,1,0.45,0,secondary,0.958,osm_class_default,osm_length_weighted,0.0
+B124,B123,Алтан овооны гудамж,50.0,1,0.45,0,secondary,1.039,osm_class_default,osm_length_weighted,0.0
+B124,P073,local road,40.0,1,0.35,0,tertiary,0.541,osm_class_default,osm_length_weighted,0.0
+B125,B004,Өнөр хорооллын гудамж / Толгойтын гудамж,50.4,1,0.4397,0,tertiary,3.76,osm_class_default,osm_length_weighted,2.5
+B125,B035,Толгойтын гудамж,60.0,1,0.55,0,primary,0.742,osm_class_default,osm_length_weighted,0.0
+B125,B037,local road,40.0,1,0.35,0,tertiary,1.815,osm_class_default,osm_length_weighted,0.0
+B125,B038,local road,40.0,1,0.35,0,tertiary,1.952,osm_class_default,osm_length_weighted,0.0
+B125,B051,Толгойтын гудамж / Баянхошууны гудамж,60.0,1,0.55,0,primary,0.716,osm_class_default,osm_length_weighted,0.0
+B125,P018,Толгойтын гудамж,60.0,1,0.55,0,primary,1.275,osm_class_default,osm_length_weighted,0.0
+B125,P048,Толгойтын гудамж / Ард Аюушийн өргөн чөлөө,59.85,1,0.5487,0,primary,3.606,osm_class_default,osm_length_weighted,0.0
+B125,U38,Толгойтын гудамж / Ард Аюушийн өргөн чөлөө,60.0,1,0.55,0,primary,3.792,osm_class_default,osm_length_weighted,0.0
+B126,B086,Манлай баатар Дамдинсүрэнгийн гудамж,58.65,1,0.45,0,secondary,0.731,osm_class_default,osm_length_weighted,1.0
+B126,B088,UNESCO Street / Olympic Street,60.0,1,0.4878,0,secondary,0.728,osm_class_default,osm_length_weighted,2.5
+B126,P020,Narny road / Манлай баатар Дамдинсүрэнгийн гудамж,47.42,1,0.4185,0,tertiary,1.245,osm_class_default,osm_length_weighted,0.0
+B126,P074,Narny road / UNESCO Street,60.0,1,0.5239,0,primary,1.667,osm_class_default,osm_length_weighted,1.0
+B126,U28,Olympic Street / UNESCO Street,59.79,1,0.5156,0,primary,1.349,osm_class_default,osm_length_weighted,1.0
+B127,B064,Хүннүгийн гудамж / Нарны зам,52.66,1,0.452,0,secondary,1.646,osm_class_default,osm_length_weighted,1.5
+B127,B083,Narny road / Хүннүгийн гудамж,59.95,1,0.5305,0,primary,2.74,osm_class_default,osm_length_weighted,4.0
+B127,B088,Хүннүгийн гудамж / Olympic Street,60.0,1,0.5201,0,primary,1.761,osm_class_default,osm_length_weighted,2.5
+B127,B126,Хүннүгийн гудамж / UNESCO Street,60.0,1,0.5001,0,secondary,1.975,osm_class_default,osm_length_weighted,1.0
+B127,P020,Нарны зам / Narny road,52.72,1,0.4864,0,primary,1.456,osm_class_default,osm_length_weighted,0.5
+B127,P024,Нарны зам / Баян Монголын нүхэн гарц,49.64,1,0.4566,0,primary,0.963,osm_class_default,osm_length_weighted,0.5
+B127,P026,Хүннүгийн гудамж / Нийслэл хүрээ өргөн чөлөө,59.75,1,0.4895,0,secondary,0.938,osm_class_default,osm_length_weighted,1.5
+B127,P074,Narny road / Хүннүгийн гудамж,60.0,1,0.5249,0,primary,2.09,osm_class_default,osm_length_weighted,0.0
+B127,U28,Хүннүгийн гудамж / Их Монгол улсын гудамж,55.05,1,0.4557,0,secondary,1.148,osm_class_default,osm_length_weighted,0.0
+B127,U37,Хүннүгийн гудамж,59.62,1,0.4483,0,secondary,0.621,osm_class_default,osm_length_weighted,1.0
+P001,B071,Алтан Өлгийн гудамж,50.0,1,0.45,0,secondary,1.221,osm_class_default,osm_length_weighted,0.0
+P001,B074,Алтан Өлгийн гудамж,44.34,1,0.3958,0,tertiary,0.73,osm_class_default,osm_length_weighted,0.0
+P001,B101,Шар хад 63 / Шар хадны зам,40.13,1,0.35,0,tertiary,4.514,osm_class_default,osm_length_weighted,0.0
+P001,B102,local road,40.0,1,0.35,0,tertiary,2.641,osm_class_default,osm_length_weighted,0.0
+P001,B103,Да хүрээ гудамж / газарчин зам,43.31,1,0.368,0,tertiary,2.785,osm_class_default,osm_length_weighted,0.0
+P001,P052,Алтан Өлгийн гудамж,50.0,1,0.45,0,secondary,1.471,osm_class_default,osm_length_weighted,1.0
+P001,P066,газарчин зам,40.0,1,0.35,0,tertiary,2.378,osm_class_default,osm_length_weighted,0.0
+P001,U52,Алтан Өлгийн гудамж,46.76,1,0.4197,0,secondary,1.895,osm_class_default,osm_length_weighted,0.0
+P002,B042,Баруун салааны гудамж,60.0,1,0.45,0,secondary,0.103,osm_class_default,osm_length_weighted,0.0
+P003,B001,Peace Avenue / Ж.Раднаабазарын гудамж,60.19,1,0.4362,0,trunk,2.236,osm_class_default,osm_length_weighted,8.0
+P003,B002,Peace Avenue / Ж.Раднаабазарын гудамж,60.32,1,0.4264,0,trunk,1.327,osm_class_default,osm_length_weighted,2.0
+P003,B083,Narny road / Замчдын гудамж,60.0,1,0.5148,0,primary,1.454,osm_class_default,osm_length_weighted,3.0
+P003,B089,Нарны гүүр / Замчдын гудамж,60.0,1,0.5134,0,primary,1.401,osm_class_default,osm_length_weighted,1.0
+P003,P006,Narny road / Замчдын гудамж,60.0,1,0.5077,0,primary,1.22,osm_class_default,osm_length_weighted,1.5
+P003,P015,Juulchny Street / Их тойруу,58.32,1,0.461,0,secondary,2.229,osm_class_default,osm_length_weighted,5.0
+P003,P016,Seoul Street / Ж.Раднаабазарын гудамж,59.4,1,0.4175,0,secondary,0.957,osm_class_default,osm_length_weighted,0.5
+P003,P040,Juulchny Street / Их тойруу,58.85,1,0.4609,0,secondary,2.26,osm_class_default,osm_length_weighted,6.0
+P003,P051,С.Амарсанаагийн гудамж / Ж.Раднаабазарын гудамж,59.87,1,0.4207,0,secondary,1.066,osm_class_default,osm_length_weighted,2.0
+P003,P077,Замчдын гудамж,60.0,1,0.35,0,tertiary,0.489,osm_class_default,osm_length_weighted,0.0
+P003,U29,Ж.Раднаабазарын гудамж / Энх тайваны өргөн чөлөө,60.42,1,0.4208,0,trunk,1.007,osm_class_default,osm_length_weighted,4.0
+P003,U30,Их тойруу / Ж.Раднаабазарын гудамж,60.29,1,0.4799,0,primary,1.45,osm_class_default,osm_length_weighted,4.0
+P004,P043,П.Жасрайн гудамж / Х.Чингүнжавын гудамж,59.74,1,0.3653,0,tertiary,0.73,osm_class_default,osm_length_weighted,3.0
+P004,P050,Peace Avenue / Нарны зам,60.0,1,0.4894,0,trunk,1.659,osm_class_default,osm_length_weighted,2.0
+P004,P077,Замчдын гудамж / П.Жасрайн гудамж,60.0,1,0.35,0,tertiary,0.723,osm_class_default,osm_length_weighted,0.0
+P004,U31,Нарны зам,60.0,1,0.55,0,primary,0.563,osm_class_default,osm_length_weighted,0.0
+P005,P024,Нарны зам,60.0,1,0.55,0,primary,1.047,osm_class_default,osm_length_weighted,0.5
+P005,U15,Нарны зам,60.0,1,0.55,0,primary,2.56,osm_class_default,osm_length_weighted,0.0
+P005,U18,local road,40.0,1,0.35,0,tertiary,0.837,osm_class_default,osm_length_weighted,0.0
+P006,B083,Narny road / Нарны зам,60.0,1,0.55,0,primary,0.924,osm_class_default,osm_length_weighted,1.5
+P006,B089,Нарны зам / Нарны гүүр,60.0,1,0.55,0,primary,1.904,osm_class_default,osm_length_weighted,3.5
+P006,P003,Нарны зам / Undsen khuuliin street,60.0,1,0.5199,0,primary,1.732,osm_class_default,osm_length_weighted,1.5
+P006,P004,Нарны зам,60.0,1,0.55,0,primary,2.101,osm_class_default,osm_length_weighted,3.0
+P006,P016,Нарны зам / Seoul Street,60.0,1,0.5306,0,primary,1.43,osm_class_default,osm_length_weighted,2.0
+P006,P077,Нарны зам / Хатанбаатар Магсаржавын гудамж,60.0,1,0.5268,0,primary,1.674,osm_class_default,osm_length_weighted,3.0
+P006,U29,Нарны зам / Undsen khuuliin street,60.0,1,0.5378,0,primary,1.57,osm_class_default,osm_length_weighted,4.5
+P006,U30,Их тойруу / Нарны зам,60.0,1,0.55,0,primary,2.013,osm_class_default,osm_length_weighted,4.5
+P006,U31,Нарны зам,60.0,1,0.549,0,primary,1.554,osm_class_default,osm_length_weighted,3.0
+P007,B022,Нарангийн гудамж,50.0,1,0.45,0,secondary,0.904,osm_class_default,osm_length_weighted,0.0
+P007,B023,Нарангийн гудамж,50.0,1,0.45,0,secondary,0.558,osm_class_default,osm_length_weighted,0.0
+P008,B017,B. Dorj Street,60.0,1,0.55,0,primary,0.378,osm_class_default,osm_length_weighted,1.0
+P008,P057,Г.Лувсанцэвээний гудамж,40.0,1,0.35,0,tertiary,0.405,osm_class_default,osm_length_weighted,0.5
+P008,U27,B. Dorj Street,60.0,1,0.55,0,primary,0.795,osm_class_default,osm_length_weighted,1.5
+P009,B001,Seoul Street / Peace Avenue,53.37,1,0.419,0,secondary,0.922,osm_class_default,osm_length_weighted,6.0
+P009,P011,Peace Avenue / Seoul Street,59.75,1,0.45,0,trunk,1.77,osm_class_default,osm_length_weighted,7.0
+P009,P015,Peace Avenue / Seoul Street,54.63,1,0.4288,0,trunk,1.37,osm_class_default,osm_length_weighted,6.0
+P009,P016,Seoul Street,60.0,1,0.45,0,secondary,0.506,osm_class_default,osm_length_weighted,0.5
+P009,U01,Seoul Street / Peace Avenue,59.69,1,0.4681,0,secondary,1.419,osm_class_default,osm_length_weighted,7.0
+P009,U04,Seoul Street / D.Sükhbaataryn Street,59.67,1,0.4819,0,secondary,1.336,osm_class_default,osm_length_weighted,6.0
+P009,U05,Seoul Street / Чингисийн өргөн чөлөө,59.5,1,0.45,0,secondary,0.878,osm_class_default,osm_length_weighted,3.0
+P010,B008,Их тойруу / Л.Энэбишийн өргөн чөлөө,60.0,1,0.5446,0,primary,2.7,osm_class_default,osm_length_weighted,3.0
+P010,B026,Их тойруу / Эрхүүгийн гудамж,60.0,1,0.5063,0,primary,0.347,osm_class_default,osm_length_weighted,0.0
+P010,B088,Эрхүүгийн гудамж / Baga Toiruu street,60.0,1,0.4867,0,secondary,2.214,osm_class_default,osm_length_weighted,8.5
+P010,P023,Эрхүүгийн гудамж / Beijing Street,60.0,1,0.4984,0,secondary,1.155,osm_class_default,osm_length_weighted,3.5
+P010,P031,Их тойруу / Nogoon nuuryn Street,60.0,1,0.5389,0,primary,1.324,osm_class_default,osm_length_weighted,1.0
+P010,P039,Эрхүүгийн гудамж / Beijing Street,60.0,1,0.4847,0,secondary,0.885,osm_class_default,osm_length_weighted,1.0
+P010,P067,Цагдаагийн гудамж / Эрхүүгийн гудамж,60.0,1,0.5059,0,primary,0.344,osm_class_default,osm_length_weighted,0.0
+P010,P068,Их тойруу / Чингэлтэйн тойрог,60.0,1,0.5426,0,primary,1.965,osm_class_default,osm_length_weighted,3.0
+P010,U06,Их тойруу / Эрхүүгийн гудамж,60.0,1,0.538,0,primary,1.221,osm_class_default,osm_length_weighted,2.0
+P010,U08,Эрхүүгийн гудамж / Baga Toiruu street,60.0,1,0.4659,0,secondary,2.167,osm_class_default,osm_length_weighted,7.0
+P010,U26,Их тойруу / Ikh surguuliin Street,60.0,1,0.5259,0,primary,1.461,osm_class_default,osm_length_weighted,5.0
+P011,B055,Peace Avenue / Арслантай гүүр,59.8,1,0.45,0,trunk,1.01,osm_class_default,osm_length_weighted,0.0
+P011,B086,Сангийн хорооны гудамж / Peace Avenue,60.0,1,0.391,0,tertiary,1.524,osm_class_default,osm_length_weighted,1.0
+P011,B088,Paris Street / Ambassador Street,60.0,1,0.35,0,tertiary,1.088,osm_class_default,osm_length_weighted,1.5
+P011,P020,Paris Street / Narny road,60.0,1,0.3765,0,tertiary,1.394,osm_class_default,osm_length_weighted,0.0
+P011,P023,Tokyo Street / Peace Avenue,59.82,1,0.45,0,trunk,1.156,osm_class_default,osm_length_weighted,1.5
+P011,P041,Peace Avenue / Их тойруу,60.71,1,0.4597,0,trunk,1.319,osm_class_default,osm_length_weighted,0.5
+P011,P042,Peace Avenue / Сангийн хорооны гудамж,60.51,1,0.4426,0,trunk,0.684,osm_class_default,osm_length_weighted,0.0
+P011,P054,Peace Avenue / Их тойруу,60.0,1,0.4586,0,trunk,1.285,osm_class_default,osm_length_weighted,4.0
+P011,P074,Paris Street / Narny road,60.0,1,0.4558,0,tertiary,2.374,osm_class_default,osm_length_weighted,0.0
+P011,U08,Paris Street / Ambassador Street,60.0,1,0.35,0,tertiary,1.185,osm_class_default,osm_length_weighted,0.0
+P012,B076,local road,56.35,1,0.35,0,tertiary,0.37,osm_class_default,osm_length_weighted,0.5
+P012,B082,Нам Ян Жү-гийн гудамж / Их хүрээ гудамж,60.0,1,0.5487,0,primary,0.622,osm_class_default,osm_length_weighted,3.5
+P012,B086,Манлай баатар Дамдинсүрэнгийн гудамж,60.0,1,0.45,0,secondary,0.332,osm_class_default,osm_length_weighted,2.5
+P012,P024,Нам Ян Жү-гийн гудамж / Нарны зам,60.0,1,0.5485,0,primary,0.558,osm_class_default,osm_length_weighted,3.0
+P012,P041,Нам Ян Жү-гийн гудамж / Их тойруу,60.0,1,0.5485,0,primary,0.911,osm_class_default,osm_length_weighted,5.5
+P012,P054,Нам Ян Жү-гийн гудамж / Их тойруу,60.0,1,0.55,0,primary,0.8,osm_class_default,osm_length_weighted,3.5
+P012,P065,Peace Avenue / Нам Ян Жү-гийн гудамж,60.37,1,0.4858,0,trunk,1.917,osm_class_default,osm_length_weighted,1.0
+P012,U16,Peace Avenue / Нам Ян Жү-гийн гудамж,60.47,1,0.4948,0,trunk,1.519,osm_class_default,osm_length_weighted,1.0
+P013,B012,Л.Энэбишийн өргөн чөлөө / Эх нялхасын гудамж,60.0,1,0.5243,0,primary,0.415,osm_class_default,osm_length_weighted,0.0
+P013,B018,Л.Энэбишийн өргөн чөлөө,60.0,1,0.55,0,primary,0.489,osm_class_default,osm_length_weighted,0.0
+P013,B051,Ард Аюушийн өргөн чөлөө / Л.Энэбишийн өргөн чөлөө,60.0,1,0.55,0,primary,5.384,osm_class_default,osm_length_weighted,2.0
+P013,B078,Л.Энэбишийн өргөн чөлөө / Өргөө гудамж,60.0,1,0.502,0,primary,1.003,osm_class_default,osm_length_weighted,1.0
+P013,B125,Ард Аюушийн өргөн чөлөө / Толгойтын гудамж,60.0,1,0.55,0,primary,5.716,osm_class_default,osm_length_weighted,2.0
+P013,P014,Ард Аюушийн өргөн чөлөө / Л.Энэбишийн өргөн чөлөө,60.0,1,0.55,0,primary,1.553,osm_class_default,osm_length_weighted,2.0
+P013,P018,Ард Аюушийн өргөн чөлөө / Л.Энэбишийн өргөн чөлөө,60.0,1,0.55,0,primary,5.943,osm_class_default,osm_length_weighted,2.0
+P013,P048,Ард Аюушийн өргөн чөлөө / Л.Энэбишийн өргөн чөлөө,59.8,1,0.5482,0,primary,2.597,osm_class_default,osm_length_weighted,2.0
+P013,P051,С.Амарсанаагийн гудамж / Л.Энэбишийн өргөн чөлөө,60.0,1,0.501,0,secondary,0.748,osm_class_default,osm_length_weighted,0.0
+P013,U02,Л.Энэбишийн өргөн чөлөө,60.0,1,0.55,0,primary,0.686,osm_class_default,osm_length_weighted,0.0
+P013,U20,Л.Энэбишийн өргөн чөлөө / Х.Чингүнжавын гудамж,59.64,1,0.5436,0,primary,0.794,osm_class_default,osm_length_weighted,3.0
+P014,B018,Ард Аюушийн өргөн чөлөө / Л.Энэбишийн өргөн чөлөө,60.0,1,0.55,0,primary,0.808,osm_class_default,osm_length_weighted,2.0
+P014,B051,Ард Аюушийн өргөн чөлөө / Баянхошууны гудамж,59.95,1,0.5495,0,primary,5.251,osm_class_default,osm_length_weighted,4.0
+P014,B078,Ард Аюушийн өргөн чөлөө / Өргөө гудамж,59.67,1,0.4912,0,primary,0.87,osm_class_default,osm_length_weighted,3.0
+P014,B125,Ард Аюушийн өргөн чөлөө / Толгойтын гудамж,59.95,1,0.5495,0,primary,5.583,osm_class_default,osm_length_weighted,4.0
+P014,P018,Ард Аюушийн өргөн чөлөө,59.95,1,0.5496,0,primary,5.81,osm_class_default,osm_length_weighted,4.0
+P014,U20,Ард Аюушийн өргөн чөлөө,60.0,1,0.55,0,primary,0.532,osm_class_default,osm_length_weighted,0.0
+P015,B001,Peace Avenue / Baga Toiruu Street,59.91,1,0.45,0,trunk,1.858,osm_class_default,osm_length_weighted,6.5
+P015,B002,Peace Avenue,59.81,1,0.45,0,trunk,0.925,osm_class_default,osm_length_weighted,0.5
+P015,P011,Peace Avenue / С.Чоймболын гудамж,59.94,1,0.45,0,trunk,2.881,osm_class_default,osm_length_weighted,10.0
+P015,P016,Peace Avenue / Партизаны гудамж,59.81,1,0.45,0,trunk,0.949,osm_class_default,osm_length_weighted,0.5
+P015,U01,Peace Avenue / Ikh Surguulyn street,59.93,1,0.4603,0,trunk,2.53,osm_class_default,osm_length_weighted,10.0
+P015,U05,Peace Avenue / Chinggis Avenue,59.92,1,0.45,0,trunk,2.141,osm_class_default,osm_length_weighted,7.0
+P015,U30,Peace Avenue / С.Чоймболын гудамж,59.85,1,0.4667,0,trunk,1.199,osm_class_default,osm_length_weighted,1.5
+P016,B002,Партизаны гудамж / Peace Avenue,60.0,1,0.45,0,secondary,0.528,osm_class_default,osm_length_weighted,0.0
+P016,B083,Narny road / Undsen khuuliin street,60.0,1,0.5335,0,primary,1.756,osm_class_default,osm_length_weighted,3.5
+P016,B089,Нарны гүүр / Seoul Street,60.0,1,0.5324,0,primary,1.644,osm_class_default,osm_length_weighted,1.5
+P016,P003,Seoul Street / Замчдын гудамж,60.0,1,0.4551,0,secondary,0.906,osm_class_default,osm_length_weighted,0.5
+P016,P006,Narny road / Undsen khuuliin street,60.0,1,0.531,0,primary,1.522,osm_class_default,osm_length_weighted,2.0
+P016,P009,Seoul Street,60.0,1,0.45,0,secondary,0.506,osm_class_default,osm_length_weighted,0.5
+P016,P015,Juulchny Street / С.Чоймболын гудамж,57.41,1,0.4508,0,secondary,1.581,osm_class_default,osm_length_weighted,2.0
+P016,P051,С.Амарсанаагийн гудамж / Seoul Street,59.88,1,0.45,0,secondary,1.226,osm_class_default,osm_length_weighted,2.5
+P016,U09,Seoul Street / Peace Avenue,60.0,1,0.45,0,secondary,1.238,osm_class_default,osm_length_weighted,3.5
+P016,U30,С.Чоймболын гудамж / Партизаны гудамж,60.0,1,0.4748,0,secondary,0.802,osm_class_default,osm_length_weighted,1.0
+P017,B007,Баруун үйлдвэрийн гудамж / Ажилчны гудамж,60.0,1,0.4294,0,tertiary,3.296,osm_class_default,osm_length_weighted,4.0
+P017,B013,Yйлдвэрийн гудамж / Чингисийн өргөн чөлөө,53.73,1,0.4444,0,secondary,1.126,osm_class_default,osm_length_weighted,0.0
+P017,B031,Эрчим хүчний гудамж / Сонсголонгийн зам,59.92,1,0.4593,0,secondary,10.785,osm_class_default,osm_length_weighted,0.0
+P017,B033,Эрчим хүчний гудамж / Сонсголонгийн зам,59.91,1,0.4505,0,secondary,9.856,osm_class_default,osm_length_weighted,0.0
+P017,B089,Yйлдвэрийн гудамж / Dund River Street,58.24,1,0.4434,0,secondary,0.843,osm_class_default,osm_length_weighted,1.0
+P017,P044,Yйлдвэрийн гудамж,58.98,1,0.4454,0,secondary,1.478,osm_class_default,osm_length_weighted,0.0
+P017,P048,Баруун үйлдвэрийн гудамж / Ажилчны гудамж,60.0,1,0.4514,0,tertiary,3.764,osm_class_default,osm_length_weighted,4.0
+P017,P050,Peace Avenue / Баруун үйлдвэрийн гудамж,60.22,1,0.4322,0,tertiary,4.319,osm_class_default,osm_length_weighted,1.5
+P017,U39,Yйлдвэрийн гудамж / Чингисийн өргөн чөлөө,53.6,1,0.4443,0,secondary,1.1,osm_class_default,osm_length_weighted,0.0
+P018,B051,Баянхошууны гудамж,60.0,1,0.55,0,primary,0.943,osm_class_default,osm_length_weighted,0.0
+P018,B052,local road,64.23,1,0.5103,0,primary,1.039,osm_class_default,osm_length_weighted,0.0
+P018,B080,Дунд наран-20 / Дунд наран-19,43.28,1,0.3888,0,tertiary,6.897,osm_class_default,osm_length_weighted,0.0
+P018,B125,Толгойтын гудамж,60.0,1,0.55,0,primary,1.275,osm_class_default,osm_length_weighted,0.0
+P018,P029,local road,64.78,1,0.5049,0,trunk,1.109,osm_class_default,osm_length_weighted,0.0
+P018,U38,Ард Аюушийн өргөн чөлөө,60.0,1,0.55,0,primary,4.019,osm_class_default,osm_length_weighted,0.0
+P019,B109,Zaisan Street / Dunjingarav Street,49.74,1,0.55,0,primary,0.536,osm_class_default,osm_length_weighted,2.0
+P019,P036,Zaisan Street,48.34,1,0.55,0,primary,0.458,osm_class_default,osm_length_weighted,2.0
+P019,P045,Zaisan Street / Удирдлагын академийн гудамж,59.57,1,0.4993,0,secondary,1.229,osm_class_default,osm_length_weighted,0.5
+P019,U12,Zaisan Street,60.0,1,0.55,0,primary,0.594,osm_class_default,osm_length_weighted,2.0
+P020,B064,Нарны зам / Narny road,60.0,1,0.55,0,primary,0.517,osm_class_default,osm_length_weighted,1.5
+P020,B083,Narny road / Нарны зам,59.94,1,0.5495,0,primary,2.583,osm_class_default,osm_length_weighted,4.0
+P020,B086,Манлай баатар Дамдинсүрэнгийн гудамж / Нарны зам,50.63,1,0.4418,0,tertiary,1.693,osm_class_default,osm_length_weighted,1.0
+P020,B088,Narny road / Нарны зам,60.0,1,0.5488,0,primary,1.909,osm_class_default,osm_length_weighted,2.5
+P020,B126,Нарны зам / Narny road,49.35,1,0.4411,0,tertiary,1.53,osm_class_default,osm_length_weighted,0.0
+P020,P011,Paris Street / Нарны зам,60.0,1,0.4383,0,tertiary,2.039,osm_class_default,osm_length_weighted,0.0
+P020,P074,Narny road / Нарны зам,60.0,1,0.55,0,primary,1.933,osm_class_default,osm_length_weighted,0.0
+P020,U08,Paris Street / Нарны зам,60.0,1,0.4323,0,tertiary,2.202,osm_class_default,osm_length_weighted,0.0
+P020,U28,Narny road,45.15,1,0.4061,0,tertiary,0.751,osm_class_default,osm_length_weighted,0.0
+P021,B098,Их Монгол улсын гудамж / Нийслэл хүрээ өргөн чөлөө,60.0,1,0.55,0,primary,0.655,osm_class_default,osm_length_weighted,3.5
+P021,P026,Нийслэл хүрээ өргөн чөлөө,60.0,1,0.55,0,primary,0.948,osm_class_default,osm_length_weighted,2.0
+P021,P034,Нийслэл хүрээ өргөн чөлөө / Chinggis Avenue,60.04,1,0.5271,0,primary,2.317,osm_class_default,osm_length_weighted,7.5
+P021,P045,Удирдлагын академийн гудамж / Их Монгол улсын гудамж,52.04,1,0.4722,0,secondary,1.522,osm_class_default,osm_length_weighted,2.0
+P021,P059,Нийслэл хүрээ өргөн чөлөө / Chinggis Avenue,62.43,1,0.5121,0,primary,2.984,osm_class_default,osm_length_weighted,4.5
+P021,U12,Нийслэл хүрээ өргөн чөлөө / Zaisan Street,60.06,1,0.549,0,primary,2.081,osm_class_default,osm_length_weighted,5.0
+P021,U14,Их Монгол улсын гудамж / Great Mongolian Empire Street,60.0,1,0.55,0,primary,2.155,osm_class_default,osm_length_weighted,4.5
+P022,B027,Чингэлтэйн өргөн чөлөө,60.0,1,0.55,0,primary,1.043,osm_class_default,osm_length_weighted,0.5
+P022,B056,Чингэлтэйн өргөн чөлөө,43.01,1,0.3823,0,tertiary,1.365,osm_class_default,osm_length_weighted,0.5
+P022,B059,Дарь-Эхийн гудамж / Чингэлтэйн өргөн чөлөө,50.41,1,0.4508,0,secondary,1.484,osm_class_default,osm_length_weighted,0.5
+P022,P035,Чингэлтэйн өргөн чөлөө,60.0,1,0.55,0,primary,0.899,osm_class_default,osm_length_weighted,0.0
+P023,B005,Токиогийн гудамж,60.0,1,0.4324,0,secondary,0.602,osm_class_default,osm_length_weighted,0.5
+P023,B019,Залуучуудын гудамж / Сансарын тунел,60.0,1,0.55,0,primary,0.565,osm_class_default,osm_length_weighted,4.5
+P023,B055,Tokyo Street / Peace Avenue,60.0,1,0.45,0,secondary,0.954,osm_class_default,osm_length_weighted,0.5
+P023,B086,Сангийн хорооны гудамж / Tokyo Street,59.86,1,0.3902,0,tertiary,1.502,osm_class_default,osm_length_weighted,1.5
+P023,P010,Эрхүүгийн гудамж / Beijing Street,60.0,1,0.4996,0,secondary,1.128,osm_class_default,osm_length_weighted,1.5
+P023,P039,Beijing Street,60.0,1,0.55,0,primary,0.815,osm_class_default,osm_length_weighted,1.5
+P023,P042,Tokyo Street / Сангийн хорооны гудамж,60.21,1,0.4424,0,secondary,0.662,osm_class_default,osm_length_weighted,0.5
+P023,P047,Токиогийн гудамж / Дарь-Эхийн гудамж,57.52,1,0.45,0,secondary,0.741,osm_class_default,osm_length_weighted,1.5
+P024,B082,Их хүрээ гудамж / Нам Ян Жү-гийн гудамж,60.0,1,0.55,0,primary,0.114,osm_class_default,osm_length_weighted,1.5
+P024,B083,Narny road / Нарны зам,59.95,1,0.5495,0,primary,2.715,osm_class_default,osm_length_weighted,6.0
+P024,B088,Нарны зам / Narny road,60.0,1,0.5489,0,primary,2.041,osm_class_default,osm_length_weighted,4.5
+P024,P011,Paris Street / Нарны зам,60.0,1,0.4459,0,tertiary,2.171,osm_class_default,osm_length_weighted,2.0
+P024,P012,Нам Ян Жү-гийн гудамж,60.0,1,0.55,0,primary,0.508,osm_class_default,osm_length_weighted,1.0
+P024,P020,Нарны зам / Narny road,60.0,1,0.55,0,primary,1.085,osm_class_default,osm_length_weighted,2.0
+P024,P059,Narny road / Нарны зам,57.23,1,0.5001,0,primary,3.426,osm_class_default,osm_length_weighted,2.0
+P024,P074,Narny road / Нарны зам,60.0,1,0.55,0,primary,2.065,osm_class_default,osm_length_weighted,2.0
+P024,U10,Narny road / Нарны зам,57.35,1,0.5279,0,primary,2.91,osm_class_default,osm_length_weighted,5.0
+P024,U15,Нарны зам / Нам Ян Жү-гийн гудамж,60.0,1,0.55,0,primary,2.163,osm_class_default,osm_length_weighted,1.5
+P025,B031,Эрчим хүчний гудамж / Сонсголонгийн зам,59.52,1,0.4777,0,secondary,10.545,osm_class_default,osm_length_weighted,0.5
+P025,B033,Эрчим хүчний гудамж / Сонсголонгийн зам,59.47,1,0.4708,0,secondary,9.616,osm_class_default,osm_length_weighted,0.5
+P025,B047,Наадамчдын зам / Chinggis Avenue,59.64,1,0.463,0,trunk,5.006,osm_class_default,osm_length_weighted,0.0
+P025,B053,Наадамчдын зам / Chinggis Avenue,62.36,1,0.45,0,trunk,3.603,osm_class_default,osm_length_weighted,0.0
+P025,B091,Наадамчдын зам,60.0,1,0.45,0,trunk,1.738,osm_class_default,osm_length_weighted,0.0
+P025,P036,Dunjingarav Street / Наадамчдын зам,59.42,1,0.5116,0,primary,6.456,osm_class_default,osm_length_weighted,2.0
+P025,P053,Товчооны зам / Наадамчдын зам,53.01,1,0.4196,0,secondary,9.122,osm_class_default,osm_length_weighted,1.5
+P025,P060,Наадамчдын зам / Товчооны зам,52.51,1,0.4179,0,secondary,8.439,osm_class_default,osm_length_weighted,1.0
+P025,P069,Товчооны зам / Наадамчдын зам,55.8,1,0.4319,0,trunk,15.974,osm_class_default,osm_length_weighted,1.0
+P025,P072,Наадамчдын зам / Dunjingarav Street,54.92,1,0.4605,0,trunk,3.489,osm_class_default,osm_length_weighted,0.0
+P026,B098,Нийслэл хүрээ өргөн чөлөө / Их Монгол улсын гудамж,60.0,1,0.55,0,primary,1.353,osm_class_default,osm_length_weighted,2.5
+P026,B127,Хүннүгийн гудамж / Нийслэл хүрээ өргөн чөлөө,60.0,1,0.4928,0,secondary,0.976,osm_class_default,osm_length_weighted,1.5
+P026,P021,Нийслэл хүрээ өргөн чөлөө,60.0,1,0.55,0,primary,1.697,osm_class_default,osm_length_weighted,3.0
+P026,P024,Нийслэл хүрээ өргөн чөлөө,60.0,1,0.55,0,primary,0.759,osm_class_default,osm_length_weighted,2.0
+P026,P034,Нийслэл хүрээ өргөн чөлөө / Chinggis Avenue,60.03,1,0.5325,0,primary,3.015,osm_class_default,osm_length_weighted,6.5
+P026,P045,Удирдлагын академийн гудамж / Нийслэл хүрээ өргөн чөлөө,54.39,1,0.4966,0,secondary,2.259,osm_class_default,osm_length_weighted,4.0
+P026,P059,Нийслэл хүрээ өргөн чөлөө / Chinggis Avenue,61.96,1,0.5198,0,primary,3.682,osm_class_default,osm_length_weighted,3.5
+P026,U12,Нийслэл хүрээ өргөн чөлөө / Zaisan Street,60.05,1,0.5493,0,primary,2.779,osm_class_default,osm_length_weighted,4.0
+P026,U14,Их Монгол улсын гудамж / Нийслэл хүрээ өргөн чөлөө,60.0,1,0.55,0,primary,2.892,osm_class_default,osm_length_weighted,6.5
+P026,U37,Нийслэл хүрээ өргөн чөлөө,60.0,1,0.55,0,primary,0.392,osm_class_default,osm_length_weighted,1.0
+P027,B089,Engels street / Чингисийн өргөн чөлөө,60.0,1,0.5118,0,primary,0.523,osm_class_default,osm_length_weighted,1.0
+P027,P034,Чингисийн өргөн чөлөө / Engels street,60.0,1,0.4514,0,trunk,0.879,osm_class_default,osm_length_weighted,4.5
+P027,U39,Чингисийн өргөн чөлөө,60.0,1,0.45,0,trunk,0.326,osm_class_default,osm_length_weighted,2.0
+P028,B008,Хасбаатарын гудамж / Хувьсгалын зам,60.0,1,0.4591,0,tertiary,0.726,osm_class_default,osm_length_weighted,0.0
+P028,B009,Хувьсгалын зам / Хасбаатарын гудамж,60.0,1,0.4844,0,primary,0.979,osm_class_default,osm_length_weighted,0.0
+P028,B012,Эх нялхасын төв гудамж,60.0,1,0.35,0,tertiary,0.375,osm_class_default,osm_length_weighted,0.0
+P028,P033,Хасбаатарын гудамж,60.0,1,0.35,0,tertiary,0.04,osm_class_default,osm_length_weighted,0.0
+P029,P046,Москвагийн гудамж / Толгойтын гудамж,60.15,1,0.4836,0,trunk,1.03,osm_class_default,osm_length_weighted,0.0
+P029,P053,Товчооны зам / Москвагийн гудамж,58.36,1,0.4504,0,trunk,2.676,osm_class_default,osm_length_weighted,1.0
+P029,P060,Товчооны зам / Москвагийн гудамж,57.82,1,0.4526,0,trunk,1.993,osm_class_default,osm_length_weighted,0.5
+P029,P069,Товчооны зам / Москвагийн гудамж,59.53,1,0.45,0,trunk,9.528,osm_class_default,osm_length_weighted,0.5
+P030,B005,Их тойруу / Токиогийн гудамж,57.13,1,0.4899,0,primary,0.636,osm_class_default,osm_length_weighted,1.0
+P030,B019,Их тойруу / Сансарын Тойрог,60.0,1,0.5486,0,primary,1.146,osm_class_default,osm_length_weighted,2.0
+P030,B026,Их тойруу / Их тойрог,60.0,1,0.55,0,primary,1.177,osm_class_default,osm_length_weighted,0.0
+P030,P010,Их тойруу / Эрхүүгийн гудамж,60.0,1,0.5373,0,primary,1.152,osm_class_default,osm_length_weighted,0.0
+P030,P023,Токиогийн гудамж / Их тойруу,58.15,1,0.4854,0,secondary,1.008,osm_class_default,osm_length_weighted,2.5
+P030,P047,Их тойруу / Дарь-Эхийн гудамж,60.0,1,0.5423,0,primary,0.414,osm_class_default,osm_length_weighted,0.0
+P030,P064,Их тойруу / Л.Энэбишийн өргөн чөлөө,60.0,1,0.55,0,primary,3.527,osm_class_default,osm_length_weighted,4.0
+P030,P067,Их тойруу / Цагдаагийн гудамж,60.0,1,0.55,0,primary,1.101,osm_class_default,osm_length_weighted,0.0
+P030,U27,Их тойруу / B. Dorj Street,59.86,1,0.5478,0,primary,1.666,osm_class_default,osm_length_weighted,3.5
+P031,B003,Ikh surguuliin Street / Nogoon nuuryn Street,60.0,1,0.55,0,primary,1.224,osm_class_default,osm_length_weighted,5.0
+P031,B008,Л.Энэбишийн өргөн чөлөө / Их тойруу,56.8,1,0.5203,0,primary,2.169,osm_class_default,osm_length_weighted,2.0
+P031,B029,Nogoon nuuryn Street,60.0,1,0.55,0,primary,0.204,osm_class_default,osm_length_weighted,0.0
+P031,P011,Baga Toiruu street / Nogoon nuuryn Street,60.0,1,0.4855,0,secondary,2.189,osm_class_default,osm_length_weighted,8.0
+P031,P039,Baga Toiruu street / Nogoon nuuryn Street,60.0,1,0.5092,0,primary,1.479,osm_class_default,osm_length_weighted,6.0
+P031,P064,Л.Энэбишийн өргөн чөлөө / Их тойруу,56.84,1,0.5207,0,primary,2.196,osm_class_default,osm_length_weighted,3.0
+P031,P068,Их тойруу / Алтайн гудамж,55.29,1,0.5056,0,primary,1.434,osm_class_default,osm_length_weighted,2.0
+P031,U01,Ikh surguuliin Street / Nogoon nuuryn Street,60.0,1,0.5492,0,primary,1.527,osm_class_default,osm_length_weighted,6.0
+P031,U06,Nogoon nuuryn Street / Их тойруу,60.0,1,0.55,0,primary,0.703,osm_class_default,osm_length_weighted,2.0
+P031,U26,Алтайн гудамж / Д.Сүхбаатарын гудамж,52.95,1,0.4818,0,secondary,0.932,osm_class_default,osm_length_weighted,4.0
+P032,B051,local road,40.0,1,0.35,0,tertiary,0.093,osm_class_default,osm_length_weighted,0.0
+P033,B012,Эх нялхасын төв гудамж,56.4,1,0.35,0,tertiary,0.392,osm_class_default,osm_length_weighted,0.0
+P033,B078,Хасбаатарын гудамж,60.0,1,0.35,0,tertiary,0.82,osm_class_default,osm_length_weighted,0.0
+P033,P028,Хасбаатарын гудамж,60.0,1,0.35,0,tertiary,0.04,osm_class_default,osm_length_weighted,0.0
+P034,B083,Chinggis Avenue / Чингисийн өргөн чөлөө,58.26,1,0.4441,0,trunk,2.627,osm_class_default,osm_length_weighted,5.5
+P034,B085,Dund River Street / Togtokh Vang Street,54.62,1,0.4015,0,secondary,1.042,osm_class_default,osm_length_weighted,1.5
+P034,B088,Chinggis Avenue / Чингисийн өргөн чөлөө,62.73,1,0.4316,0,trunk,2.689,osm_class_default,osm_length_weighted,4.0
+P034,B110,Togtokh Vang Street / Tobang street,51.59,1,0.3736,0,tertiary,0.657,osm_class_default,osm_length_weighted,1.5
+P034,P020,Narny road / Чингисийн өргөн чөлөө,56.17,1,0.4774,0,primary,2.78,osm_class_default,osm_length_weighted,1.5
+P034,P021,Нийслэл хүрээ өргөн чөлөө / Чингисийн өргөн чөлөө,60.0,1,0.5251,0,primary,2.069,osm_class_default,osm_length_weighted,1.5
+P034,P027,Chinggis Avenue,60.2,1,0.45,0,trunk,0.424,osm_class_default,osm_length_weighted,2.5
+P034,P074,Чингисийн өргөн чөлөө / Narny road,55.26,1,0.4584,0,trunk,2.212,osm_class_default,osm_length_weighted,1.5
+P034,U05,Chinggis Avenue / Чингисийн өргөн чөлөө,63.04,1,0.45,0,trunk,2.429,osm_class_default,osm_length_weighted,4.5
+P034,U11,Махатма Гандигийн гудамж / Чингисийн өргөн чөлөө,59.46,1,0.45,0,secondary,2.273,osm_class_default,osm_length_weighted,1.5
+P034,U12,Чингисийн өргөн чөлөө / Zaisan Street,61.03,1,0.4821,0,trunk,0.809,osm_class_default,osm_length_weighted,1.0
+P035,B008,Э.Галданбошготын гудамж / Л.Энэбишийн өргөн чөлөө,60.0,1,0.55,0,primary,2.599,osm_class_default,osm_length_weighted,0.5
+P035,B014,Э.Галданбошготын гудамж / L. Laagan Street,59.82,1,0.5276,0,primary,2.745,osm_class_default,osm_length_weighted,0.5
+P035,B020,Э.Галданбошготын гудамж / Чингэлтэйн өргөн чөлөө,57.72,1,0.531,0,primary,1.112,osm_class_default,osm_length_weighted,0.5
+P035,B029,Nogoon nuuryn Street / Чингэлтэйн өргөн чөлөө,60.0,1,0.55,0,primary,0.785,osm_class_default,osm_length_weighted,1.0
+P035,B066,Чингэлтэйн өргөн чөлөө / Э.Галданбошготын гудамж,52.96,1,0.4819,0,secondary,3.618,osm_class_default,osm_length_weighted,1.5
+P035,B107,Э.Галданбошготын гудамж / Чингэлтэйн өргөн чөлөө,60.0,1,0.5491,0,primary,0.874,osm_class_default,osm_length_weighted,0.5
+P035,P022,Чингэлтэйн өргөн чөлөө / Э.Галданбошготын гудамж,60.0,1,0.55,0,primary,1.26,osm_class_default,osm_length_weighted,1.0
+P035,P067,Цагдаагийн гудамж / Чингэлтэйн өргөн чөлөө,60.0,1,0.55,0,primary,1.655,osm_class_default,osm_length_weighted,1.0
+P035,P068,Э.Галданбошготын гудамж / Чингэлтэйн өргөн чөлөө,60.0,1,0.55,0,primary,1.864,osm_class_default,osm_length_weighted,0.5
+P035,U22,Дэнжийн 1000-ын гудамж / Э.Галданбошготын гудамж,59.47,1,0.501,0,primary,1.525,osm_class_default,osm_length_weighted,0.5
+P035,U30,Э.Галданбошготын гудамж / Их тойруу,60.0,1,0.55,0,primary,3.111,osm_class_default,osm_length_weighted,2.5
+P036,B077,Zaisan Street,60.0,1,0.55,0,primary,0.604,osm_class_default,osm_length_weighted,0.0
+P036,B109,Dunjingarav Street,60.0,1,0.55,0,primary,0.116,osm_class_default,osm_length_weighted,0.5
+P036,P019,Zaisan Street,48.21,1,0.55,0,primary,0.456,osm_class_default,osm_length_weighted,2.0
+P036,P072,Dunjingarav Street / Zaisan Street,56.35,1,0.5333,0,primary,4.005,osm_class_default,osm_length_weighted,2.0
+P037,B017,local road,40.0,1,0.35,0,tertiary,0.485,osm_class_default,osm_length_weighted,1.0
+P038,B050,Цагдаагийн академийн өргөн чөлөө / Гачууртын зам,60.0,1,0.45,0,trunk,0.533,osm_class_default,osm_length_weighted,0.0
+P038,B095,Цагдаагийн академийн өргөн чөлөө,60.0,1,0.45,0,trunk,1.079,osm_class_default,osm_length_weighted,0.0
+P038,B113,Цагдаагийн академийн өргөн чөлөө,41.65,1,0.359,0,tertiary,2.931,osm_class_default,osm_length_weighted,0.0
+P038,B119,Хилчний гудамж,60.0,1,0.45,0,secondary,0.924,osm_class_default,osm_length_weighted,0.0
+P039,B003,Ж.Самбуугийн гудамж / Beijing Street,60.0,1,0.55,0,primary,0.427,osm_class_default,osm_length_weighted,2.0
+P039,P010,Эрхүүгийн гудамж / Beijing Street,60.0,1,0.4815,0,secondary,0.886,osm_class_default,osm_length_weighted,2.0
+P039,P011,Baga Toiruu street / Peace Avenue,60.0,1,0.4661,0,secondary,0.965,osm_class_default,osm_length_weighted,4.0
+P039,P020,Paris Street / G. Chagdarjav Street,60.0,1,0.4112,0,tertiary,2.231,osm_class_default,osm_length_weighted,4.0
+P039,P023,Beijing Street,60.0,1,0.55,0,primary,0.787,osm_class_default,osm_length_weighted,2.5
+P039,P031,Baga Toiruu street / Nogoon nuuryn Street,60.0,1,0.51,0,primary,1.508,osm_class_default,osm_length_weighted,6.0
+P039,U06,Baga Toiruu street / Ikh surguuliin Street,60.0,1,0.5062,0,primary,1.383,osm_class_default,osm_length_weighted,5.0
+P039,U26,Baga Toiruu street / Beijing Street,60.0,1,0.4655,0,secondary,1.005,osm_class_default,osm_length_weighted,5.0
+P040,B001,Baga Toiruu street / Baga Toiruu Street,60.0,1,0.45,0,secondary,0.224,osm_class_default,osm_length_weighted,0.0
+P040,B014,Ж.Самбуугийн гудамж / Baga Toiruu street,60.0,1,0.5219,0,primary,0.784,osm_class_default,osm_length_weighted,1.0
+P040,B089,Juulchny Street / Нарны гүүр,59.01,1,0.5189,0,primary,3.03,osm_class_default,osm_length_weighted,5.0
+P040,P015,Juulchny Street / Баруун сэлбийн гудамж,58.33,1,0.45,0,secondary,0.707,osm_class_default,osm_length_weighted,0.0
+P040,U04,Juulchny Street / Д.Сүхбаатарын гудамж,60.0,1,0.4547,0,secondary,0.354,osm_class_default,osm_length_weighted,0.0
+P040,U07,Ankara street / Baga Toiruu street,52.52,1,0.4149,0,secondary,0.692,osm_class_default,osm_length_weighted,1.0
+P040,U26,Ankara street / Baga Toiruu street,60.0,1,0.45,0,secondary,0.82,osm_class_default,osm_length_weighted,2.0
+P040,U29,Juulchny Street / Их тойруу,58.44,1,0.4794,0,secondary,1.662,osm_class_default,osm_length_weighted,2.0
+P040,U30,Juulchny Street / Их тойруу,57.46,1,0.4656,0,secondary,1.152,osm_class_default,osm_length_weighted,1.0
+P041,B055,Сангийн хорооны гудамж / Peace Avenue,59.88,1,0.4099,0,tertiary,1.68,osm_class_default,osm_length_weighted,0.0
+P041,P012,Нам Ян Жү-гийн гудамж / Манлай баатар Дамдинсүрэнгийн гудамж,60.0,1,0.5479,0,primary,0.555,osm_class_default,osm_length_weighted,1.5
+P041,P023,Сангийн хорооны гудамж / Tokyo Street,59.89,1,0.4132,0,tertiary,1.826,osm_class_default,osm_length_weighted,1.5
+P041,P042,Сангийн хорооны гудамж / Нам Ян Жү-гийн гудамж,60.28,1,0.3991,0,tertiary,1.244,osm_class_default,osm_length_weighted,0.0
+P042,B055,Peace Avenue / Их тойруу,60.05,1,0.451,0,trunk,1.597,osm_class_default,osm_length_weighted,5.0
+P042,P041,Peace Avenue / Их тойруу,61.45,1,0.4681,0,trunk,0.713,osm_class_default,osm_length_weighted,0.5
+P042,P054,Peace Avenue / Их тойруу,60.13,1,0.4662,0,trunk,0.679,osm_class_default,osm_length_weighted,4.0
+P042,P065,Peace Avenue,60.05,1,0.45,0,trunk,1.832,osm_class_default,osm_length_weighted,3.0
+P042,U16,Peace Avenue,60.06,1,0.45,0,trunk,1.434,osm_class_default,osm_length_weighted,3.0
+P043,B018,Х.Чингүнжавын гудамж / Л.Энэбишийн өргөн чөлөө,60.0,1,0.4758,0,secondary,1.057,osm_class_default,osm_length_weighted,1.0
+P043,B078,Х.Чингүнжавын гудамж / Өргөө гудамж,59.75,1,0.4274,0,secondary,1.145,osm_class_default,osm_length_weighted,3.0
+P043,B125,Ард Аюушийн өргөн чөлөө / Х.Чингүнжавын гудамж,59.95,1,0.5365,0,primary,5.858,osm_class_default,osm_length_weighted,4.0
+P043,P004,П.Жасрайн гудамж / Х.Чингүнжавын гудамж,59.74,1,0.3653,0,tertiary,0.73,osm_class_default,osm_length_weighted,3.0
+P043,P014,Х.Чингүнжавын гудамж / Ард Аюушийн өргөн чөлөө,59.83,1,0.5015,0,secondary,1.695,osm_class_default,osm_length_weighted,4.0
+P043,P048,Dilav Khutagt Jamsranjav street / Х.Чингүнжавын гудамж,51.51,1,0.45,0,secondary,1.901,osm_class_default,osm_length_weighted,1.0
+P043,P050,Peace Avenue,60.5,1,0.45,0,trunk,1.497,osm_class_default,osm_length_weighted,1.0
+P043,P051,Jalkhanz Khutagt Damdinbazar street / Х.Чингүнжавын гудамж,52.55,1,0.45,0,secondary,1.561,osm_class_default,osm_length_weighted,1.0
+P043,P077,Замчдын гудамж / П.Жасрайн гудамж,59.8,1,0.3615,0,tertiary,0.977,osm_class_default,osm_length_weighted,3.0
+P043,U09,Peace Avenue / Х.Чингүнжавын гудамж,59.17,1,0.4475,0,trunk,0.658,osm_class_default,osm_length_weighted,3.0
+P043,U20,Х.Чингүнжавын гудамж / Ард Аюушийн өргөн чөлөө,59.39,1,0.4522,0,secondary,0.936,osm_class_default,osm_length_weighted,5.0
+P043,U31,П.Жасрайн гудамж / Х.Чингүнжавын гудамж,59.83,1,0.3601,0,tertiary,1.112,osm_class_default,osm_length_weighted,3.0
+P044,B047,Ажилчны гудамж,58.6,1,0.4713,0,secondary,0.721,osm_class_default,osm_length_weighted,0.0
+P044,B053,Ажилчны гудамж / Chinggis Avenue,60.28,1,0.45,0,secondary,1.632,osm_class_default,osm_length_weighted,0.0
+P044,P017,Yйлдвэрийн гудамж,58.98,1,0.4454,0,secondary,1.478,osm_class_default,osm_length_weighted,0.0
+P044,P072,Ажилчны гудамж / Наадамчдын зам,60.93,1,0.4959,0,primary,2.44,osm_class_default,osm_length_weighted,0.0
+P044,U36,Ажилчны гудамж / Чингисийн өргөн чөлөө,60.0,1,0.45,0,secondary,1.404,osm_class_default,osm_length_weighted,0.0
+P045,B098,Удирдлагын академийн гудамж / Их Монгол улсын гудамж,53.71,1,0.4896,0,secondary,1.942,osm_class_default,osm_length_weighted,3.5
+P045,P021,Удирдлагын академийн гудамж / Нийслэл хүрээ өргөн чөлөө,54.57,1,0.4984,0,primary,2.286,osm_class_default,osm_length_weighted,4.0
+P045,P026,Удирдлагын академийн гудамж / Нийслэл хүрээ өргөн чөлөө,54.4,1,0.4966,0,secondary,2.21,osm_class_default,osm_length_weighted,0.5
+P045,U12,Удирдлагын академийн гудамж / Bogd Javzandamba street,52.46,1,0.4528,0,secondary,2.408,osm_class_default,osm_length_weighted,0.5
+P045,U14,Удирдлагын академийн гудамж / Их Монгол улсын гудамж,55.66,1,0.5092,0,primary,2.92,osm_class_default,osm_length_weighted,2.5
+P046,B052,Москвагийн гудамж / Толгойтын гудамж,64.67,1,0.4696,0,trunk,2.129,osm_class_default,osm_length_weighted,0.0
+P046,P018,Москвагийн гудамж / Толгойтын гудамж,62.44,1,0.4955,0,trunk,2.22,osm_class_default,osm_length_weighted,0.0
+P046,P029,Москвагийн гудамж / Толгойтын гудамж,61.83,1,0.4797,0,trunk,1.326,osm_class_default,osm_length_weighted,0.0
+P046,P063,Толгойтын гудамж,60.0,1,0.55,0,primary,1.044,osm_class_default,osm_length_weighted,0.0
+P047,B005,Токиогийн гудамж / Дарь-Эхийн гудамж,55.21,1,0.4233,0,secondary,0.369,osm_class_default,osm_length_weighted,1.0
+P047,B008,Их тойруу / Л.Энэбишийн өргөн чөлөө,60.0,1,0.55,0,primary,3.152,osm_class_default,osm_length_weighted,3.0
+P047,B019,Их тойруу / Дарь-Эхийн гудамж,60.0,1,0.5403,0,primary,0.879,osm_class_default,osm_length_weighted,2.0
+P047,B026,Их тойруу / Их тойрог,60.0,1,0.55,0,primary,0.829,osm_class_default,osm_length_weighted,0.0
+P047,B059,Дарь-Эхийн гудамж,60.0,1,0.45,0,secondary,2.365,osm_class_default,osm_length_weighted,0.0
+P047,P010,Их тойруу / Эрхүүгийн гудамж,60.0,1,0.5316,0,primary,0.804,osm_class_default,osm_length_weighted,0.0
+P047,P023,Токиогийн гудамж / Дарь-Эхийн гудамж,57.52,1,0.45,0,secondary,0.741,osm_class_default,osm_length_weighted,2.5
+P047,P030,Их тойруу / Сансарын Тойрог,60.0,1,0.5393,0,primary,0.796,osm_class_default,osm_length_weighted,1.0
+P047,P031,Их тойруу / Nogoon nuuryn Street,60.0,1,0.55,0,primary,1.776,osm_class_default,osm_length_weighted,1.0
+P047,P067,Их тойруу / Цагдаагийн гудамж,60.0,1,0.55,0,primary,0.753,osm_class_default,osm_length_weighted,0.0
+P047,P068,Их тойруу / Чингэлтэйн тойрог,60.0,1,0.55,0,primary,2.417,osm_class_default,osm_length_weighted,3.0
+P047,U06,Их тойруу / Их тойрог,60.0,1,0.55,0,primary,1.673,osm_class_default,osm_length_weighted,2.0
+P047,U26,Их тойруу / Ikh surguuliin Street,60.0,1,0.5396,0,primary,1.913,osm_class_default,osm_length_weighted,5.0
+P047,U27,B. Dorj Street / Их тойруу,59.84,1,0.5425,0,primary,1.399,osm_class_default,osm_length_weighted,3.5
+P048,B007,Ард Аюушийн өргөн чөлөө / Москвагийн гудамж,60.4,1,0.5237,0,primary,0.8,osm_class_default,osm_length_weighted,1.5
+P048,B047,Ажилчны гудамж / Ард Аюушийн өргөн чөлөө,56.85,1,0.5235,0,primary,3.276,osm_class_default,osm_length_weighted,4.0
+P048,B051,Өнөр хорооллын гудамж / Баянхошууны гудамж,55.48,1,0.4976,0,primary,3.849,osm_class_default,osm_length_weighted,0.0
+P048,B053,Ажилчны гудамж / Ард Аюушийн өргөн чөлөө,59.98,1,0.5357,0,primary,4.149,osm_class_default,osm_length_weighted,4.0
+P048,P017,Баруун үйлдвэрийн гудамж / Ажилчны гудамж,59.79,1,0.4482,0,tertiary,3.839,osm_class_default,osm_length_weighted,4.0
+P048,P043,Dilav Khutagt Jamsranjav street / Х.Чингүнжавын гудамж,51.51,1,0.45,0,secondary,1.901,osm_class_default,osm_length_weighted,1.0
+P048,P044,Ажилчны гудамж / Ард Аюушийн өргөн чөлөө,56.92,1,0.5112,0,primary,3.609,osm_class_default,osm_length_weighted,4.0
+P048,P050,Peace Avenue / Ард Аюушийн өргөн чөлөө,59.83,1,0.4858,0,trunk,1.965,osm_class_default,osm_length_weighted,6.0
+P048,P051,Dilav Khutagt Jamsranjav street / Jalkhanz Khutagt Damdinbazar street,50.36,1,0.45,0,secondary,2.792,osm_class_default,osm_length_weighted,1.0
+P048,P072,Ажилчны гудамж / Ард Аюушийн өргөн чөлөө,60.41,1,0.5313,0,primary,4.246,osm_class_default,osm_length_weighted,4.0
+P048,U38,Ард Аюушийн өргөн чөлөө,60.0,1,0.55,0,primary,0.583,osm_class_default,osm_length_weighted,0.0
+P049,B030,Морингийн зам,60.0,1,0.45,0,secondary,2.991,osm_class_default,osm_length_weighted,0.0
+P049,U50,Морингийн зам,60.0,1,0.45,0,secondary,4.09,osm_class_default,osm_length_weighted,0.0
+P050,B007,Peace Avenue / Москвагийн гудамж,60.0,1,0.45,0,trunk,0.359,osm_class_default,osm_length_weighted,3.0
+P050,B047,Ажилчны гудамж / Peace Avenue,56.52,1,0.5141,0,primary,2.804,osm_class_default,osm_length_weighted,4.0
+P050,B053,Ажилчны гудамж / Peace Avenue,60.12,1,0.5299,0,primary,3.677,osm_class_default,osm_length_weighted,4.0
+P050,P004,Peace Avenue / Нарны зам,60.7,1,0.4861,0,trunk,1.645,osm_class_default,osm_length_weighted,1.0
+P050,P017,Баруун үйлдвэрийн гудамж / Ажилчны гудамж,59.92,1,0.4266,0,tertiary,3.367,osm_class_default,osm_length_weighted,4.0
+P050,P043,Peace Avenue / Х.Чингүнжавын гудамж,60.05,1,0.45,0,trunk,1.581,osm_class_default,osm_length_weighted,5.0
+P050,P044,Ажилчны гудамж / Peace Avenue,56.63,1,0.5007,0,primary,3.137,osm_class_default,osm_length_weighted,4.0
+P050,P048,Ард Аюушийн өргөн чөлөө / Peace Avenue,60.87,1,0.5271,0,primary,0.788,osm_class_default,osm_length_weighted,1.5
+P050,P072,Ажилчны гудамж / Наадамчдын зам,60.6,1,0.525,0,primary,3.774,osm_class_default,osm_length_weighted,4.0
+P050,U09,Peace Avenue,59.95,1,0.4492,0,trunk,2.039,osm_class_default,osm_length_weighted,4.0
+P051,B001,Peace Avenue / С.Амарсанаагийн гудамж,60.0,1,0.45,0,trunk,2.263,osm_class_default,osm_length_weighted,11.0
+P051,B002,Peace Avenue / С.Амарсанаагийн гудамж,60.0,1,0.45,0,trunk,1.354,osm_class_default,osm_length_weighted,5.0
+P051,B012,С.Амарсанаагийн гудамж / Эх нялхасын гудамж,59.73,1,0.4409,0,secondary,0.523,osm_class_default,osm_length_weighted,0.0
+P051,B089,Нарны гүүр / С.Амарсанаагийн гудамж,60.25,1,0.5178,0,primary,2.312,osm_class_default,osm_length_weighted,4.0
+P051,P003,С.Амарсанаагийн гудамж / Ж.Раднаабазарын гудамж,60.0,1,0.4197,0,secondary,1.034,osm_class_default,osm_length_weighted,2.0
+P051,P011,Peace Avenue / С.Амарсанаагийн гудамж,60.0,1,0.45,0,trunk,3.286,osm_class_default,osm_length_weighted,14.5
+P051,P013,Л.Энэбишийн өргөн чөлөө / С.Амарсанаагийн гудамж,59.83,1,0.4952,0,secondary,0.821,osm_class_default,osm_length_weighted,0.0
+P051,P015,Juulchny Street / С.Амарсанаагийн гудамж,58.16,1,0.4734,0,secondary,2.256,osm_class_default,osm_length_weighted,8.0
+P051,P016,С.Амарсанаагийн гудамж / Seoul Street,60.44,1,0.4651,0,secondary,1.3,osm_class_default,osm_length_weighted,3.5
+P051,P040,Juulchny Street / С.Амарсанаагийн гудамж,58.69,1,0.4733,0,secondary,2.287,osm_class_default,osm_length_weighted,9.0
+P051,P043,Jalkhanz Khutagt Damdinbazar street / Х.Чингүнжавын гудамж,52.59,1,0.45,0,secondary,1.537,osm_class_default,osm_length_weighted,1.0
+P051,P048,Dilav Khutagt Jamsranjav street / Jalkhanz Khutagt Damdinbazar street,50.36,1,0.45,0,secondary,2.768,osm_class_default,osm_length_weighted,1.0
+P051,U01,Peace Avenue / С.Амарсанаагийн гудамж,60.0,1,0.4589,0,trunk,2.935,osm_class_default,osm_length_weighted,14.5
+P051,U02,С.Амарсанаагийн гудамж / Л.Энэбишийн өргөн чөлөө,59.8,1,0.5055,0,primary,0.717,osm_class_default,osm_length_weighted,0.0
+P051,U05,Peace Avenue / С.Амарсанаагийн гудамж,60.0,1,0.45,0,trunk,2.546,osm_class_default,osm_length_weighted,11.5
+P051,U09,С.Амарсанаагийн гудамж / Peace Avenue,60.38,1,0.45,0,trunk,1.02,osm_class_default,osm_length_weighted,0.0
+P051,U29,С.Амарсанаагийн гудамж / Энх тайваны өргөн чөлөө,60.0,1,0.4519,0,secondary,1.034,osm_class_default,osm_length_weighted,7.0
+P051,U30,Их тойруу / С.Амарсанаагийн гудамж,60.0,1,0.4982,0,primary,1.477,osm_class_default,osm_length_weighted,7.0
+P052,B017,B. Dorj Street,60.0,1,0.55,0,primary,0.605,osm_class_default,osm_length_weighted,1.0
+P052,B100,Да хүрээ гудамж,58.78,1,0.45,0,secondary,0.874,osm_class_default,osm_length_weighted,0.0
+P052,P001,Алтан Өлгийн гудамж,50.0,1,0.45,0,secondary,1.471,osm_class_default,osm_length_weighted,0.0
+P052,P058,Дандар баатарын гудамж / Peace Avenue,60.0,1,0.5142,0,primary,1.403,osm_class_default,osm_length_weighted,1.5
+P052,U17,Дандар баатарын гудамж / Peace Avenue,60.0,1,0.5339,0,primary,1.051,osm_class_default,osm_length_weighted,0.0
+P052,U52,local road,41.34,1,0.3646,0,tertiary,0.628,osm_class_default,osm_length_weighted,0.0
+P053,B047,Эрчим хүчний гудамж / Товчооны зам,48.1,1,0.4036,0,tertiary,6.72,osm_class_default,osm_length_weighted,0.0
+P053,B052,Москвагийн гудамж,66.6,1,0.45,0,trunk,2.28,osm_class_default,osm_length_weighted,0.0
+P053,B091,Эрчим хүчний гудамж / Наадамчдын зам,51.11,1,0.411,0,secondary,6.937,osm_class_default,osm_length_weighted,0.5
+P053,P018,Москвагийн гудамж,64.31,1,0.4774,0,trunk,2.371,osm_class_default,osm_length_weighted,0.0
+P053,P029,Москвагийн гудамж,64.89,1,0.45,0,trunk,1.477,osm_class_default,osm_length_weighted,0.0
+P053,P044,Эрчим хүчний гудамж / Ажилчны гудамж,48.48,1,0.4023,0,tertiary,7.053,osm_class_default,osm_length_weighted,0.0
+P053,P060,Товчооны зам / Сонсголонгийн зам,60.1,1,0.4532,0,trunk,1.671,osm_class_default,osm_length_weighted,0.5
+P053,P069,Товчооны зам,60.02,1,0.45,0,trunk,9.206,osm_class_default,osm_length_weighted,0.5
+P054,B019,Их тойруу / Залуучуудын гудамж,60.0,1,0.55,0,primary,0.51,osm_class_default,osm_length_weighted,3.0
+P055,B035,Их нарангийн гудамж,50.0,1,0.45,0,secondary,0.951,osm_class_default,osm_length_weighted,0.0
+P055,B037,Их нарангийн гудамж,40.1,1,0.3511,0,tertiary,1.788,osm_class_default,osm_length_weighted,0.0
+P055,B038,Их нарангийн гудамж,40.1,1,0.3511,0,tertiary,1.911,osm_class_default,osm_length_weighted,0.0
+P055,B121,Их нарангийн гудамж,50.0,1,0.45,0,secondary,3.46,osm_class_default,osm_length_weighted,0.0
+P055,P073,local road,40.0,1,0.35,0,tertiary,0.231,osm_class_default,osm_length_weighted,0.0
+P056,B031,Эрчим хүчний гудамж / Сонсголонгийн зам,59.49,1,0.4795,0,secondary,9.899,osm_class_default,osm_length_weighted,0.5
+P056,B033,Эрчим хүчний гудамж / Сонсголонгийн зам,59.44,1,0.4723,0,secondary,8.97,osm_class_default,osm_length_weighted,0.5
+P056,B091,Наадамчдын зам,60.0,1,0.45,0,trunk,1.092,osm_class_default,osm_length_weighted,0.0
+P056,B092,Наадамчдын зам,60.0,1,0.45,0,trunk,0.911,osm_class_default,osm_length_weighted,0.0
+P056,P053,Товчооны зам / Эрчим хүчний гудамж,52.54,1,0.4175,0,secondary,8.476,osm_class_default,osm_length_weighted,1.5
+P056,P060,Товчооны зам / Эрчим хүчний гудамж,51.97,1,0.4155,0,secondary,7.793,osm_class_default,osm_length_weighted,1.0
+P056,P069,Товчооны зам / Эрчим хүчний гудамж,55.63,1,0.4312,0,trunk,15.328,osm_class_default,osm_length_weighted,1.0
+P057,P008,Г.Лувсанцэвээний гудамж,40.0,1,0.35,0,tertiary,0.405,osm_class_default,osm_length_weighted,1.5
+P057,P065,Г.Лувсанцэвээний гудамж / Peace Avenue,48.16,1,0.3913,0,tertiary,0.789,osm_class_default,osm_length_weighted,0.0
+P057,U16,Peace Avenue / Г.Лувсанцэвээний гудамж,48.71,1,0.396,0,trunk,0.863,osm_class_default,osm_length_weighted,0.0
+P058,P057,Peace Avenue / Г.Лувсанцэвээний гудамж,49.79,1,0.4014,0,trunk,0.975,osm_class_default,osm_length_weighted,2.0
+P058,P065,Peace Avenue,60.38,1,0.45,0,trunk,0.964,osm_class_default,osm_length_weighted,2.0
+P058,U16,Peace Avenue,60.0,1,0.45,0,trunk,1.038,osm_class_default,osm_length_weighted,2.0
+P059,B083,Chinggis Avenue / Peace Bridge,58.18,1,0.4436,0,trunk,2.428,osm_class_default,osm_length_weighted,5.0
+P059,B088,Chinggis Avenue / P. Genden Street,63.02,1,0.43,0,trunk,2.49,osm_class_default,osm_length_weighted,3.5
+P059,P020,Narny road / Chinggis Avenue,55.94,1,0.4793,0,primary,2.581,osm_class_default,osm_length_weighted,1.0
+P059,P021,Нийслэл хүрээ өргөн чөлөө / Chinggis Avenue,60.07,1,0.5326,0,primary,1.87,osm_class_default,osm_length_weighted,1.0
+P059,P034,Chinggis Avenue,60.1,1,0.45,0,trunk,0.87,osm_class_default,osm_length_weighted,3.0
+P059,P074,Chinggis Avenue / Narny road,54.89,1,0.4592,0,trunk,2.013,osm_class_default,osm_length_weighted,1.0
+P059,U05,Chinggis Avenue / Peace Bridge,63.39,1,0.45,0,trunk,2.23,osm_class_default,osm_length_weighted,4.0
+P059,U10,Chinggis Avenue / Махатма Гандигийн гудамж,53.61,1,0.4316,0,trunk,1.53,osm_class_default,osm_length_weighted,1.0
+P059,U11,Махатма Гандигийн гудамж / Chinggis Avenue,59.47,1,0.45,0,secondary,2.074,osm_class_default,osm_length_weighted,1.0
+P059,U12,Chinggis Avenue / Zaisan Street,60.19,1,0.4996,0,trunk,0.673,osm_class_default,osm_length_weighted,1.0
+P060,B031,Сонсголонгийн зам / Сонсголонгийн гүүр,60.0,1,0.55,0,primary,4.556,osm_class_default,osm_length_weighted,0.0
+P060,B033,Сонсголонгийн зам / Эрчим хүчний гудамж,60.0,1,0.5497,0,primary,3.675,osm_class_default,osm_length_weighted,0.0
+P060,B047,Эрчим хүчний гудамж / Сонсголонгийн зам,56.5,1,0.4647,0,secondary,8.743,osm_class_default,osm_length_weighted,0.0
+P060,B053,Эрчим хүчний гудамж / Сонсголонгийн зам,57.83,1,0.4748,0,secondary,9.616,osm_class_default,osm_length_weighted,0.0
+P060,B091,Эрчим хүчний гудамж / Сонсголонгийн зам,59.44,1,0.4721,0,secondary,8.96,osm_class_default,osm_length_weighted,0.5
+P060,P017,Эрчим хүчний гудамж / Сонсголонгийн зам,59.93,1,0.4503,0,secondary,9.892,osm_class_default,osm_length_weighted,0.0
+P060,P044,Эрчим хүчний гудамж / Сонсголонгийн зам,56.54,1,0.4615,0,secondary,9.076,osm_class_default,osm_length_weighted,0.0
+P060,P072,Эрчим хүчний гудамж / Сонсголонгийн зам,58.02,1,0.4731,0,secondary,9.713,osm_class_default,osm_length_weighted,0.0
+P061,B072,Өлзийтийн зам,60.37,1,0.45,0,trunk,0.467,osm_class_default,osm_length_weighted,0.0
+P061,B094,Өлзийтийн зам,61.32,1,0.45,0,trunk,2.514,osm_class_default,osm_length_weighted,0.0
+P062,B032,Сонсголонгийн зам / Наадамчдын зам,60.1,1,0.518,0,primary,5.437,osm_class_default,osm_length_weighted,1.5
+P062,B073,Наадамчдын зам / Өлзийтийн зам,60.11,1,0.45,0,trunk,2.799,osm_class_default,osm_length_weighted,2.5
+P062,B084,Наадамчдын зам,60.06,1,0.45,0,trunk,2.822,osm_class_default,osm_length_weighted,3.0
+P062,B090,Наадамчдын зам,60.1,1,0.45,0,trunk,2.2,osm_class_default,osm_length_weighted,3.0
+P062,B097,Наадамчдын зам / Сонсголонгийн зам,60.16,1,0.4999,0,trunk,3.545,osm_class_default,osm_length_weighted,1.5
+P062,P056,Наадамчдын зам,60.07,1,0.45,0,trunk,3.104,osm_class_default,osm_length_weighted,2.5
+P062,P070,Наадамчдын зам,60.16,1,0.45,0,trunk,2.48,osm_class_default,osm_length_weighted,2.0
+P062,U40,Наадамчдын зам,60.06,1,0.45,0,trunk,2.186,osm_class_default,osm_length_weighted,2.5
+P063,B023,Толгойтын гудамж,60.0,1,0.55,0,primary,0.421,osm_class_default,osm_length_weighted,0.0
+P063,B052,Толгойтын гудамж / Москвагийн гудамж,63.1,1,0.4983,0,trunk,3.134,osm_class_default,osm_length_weighted,0.0
+P063,P018,Толгойтын гудамж / Москвагийн гудамж,61.66,1,0.5137,0,primary,3.225,osm_class_default,osm_length_weighted,0.0
+P063,P029,Толгойтын гудамж / Москвагийн гудамж,61.02,1,0.5119,0,primary,2.331,osm_class_default,osm_length_weighted,0.0
+P063,U32,Найрамдлын зам,50.0,1,0.45,0,secondary,0.038,osm_class_default,osm_length_weighted,0.0
+P064,B002,Их тойруу / Peace Avenue,60.0,1,0.5219,0,primary,1.853,osm_class_default,osm_length_weighted,4.0
+P064,B008,Хувьсгалын зам,60.0,1,0.55,0,primary,0.154,osm_class_default,osm_length_weighted,1.0
+P064,B012,Л.Энэбишийн өргөн чөлөө / Хувьсгалын зам,60.0,1,0.5437,0,primary,0.629,osm_class_default,osm_length_weighted,1.0
+P064,B014,Хувьсгалын зам / Ж.Самбуугийн гудамж,60.0,1,0.55,0,primary,0.761,osm_class_default,osm_length_weighted,1.0
+P064,B083,Narny road / Их тойруу,60.0,1,0.55,0,primary,2.941,osm_class_default,osm_length_weighted,6.0
+P064,B089,Их тойруу / Нарны гүүр,60.0,1,0.55,0,primary,2.829,osm_class_default,osm_length_weighted,4.0
+P064,P006,Их тойруу / Narny road,60.0,1,0.55,0,primary,2.707,osm_class_default,osm_length_weighted,4.5
+P064,P013,Л.Энэбишийн өргөн чөлөө / Хувьсгалын зам,60.0,1,0.55,0,primary,0.939,osm_class_default,osm_length_weighted,1.0
+P064,P016,Их тойруу / Хувьсгалын зам,60.0,1,0.5341,0,primary,1.817,osm_class_default,osm_length_weighted,3.5
+P064,P051,Л.Энэбишийн өргөн чөлөө / С.Амарсанаагийн гудамж,59.75,1,0.5094,0,primary,1.06,osm_class_default,osm_length_weighted,1.0
+P064,P068,Л.Энэбишийн өргөн чөлөө / Их тойруу,60.0,1,0.55,0,primary,0.807,osm_class_default,osm_length_weighted,0.0
+P064,U02,Л.Энэбишийн өргөн чөлөө / Хувьсгалын зам,60.0,1,0.55,0,primary,0.535,osm_class_default,osm_length_weighted,1.0
+P064,U07,Л.Энэбишийн өргөн чөлөө / Д.Дамбын гудамж,54.0,1,0.481,0,primary,1.307,osm_class_default,osm_length_weighted,0.0
+P064,U29,Их тойруу / Хувьсгалын зам,60.28,1,0.5368,0,primary,1.461,osm_class_default,osm_length_weighted,1.0
+P064,U30,Хувьсгалын зам / Их тойруу,60.0,1,0.55,0,primary,0.897,osm_class_default,osm_length_weighted,0.0
+P065,P058,Peace Avenue,60.0,1,0.45,0,trunk,1.348,osm_class_default,osm_length_weighted,5.0
+P065,U17,Peace Avenue,60.0,1,0.45,0,trunk,0.986,osm_class_default,osm_length_weighted,3.5
+P066,B100,газарчин зам / Да хүрээ гудамж,43.85,1,0.3708,0,tertiary,0.714,osm_class_default,osm_length_weighted,0.0
+P066,B103,Да хүрээ гудамж / газарчин зам,48.95,1,0.3972,0,secondary,1.165,osm_class_default,osm_length_weighted,0.0
+P066,P001,газарчин зам,40.0,1,0.35,0,tertiary,2.378,osm_class_default,osm_length_weighted,0.0
+P066,U52,газарчин зам,40.0,1,0.35,0,tertiary,0.821,osm_class_default,osm_length_weighted,0.0
+P067,B008,Их тойруу / Л.Энэбишийн өргөн чөлөө,60.0,1,0.55,0,primary,2.674,osm_class_default,osm_length_weighted,3.0
+P067,B020,Цагдаагийн гудамж / Э.Галданбошготын гудамж,58.94,1,0.5413,0,primary,2.454,osm_class_default,osm_length_weighted,1.0
+P067,B026,Их тойруу / Цагдаагийн гудамж,60.0,1,0.55,0,primary,0.369,osm_class_default,osm_length_weighted,0.0
+P067,B107,Цагдаагийн гудамж / Э.Галданбошготын гудамж,60.0,1,0.5496,0,primary,2.216,osm_class_default,osm_length_weighted,1.0
+P067,P010,Цагдаагийн гудамж / Эрхүүгийн гудамж,60.0,1,0.5059,0,primary,0.344,osm_class_default,osm_length_weighted,0.0
+P067,P022,Цагдаагийн гудамж / Чингэлтэйн өргөн чөлөө,60.0,1,0.55,0,primary,2.529,osm_class_default,osm_length_weighted,0.5
+P067,P031,Их тойруу / Nogoon nuuryn Street,60.0,1,0.55,0,primary,1.298,osm_class_default,osm_length_weighted,1.0
+P067,P068,Их тойруу / Чингэлтэйн тойрог,60.0,1,0.55,0,primary,1.939,osm_class_default,osm_length_weighted,3.0
+P067,U06,Их тойруу / Цагдаагийн гудамж,60.0,1,0.55,0,primary,1.195,osm_class_default,osm_length_weighted,2.0
+P067,U22,Цагдаагийн гудамж / Дэнжийн 1000-ын гудамж,59.72,1,0.5245,0,primary,2.867,osm_class_default,osm_length_weighted,1.0
+P067,U26,Их тойруу / Ikh surguuliin Street,60.0,1,0.536,0,primary,1.435,osm_class_default,osm_length_weighted,5.0
+P068,B002,Их тойруу / Peace Avenue,60.0,1,0.5288,0,primary,2.436,osm_class_default,osm_length_weighted,6.0
+P068,B008,Л.Энэбишийн өргөн чөлөө / Чингэлтэйн тойрог,60.0,1,0.55,0,primary,0.968,osm_class_default,osm_length_weighted,0.0
+P068,B014,L. Laagan Street / Ж.Самбуугийн гудамж,59.56,1,0.4929,0,secondary,1.114,osm_class_default,osm_length_weighted,0.0
+P068,B020,Э.Галданбошготын гудамж / Чингэлтэйн тойрог,58.18,1,0.5344,0,primary,1.41,osm_class_default,osm_length_weighted,0.0
+P068,B089,Их тойруу / Нарны гүүр,60.0,1,0.55,0,primary,3.412,osm_class_default,osm_length_weighted,6.0
+P068,B107,Э.Галданбошготын гудамж / Чингэлтэйн тойрог,60.0,1,0.55,0,primary,1.154,osm_class_default,osm_length_weighted,0.0
+P068,P006,Их тойруу / Narny road,60.0,1,0.55,0,primary,3.29,osm_class_default,osm_length_weighted,6.5
+P068,P016,Их тойруу / Seoul Street,60.0,1,0.538,0,primary,2.4,osm_class_default,osm_length_weighted,5.5
+P068,P031,Их тойруу / Алтайн гудамж,54.7,1,0.4997,0,primary,1.281,osm_class_default,osm_length_weighted,3.0
+P068,P064,Л.Энэбишийн өргөн чөлөө / Чингэлтэйн тойрог,60.0,1,0.55,0,primary,0.995,osm_class_default,osm_length_weighted,1.0
+P068,U06,Их тойруу,60.0,1,0.55,0,primary,1.17,osm_class_default,osm_length_weighted,3.0
+P068,U07,Д.Дамбын гудамж / L. Laagan Street,50.69,1,0.4381,0,secondary,0.791,osm_class_default,osm_length_weighted,0.0
+P068,U22,Э.Галданбошготын гудамж / Дэнжийн 1000-ын гудамж,59.56,1,0.5088,0,primary,1.823,osm_class_default,osm_length_weighted,0.0
+P068,U26,Их тойруу / Д.Сүхбаатарын гудамж,60.0,1,0.55,0,primary,0.973,osm_class_default,osm_length_weighted,3.0
+P068,U29,Их тойруу / Peace Avenue,60.2,1,0.5406,0,primary,2.044,osm_class_default,osm_length_weighted,3.0
+P068,U30,Их тойруу / Чингэлтэйн тойрог,60.0,1,0.55,0,primary,1.48,osm_class_default,osm_length_weighted,2.0
+P069,P053,Товчооны зам,60.01,1,0.45,0,trunk,8.318,osm_class_default,osm_length_weighted,0.5
+P069,P060,Товчооны зам,60.09,1,0.45,0,trunk,7.608,osm_class_default,osm_length_weighted,0.0
+P070,B090,Наадамчдын зам,60.0,1,0.45,0,trunk,0.623,osm_class_default,osm_length_weighted,1.0
+P070,P056,Наадамчдын зам,60.0,1,0.45,0,trunk,0.859,osm_class_default,osm_length_weighted,0.5
+P071,B061,Тоосгоны үйлдвэрийн гудамж,50.0,1,0.45,0,secondary,2.017,osm_class_default,osm_length_weighted,0.0
+P071,U25,Бэлхийн гудамж / Тоосгоны үйлдвэр,50.0,1,0.45,0,secondary,1.281,osm_class_default,osm_length_weighted,0.0
+P072,B093,Наадамчдын зам,60.0,1,0.45,0,trunk,0.607,osm_class_default,osm_length_weighted,0.0
+P073,B123,Алтан овооны гудамж,41.57,1,0.367,0,tertiary,1.386,osm_class_default,osm_length_weighted,0.0
+P073,B124,local road,40.0,1,0.35,0,tertiary,0.541,osm_class_default,osm_length_weighted,0.0
+P073,P055,local road,40.0,1,0.35,0,tertiary,0.231,osm_class_default,osm_length_weighted,0.0
+P074,U28,Olympic Street / Их Монгол улсын гудамж,59.6,1,0.5464,0,primary,0.717,osm_class_default,osm_length_weighted,0.0
+P075,B013,Чингисийн өргөн чөлөө,60.0,1,0.45,0,trunk,0.393,osm_class_default,osm_length_weighted,1.0
+P075,U36,Чингисийн өргөн чөлөө,60.0,1,0.45,0,trunk,0.282,osm_class_default,osm_length_weighted,0.0
+P076,U33,local road,40.0,1,0.35,0,tertiary,0.549,osm_class_default,osm_length_weighted,0.0
+P077,P003,Замчдын гудамж,60.0,1,0.35,0,tertiary,0.489,osm_class_default,osm_length_weighted,0.0
+P077,P004,Хатанбаатар Магсаржавын гудамж,60.0,1,0.35,0,tertiary,0.721,osm_class_default,osm_length_weighted,0.0
+P077,P043,Замчдын гудамж / П.Жасрайн гудамж,59.8,1,0.3615,0,tertiary,0.977,osm_class_default,osm_length_weighted,3.0
+P077,U09,Хатанбаатар Магсаржавын гудамж,59.19,1,0.35,0,tertiary,0.441,osm_class_default,osm_length_weighted,0.0
+P077,U31,Хатанбаатар Магсаржавын гудамж,60.0,1,0.35,0,tertiary,0.241,osm_class_default,osm_length_weighted,0.0
+U01,B001,Peace Avenue / Ikh Surguulyn street,60.63,1,0.4692,0,trunk,0.916,osm_class_default,osm_length_weighted,4.0
+U01,B002,Peace Avenue / Ikh Surguulyn street,61.04,1,0.4588,0,trunk,2.026,osm_class_default,osm_length_weighted,5.0
+U01,B003,Ikh Surguulyn street / Ж.Самбуугийн гудамж,60.0,1,0.5469,0,primary,0.405,osm_class_default,osm_length_weighted,2.0
+U01,B014,J. Sambuu Street / Ж.Самбуугийн гудамж,60.0,1,0.5491,0,primary,1.466,osm_class_default,osm_length_weighted,5.0
+U01,B088,Olympic Street / Ikh Surguulyn street,60.0,1,0.55,0,primary,0.609,osm_class_default,osm_length_weighted,4.5
+U01,P009,Seoul Street / Peace Avenue,60.09,1,0.4627,0,secondary,1.379,osm_class_default,osm_length_weighted,6.5
+U01,P011,Peace Avenue / Ikh Surguulyn street,60.0,1,0.4809,0,trunk,0.823,osm_class_default,osm_length_weighted,4.0
+U01,P015,Peace Avenue / Ikh Surguulyn street,59.54,1,0.4627,0,trunk,1.364,osm_class_default,osm_length_weighted,4.0
+U01,P031,Ikh surguuliin Street / Nogoon nuuryn Street,60.0,1,0.5492,0,primary,1.527,osm_class_default,osm_length_weighted,6.0
+U01,U04,Ikh Surguulyn street / J. Sambuu Street,60.0,1,0.5484,0,primary,0.767,osm_class_default,osm_length_weighted,3.0
+U01,U05,Peace Avenue / Ikh Surguulyn street,60.96,1,0.4788,0,trunk,0.607,osm_class_default,osm_length_weighted,3.5
+U01,U06,Ikh surguuliin Street / Ikh Surguulyn street,60.0,1,0.5491,0,primary,1.402,osm_class_default,osm_length_weighted,5.0
+U01,U07,Ikh Surguulyn street / Нэгдсэн үндэсний гудамж,55.8,1,0.4757,0,primary,1.308,osm_class_default,osm_length_weighted,2.0
+U01,U08,Ikh Surguulyn street / D. Choidog Street,60.0,1,0.4816,0,primary,0.562,osm_class_default,osm_length_weighted,3.0
+U01,U26,Д.Сүхбаатарын гудамж / Ikh Surguulyn street,60.0,1,0.5487,0,primary,0.998,osm_class_default,osm_length_weighted,3.0
+U02,B008,Л.Энэбишийн өргөн чөлөө / Хувьсгалын зам,60.0,1,0.55,0,primary,0.248,osm_class_default,osm_length_weighted,1.0
+U02,B012,Л.Энэбишийн өргөн чөлөө / Эх нялхасын гудамж,60.0,1,0.5404,0,primary,0.413,osm_class_default,osm_length_weighted,0.0
+U02,P013,Л.Энэбишийн өргөн чөлөө,60.0,1,0.55,0,primary,0.723,osm_class_default,osm_length_weighted,0.0
+U02,P051,С.Амарсанаагийн гудамж / Л.Энэбишийн өргөн чөлөө,59.69,1,0.4984,0,secondary,0.844,osm_class_default,osm_length_weighted,0.0
+U02,P064,Л.Энэбишийн өргөн чөлөө,60.0,1,0.55,0,primary,0.205,osm_class_default,osm_length_weighted,0.5
+U02,P068,Л.Энэбишийн өргөн чөлөө / Их тойруу,60.0,1,0.55,0,primary,0.936,osm_class_default,osm_length_weighted,1.0
+U02,U07,Л.Энэбишийн өргөн чөлөө / Д.Дамбын гудамж,54.49,1,0.487,0,primary,1.436,osm_class_default,osm_length_weighted,1.0
+U03,B088,Jamyan Gun Street / Olympic Street,60.0,1,0.4516,0,tertiary,0.582,osm_class_default,osm_length_weighted,1.5
+U03,U05,Jamyan Gun Street,60.0,1,0.35,0,tertiary,0.032,osm_class_default,osm_length_weighted,0.0
+U03,U08,Jamyan Gun Street / D. Choidog Street,60.0,1,0.35,0,tertiary,0.535,osm_class_default,osm_length_weighted,0.0
+U04,B003,J. Sambuu Street / Д.Сүхбаатарын гудамж,60.0,1,0.55,0,primary,0.429,osm_class_default,osm_length_weighted,1.0
+U04,B014,Ж.Самбуугийн гудамж / J. Sambuu Street,60.0,1,0.55,0,primary,1.083,osm_class_default,osm_length_weighted,3.0
+U04,B088,D.Sükhbaataryn Street / Olympic Street,60.0,1,0.5242,0,primary,1.07,osm_class_default,osm_length_weighted,6.5
+U04,P009,Seoul Street / D.Sükhbaataryn Street,59.67,1,0.4819,0,secondary,1.336,osm_class_default,osm_length_weighted,6.0
+U04,P011,Peace Avenue / D.Sükhbaataryn Street,60.0,1,0.4833,0,trunk,1.284,osm_class_default,osm_length_weighted,6.0
+U04,P040,Juulchny Street / Д.Сүхбаатарын гудамж,60.0,1,0.4547,0,secondary,0.354,osm_class_default,osm_length_weighted,1.0
+U04,U01,Ikh Surguulyn street / J. Sambuu Street,60.0,1,0.5483,0,primary,0.732,osm_class_default,osm_length_weighted,2.0
+U04,U05,D.Sükhbaataryn Street / Chinggis Avenue,60.0,1,0.5228,0,primary,0.564,osm_class_default,osm_length_weighted,3.0
+U04,U07,Д.Сүхбаатарын гудамж / Нэгдсэн үндэсний гудамж,54.32,1,0.448,0,tertiary,0.942,osm_class_default,osm_length_weighted,1.0
+U04,U08,D.Sükhbaataryn Street / Peace Avenue,60.0,1,0.4843,0,primary,1.023,osm_class_default,osm_length_weighted,5.0
+U04,U26,Д.Сүхбаатарын гудамж,60.0,1,0.55,0,primary,0.632,osm_class_default,osm_length_weighted,2.0
+U05,B001,Peace Avenue / Baga Toiruu Street,60.0,1,0.45,0,trunk,0.641,osm_class_default,osm_length_weighted,4.5
+U05,B002,Peace Avenue / Chinggis Avenue,60.86,1,0.45,0,trunk,1.751,osm_class_default,osm_length_weighted,5.5
+U05,B083,Chinggis Avenue / Нарны зам,51.92,1,0.4389,0,trunk,1.256,osm_class_default,osm_length_weighted,7.0
+U05,B085,Chinggis Avenue / Peace Bridge,60.24,1,0.45,0,trunk,1.95,osm_class_default,osm_length_weighted,3.0
+U05,P009,Seoul Street / Чингисийн өргөн чөлөө,59.5,1,0.45,0,secondary,0.878,osm_class_default,osm_length_weighted,3.0
+U05,P015,Peace Avenue / Баруун Сэлбийн гудамж,58.91,1,0.45,0,trunk,1.089,osm_class_default,osm_length_weighted,4.5
+U05,P059,Chinggis Avenue / Peace Bridge,60.0,1,0.45,0,trunk,1.514,osm_class_default,osm_length_weighted,3.0
+U05,P074,Narny road / Chinggis Avenue,53.59,1,0.4648,0,primary,1.668,osm_class_default,osm_length_weighted,6.0
+U05,U01,Peace Avenue / Ikh Surguulyn street,60.0,1,0.489,0,trunk,0.647,osm_class_default,osm_length_weighted,4.0
+U05,U03,Jamyan Gun Street,60.0,1,0.35,0,tertiary,0.032,osm_class_default,osm_length_weighted,0.0
+U05,U04,D.Sükhbaataryn Street / Chinggis Avenue,60.0,1,0.5228,0,primary,0.564,osm_class_default,osm_length_weighted,3.0
+U05,U10,Chinggis Avenue / Narny road,48.95,1,0.4154,0,tertiary,1.451,osm_class_default,osm_length_weighted,6.0
+U06,B003,Ikh surguuliin Street / Их тойруу,59.68,1,0.5474,0,primary,1.206,osm_class_default,osm_length_weighted,5.0
+U06,B008,Их тойруу / Л.Энэбишийн өргөн чөлөө,59.82,1,0.5485,0,primary,2.164,osm_class_default,osm_length_weighted,3.0
+U06,B020,Э.Галданбошготын гудамж / Хүүхдийн сангийн гудамж,49.08,1,0.451,0,primary,2.435,osm_class_default,osm_length_weighted,1.0
+U06,B026,Их тойруу,60.0,1,0.55,0,primary,0.633,osm_class_default,osm_length_weighted,0.0
+U06,B107,Э.Галданбошготын гудамж / Хүүхдийн сангийн гудамж,48.91,1,0.449,0,primary,2.197,osm_class_default,osm_length_weighted,1.0
+U06,P010,Их тойруу / Эрхүүгийн гудамж,60.0,1,0.5361,0,primary,0.552,osm_class_default,osm_length_weighted,0.0
+U06,P011,Baga Toiruu street / Их тойруу,59.82,1,0.4834,0,secondary,2.171,osm_class_default,osm_length_weighted,8.0
+U06,P022,Чингэлтэйн өргөн чөлөө / Хүүхдийн сангийн гудамж,50.07,1,0.4609,0,primary,2.51,osm_class_default,osm_length_weighted,0.5
+U06,P031,Nogoon nuuryn Street / Их тойруу,59.51,1,0.546,0,primary,0.788,osm_class_default,osm_length_weighted,1.0
+U06,P064,Их тойруу / Л.Энэбишийн өргөн чөлөө,59.82,1,0.5486,0,primary,2.191,osm_class_default,osm_length_weighted,4.0
+U06,P067,Их тойруу / Цагдаагийн гудамж,60.0,1,0.55,0,primary,0.63,osm_class_default,osm_length_weighted,0.0
+U06,P068,Их тойруу / Чингэлтэйн тойрог,59.73,1,0.5478,0,primary,1.429,osm_class_default,osm_length_weighted,3.0
+U06,U01,Ikh surguuliin Street / Их тойруу,59.74,1,0.5471,0,primary,1.509,osm_class_default,osm_length_weighted,6.0
+U06,U22,Дэнжийн 1000-ын гудамж / Э.Галданбошготын гудамж,50.86,1,0.4451,0,primary,2.848,osm_class_default,osm_length_weighted,1.0
+U06,U26,Их тойруу / Ikh surguuliin Street,59.58,1,0.5247,0,primary,0.925,osm_class_default,osm_length_weighted,5.0
+U07,B003,Нэгдсэн үндэсний гудамж / Д.Сүхбаатарын гудамж,54.73,1,0.4561,0,primary,1.022,osm_class_default,osm_length_weighted,2.0
+U07,B014,L. Laagan Street / Д.Дамбын гудамж,51.85,1,0.4367,0,secondary,0.871,osm_class_default,osm_length_weighted,0.0
+U07,P031,Алтайн гудамж / Их тойруу,47.89,1,0.4342,0,secondary,1.347,osm_class_default,osm_length_weighted,3.0
+U07,P040,Ankara street / Baga Toiruu street,52.52,1,0.4149,0,secondary,0.692,osm_class_default,osm_length_weighted,2.0
+U07,P068,Д.Дамбын гудамж / L. Laagan Street,47.97,1,0.3995,0,secondary,0.574,osm_class_default,osm_length_weighted,0.0
+U07,U01,Ikh Surguulyn street / Нэгдсэн үндэсний гудамж,55.85,1,0.4767,0,primary,1.325,osm_class_default,osm_length_weighted,3.0
+U07,U04,Д.Сүхбаатарын гудамж / Нэгдсэн үндэсний гудамж,54.32,1,0.448,0,tertiary,0.942,osm_class_default,osm_length_weighted,1.0
+U07,U06,Их тойруу / Г.Бумцэндийн гудамж,51.06,1,0.4706,0,primary,1.236,osm_class_default,osm_length_weighted,3.0
+U07,U26,Ankara street / Г.Бумцэндийн гудамж,46.24,1,0.3833,0,tertiary,0.511,osm_class_default,osm_length_weighted,1.0
+U08,B001,Peace Avenue / D. Choidog Street,60.0,1,0.4439,0,trunk,1.08,osm_class_default,osm_length_weighted,6.5
+U08,B002,Peace Avenue / D. Choidog Street,60.69,1,0.447,0,trunk,2.19,osm_class_default,osm_length_weighted,7.5
+U08,B088,S. Zorig Street / Ambassador Street,60.0,1,0.35,0,tertiary,0.405,osm_class_default,osm_length_weighted,1.5
+U08,P011,Peace Avenue / S. Zorig Street,60.0,1,0.4266,0,trunk,0.473,osm_class_default,osm_length_weighted,1.0
+U08,P015,Peace Avenue / D. Choidog Street,59.22,1,0.4458,0,trunk,1.528,osm_class_default,osm_length_weighted,6.5
+U08,P020,Paris Street / Ambassador Street,60.0,1,0.3738,0,tertiary,1.557,osm_class_default,osm_length_weighted,0.0
+U08,P039,Baga Toiruu street / S. Zorig Street,60.0,1,0.4521,0,secondary,0.863,osm_class_default,osm_length_weighted,4.0
+U08,U01,Ikh Surguulyn street / D. Choidog Street,60.0,1,0.4816,0,primary,0.562,osm_class_default,osm_length_weighted,3.0
+U08,U03,Jamyan Gun Street / D. Choidog Street,60.0,1,0.35,0,tertiary,0.535,osm_class_default,osm_length_weighted,0.0
+U08,U04,D.Sükhbaataryn Street / Peace Avenue,60.0,1,0.4863,0,primary,1.003,osm_class_default,osm_length_weighted,5.0
+U09,B001,Peace Avenue / Энх тайваны өргөн чөлөө,59.84,1,0.4493,0,trunk,2.275,osm_class_default,osm_length_weighted,10.0
+U09,B002,Энх тайваны өргөн чөлөө / Peace Avenue,59.74,1,0.4488,0,trunk,1.366,osm_class_default,osm_length_weighted,4.0
+U09,P003,Khonkh Street / Ж.Раднаабазарын гудамж,59.58,1,0.4111,0,secondary,0.851,osm_class_default,osm_length_weighted,0.0
+U09,P015,Энх тайваны өргөн чөлөө / Juulchny Street,58.02,1,0.4726,0,secondary,2.268,osm_class_default,osm_length_weighted,7.0
+U09,P016,Seoul Street / Khonkh Street,59.19,1,0.4486,0,secondary,1.138,osm_class_default,osm_length_weighted,0.5
+U09,P040,Juulchny Street / Энх тайваны өргөн чөлөө,58.55,1,0.4725,0,secondary,2.299,osm_class_default,osm_length_weighted,8.0
+U09,P043,Peace Avenue / Х.Чингүнжавын гудамж,60.0,1,0.45,0,trunk,0.635,osm_class_default,osm_length_weighted,2.0
+U09,P044,Yйлдвэрийн гудамж / Нарны гүүр,59.79,1,0.4822,0,secondary,4.347,osm_class_default,osm_length_weighted,0.0
+U09,P050,Peace Avenue,60.0,1,0.45,0,trunk,1.998,osm_class_default,osm_length_weighted,3.0
+U09,P051,Энх тайваны өргөн чөлөө / С.Амарсанаагийн гудамж,59.54,1,0.4485,0,trunk,1.09,osm_class_default,osm_length_weighted,3.0
+U09,P077,Хатанбаатар Магсаржавын гудамж,59.19,1,0.35,0,tertiary,0.441,osm_class_default,osm_length_weighted,0.0
+U09,U29,Энх тайваны өргөн чөлөө / Peace Avenue,59.66,1,0.4504,0,trunk,1.046,osm_class_default,osm_length_weighted,6.0
+U09,U30,Энх тайваны өргөн чөлөө / Их тойруу,59.76,1,0.4966,0,trunk,1.489,osm_class_default,osm_length_weighted,6.0
+U10,B065,Engels street,44.98,1,0.3546,0,tertiary,1.739,osm_class_default,osm_length_weighted,0.0
+U10,B083,Narny road / Нарны зам,54.78,1,0.5052,0,primary,1.369,osm_class_default,osm_length_weighted,4.0
+U10,B085,local road,40.0,1,0.35,0,tertiary,0.605,osm_class_default,osm_length_weighted,0.0
+U10,B088,P. Genden Street / Narny road,51.9,1,0.4167,0,tertiary,1.884,osm_class_default,osm_length_weighted,2.5
+U10,B126,Narny road / UNESCO Street,56.55,1,0.5015,0,primary,2.101,osm_class_default,osm_length_weighted,0.0
+U10,P020,Narny road,54.61,1,0.5038,0,primary,1.297,osm_class_default,osm_length_weighted,0.0
+U10,P059,local road,49.74,1,0.4205,0,secondary,0.893,osm_class_default,osm_length_weighted,0.0
+U10,P074,Narny road,51.04,1,0.4704,0,primary,0.729,osm_class_default,osm_length_weighted,0.0
+U10,U05,Chinggis Avenue / Narny road,50.8,1,0.4376,0,tertiary,1.624,osm_class_default,osm_length_weighted,3.0
+U10,U11,Махатма Гандигийн гудамж / Mahatma Gandhi Street,53.01,1,0.4362,0,secondary,2.005,osm_class_default,osm_length_weighted,0.0
+U11,B083,Narny road / Нарны зам,55.0,1,0.4924,0,primary,1.869,osm_class_default,osm_length_weighted,4.0
+U11,B085,Mahatma Gandhi Street / Dund River Street,55.53,1,0.45,0,secondary,1.091,osm_class_default,osm_length_weighted,0.0
+U11,B088,Chinggis Avenue / P. Genden Street,60.07,1,0.4296,0,trunk,2.33,osm_class_default,osm_length_weighted,2.5
+U11,B098,Их Монгол улсын гудамж / Махатма Гандигийн гудамж,59.28,1,0.4869,0,secondary,2.538,osm_class_default,osm_length_weighted,4.5
+U11,B126,Narny road / UNESCO Street,56.37,1,0.4927,0,primary,2.601,osm_class_default,osm_length_weighted,0.0
+U11,P020,Narny road / Mahatma Gandhi Street,54.88,1,0.4908,0,primary,1.797,osm_class_default,osm_length_weighted,0.0
+U11,P021,Махатма Гандигийн гудамж / Нийслэл хүрээ өргөн чөлөө,59.34,1,0.4933,0,secondary,2.807,osm_class_default,osm_length_weighted,0.5
+U11,P026,Махатма Гандигийн гудамж / Нийслэл хүрээ өргөн чөлөө,59.35,1,0.4938,0,secondary,2.831,osm_class_default,osm_length_weighted,3.0
+U11,P059,Mahatma Gandhi Street,54.5,1,0.45,0,secondary,1.185,osm_class_default,osm_length_weighted,0.0
+U11,P074,Narny road / Mahatma Gandhi Street,52.8,1,0.4644,0,secondary,1.229,osm_class_default,osm_length_weighted,0.0
+U11,U05,Chinggis Avenue / Peace Bridge,60.08,1,0.45,0,trunk,2.07,osm_class_default,osm_length_weighted,3.0
+U11,U10,Mahatma Gandhi Street,49.27,1,0.4148,0,secondary,0.746,osm_class_default,osm_length_weighted,0.0
+U11,U14,Их Монгол улсын гудамж / Махатма Гандигийн гудамж,59.54,1,0.5112,0,primary,4.038,osm_class_default,osm_length_weighted,5.5
+U12,B083,Chinggis Avenue / Peace Bridge,58.09,1,0.4577,0,trunk,2.385,osm_class_default,osm_length_weighted,5.0
+U12,B085,Chinggis Avenue / Zaisan Street,56.61,1,0.4677,0,secondary,1.832,osm_class_default,osm_length_weighted,1.0
+U12,B088,Chinggis Avenue / P. Genden Street,63.02,1,0.4451,0,trunk,2.447,osm_class_default,osm_length_weighted,3.5
+U12,P019,Zaisan Street,60.0,1,0.55,0,primary,0.594,osm_class_default,osm_length_weighted,2.0
+U12,P020,Narny road / Chinggis Avenue,55.83,1,0.4917,0,primary,2.538,osm_class_default,osm_length_weighted,1.0
+U12,P021,Нийслэл хүрээ өргөн чөлөө / Zaisan Street,60.0,1,0.55,0,primary,1.808,osm_class_default,osm_length_weighted,0.5
+U12,P034,Chinggis Avenue / Zaisan Street,60.25,1,0.4874,0,trunk,0.907,osm_class_default,osm_length_weighted,3.5
+U12,P045,Bogd Javzandamba street / Удирдлагын академийн гудамж,59.3,1,0.4558,0,secondary,0.742,osm_class_default,osm_length_weighted,2.0
+U12,P059,Chinggis Avenue / Zaisan Street,64.75,1,0.4731,0,trunk,1.597,osm_class_default,osm_length_weighted,1.0
+U12,P074,Narny road / Chinggis Avenue,54.73,1,0.475,0,primary,1.97,osm_class_default,osm_length_weighted,1.0
+U12,U05,Chinggis Avenue / Peace Bridge,63.4,1,0.4667,0,trunk,2.187,osm_class_default,osm_length_weighted,4.0
+U12,U10,Chinggis Avenue / Zaisan Street,53.38,1,0.4525,0,secondary,1.487,osm_class_default,osm_length_weighted,1.0
+U12,U11,Махатма Гандигийн гудамж / Mahatma Gandhi Street,59.4,1,0.4668,0,secondary,2.031,osm_class_default,osm_length_weighted,1.0
+U13,B077,Zaisan Street,60.0,1,0.55,0,primary,0.159,osm_class_default,osm_length_weighted,0.0
+U13,B106,Zaisan Street,60.0,1,0.55,0,primary,0.813,osm_class_default,osm_length_weighted,0.0
+U14,B015,Dunjingarav Street / Ulaanbaatar - Nalaikh,60.0,1,0.5228,0,primary,13.652,osm_class_default,osm_length_weighted,0.0
+U14,B098,Их Монгол улсын гудамж / Great Mongolian Empire Street,60.0,1,0.55,0,primary,2.586,osm_class_default,osm_length_weighted,6.0
+U14,B106,Dunjingarav Street,60.0,1,0.55,0,primary,1.911,osm_class_default,osm_length_weighted,0.0
+U14,P021,Их Монгол улсын гудамж / Нийслэл хүрээ өргөн чөлөө,60.0,1,0.55,0,primary,2.93,osm_class_default,osm_length_weighted,6.5
+U14,P026,Их Монгол улсын гудамж / Нийслэл хүрээ өргөн чөлөө,60.0,1,0.55,0,primary,2.854,osm_class_default,osm_length_weighted,3.0
+U14,P045,Удирдлагын академийн гудамж / Их Монгол улсын гудамж,55.63,1,0.5089,0,primary,2.961,osm_class_default,osm_length_weighted,2.5
+U15,B095,Нарны зам / Цагдаагийн академийн өргөн чөлөө,60.12,1,0.528,0,primary,0.789,osm_class_default,osm_length_weighted,0.0
+U15,P005,Нарны зам,60.0,1,0.55,0,primary,1.473,osm_class_default,osm_length_weighted,0.0
+U15,U35,Нарны зам / Энх тайвны өргөн чөлөө,60.74,1,0.5317,0,primary,0.758,osm_class_default,osm_length_weighted,0.0
+U16,B055,Peace Avenue,60.0,1,0.45,0,trunk,1.726,osm_class_default,osm_length_weighted,3.0
+U16,P041,Peace Avenue / Их тойруу,60.0,1,0.4716,0,trunk,0.919,osm_class_default,osm_length_weighted,4.0
+U16,P042,Peace Avenue / Сангийн хорооны гудамж,60.1,1,0.4465,0,trunk,1.434,osm_class_default,osm_length_weighted,3.0
+U16,P054,Peace Avenue / Их тойруу,60.99,1,0.456,0,trunk,0.792,osm_class_default,osm_length_weighted,0.5
+U16,P065,Peace Avenue,60.26,1,0.45,0,trunk,1.541,osm_class_default,osm_length_weighted,0.0
+U16,U27,Khilchdiin St,48.85,1,0.35,0,tertiary,0.867,osm_class_default,osm_length_weighted,1.5
+U17,B063,Улаанхуарангийн гудамж,59.25,1,0.45,0,secondary,0.9,osm_class_default,osm_length_weighted,0.0
+U17,B070,local road,62.97,1,0.45,0,trunk,0.221,osm_class_default,osm_length_weighted,0.0
+U17,P052,Дандар баатарын гудамж,60.0,1,0.5321,0,primary,1.077,osm_class_default,osm_length_weighted,1.0
+U17,P058,Peace Avenue,60.0,1,0.45,0,trunk,0.708,osm_class_default,osm_length_weighted,1.5
+U18,B076,local road,60.0,1,0.35,0,tertiary,0.322,osm_class_default,osm_length_weighted,0.0
+U18,P005,local road,40.0,1,0.35,0,tertiary,0.837,osm_class_default,osm_length_weighted,0.0
+U19,B052,Москвагийн гудамж,64.77,1,0.45,0,trunk,0.892,osm_class_default,osm_length_weighted,0.5
+U19,B069,Moscow street,60.0,1,0.45,0,trunk,0.426,osm_class_default,osm_length_weighted,0.0
+U20,B018,Х.Чингүнжавын гудамж / Л.Энэбишийн өргөн чөлөө,60.0,1,0.4802,0,secondary,0.896,osm_class_default,osm_length_weighted,0.0
+U20,B051,Ард Аюушийн өргөн чөлөө / Х.Чингүнжавын гудамж,59.95,1,0.538,0,primary,5.365,osm_class_default,osm_length_weighted,3.0
+U20,B078,Х.Чингүнжавын гудамж / Өргөө гудамж,59.71,1,0.4236,0,secondary,0.984,osm_class_default,osm_length_weighted,2.0
+U20,B125,Ард Аюушийн өргөн чөлөө / Х.Чингүнжавын гудамж,59.95,1,0.5387,0,primary,5.697,osm_class_default,osm_length_weighted,3.0
+U20,P014,Ард Аюушийн өргөн чөлөө / Х.Чингүнжавын гудамж,59.81,1,0.5066,0,primary,1.534,osm_class_default,osm_length_weighted,3.0
+U20,P043,Х.Чингүнжавын гудамж,60.0,1,0.45,0,secondary,0.817,osm_class_default,osm_length_weighted,1.0
+U20,P048,Dilav Khutagt Jamsranjav street / Х.Чингүнжавын гудамж,52.04,1,0.45,0,secondary,2.048,osm_class_default,osm_length_weighted,1.0
+U20,P051,Jalkhanz Khutagt Damdinbazar street / Х.Чингүнжавын гудамж,53.12,1,0.45,0,secondary,1.708,osm_class_default,osm_length_weighted,1.0
+U21,B048,Гачууртын зам,60.0,1,0.45,0,trunk,0.477,osm_class_default,osm_length_weighted,0.0
+U21,B099,Гачууртын зам,60.0,1,0.45,0,trunk,0.811,osm_class_default,osm_length_weighted,0.0
+U22,B008,Э.Галданбошготын гудамж / Л.Энэбишийн өргөн чөлөө,59.49,1,0.5209,0,primary,2.555,osm_class_default,osm_length_weighted,0.0
+U22,B014,Э.Галданбошготын гудамж / Дэнжийн 1000-ын гудамж,59.34,1,0.4986,0,secondary,2.701,osm_class_default,osm_length_weighted,0.0
+U22,B020,Дэнжийн 1000-ын гудамж / Э.Галданбошготын гудамж,56.51,1,0.4584,0,secondary,1.068,osm_class_default,osm_length_weighted,0.0
+U22,B056,Дэнжийн 1000-ын гудамж / Самбалхүндэвийн зам,58.12,1,0.4414,0,secondary,0.418,osm_class_default,osm_length_weighted,0.0
+U22,B107,Дэнжийн 1000-ын гудамж / Э.Галданбошготын гудамж,58.45,1,0.4546,0,secondary,0.83,osm_class_default,osm_length_weighted,0.0
+U22,B111,Самбалхүндэвийн зам,40.0,1,0.35,0,tertiary,0.329,osm_class_default,osm_length_weighted,0.0
+U22,P035,Дэнжийн 1000 гудамж / Дэнжийн 1000-ын гудамж,44.42,1,0.3822,0,tertiary,1.495,osm_class_default,osm_length_weighted,0.0
+U22,P068,Э.Галданбошготын гудамж / Дэнжийн 1000-ын гудамж,59.28,1,0.5088,0,primary,1.82,osm_class_default,osm_length_weighted,0.0
+U22,U07,Э.Галданбошготын гудамж / Дэнжийн 1000-ын гудамж,56.06,1,0.4798,0,primary,2.378,osm_class_default,osm_length_weighted,0.0
+U22,U30,Их тойруу / Э.Галданбошготын гудамж,59.57,1,0.5259,0,primary,3.067,osm_class_default,osm_length_weighted,2.0
+U23,U19,Moscow street,60.0,1,0.45,0,trunk,0.438,osm_class_default,osm_length_weighted,0.0
+U24,B043,Хувьсгалын зам / Баянхошууны гудамж,60.0,1,0.5054,0,primary,2.24,osm_class_default,osm_length_weighted,0.0
+U24,B046,local road,42.11,1,0.35,0,tertiary,0.993,osm_class_default,osm_length_weighted,0.0
+U24,B049,Хувьсгалын зам / Баянхошууны гудамж,44.98,1,0.3926,0,tertiary,7.208,osm_class_default,osm_length_weighted,0.0
+U24,B108,Хувьсгалын зам / Баянхошууны гудамж,44.93,1,0.3879,0,tertiary,5.254,osm_class_default,osm_length_weighted,0.0
+U25,B058,Дамбадаржаагийн гудамж,60.0,1,0.45,0,secondary,0.352,osm_class_default,osm_length_weighted,0.0
+U25,P071,Бэлхийн гудамж / Тоосгоны үйлдвэр,50.0,1,0.45,0,secondary,1.281,osm_class_default,osm_length_weighted,0.0
+U26,B003,Д.Сүхбаатарын гудамж / J. Sambuu Street,60.0,1,0.55,0,primary,0.712,osm_class_default,osm_length_weighted,2.0
+U26,B008,Л.Энэбишийн өргөн чөлөө / Их тойруу,59.94,1,0.5495,0,primary,1.879,osm_class_default,osm_length_weighted,3.0
+U26,B014,Ankara street / Ж.Самбуугийн гудамж,60.0,1,0.5011,0,secondary,1.128,osm_class_default,osm_length_weighted,1.0
+U26,B020,Э.Галданбошготын гудамж / Их тойруу,58.84,1,0.5401,0,primary,2.321,osm_class_default,osm_length_weighted,3.0
+U26,B107,Э.Галданбошготын гудамж / Их тойруу,59.95,1,0.5495,0,primary,2.065,osm_class_default,osm_length_weighted,3.0
+U26,P011,Baga Toiruu street / Peace Avenue,60.0,1,0.45,0,secondary,1.686,osm_class_default,osm_length_weighted,6.0
+U26,P031,Алтайн гудамж / Д.Сүхбаатарын гудамж,52.95,1,0.4818,0,secondary,0.932,osm_class_default,osm_length_weighted,3.0
+U26,P039,Baga Toiruu street / Beijing Street,60.0,1,0.4627,0,secondary,0.976,osm_class_default,osm_length_weighted,4.0
+U26,P040,Ankara street / Baga Toiruu street,60.0,1,0.45,0,secondary,0.82,osm_class_default,osm_length_weighted,2.0
+U26,U01,Д.Сүхбаатарын гудамж / Ikh Surguulyn street,60.0,1,0.5488,0,primary,1.015,osm_class_default,osm_length_weighted,3.0
+U26,U04,Д.Сүхбаатарын гудамж,60.0,1,0.55,0,primary,0.632,osm_class_default,osm_length_weighted,1.0
+U26,U06,Ikh surguuliin Street / Их тойруу,60.0,1,0.5252,0,primary,0.818,osm_class_default,osm_length_weighted,3.0
+U26,U07,Ankara street / Г.Бумцэндийн гудамж,46.24,1,0.3833,0,tertiary,0.511,osm_class_default,osm_length_weighted,0.0
+U26,U22,Э.Галданбошготын гудамж / Дэнжийн 1000-ын гудамж,59.67,1,0.5225,0,primary,2.734,osm_class_default,osm_length_weighted,3.0
+U27,B019,B. Dorj Street / Их тойруу,60.0,1,0.55,0,primary,1.244,osm_class_default,osm_length_weighted,2.5
+U27,B055,Peace Avenue / Khilchdiin St,56.11,1,0.4151,0,trunk,2.483,osm_class_default,osm_length_weighted,3.5
+U27,P008,B. Dorj Street,60.0,1,0.55,0,primary,0.795,osm_class_default,osm_length_weighted,1.5
+U27,P030,B. Dorj Street / Их тойруу,60.0,1,0.55,0,primary,0.956,osm_class_default,osm_length_weighted,1.5
+U27,P041,Peace Avenue / Khilchdiin St,54.42,1,0.411,0,tertiary,1.676,osm_class_default,osm_length_weighted,4.5
+U27,P042,Peace Avenue / Khilchdiin St,55.69,1,0.4082,0,trunk,2.191,osm_class_default,osm_length_weighted,3.5
+U27,P054,Peace Avenue / Khilchdiin St,54.41,1,0.3977,0,tertiary,1.549,osm_class_default,osm_length_weighted,1.0
+U27,U16,Peace Avenue / Khilchdiin St,55.2,1,0.4046,0,trunk,1.9,osm_class_default,osm_length_weighted,0.5
+U28,B098,Их Монгол улсын гудамж / Махатма Гандигийн Гудамж,58.94,1,0.5224,0,primary,1.239,osm_class_default,osm_length_weighted,4.5
+U28,P021,Нийслэл хүрээ өргөн чөлөө / Их Монгол улсын гудамж,59.13,1,0.5274,0,primary,1.508,osm_class_default,osm_length_weighted,0.5
+U28,P026,Нийслэл хүрээ өргөн чөлөө / Их Монгол улсын гудамж,59.14,1,0.5277,0,primary,1.532,osm_class_default,osm_length_weighted,3.0
+U28,P045,Удирдлагын академийн гудамж / Их Монгол улсын гудамж,53.52,1,0.477,0,secondary,2.106,osm_class_default,osm_length_weighted,3.0
+U28,U11,Mahatma Gandhi Street,57.45,1,0.45,0,secondary,0.769,osm_class_default,osm_length_weighted,0.0
+U28,U14,Их Монгол улсын гудамж / Great Mongolian Empire Street,59.52,1,0.5376,0,primary,2.739,osm_class_default,osm_length_weighted,5.5
+U29,B001,Peace Avenue / Энх тайваны өргөн чөлөө,60.0,1,0.45,0,trunk,1.822,osm_class_default,osm_length_weighted,12.0
+U29,B002,Peace Avenue / Энх тайваны өргөн чөлөө,60.0,1,0.45,0,trunk,0.913,osm_class_default,osm_length_weighted,6.0
+U29,B089,Нарны гүүр / Undsen khuuliin street,60.3,1,0.5325,0,primary,1.871,osm_class_default,osm_length_weighted,5.0
+U29,P003,Ж.Раднаабазарын гудамж / С.Амарсанаагийн гудамж,60.0,1,0.3959,0,tertiary,0.593,osm_class_default,osm_length_weighted,3.0
+U29,P011,Peace Avenue / Энх тайваны өргөн чөлөө,60.0,1,0.45,0,trunk,2.845,osm_class_default,osm_length_weighted,15.5
+U29,P015,Juulchny Street / Их тойруу,57.74,1,0.4787,0,secondary,1.815,osm_class_default,osm_length_weighted,9.0
+U29,P016,Seoul Street / Энх тайваны өргөн чөлөө,60.67,1,0.4728,0,trunk,0.859,osm_class_default,osm_length_weighted,4.5
+U29,P040,Juulchny Street / Их тойруу,58.39,1,0.4786,0,secondary,1.846,osm_class_default,osm_length_weighted,10.0
+U29,P051,С.Амарсанаагийн гудамж,60.72,1,0.45,0,secondary,0.57,osm_class_default,osm_length_weighted,0.0
+U29,U01,Peace Avenue / Энх тайваны өргөн чөлөө,60.0,1,0.4604,0,trunk,2.494,osm_class_default,osm_length_weighted,15.5
+U29,U05,Peace Avenue / Энх тайваны өргөн чөлөө,60.0,1,0.45,0,trunk,2.105,osm_class_default,osm_length_weighted,12.5
+U29,U09,Peace Avenue,60.0,1,0.45,0,trunk,0.594,osm_class_default,osm_length_weighted,2.0
+U29,U30,Их тойруу / Энх тайваны өргөн чөлөө,60.0,1,0.5173,0,primary,1.036,osm_class_default,osm_length_weighted,8.0
+U30,B002,Их тойруу / Peace Avenue,60.0,1,0.5157,0,primary,1.527,osm_class_default,osm_length_weighted,4.0
+U30,B014,Ж.Самбуугийн гудамж / Их тойруу,60.0,1,0.55,0,primary,0.447,osm_class_default,osm_length_weighted,0.0
+U30,B083,Их тойруу / Narny road,60.0,1,0.55,0,primary,2.615,osm_class_default,osm_length_weighted,6.0
+U30,B089,Их тойруу / Нарны гүүр,60.0,1,0.55,0,primary,2.503,osm_class_default,osm_length_weighted,4.0
+U30,P006,Их тойруу / Narny road,60.0,1,0.55,0,primary,2.381,osm_class_default,osm_length_weighted,4.5
+U30,P016,Их тойруу / Seoul Street,60.0,1,0.5306,0,primary,1.491,osm_class_default,osm_length_weighted,3.5
+U30,P064,Хувьсгалын зам / Их тойруу,60.0,1,0.55,0,primary,0.668,osm_class_default,osm_length_weighted,2.0
+U30,P068,Их тойруу / Big boulevard,60.0,1,0.55,0,primary,1.047,osm_class_default,osm_length_weighted,2.0
+U30,U29,Их тойруу / Peace Avenue,60.36,1,0.5329,0,primary,1.135,osm_class_default,osm_length_weighted,1.0
+U31,B083,Narny road,60.0,1,0.55,0,primary,1.795,osm_class_default,osm_length_weighted,2.5
+U31,B089,Нарны гүүр / Engels street,50.83,1,0.4635,0,primary,2.051,osm_class_default,osm_length_weighted,1.0
+U31,P004,Нарны зам / Narny road,60.0,1,0.5479,0,primary,0.771,osm_class_default,osm_length_weighted,0.0
+U31,P006,Narny road,60.0,1,0.55,0,primary,1.561,osm_class_default,osm_length_weighted,1.0
+U31,P077,Хатанбаатар Магсаржавын гудамж / Narny road,60.0,1,0.4182,0,tertiary,0.344,osm_class_default,osm_length_weighted,0.0
+U32,B054,Найрамдлын зам,50.0,1,0.45,0,secondary,1.647,osm_class_default,osm_length_weighted,0.0
+U32,P063,Найрамдлын зам,50.0,1,0.45,0,secondary,0.038,osm_class_default,osm_length_weighted,0.0
+U33,B006,local road,40.0,1,0.35,0,tertiary,0.57,osm_class_default,osm_length_weighted,0.0
+U34,B052,local road,69.02,1,0.45,0,trunk,0.41,osm_class_default,osm_length_weighted,0.0
+U34,P018,local road,61.29,1,0.5382,0,primary,0.63,osm_class_default,osm_length_weighted,0.0
+U34,P029,local road,70.0,1,0.45,0,trunk,0.676,osm_class_default,osm_length_weighted,0.0
+U34,U23,local road,69.5,1,0.45,0,trunk,0.819,osm_class_default,osm_length_weighted,0.5
+U35,B063,Улаанхуарангийн гудамж,62.23,1,0.45,0,secondary,1.163,osm_class_default,osm_length_weighted,0.0
+U35,P052,Дандар баатарын гудамж,62.47,1,0.5196,0,primary,1.34,osm_class_default,osm_length_weighted,1.0
+U35,P058,Peace Avenue,63.46,1,0.45,0,trunk,0.971,osm_class_default,osm_length_weighted,1.5
+U35,U17,Peace Avenue,65.62,1,0.45,0,trunk,0.619,osm_class_default,osm_length_weighted,0.0
+U36,B053,Chinggis Avenue / Чингисийн өргөн чөлөө,60.0,1,0.45,0,trunk,0.837,osm_class_default,osm_length_weighted,0.0
+U36,P044,Ажилчны гудамж / Чингисийн өргөн чөлөө,60.4,1,0.45,0,secondary,1.388,osm_class_default,osm_length_weighted,0.0
+U36,P075,Чингисийн өргөн чөлөө,60.0,1,0.45,0,trunk,0.282,osm_class_default,osm_length_weighted,0.0
+U37,B118,Хүннүгийн гудамж / Улиастайн гүүр,50.93,1,0.45,0,secondary,6.726,osm_class_default,osm_length_weighted,0.5
+U37,B127,Хүннүгийн гудамж,60.0,1,0.45,0,secondary,1.748,osm_class_default,osm_length_weighted,1.0
+U37,P005,Хүннүгийн гудамж / Нарны зам,54.87,1,0.4714,0,secondary,2.194,osm_class_default,osm_length_weighted,0.5
+U37,P024,Хүннүгийн гудамж / Нийслэл хүрээ өргөн чөлөө,60.0,1,0.476,0,secondary,1.531,osm_class_default,osm_length_weighted,1.5
+U37,P026,Хүннүгийн гудамж / Нийслэл хүрээ өргөн чөлөө,60.0,1,0.4758,0,secondary,1.543,osm_class_default,osm_length_weighted,1.5
+U37,U15,Хүннүгийн гудамж / Нарны зам,55.17,1,0.4761,0,secondary,2.319,osm_class_default,osm_length_weighted,0.5
+U38,B007,Ард Аюушийн өргөн чөлөө / Москвагийн гудамж,60.61,1,0.5386,0,primary,1.398,osm_class_default,osm_length_weighted,1.5
+U38,B051,Баянхошууны гудамж / Ард Аюушийн өргөн чөлөө,60.0,1,0.55,0,primary,3.473,osm_class_default,osm_length_weighted,0.0
+U38,B078,Хасбаатарын гудамж / Ард Аюушийн өргөн чөлөө,60.0,1,0.4232,0,tertiary,1.438,osm_class_default,osm_length_weighted,0.0
+U38,B080,Дунд наран-19 / Ард Аюушийн өргөн чөлөө,42.58,1,0.369,0,tertiary,4.139,osm_class_default,osm_length_weighted,0.0
+U38,B125,Толгойтын гудамж / Ард Аюушийн өргөн чөлөө,60.0,1,0.55,0,primary,3.805,osm_class_default,osm_length_weighted,0.0
+U38,P014,Ард Аюушийн өргөн чөлөө,60.0,1,0.55,0,primary,0.651,osm_class_default,osm_length_weighted,0.0
+U38,P018,Ард Аюушийн өргөн чөлөө,60.0,1,0.55,0,primary,4.032,osm_class_default,osm_length_weighted,0.0
+U38,P048,Ард Аюушийн өргөн чөлөө / Dilav Khutagt Jamsranjav street,59.24,1,0.5431,0,primary,0.686,osm_class_default,osm_length_weighted,0.0
+U39,B013,Чингисийн өргөн чөлөө,60.0,1,0.45,0,trunk,0.336,osm_class_default,osm_length_weighted,0.0
+U39,B089,Engels street / Чингисийн өргөн чөлөө,60.0,1,0.5268,0,primary,0.429,osm_class_default,osm_length_weighted,2.0
+U39,P017,Yйлдвэрийн гудамж / Чингисийн өргөн чөлөө,53.6,1,0.4443,0,secondary,1.1,osm_class_default,osm_length_weighted,0.0
+U39,P034,Чингисийн өргөн чөлөө,60.0,1,0.45,0,trunk,0.735,osm_class_default,osm_length_weighted,3.5
+U40,B032,Сонсголонгийн зам / Наадамчдын зам,60.08,1,0.5423,0,primary,3.955,osm_class_default,osm_length_weighted,1.0
+U40,B073,Өлзийтийн зам / Наадамчдын зам,60.69,1,0.45,0,trunk,1.162,osm_class_default,osm_length_weighted,0.0
+U40,B084,Наадамчдын зам,60.09,1,0.45,0,trunk,1.505,osm_class_default,osm_length_weighted,1.5
+U40,B087,Наадамчдын зам,60.0,1,0.45,0,secondary,0.313,osm_class_default,osm_length_weighted,0.0
+U40,B097,Сонсголонгийн зам / Наадамчдын зам,60.15,1,0.5351,0,primary,2.063,osm_class_default,osm_length_weighted,1.0
+U41,B090,Наадамчдын зам,60.34,1,0.45,0,trunk,0.778,osm_class_default,osm_length_weighted,2.0
+U41,P056,Наадамчдын зам,60.16,1,0.45,0,trunk,1.682,osm_class_default,osm_length_weighted,1.5
+U41,P062,Наадамчдын зам,60.0,1,0.45,0,trunk,0.272,osm_class_default,osm_length_weighted,1.0
+U41,P070,Наадамчдын зам,60.43,1,0.45,0,trunk,1.058,osm_class_default,osm_length_weighted,1.0
+U42,B006,Морингийн зам,60.0,1,0.45,0,secondary,0.396,osm_class_default,osm_length_weighted,0.0
+U42,B030,Морингийн зам,60.0,1,0.45,0,secondary,0.058,osm_class_default,osm_length_weighted,0.0
+U42,P076,Морингийн зам,50.32,1,0.404,0,secondary,0.611,osm_class_default,osm_length_weighted,0.0
+U43,B040,Баянхошууны гудамж,60.0,1,0.55,0,primary,0.395,osm_class_default,osm_length_weighted,0.0
+U43,B041,Баруун салааны гудамж,60.0,1,0.45,0,secondary,0.379,osm_class_default,osm_length_weighted,0.0
+U43,B043,Хувьсгалын зам / Баянхошууны гудамж,60.0,1,0.55,0,primary,2.738,osm_class_default,osm_length_weighted,0.0
+U43,B046,Зүүн салааны гудамж,60.0,1,0.45,0,secondary,0.473,osm_class_default,osm_length_weighted,0.0
+U43,B049,Хувьсгалын зам / Баянхошууны гудамж,45.72,1,0.4143,0,tertiary,7.706,osm_class_default,osm_length_weighted,0.0
+U43,B108,Хувьсгалын зам / Баянхошууны гудамж,45.93,1,0.4175,0,tertiary,5.752,osm_class_default,osm_length_weighted,0.0
+U44,B028,Дамбадаржаагийн гудамж,60.0,1,0.45,0,secondary,1.278,osm_class_default,osm_length_weighted,0.0
+U44,B062,Дамбадаржаагийн гудамж,60.0,1,0.45,0,secondary,0.309,osm_class_default,osm_length_weighted,0.0
+U45,B101,Шар хад 63 / Шар хадны гудамж,42.75,1,0.35,0,tertiary,1.442,osm_class_default,osm_length_weighted,0.0
+U45,B102,Шар хадны гудамж,60.0,1,0.45,0,secondary,0.988,osm_class_default,osm_length_weighted,0.0
+U45,B113,local road,50.0,1,0.45,0,secondary,0.651,osm_class_default,osm_length_weighted,0.0
+U46,B063,Улаанхуарангийн гудамж,60.0,1,0.45,0,secondary,0.21,osm_class_default,osm_length_weighted,0.0
+U46,B100,Д.Нянтайсүрэнгийн гудамж,60.0,1,0.45,0,secondary,0.507,osm_class_default,osm_length_weighted,0.0
+U46,B119,local road,50.0,1,0.45,0,secondary,0.864,osm_class_default,osm_length_weighted,0.0
+U47,B066,local road,40.0,1,0.35,0,tertiary,1.028,osm_class_default,osm_length_weighted,0.0
+U47,B075,local road,40.0,1,0.35,0,tertiary,2.583,osm_class_default,osm_length_weighted,0.0
+U48,B069,local road,70.0,1,0.45,0,trunk,0.023,osm_class_default,osm_length_weighted,0.0
+U48,U19,Москвагийн гудамж,60.42,1,0.45,0,trunk,0.451,osm_class_default,osm_length_weighted,1.0
+U49,B054,local road,50.0,1,0.45,0,secondary,0.014,osm_class_default,osm_length_weighted,0.0
+U49,B068,Найрамдлын зам,60.0,1,0.45,0,secondary,1.255,osm_class_default,osm_length_weighted,0.0
+U50,P049,Морингийн зам,60.0,1,0.45,0,secondary,4.09,osm_class_default,osm_length_weighted,0.0
+U51,B016,Гачууртын зам,58.59,1,0.4436,0,secondary,8.947,osm_class_default,osm_length_weighted,0.0
+U51,B115,local road,40.41,1,0.35,0,tertiary,2.089,osm_class_default,osm_length_weighted,0.0
+U51,B118,Гачууртын зам / Улиастайн гүүр,53.62,1,0.4202,0,secondary,1.988,osm_class_default,osm_length_weighted,0.0
+U52,B100,газарчин зам / Да хүрээ гудамж,43.51,1,0.369,0,tertiary,0.777,osm_class_default,osm_length_weighted,0.0
+U52,B103,Да хүрээ гудамж / газарчин зам,48.39,1,0.3944,0,secondary,1.228,osm_class_default,osm_length_weighted,0.0
+U52,P001,Алтан Өлгийн гудамж,46.76,1,0.4197,0,secondary,1.895,osm_class_default,osm_length_weighted,0.0
+U52,P052,local road,41.34,1,0.3646,0,tertiary,0.628,osm_class_default,osm_length_weighted,1.0
+U52,P066,газарчин зам,40.0,1,0.35,0,tertiary,0.821,osm_class_default,osm_length_weighted,0.0
+U53,B045,Зүүн салааны гудамж,60.0,1,0.45,0,secondary,0.553,osm_class_default,osm_length_weighted,0.0

@@ -34,7 +34,30 @@ ALGOS = {"ucs": ucs, "astar": astar}
 
 
 def names(g, path):
-    return " -> ".join(g.nodes[i][0] for i in path)
+    st = getattr(g, "stations", None)
+    if not st or len(st) == len(g.nodes):
+        return " -> ".join(g.nodes[i][0] for i in path)
+    # full street graph (data_ub_full): name the stations passed, count the street junctions between
+    out, skipped = [], 0
+    for k, i in enumerate(path):
+        if i in st or k in (0, len(path) - 1):
+            if skipped:
+                out.append(f"({skipped} junctions)")
+                skipped = 0
+            out.append(g.nodes[i][0])
+        else:
+            skipped += 1
+    return " -> ".join(out)
+
+
+def load_stations(g, folder):
+    """Station ids from <folder>/stations.csv (the full street graph also has plain junctions)."""
+    import csv
+    import os
+    f = os.path.join(folder, "stations.csv")
+    if os.path.exists(f):
+        with open(f, encoding="utf-8") as fh:
+            g.stations = {r["id"] for r in csv.DictReader(fh)}
 
 
 SHOW_ROADS = False  # --roads
@@ -86,8 +109,10 @@ def compare(g, s, t, cost):
 
 
 def list_places(g):
+    st = getattr(g, "stations", None)
     for i, (n, la, lo) in g.nodes.items():
-        print(f"  {i}  {n}")
+        if st is None or i in st:
+            print(f"  {i}  {n}")
 
 
 def pick(g, prompt):
@@ -145,6 +170,7 @@ def main():
         if set(kmap) != {"local", "main", "arterial"}:
             ap.error("--k-file: k must have local, main, arterial")
     g = Graph().load(f"{a.data}/nodes.csv", f"{a.data}/edges.csv")
+    load_stations(g, a.data)
     if weather or tod:
         g = apply_conditions(g, weather, tod, by_class=a.road_class or bool(kmap), k=kmap,
                              expected="time" if a.expected_time else "congestion")

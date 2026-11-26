@@ -33,6 +33,7 @@ KEY_LINES = {
     "traffic.expected_edge_time": ["return sum("],
     "traffic.apply_conditions": ["ke = ", "c = expected_edge_congestion", "t = (expected_edge_time"],
     "Graph.travel_time_min": ["eff = ", "return dist_km"],
+    "Graph.signal_delay_min": ["return signals * SIGNAL_DELAY_MIN"],
     "search.ucs": ["heapq.heappop", "heapq.heappush"],
     "search.astar": ["return g.heuristic_time_min", "heapq.heappop", "heapq.heappush"],
 }
@@ -70,7 +71,10 @@ def label_nodes(ax, g, fontsize=6.5, min_km=0.9, names=True, color="#5d647d"):
     """Station names, skipping ones that would sit on top of an already labelled one."""
     from graph import haversine_km
     done = []
-    for i, (nm, la, lo) in g.nodes.items():
+    st = getattr(g, "stations", None)
+    ids = [i for i in g.nodes if i in st] if st and len(st) < len(g.nodes) else list(g.nodes)
+    for i in ids:  # the full street graph: label stations only, not the plain junctions
+        nm, la, lo = g.nodes[i]
         if any(haversine_km(la, lo, a, b) < min_km for a, b in done):
             continue
         done.append((la, lo))
@@ -111,7 +115,7 @@ class StepView:
     def __init__(self, fig, g, st):
         fig.clear()
         self.fig, self.g, self.art = fig, g, {}
-        big = len(g.nodes) > 200
+        big = len(g.nodes) > 400
         segs = _segments(g)
         names = len(g.nodes) <= 20
         for i, algo in enumerate(ALGOS):
@@ -121,9 +125,10 @@ class StepView:
             if not big:
                 ax.scatter(*_xy(g, g.nodes).T, s=28, color="#c9cde0", zorder=2)
             a = dict(ax=ax)
-            a["done"] = ax.scatter([], [], s=8 if big else 150, color=ALGO_COLOR[algo], zorder=3,
+            mid = len(g.nodes) > 100
+            a["done"] = ax.scatter([], [], s=8 if big else 40 if mid else 150, color=ALGO_COLOR[algo], zorder=3,
                                    label="expanded (done)")
-            a["front"] = ax.scatter([], [], s=8 if big else 110, color=FRONTIER, edgecolor="#b5651d", zorder=4,
+            a["front"] = ax.scatter([], [], s=8 if big else 30 if mid else 110, color=FRONTIER, edgecolor="#b5651d", zorder=4,
                                     label="waiting in the queue")
             a["relax"], = ax.plot([], [], color=RELAX, lw=2.5 if big else 4, zorder=5, label="road being checked")
             a["cur"] = ax.scatter([], [], s=60 if big else 420, facecolor="none", edgecolor=DARK, lw=2.5, zorder=6,
@@ -133,7 +138,9 @@ class StepView:
             ax.scatter([s[2]], [s[1]], s=140, color=GREEN, edgecolor="white", zorder=8)
             ax.scatter([t[2]], [t[1]], s=200, marker="*", color=RED, edgecolor="white", zorder=8)
             if not big:
-                label_nodes(ax, g, 6.5 if names else 6, 0.0 if names else 1.2)
+                label_nodes(ax, g, 6.5 if names else 6, 0.0 if names else 2.5 if mid else 1.2)
+            elif getattr(g, "stations", None):  # full street graph: station names, well spaced
+                label_nodes(ax, g, 5.5, 3.0)
             ax.autoscale()
             _plain(ax)
             a["title"] = ax.set_title(ALGO_NAME[algo], fontsize=11, color=ALGO_COLOR[algo], weight="bold")
@@ -217,7 +224,7 @@ def draw_route(fig, st, res, segs, selected=None, method=None):
     basemap(ax, g)
     ax.add_collection(LineCollection(_segments(g), colors="#d9dce8", linewidths=1.2, zorder=1))
     for s_ in segs:
-        poly = edge_poly(g, s_["a"], s_["b"])
+        poly = path_poly(g, s_["nodes"]) if "nodes" in s_ else edge_poly(g, s_["a"], s_["b"])
         sel = selected == s_["i"]
         if sel:
             ax.plot(poly[:, 0], poly[:, 1], color=DARK, lw=12, zorder=2, solid_capstyle="round")
@@ -229,11 +236,14 @@ def draw_route(fig, st, res, segs, selected=None, method=None):
         mx, my, dx, dy = (ax_ + bx) / 2, (ay + by) / 2, (bx - ax_) * 0.04, (by - ay) * 0.04
         ax.annotate("", (mx + dx, my + dy), (mx - dx, my - dy),
                     arrowprops=dict(arrowstyle="-|>", color=DARK, lw=0, mutation_scale=16), zorder=4)
-    n = len(path)
+    # stops = the ends of the segments (on the full street graph a segment is a group of street pieces)
+    stops = [segs[0]["a"]] + [s_["b"] for s_ in segs]
+    spts = _xy(g, stops)
+    n = len(stops)
     cum = [0.0] + [s_["cum_min"] for s_ in segs]
     ckm = [0.0] + [s_["cum_km"] for s_ in segs]
     gap, last = km / 12 if n > 14 else -1, None   # label stops spread along the route
-    for k, (node, (x, y)) in enumerate(zip(path, pts)):
+    for k, (node, (x, y)) in enumerate(zip(stops, spts)):
         far_enough = last is None or ckm[k] - ckm[last] >= gap
         near_end = 0 < ckm[-1] - ckm[k] < gap and k != n - 1
         if not far_enough or near_end:
@@ -532,7 +542,8 @@ class RouteTab:
         if key == self.key:
             return
         self.key, self.st, self.res = key, st, res
-        self.segs = VT.route_segments(res["g"], res["base"], res["astar"]["path"]) if res["astar"]["path"] else []
+        self.segs = VT.group_segments(VT.route_segments(res["g"], res["base"], res["astar"]["path"])) \
+            if res["astar"]["path"] else []
         self.selected, self.method = default_selected(self.segs), None
         self.redraw()
         self.explain_segment()

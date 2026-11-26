@@ -166,7 +166,8 @@ def route_segments(g_cond, g_base, path):
         c = e["congestion"]
         eff = e["speed_kmh"] * (1 - 0.7 * c)
         cum_t += e["time_min"]; cum_b += eb["time_min"]; cum_km += e["distance_km"]
-        out.append(dict(i=i + 1, a=a, b=b, road=e["road"], highway=e.get("highway") or "",
+        out.append(dict(i=i + 1, a=a, b=b, nodes=[a, b], signals=e.get("signals", 0), road=e["road"],
+                        highway=e.get("highway") or "",
                         cls=T.road_class(e["speed_kmh"], e.get("highway")), km=e["distance_km"],
                         speed=e["speed_kmh"], base=e.get("base_congestion", eb["congestion"]), c=c,
                         eff=eff, minutes=e["time_min"], base_minutes=eb["time_min"],
@@ -174,15 +175,77 @@ def route_segments(g_cond, g_base, path):
     return out
 
 
+def group_segments(segs, max_n=25):
+    """Long routes on the full street graph have 100+ street pieces: merge consecutive
+    pieces of the same road into one segment (keeps the pieces for the explanation)."""
+    if len(segs) <= max_n:
+        return segs
+    import re
+    unnamed = re.compile(r"^(motorway|trunk|primary|secondary|tertiary|unclassified|residential|living_street)"
+                         r"(_link)? \d+$")
+    out = []
+    for s in segs:  # same road, or an unnamed OSM piece: continue the current segment
+        if out and (out[-1]["road"] == s["road"] or unnamed.match(s["road"])):
+            out[-1]["pieces"].append(s)
+        else:
+            out.append(dict(road=s["road"], pieces=[s]))
+    while len(out) > max_n:  # still too many: merge the shortest segment (minutes) into a neighbour
+        k = min(range(len(out)), key=lambda j: sum(p["minutes"] for p in out[j]["pieces"]))
+        j = k - 1 if k > 0 else k + 1
+        lo, hi = min(k, j), max(k, j)
+        keep = max((out[lo], out[hi]), key=lambda gr: sum(p["km"] for p in gr["pieces"]))
+        out[lo:hi + 1] = [dict(road=keep["road"], pieces=out[lo]["pieces"] + out[hi]["pieces"])]
+    groups = []
+    for k, gr in enumerate(out, 1):
+        ps = gr["pieces"]
+        km = sum(p["km"] for p in ps)
+        minutes = sum(p["minutes"] for p in ps)
+        main = max(ps, key=lambda p: p["km"])
+        drive = sum(graph_mod.Graph.travel_time_min(p["km"], p["speed"], p["c"]) for p in ps)
+        groups.append(dict(i=k, a=ps[0]["a"], b=ps[-1]["b"], nodes=[ps[0]["a"]] + [p["b"] for p in ps],
+                           road=gr["road"], highway=main["highway"], cls=main["cls"], km=km,
+                           speed=km / max(sum(p["km"] / p["speed"] for p in ps), 1e-9),
+                           base=sum(p["base"] * p["km"] for p in ps) / max(km, 1e-9),
+                           c=sum(p["c"] * p["minutes"] for p in ps) / max(minutes, 1e-9),
+                           eff=km / max(drive, 1e-9) * 60, minutes=minutes,
+                           base_minutes=sum(p["base_minutes"] for p in ps), signals=sum(p["signals"] for p in ps),
+                           cum_min=ps[-1]["cum_min"], cum_base=ps[-1]["cum_base"], cum_km=ps[-1]["cum_km"],
+                           pieces=ps))
+    return groups
+
+
+def _lights_line(n, c, label="c"):
+    d = graph_mod.Graph.signal_delay_min(n, c)
+    return (f"   + traffic lights: {n:g} x {graph_mod.SIGNAL_DELAY_MIN} x (1 + {graph_mod.SIGNAL_CONGESTION_FACTOR:g}*"
+            f"{label} {c:.2f}) = {d:.2f} min (a pedestrian-crossing light counts 0.5)"), d
+
+
 def explain_edge(seg, st):
     """Step-by-step calculation of one segment with the numbers filled in
     (the same formulas as traffic.py / graph.py)."""
+    if seg.get("pieces"):  # a group of street pieces of one road (full street graph)
+        ps = seg["pieces"]
+        slow = max(ps, key=lambda p: p["minutes"] / max(p["km"], 1e-6))
+        head = [f"Segment {seg['i']}: {seg['road']}  -  {len(ps)} street pieces, {seg['km']:.3f} km, "
+                f"{seg['minutes']:.2f} min, {seg['signals']:g} traffic lights",
+                f"  (without conditions {seg['base_minutes']:.2f} min, {seg['minutes'] - seg['base_minutes']:+.2f} min)",
+                "  pieces: " + ", ".join(f"{p['km'] * 1000:.0f} m {p['minutes']:.2f} min" for p in ps[:12])
+                + (" ..." if len(ps) > 12 else ""),
+                "", "The slowest piece (min per km) in detail:"]
+        text, used = explain_edge(slow, st)
+        return "\n".join(head) + "\n" + text, used
     lines = [f"Segment {seg['i']}: {seg['a']} -> {seg['b']}  ({seg['road']})",
              f"  length {seg['km']:.3f} km, speed limit {seg['speed']:.0f} km/h, "
              f"base congestion (edges.csv) {seg['base']:.2f}"]
+    n_l = seg.get("signals", 0)
     if not (st["weather"] or st["time"]):
-        lines += ["  no --weather/--time: graph.py uses the base congestion directly",
-                  f"  time = {seg['km']:.3f} / ({seg['speed']:.0f} * (1 - 0.7*{seg['base']:.2f})) * 60"
+        drive = graph_mod.Graph.travel_time_min(seg["km"], seg["speed"], seg["base"])
+        lines += ["  no --weather/--time: graph.py uses the base congestion directly"]
+        if n_l:
+            lines += [f"  drive = {seg['km']:.3f} / ({seg['speed']:.0f} * (1 - 0.7*{seg['base']:.2f})) * 60"
+                      f" = {drive:.2f} min", _lights_line(n_l, seg["base"])[0], f"  time = {seg['minutes']:.2f} min"]
+            return "\n".join(lines), ["Graph.travel_time_min", "Graph.signal_delay_min"]
+        lines += [f"  time = {seg['km']:.3f} / ({seg['speed']:.0f} * (1 - 0.7*{seg['base']:.2f})) * 60"
                   f" = {seg['minutes']:.2f} min"]
         return "\n".join(lines), ["Graph.travel_time_min"]
     p = T.congestion_dist(st["weather"], st["time"])
@@ -199,14 +262,24 @@ def explain_edge(seg, st):
     lines.append("4. E[c] = " + " + ".join(f"{p[l]:.2f}*{cl[l]:.3f}" for l in T.LEVEL) + f" = {ec:.4f}")
     used = ["traffic.congestion_dist", "traffic.edge_congestion", "traffic.expected_edge_congestion"]
     if st["expected_time"]:
-        tl = {l: graph_mod.Graph.travel_time_min(seg["km"], seg["speed"], cl[l]) for l in T.LEVEL}
-        lines.append("5. E[t] = sum P(l) * time(c(l)): " + " + ".join(f"{p[l]:.2f}*{tl[l]:.2f}" for l in T.LEVEL)
+        tl = {l: graph_mod.Graph.travel_time_min(seg["km"], seg["speed"], cl[l])
+              + graph_mod.Graph.signal_delay_min(n_l, cl[l]) for l in T.LEVEL}
+        lines.append("5. E[t] = sum P(l) * time(c(l))" + (" (time incl. traffic lights)" if n_l else "") + ": "
+                     + " + ".join(f"{p[l]:.2f}*{tl[l]:.2f}" for l in T.LEVEL)
                      + f" = {sum(p[l] * tl[l] for l in T.LEVEL):.3f} -> {seg['minutes']:.2f} min")
         used.append("traffic.expected_edge_time")
+    elif n_l:
+        drive = graph_mod.Graph.travel_time_min(seg["km"], seg["speed"], ec)
+        lines.append(f"5. drive = {seg['km']:.3f} / ({seg['speed']:.0f} * (1 - 0.7*{ec:.4f})) * 60 = {drive:.2f} min"
+                     f"   (effective speed {seg['eff']:.1f} km/h)")
+        lines.append(_lights_line(n_l, ec, "E[c]")[0])
+        lines.append(f"   time = {seg['minutes']:.2f} min")
     else:
         lines.append(f"5. time = {seg['km']:.3f} / ({seg['speed']:.0f} * (1 - 0.7*{ec:.4f})) * 60 = "
                      f"{seg['minutes']:.2f} min   (effective speed {seg['eff']:.1f} km/h)")
     used.append("Graph.travel_time_min")
+    if n_l:
+        used.append("Graph.signal_delay_min")
     lines.append(f"   without conditions: {seg['base_minutes']:.2f} min "
                  f"({seg['minutes'] - seg['base_minutes']:+.2f} min)")
     return "\n".join(lines), used
@@ -221,6 +294,7 @@ METHODS = {
     "traffic.expected_edge_time": (T.expected_edge_time, "E[t] of one road (--expected-time)"),
     "traffic.apply_conditions": (T.apply_conditions, "puts the expected values on every edge"),
     "Graph.travel_time_min": (graph_mod.Graph.travel_time_min, "time = dist / (speed * (1 - 0.7c)) * 60"),
+    "Graph.signal_delay_min": (graph_mod.Graph.signal_delay_min, "expected wait at traffic lights"),
     "search.ucs": (search.ucs, "Uniform-Cost Search"),
     "search.astar": (search.astar, "A* with the straight-line heuristic"),
 }

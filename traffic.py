@@ -185,12 +185,13 @@ def expected_edge_congestion(base, weather=None, time=None, dist=None, k=1.0):
 
 
 # ----------------------------- graph update -----------------------------
-def expected_edge_time(dist_km, speed_kmh, base, dist, k=1.0):
+def expected_edge_time(dist_km, speed_kmh, base, dist, k=1.0, signals=0):
     """Week XV: E[t_e] = sum_l P(l | w, t) * time(c_e(l)) - the expected travel
     time, which is >= time(E[c_e]) because time grows faster than linearly
     in congestion (Jensen). Every term is >= straight line / top speed, so
     A* stays admissible."""
-    return sum(dist[l] * Graph.travel_time_min(dist_km, speed_kmh, edge_congestion(base, l, k)) for l in LEVEL)
+    return sum(dist[l] * (Graph.travel_time_min(dist_km, speed_kmh, edge_congestion(base, l, k))
+                          + Graph.signal_delay_min(signals, edge_congestion(base, l, k))) for l in LEVEL)
 
 
 def apply_conditions(g, weather=None, time=None, by_class=False, k=None, expected="congestion"):
@@ -214,8 +215,9 @@ def apply_conditions(g, weather=None, time=None, by_class=False, k=None, expecte
         c = expected_edge_congestion(base, dist=p, k=ke)
         e["base_congestion"] = base
         e["congestion"] = round(c, 4)
-        t = (expected_edge_time(e["distance_km"], e["speed_kmh"], base, p, ke) if expected == "time"
-             else Graph.travel_time_min(e["distance_km"], e["speed_kmh"], c))
+        sig = e.get("signals", 0)  # traffic lights: wait grows with congestion (graph.py)
+        t = (expected_edge_time(e["distance_km"], e["speed_kmh"], base, p, ke, sig) if expected == "time"
+             else Graph.travel_time_min(e["distance_km"], e["speed_kmh"], c) + Graph.signal_delay_min(sig, c))
         e["time_min"] = g2.round_time(t)
     return g2
 
@@ -229,7 +231,8 @@ def observe_edge(g, src, dst, observed_level, strength=0.5):
         if {e["src"], e["dst"]} == {src, dst}:
             c = (1 - strength) * e["congestion"] + strength * target
             e["congestion"] = round(c, 3)
-            e["time_min"] = g2.round_time(Graph.travel_time_min(e["distance_km"], e["speed_kmh"], c))
+            e["time_min"] = g2.round_time(Graph.travel_time_min(e["distance_km"], e["speed_kmh"], c)
+                                          + Graph.signal_delay_min(e.get("signals", 0), c))
     return g2
 
 

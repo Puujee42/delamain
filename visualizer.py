@@ -45,7 +45,10 @@ from graph import Graph  # noqa: E402
 from search import astar, ucs  # noqa: E402
 import traffic as T  # noqa: E402
 
-GRAPHS = {"ub": ("data_ub", "U01", "U33", "Ulaanbaatar stations (real map)"),
+GRAPHS = {"ub": ("data_ub", "U01", "U33", "UB small: 53 landmarks (real map)"),
+          "ub_m": ("data_ub_m", "U01", "U33", "UB medium: + named places (real map)"),
+          "ub_l": ("data_ub_l", "U01", "U33", "UB large: + bus stops (real map)"),
+          "ub_full": ("data_ub_full", "U01", "U33", "UB full: every street + 535 stations (exact routing)"),
           "city": (".", "N01", "N15", "City (15 nodes, Week XII)"),
           "scale": ("data_scale", "S01", "S64", "Synthetic (64 nodes)"),
           "osm": ("data_osm", "N0674", "N1275", "OpenStreetMap UB (1852 nodes)")}
@@ -103,7 +106,7 @@ class Model:
             if st["weather"] or st["time"]:
                 g = T.apply_conditions(g, st["weather"], st["time"], by_class=st["road_class"],
                                        expected="time" if st["expected_time"] else "congestion")
-            if len(self.cond) > 12:
+            if len(self.cond) > (3 if len(g.nodes) > 5000 else 12):
                 self.cond.clear()
             self.cond[key] = g
         return self.cond[key]
@@ -134,8 +137,16 @@ def load_geometry(g, folder):
         for r in csv.DictReader(f):
             pts = [tuple(map(float, p.split())) for p in r["points"].split(";")]
             g.geometry[(r["from"], r["to"])] = np.array([(lo, la) for la, lo in pts])
-    roads = os.path.join(HERE, "data_osm_wide")
-    if os.path.exists(os.path.join(roads, "edges.csv")):
+    for (a, b), arr in list(g.geometry.items()):  # the full street graph stores two-way streets once
+        g.geometry.setdefault((b, a), arr[::-1])
+    st_file = os.path.join(folder, "stations.csv")
+    if os.path.exists(st_file):
+        with open(st_file, encoding="utf-8") as f:
+            g.stations = {r["id"] for r in csv.DictReader(f)}
+    src = os.path.join(folder, "roads_source.txt")
+    name = open(src).read().strip() if os.path.exists(src) else "data_osm_wide"
+    roads = os.path.join(HERE, name) if name else None  # empty: the graph itself is the street network
+    if roads and os.path.exists(os.path.join(roads, "edges.csv")):
         rn = {}
         with open(os.path.join(roads, "nodes.csv"), encoding="utf-8") as f:
             for r in csv.DictReader(f):
@@ -208,15 +219,19 @@ def draw_map(fig, st, res):
         vals.append(e["congestion"])
     norm = Normalize(0, 0.95)
     cmap = matplotlib.colormaps["RdYlGn_r"]
-    big = len(g.nodes) > 200
-    lc = LineCollection(segs, colors=cmap(norm(vals)), linewidths=0.9 if big else 2.6, zorder=1, alpha=0.85)
+    big = len(g.nodes) > 400
+    minor = ("residential", "unclassified", "living_street")
+    widths = [0.35 if e.get("highway") in minor else 1.1 for e in g.edges] if big else 2.6
+    lc = LineCollection(segs, colors=cmap(norm(vals)), linewidths=widths, zorder=1, alpha=0.85)
     ax.add_collection(lc)
     U, A = res["ucs"], res["astar"]
     xy = lambda ids: ([g.nodes[i][2] for i in ids], [g.nodes[i][1] for i in ids])
-    ax.scatter(*xy(U["expanded_nodes"]), s=10 if big else 140, color=GREY, alpha=0.55, zorder=2,
-               label=f"UCS expanded ({U['expanded']})")
-    ax.scatter(*xy(A["expanded_nodes"]), s=4 if big else 60, color=PURPLE, zorder=3,
-               label=f"A* expanded ({A['expanded']})")
+    mid = len(g.nodes) > 100  # many stations: smaller dots, fewer labels
+    huge = len(g.nodes) > 5000  # full street graph: tens of thousands of expanded junctions
+    ax.scatter(*xy(U["expanded_nodes"]), s=2 if huge else 10 if big else 45 if mid else 140, color=GREY,
+               alpha=0.25 if huge else 0.55, zorder=2, label=f"UCS expanded ({U['expanded']})")
+    ax.scatter(*xy(A["expanded_nodes"]), s=1.5 if huge else 4 if big else 16 if mid else 60, color=PURPLE,
+               alpha=0.35 if huge else 1.0, zorder=3, label=f"A* expanded ({A['expanded']})")
     if U["path"] and U["path"] != A["path"]:
         ax.plot(*path_poly(g, U["path"]).T, color=GREY, lw=3, ls="--", zorder=4, label="UCS route")
     if A["path"]:
@@ -224,11 +239,16 @@ def draw_map(fig, st, res):
     s, t = g.nodes[st["src"]], g.nodes[st["dst"]]
     ax.scatter([s[2]], [s[1]], s=120, marker="o", color="#1f9d62", edgecolor="white", zorder=6, label="start")
     ax.scatter([t[2]], [t[1]], s=160, marker="*", color=RED, edgecolor="white", zorder=6, label="destination")
+    if big and getattr(g, "stations", None):  # full street graph: show the stations among the junctions
+        from viz_tabs import label_nodes
+        ax.scatter(*xy(sorted(g.stations)), s=7, color="#5d647d", zorder=4, label=f"stations ({len(g.stations)})")
+        label_nodes(ax, g, 6, 2.2, color=DARK)
     if not big:
         from viz_tabs import draw_places, label_nodes
         draw_places(ax, g)
         small = len(g.nodes) <= 20
-        label_nodes(ax, g, 7 if small or getattr(g, "places", None) else 6, 0.0 if small else 1.2,
+        label_nodes(ax, g, 6 if mid else 7 if small or getattr(g, "places", None) else 6,
+                    0.0 if small else 2.2 if mid else 1.2,
                     names=small or bool(getattr(g, "places", None)), color=DARK)
     ax.autoscale()
     ax.set_aspect(1 / COS_LAT)
@@ -242,7 +262,7 @@ def draw_map(fig, st, res):
         else "no conditions (edges.csv base congestion)"
     ax.set_title(f"{GRAPHS[st['graph']][3]} - {cond}"
                  + (" - road-class" if st["road_class"] and (st["weather"] or st["time"]) else ""), fontsize=11)
-    if st["graph"] in ("osm", "ub"):
+    if st["graph"] == "osm" or st["graph"].startswith("ub"):
         ax.text(0.01, 0.01, "© OpenStreetMap contributors, ODbL", transform=ax.transAxes, ha="left",
                 va="bottom", fontsize=7, color="#5d647d")
     fig.tight_layout()
@@ -478,7 +498,8 @@ def snapshot(st, out_dir):
     import viz_trace
     model = Model()
     res = model.compute(st)
-    segs = viz_trace.route_segments(res["g"], res["base"], res["astar"]["path"]) if res["astar"]["path"] else []
+    segs = viz_trace.group_segments(viz_trace.route_segments(res["g"], res["base"], res["astar"]["path"])) \
+        if res["astar"]["path"] else []
     sel = viz_tabs.default_selected(segs)
     files = []
     for name, fn in [("map", lambda f: draw_map(f, st, res)),
@@ -530,7 +551,8 @@ class App:
             self.vars[key] = (v, cb)
             return v, cb
 
-        combo("Graph", "graph", list(GRAPHS))
+        combo("Graph", "graph", [k for k, v in GRAPHS.items()
+                                 if os.path.exists(os.path.join(HERE, v[0], "nodes.csv"))])
         combo("Weather (evidence)", "weather", WEATHER_OPTS)
         combo("Time of day (evidence)", "time", TIME_OPTS)
         combo("Observed congestion (BN tab only)", "congestion", CONG_OPTS)

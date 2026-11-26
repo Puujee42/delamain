@@ -10,9 +10,17 @@ measured data later.
 """
 import csv
 import math
+import os
+from array import array
 from collections import defaultdict
 
 DETOUR_FACTOR = 1.3  # straight-line -> road length
+# Traffic lights (only for data with a `signals` column, e.g. the OSM station graphs).
+# Expected wait per light in free traffic: uniform delay r^2 / (2C) for a 90 s cycle with
+# 45 s red = 11 s, plus ~4 s to stop and start -> 15 s = 0.25 min. Queues grow with
+# congestion c, so the wait is 0.25 * (1 + 2c) min (c = 0.95 -> ~0.7 min). ASSUMED values.
+SIGNAL_DELAY_MIN = 0.25
+SIGNAL_CONGESTION_FACTOR = 2.0
 
 
 def haversine_km(lat1, lon1, lat2, lon2):
@@ -35,6 +43,7 @@ class Graph:
         # Measured lengths (OSM length_km) can be as short as the straight line,
         # so times are then rounded UP to keep the heuristic consistent.
         self.ceil_time = False
+        self.time_decimals = 2
 
     # ---------- loading ----------
     def load(self, nodes_csv="nodes.csv", edges_csv="edges.csv"):
@@ -42,9 +51,32 @@ class Graph:
             for r in csv.DictReader(f):
                 self.nodes[r["id"]] = (r["name"], float(r["lat"]), float(r["lon"]))
         with open(edges_csv, encoding="utf-8") as f:
-            for r in csv.DictReader(f):
+            rd = csv.DictReader(f)
+            # data with traffic-light counts (the OSM station graphs) is built from many short street
+            # pieces: keep times to 0.0001 min there, so per-piece rounding does not add up
+            if "signals" in (rd.fieldnames or []):
+                self.time_decimals = 4
+            for r in rd:
                 self._add_road(r)
+        lm = os.path.join(os.path.dirname(os.path.abspath(edges_csv)), "landmarks.csv")
+        if os.path.exists(lm):
+            self._load_landmarks(lm)
         return self
+
+    def _load_landmarks(self, path):
+        """ALT landmark tables (written by make_ub_graph.py for the full street graph):
+        free-flow travel times from and to a few landmark junctions."""
+        with open(path, encoding="utf-8") as f:
+            rd = csv.reader(f)
+            head = next(rd)
+            k = (len(head) - 1) // 2
+            self.alt_idx, frm, to = {}, [array("d") for _ in range(k)], [array("d") for _ in range(k)]
+            for i, r in enumerate(rd):
+                self.alt_idx[r[0]] = i
+                for j in range(k):
+                    frm[j].append(float(r[1 + j]))
+                    to[j].append(float(r[1 + k + j]))
+        self.alt_from, self.alt_to = frm, to
 
     def _add_road(self, r):
         a, b = r["from"], r["to"]
@@ -64,13 +96,17 @@ class Graph:
         speed = float(r["speed_limit_kmh"])
         self.max_speed_kmh = max(self.max_speed_kmh, speed)
         cong = float(r["base_congestion"])
+        # traffic lights on this road piece (0 if not recorded); a pedestrian-crossing light counts 0.5
+        signals = float(r.get("signals") or 0)
         edge = {
             "road": r["road"],
             "highway": r.get("highway") or "",
             "distance_km": round(dist, 3),
             "speed_kmh": speed,
             "congestion": cong,
-            "time_min": self.round_time(self.travel_time_min(dist, speed, cong)),
+            "signals": signals,
+            "time_min": self.round_time(self.travel_time_min(dist, speed, cong)
+                                        + self.signal_delay_min(signals, cong)),
         }
         self._push(a, b, edge)
         if int(r["oneway"]) == 0:
@@ -88,19 +124,46 @@ class Graph:
         eff = speed_kmh * (1 - 0.7 * congestion)
         return dist_km / eff * 60
 
+    @staticmethod
+    def signal_delay_min(signals, congestion):
+        """Expected waiting time (min) at `signals` traffic lights at congestion 0..1."""
+        return signals * SIGNAL_DELAY_MIN * (1 + SIGNAL_CONGESTION_FACTOR * congestion)
+
     def round_time(self, t):
         """Minutes to 2 decimals: nearest (default), or up for measured lengths."""
-        return math.ceil(t * 100) / 100 if self.ceil_time else round(t, 2)
+        if self.ceil_time:
+            q = 10 ** self.time_decimals
+            return math.ceil(t * q) / q
+        return round(t, 2)
 
     def neighbors(self, node):
         return [(e["dst"], e["distance_km"], e["time_min"]) for e in self.adj[node]]
 
     def heuristic_time_min(self, node, goal, max_speed_kmh=None):
         """Admissible A* heuristic: straight-line distance at top speed
-        (70 km/h, or the fastest road in the graph if that is faster)."""
+        (70 km/h, or the fastest road in the graph if that is faster).
+        With ALT landmark tables (full street graph) also the landmark bound:
+        for every landmark L, d(n, goal) >= d(L, goal) - d(L, n) and >= d(n, L) - d(goal, L),
+        where d is the FREE-FLOW time (speed limit, no congestion, no lights). Every real
+        edge time is >= its free-flow time, so the bound stays admissible and consistent
+        under every weather / time condition."""
         _, la, lo = self.nodes[node]
         _, lb, lob = self.nodes[goal]
-        return haversine_km(la, lo, lb, lob) / (max_speed_kmh or self.max_speed_kmh) * 60
+        h = haversine_km(la, lo, lb, lob) / (max_speed_kmh or self.max_speed_kmh) * 60
+        idx = getattr(self, "alt_idx", None)
+        if idx is not None and node in idx and goal in idx:
+            if getattr(self, "_alt_goal", None) != goal:  # one search = one goal: look its values up once
+                j = idx[goal]
+                self._alt_goal = goal
+                self._alt_g = [(frm, frm[j] - 1e-6, to, to[j] + 1e-6) for frm, to in zip(self.alt_from, self.alt_to)]
+            i = idx[node]
+            for frm, fg, to, tg in self._alt_g:  # 1e-6: margin for the rounding in landmarks.csv
+                a, b = fg - frm[i], to[i] - tg
+                if a > h:
+                    h = a
+                if b > h:
+                    h = b
+        return h
 
     # ---------- validation ----------
     def validate(self):
